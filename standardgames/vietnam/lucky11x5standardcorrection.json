@@ -1,0 +1,87 @@
+
+
+{
+    "All 3": "Tinh 3",
+    "All 2": "Tinh 2",
+    "Any Place": "Không cố định",
+    "Fixed Place": "定位胆",
+    "Pick": "任选",
+    "Fun": "趣味",
+"Core Digit":"Số chính",
+"Leg Digit":"Số phụ",
+    "All Place": "所有位置",
+    "Odd&Even": "定单双",
+    "Fun Odd/Even": "Thú vị Lẻ/Chẵn",
+    "The Middle No": "猜中位",
+    "Fun The Middle No": "Thú vị Đoán số giữa",
+    "Joint":"Chọn số",
+    "Manual":"Nhập số",
+    "Fixed Digit":"Chính phụ",
+ 
+ 
+    "Hot/Cold": "冷热",
+    "Lack": "当前遗漏",
+    "1st Place": "第一位",
+    "2nd Place": "第二位",
+    "3rd Place": "第三位",
+    "Upload File": "上传文件",
+    "All": "Tinh ",
+    "Clear": "Xóa",
+    "Big": "Tài",
+    "Small": "Xỉu",
+    "Even": "Chẵn",
+    "Odd": "Lẻ",
+    "First 3 Any Place":"Tiền tam Không cố định",
+  "Straight": "Trực tiếp",
+    "Group": "Nhóm",
+
+  
+  "First 3 straight (joint)":"Tiền tam Hàng số(Chọn số)",
+  "First 3 straight (manual)":"Tiền tam Hàng số(Nhập số)",
+  "First 3 Group (joint)": "Tiền tam Nhóm(Chọn số)",
+  "First 3 Group (Manual)": "Tiền tam Nhóm(Nhập số)",
+  
+  "First 2 straight (joint)":"Tiền nhị Hàng số(Chọn số)",
+  "First 2 straight (Manual)":"Tiền nhị Hàng số(Nhập số)",
+  "First 2 Group (joint)":"Tiền nhị Nhóm(Chọn số)",
+  "First 2 Group(Manual)":"Tiền nhị Nhóm(Nhập số)",
+
+  "Pick (Joint) 1 out of 1":"Tùy chọn(Chọn số) 1 trúng 1",
+  "Pick (Joint) 2 out of 2":"Tùy chọn(Chọn số) 2 trúng 2",
+  "Pick (Joint) 3 out of 3":"Tùy chọn(Chọn số) 3 trúng 3",
+  "Pick (Joint) 4 out of 4":"Tùy chọn(Chọn số) 4 trúng 4",
+  "Pick (Joint) 5 out of 5":"Tùy chọn(Chọn số) 5 trúng 5",
+  "Pick (Joint) 5 out of 6":"Tùy chọn(Chọn số) 6 trúng 5",
+  "Pick (Joint) 5 out of 7":"Tùy chọn(Chọn số) 7 trúng 5",
+  "Pick (Joint) 5 out of 8":"Tùy chọn(Chọn số) 8 trúng 5",
+
+  "Pick (Manual) 1 out of 1":"Tùy chọn(Nhập số) 1 trúng 1",
+  "Pick (Manual) 2 out of 2":"Tùy chọn(Nhập số) 2 trúng 2",
+  "Pick (Manual) 3 out of 3":"Tùy chọn(Nhập số) 3 trúng 3",
+  "Pick (Manual) 4 out of 4":"Tùy chọn(Nhập số) 4 trúng 4",
+  "Pick (Manual) 5 out of 5":"Tùy chọn(Nhập số) 5 trúng 5",
+  "Pick (Manual) 5 out of 6":"Tùy chọn(Nhập số) 6 trúng 5",
+  "Pick (Manual) 5 out of 7":"Tùy chọn(Nhập số) 7 trúng 5",
+  "Pick (Manual) 5 out of 8":"Tùy chọn(Nhập số) 8 trúng 5",
+
+  "Pick Fixed Digit 2 out of 2":"Tùy chọn Chính phụ 2 trúng 2",
+  "Pick Fixed Digit 3 out of 3":"Tùy chọn Chính phụ 3 trúng 3",
+  "Pick Fixed Digit 4 out of 4":"Tùy chọn Chính phụ 4 trúng 4",
+  "Pick Fixed Digit 5 out of 5":"Tùy chọn Chính phụ 5 trúng 5",
+  "Pick Fixed Digit 5 out of 6":"Tùy chọn Chính phụ 6 trúng 5",
+  "Pick Fixed Digit 5 out of 7":"Tùy chọn Chính phụ 7 trúng 5",
+  "Pick Fixed Digit 5 out of 8":"Tùy chọn Chính phụ 8 trúng 5",
+
+    "5 Odd 0 Even":"5单0双",
+    "4 Odd 1 Even":"4单1双",
+    "3 Odd 2 Even":"3单2双",
+    "2 Odd 3 Even":"2单3双",
+    "1 Odd 4 Even":"1单4双",
+    "0 Odd 5 Even":"0单5双",
+    "1st":"Vị trí 1",
+    "2nd":"Vị trí 2",
+    "3rd":"Vị trí 3",
+   
+    "":""
+
+}

@@ -1,0 +1,60 @@
+{
+
+  "1. B/S/O/E Sum of Top 2
+Sum of Top 2 B/S: If the sum of the top 2 winning numbers is >11, it's considered "Big"; if the sum is ?11, it's considered "Small."
+Sum of Top 2 O/E: When the sum of the top 2 winning numbers ends with 1, 3, 5, 7, or 9, it's considered "Odd"; if it ends with 0, 2, 4, 6, or 8, it's considered "Even".
+2. 1st Prize ~ 10th Prize, B/S & O/E & Dragon/Tiger
+1st Prize ~ 10th Prize: From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 . If you choose 6 to appear on Ball 2 and the draw results has the number 6 appearing on Ball 2, you win.
+B/S: If the winning number on each winning drawn ball is ? 6, it's considered "Big"; if it's ? 5, it's considered "Small."
+
+O/E: If the digit of the winning number on each winning drawn ball is or 1, 3, 5, 7, or 9, it's considered "Odd"; if it's 0, 2, 4, 6, or 8, it's considered "Even."
+
+Dragon/Tiger:
+
+If the former number is bigger than the latter, it's considered "Dragon"; otherwise, it's considered "Tiger."
+(1 is the smallest, 10 is the biggest)
+1st Dragon/Tiger: 1st vs. 10th compete.
+2nd Dragon/Tiger: 2nd vs. 9th compete.
+3rd Dragon/Tiger: 3rd vs. 8th compete.
+4th Dragon/Tiger: 4th vs. 7th compete.
+5th Dragon/Tiger: 5th vs. 6th compete.
+Win Sample?Bet plan:1stV10th Dragon; Winning No.:10,*,*,*,*,*,*,*,*,1, this is a win.
+3. Fixed Place
+From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 .
+If the selected and winning number places are the same and in order, it's a win.
+Example: If the winning number is 1, *, *, *, *, *, *, *, *, * and you bet 1st 1, it's a win.
+4. Sum of Top Two
+Select a number. If the sum of the 1st and 2nd winning numbers matches the selected number, it's a win.
+Example: If the winning numbers are 1, 2, *, *, *, *, *, *, *, * and you bet on?3?2+1=3,, it's a win.":
+"
+1. Summe – Summe von Drache und Tiger
+Gesamtgröße: Die Summe der Lottozahlen beträgt ≥23 für „groß“ und ≤22 für „klein“.
+Die Summe aus ungeraden und geraden Zahlen: Die einzelnen Ziffern der Summe der Gewinnzahlen sind 1, 3, 5, 7 und 9 „ungerade“ und 0, 2, 4, 6 und 8 sind „gerade“.
+Drache und Tiger: Die Gewinnzahl der ersten Kugel > die Gewinnzahl der fünften Kugel (0 ist die kleinste, 9 ist die größte) ist der Drache, umgekehrt ist der Tiger und das Gleiche gilt für das Unentschieden.
+2. Der erste Ball ~ der fünfte Ball
+Wählen Sie eine Position und setzen Sie auf ein Attribut, das mit dem Attribut der Lottozahl an dieser Position übereinstimmt.
+Größe: Lottozahlen ≥5 sind „groß“ und ≤4 sind „klein“.
+Ungerade und gerade: Die Gewinnzahlen 1, 3, 5, 7 und 9 sind „ungerade“ und 0, 2, 4, 6 und 8 sind „gerade“.
+Qualitätskombination: Die Gewinnzahlen 1, 2, 3, 5 und 7 sind „Qualität“ und 0, 4, 6, 8 und 9 sind „Kombination“.
+3. Nummernauswahl für den ersten bis fünften Ball
+Wählen Sie eine Zahl an einer beliebigen Stelle von der ersten Kugel bis zur fünften Kugel. Wenn die Lottozahl an dieser Stelle mit der ausgewählten Zahl übereinstimmt, gewinnen Sie.
+Beispiel: Wenn die Zahl 8 auf der ersten Kugel gezogen wird, setzen Sie „8 auf der ersten Kugel“ und Sie gewinnen.
+4. Besonderes Gameplay der ersten drei, der mittleren drei und der letzten drei
+Die drei wichtigsten Definitionen: [erster Ball, zweiter Ball, dritter Ball]
+Definition der mittleren drei: [zweiter Ball, dritter Ball, vierter Ball]
+Definition der letzten drei: [Dritter Ball, vierter Ball, fünfter Ball]
+Verbundene Definition: Zyklus zwischen 0-1-2-3-4-5-6-7-8-9-0
+Leopard: 3 identische Nummern
+Beispiel: Lauten die Lottozahlen 1,1,1,*,*, gewinnen Sie, wenn Sie auf die „obersten drei Leoparden“ wetten.
+Gerade: 3 aufeinanderfolgende Zahlen; die Reihenfolge ist nicht begrenzt;
+Beispiel: Wenn die Lottozahlen 9,1,0,*,* lauten, gewinnen Sie, wenn Sie auf die „obersten drei Zahlen in Folge“ setzen.
+Paar: Eine der drei Zahlen erscheint zweimal und die andere Zahl erscheint einmal in beliebiger Reihenfolge;
+Beispiel: Wenn Sie auf die Lottozahlen 0,3,0,*,* und auf die „obersten drei Paare“ setzen, gewinnen Sie.
+Halbsequentiell: 3 Zahlen sind unterschiedlich und nur 2 davon sind verbunden; die Reihenfolge ist nicht begrenzt;
+Beispiel: Wenn Sie auf die Lottozahlen 0,1,3,*,* und „die ersten drei sind halb gerade“ wetten, gewinnen Sie.
+Sonstiges sechs: 3 Zahlen sind unterschiedlich und nicht miteinander verbunden.
+Beispiel: Wenn die Lottozahlen 0,3,5,*,* lauten, setzen Sie auf „die ersten drei und sechs“, Sie werden gewinnen."
+
+
+
+}

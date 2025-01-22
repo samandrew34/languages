@@ -1,0 +1,32 @@
+
+
+{
+    "1st": "Première ",
+    "2nd": "Deuxième ",
+    "3rd": "Troisième ",
+    "4th": "Quatrième ",
+    "5th": "Cinquième ",
+    "Rapido": "Rapide",
+    "All Kinds": "Tous Types",
+    "Big": "Grand",
+    "Prime": "Premier",
+    "Small": "Petit",
+    "Composite": "Composite",
+    "Odd": "Impair",
+    "Even": "Pair",
+    "How to Play": "Comment Jouer",
+    "2sides": "Deux Faces",
+    "Tiger": "Tigre",
+    "Dragon": "Dragon",
+    "Tie": "Égalité",
+    "Hot/Cold": "Chaud/Froid",
+    "Lack": "Manque Actuel",
+    "Guess Number B/S": "Numéro Devine Grand/Petit",
+    "Specific Any Triple": "Triplé Spécifique/Total Triplé",
+    "Any Triple": "Total Triplé",
+    "Point": "Point",
+    "Any Two": "Double",
+    "One Pair": "Paire",
+    "Fish/Pawn/Crab": "Poisson/Crevette/Crabe",
+    "": ""
+}

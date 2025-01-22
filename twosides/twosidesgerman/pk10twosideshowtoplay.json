@@ -1,0 +1,51 @@
+{
+
+
+    "1. B/S/O/E Sum of Top 2
+Sum of Top 2 B/S: If the sum of the top 2 winning numbers is >11, it's considered "Big"; if the sum is ≤11, it's considered "Small."
+Sum of Top 2 O/E: When the sum of the top 2 winning numbers ends with 1, 3, 5, 7, or 9, it's considered "Odd"; if it ends with 0, 2, 4, 6, or 8, it's considered "Even".
+2. 1st Prize ~ 10th Prize, B/S & O/E & Dragon/Tiger
+1st Prize ~ 10th Prize: From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 . If you choose 6 to appear on Ball 2 and the draw results has the number 6 appearing on Ball 2, you win.
+B/S: If the winning number on each winning drawn ball is ≥ 6, it's considered "Big"; if it's ≤ 5, it's considered "Small."
+
+O/E: If the digit of the winning number on each winning drawn ball is or 1, 3, 5, 7, or 9, it's considered "Odd"; if it's 0, 2, 4, 6, or 8, it's considered "Even."
+
+Dragon/Tiger:
+
+If the former number is bigger than the latter, it's considered "Dragon"; otherwise, it's considered "Tiger."
+(1 is the smallest, 10 is the biggest)
+1st Dragon/Tiger: 1st vs. 10th compete.
+2nd Dragon/Tiger: 2nd vs. 9th compete.
+3rd Dragon/Tiger: 3rd vs. 8th compete.
+4th Dragon/Tiger: 4th vs. 7th compete.
+5th Dragon/Tiger: 5th vs. 6th compete.
+Win Sample：Bet plan:1stV10th Dragon; Winning No.:10,*,*,*,*,*,*,*,*,1, this is a win.
+3. Fixed Place
+From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 .
+If the selected and winning number places are the same and in order, it's a win.
+Example: If the winning number is 1, *, *, *, *, *, *, *, *, * and you bet 1st 1, it's a win.
+4. Sum of Top Two
+Select a number. If the sum of the 1st and 2nd winning numbers matches the selected number, it's a win.
+Example: If the winning numbers are 1, 2, *, *, *, *, *, *, *, * and you bet on「3」2+1=3,, it's a win.":"
+1.Beide Seiten
+1. Summenwert, ungerade und gerade
+Die Summe aus Champion und Zweitplatziertem: Die Summe aus Champion und Zweitplatziertem in den Lottozahlen ist >11, was „groß“ ist, und ≤11, was „klein“ ist.
+Champion, Zweitplatzierter und ungerade-gerade: Die einzelnen Ziffern der Summe aus Champion und Zweitplatzierten in den Lottozahlen sind 1, 3, 5, 7 und 9 für „ungerade“ und 0, 2, 4, 6 und 8 für „gerade“.
+2.Champion~Zehnter Platz groß und klein, ungerade und gerade, Drache und Tiger
+Wählen Sie eine Zahlenposition und setzen Sie auf ein Attribut der Wette, das mit dem Attribut der Lottozahl an dieser Position übereinstimmt.
+Größe: Lottozahlen ≥6 sind „groß“ und ≤5 sind „klein“.
+Ungerade und gerade: Die Lottozahlen mit den einzelnen Ziffern 1, 3, 5, 7 und 9 sind „ungerade“ und 0, 2, 4, 6 und 8 sind „gerade“.
+Drache und Tiger: Vergleicht man die Lottozahlen der beiden Positionen, so ist die vordere größer als die hintere und wird „Drache“ genannt, und umgekehrt heißt sie „Tiger“. (1 ist die kleinste, 10 ist die größte)
+Champion Drache und Tiger: Vergleich zwischen dem Champion und dem Zehnten;
+Zweitplatzierter Drache und Tiger: Vergleich zwischen dem Zweitplatzierten und dem Neunten;
+Dritter Platz Drache und Tiger: Vergleich des dritten Platzes mit dem achten Platz;
+Vierter Platz Drache und Tiger: Vergleich zwischen dem vierten Platz und dem siebten Platz;
+Drache und Tiger auf dem fünften Platz: Vergleich von Platz fünf und sechs.
+2. Nummer auswählen
+Wählen Sie als Wette eine Zahl von der ersten bis zur zehnten Stelle aus. Wenn die ausgewählte Zahl mit der gezogenen Zahl an dieser Position übereinstimmt, gewinnen Sie.
+Beispiel: Wenn Sie die Lottozahlen 1,*,*,*,*,*,*,*,*,* platzieren und auf „Champion 1“ wetten, gewinnen Sie.
+3. Crown Asia-Summenwert
+Wählen Sie einen Wert, der der Summe der ersten und zweiten Zweitplatzierten im Lotto entspricht, und Sie gewinnen.
+Beispiel: Wenn die Lottozahlen 1,2,*,*,*,*,*,*,*,* lauten und Sie „3“ setzen, gewinnen Sie."
+   
+}

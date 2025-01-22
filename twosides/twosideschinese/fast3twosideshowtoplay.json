@@ -1,0 +1,25 @@
+  {
+
+    "1. Guess No. * Select a number to form a bet. If the winning numbers include your selected number, it's a win. Example: If the winning numbers are 1, 1, 3, and you bet or select?1?, it's a win. 2. B/S Sum * If the sum of the winning numbers is 11-18, it's considered Big; if the sum is Small: 3-10 , it's considered Small. If all 3 numbers are the same, it's not a win. #### 3. Point Sum * Select a number. If the sum of the winning numbers matches the selected number, it's a win. * Example: If the winning numbers are 1, 1, 1, and you bet on ?3?, it's a win. #### 4. Specific & Any Triple * Specific: Select 1 specific combination to form a bet. If the selected combination matches the winning numbers, it's a win. * Example: If the winning numbers are 1, 1, 1, and you bet on ?111?, it's a win. * Any Triple: If all 3 winning numbers drawn are the same, it's a win. This selection does not care which specific number occurs 3 times. #### 5. Any Two & One Pair * Any Two: Select 1 combination to form a bet. If the winning numbers include your selected combination, it's a win. * Example: If the winning numbers are 1, 1, 2, and you bet on ?12?, it's a win. * One Pair: Select 1 combination pair to form a bet. If the selected combination matches the winning numbers, it's a win. * Example: If the winning numbers are 1, 1, 2, and you bet on ?11?, it's a win. #### 6. Fish/Prawn/Crab * If 1 of the 3 winning numbers matches the selected symbol, it's a win. * Example: If the winning numbers are 1, 2, 3, and you bet on ?Fish (1)?, it's a win.":
+    "
+  1.三军
+选择1个号码组成1注，开奖号码包含所选号码，即中奖。
+举例：开奖号码1,1,3，投注「1」，即中奖。
+2.总和大小
+总和大小：开奖号码之和≥11为“大”，≤10为“小”，若3个号码相同，则不中奖。
+3.总和点数
+选择1个数值，与开奖号码之和相同，即中奖。
+举例：开奖号码1,1,1，投注「3」，即中奖。
+4.围骰全骰
+围骰：选择1个组合为1注，所选组合与开奖号码相同，即中奖。
+举例：开奖号码1,1,1，投注「111」，即中奖。
+全骰：开奖的3个号码相同，即中奖。
+5.长牌短牌
+长牌：选择1个组合组成1注，开奖号码包含所选号码，即中奖。
+举例：开奖号码1,1,2，投注「12」，即中奖。
+短牌：选择1个组合组成1注，所选组合与开奖号码相同，即中奖。
+举例：开奖号码1,1,2，投注「11」，即中奖。
+6.鱼虾蟹
+3个开奖号码其中1个与所选号码相同，即为中奖。
+举例：开奖号码1,2,3，投注「鱼（1）」，即中奖。"
+  }

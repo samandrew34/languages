@@ -1,0 +1,59 @@
+{
+
+  "1. B/S/O/E Sum of Top 2
+Sum of Top 2 B/S: If the sum of the top 2 winning numbers is >11, it's considered "Big"; if the sum is ?11, it's considered "Small."
+Sum of Top 2 O/E: When the sum of the top 2 winning numbers ends with 1, 3, 5, 7, or 9, it's considered "Odd"; if it ends with 0, 2, 4, 6, or 8, it's considered "Even".
+2. 1st Prize ~ 10th Prize, B/S & O/E & Dragon/Tiger
+1st Prize ~ 10th Prize: From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 . If you choose 6 to appear on Ball 2 and the draw results has the number 6 appearing on Ball 2, you win.
+B/S: If the winning number on each winning drawn ball is ? 6, it's considered "Big"; if it's ? 5, it's considered "Small."
+
+O/E: If the digit of the winning number on each winning drawn ball is or 1, 3, 5, 7, or 9, it's considered "Odd"; if it's 0, 2, 4, 6, or 8, it's considered "Even."
+
+Dragon/Tiger:
+
+If the former number is bigger than the latter, it's considered "Dragon"; otherwise, it's considered "Tiger."
+(1 is the smallest, 10 is the biggest)
+1st Dragon/Tiger: 1st vs. 10th compete.
+2nd Dragon/Tiger: 2nd vs. 9th compete.
+3rd Dragon/Tiger: 3rd vs. 8th compete.
+4th Dragon/Tiger: 4th vs. 7th compete.
+5th Dragon/Tiger: 5th vs. 6th compete.
+Win Sample?Bet plan:1stV10th Dragon; Winning No.:10,*,*,*,*,*,*,*,*,1, this is a win.
+3. Fixed Place
+From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 .
+If the selected and winning number places are the same and in order, it's a win.
+Example: If the winning number is 1, *, *, *, *, *, *, *, *, * and you bet 1st 1, it's a win.
+4. Sum of Top Two
+Select a number. If the sum of the 1st and 2nd winning numbers matches the selected number, it's a win.
+Example: If the winning numbers are 1, 2, *, *, *, *, *, *, *, * and you bet on?3?2+1=3,, it's a win.":"
+1. Somme - somme du dragon et du tigre
+Taille totale : La somme des numéros de loterie est ≥23 pour « grand » et ≤22 pour « petit ».
+La somme des nombres pairs et impairs : les chiffres de la somme des nombres gagnants sont 1, 3, 5, 7 et 9 sont « impairs », et 0, 2, 4, 6 et 8 sont « pairs ».
+Dragon et Tigre : Le numéro gagnant de la première boule > le numéro gagnant de la cinquième boule (0 est le plus petit, 9 est le plus grand) est le dragon, vice versa est le tigre, et pareil est l'égalité.
+2. La première balle ~ la cinquième balle
+Sélectionnez une position et pariez sur un attribut. Lorsque la mise d'attribut est la même que l'attribut du numéro de loterie dans cette position, vous gagnerez.
+Taille : Les numéros de loterie ≥5 sont « grands » et ≤4 sont « petits ».
+Impair et pair : Les numéros gagnants 1, 3, 5, 7 et 9 sont « impairs » et 0, 2, 4, 6 et 8 sont « pairs ».
+Combinaison de qualité : Les numéros gagnants 1, 2, 3, 5 et 7 sont « qualité » et 0, 4, 6, 8 et 9 sont « combinaison ».
+3. Sélection du numéro de la première balle à la cinquième balle
+Sélectionnez un numéro à n'importe quelle position, de la première boule à la cinquième boule. Lorsque le numéro de loterie à cette position est le même que le numéro sélectionné, vous gagnez.
+Par exemple : Si le numéro 8 est tiré sur la première boule, misez « 8 sur la première boule » et vous gagnerez.
+4. Gameplay spécial des trois premiers, des trois du milieu et des trois derniers
+Trois principales définitions : [première balle, deuxième balle, troisième balle]
+Définition des trois du milieu : [deuxième balle, troisième balle, quatrième balle]
+Définition des trois dernières : [Troisième boule, quatrième boule, cinquième boule]
+Définition connectée : cycle entre 0-1-2-3-4-5-6-7-8-9-0
+Léopard : 3 numéros identiques
+Par exemple : Si les numéros de loterie sont 1,1,1,*,*, vous gagnerez si vous pariez sur les « trois premiers léopards ».
+Droit : 3 numéros consécutifs ; l'ordre n'est pas limité ;
+Par exemple : si les numéros de loterie sont 9,1,0,*,*, vous gagnerez si vous pariez sur les « trois premiers numéros consécutifs ».
+Paire : l'un des trois nombres apparaît deux fois et l'autre nombre apparaît une fois, dans n'importe quel ordre ;
+Par exemple : si vous pariez sur les numéros de loterie 0,3,0,*,* et que vous pariez sur les « trois meilleures paires », vous gagnerez.
+Semi-séquentiel : 3 numéros sont différents, et seulement 2 d'entre eux sont connectés ; l'ordre n'est pas limité ;
+Par exemple : si vous pariez sur les numéros de loterie 0,1,3,*,* et « les trois premiers sont à moitié consécutifs », vous gagnerez.
+Divers six : 3 numéros sont différents et ne sont pas liés les uns aux autres.
+Par exemple : si les numéros de loterie sont 0,3,5,*,*, pariez sur « les trois et six premiers », vous gagnerez."
+
+
+
+}

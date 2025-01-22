@@ -1,0 +1,87 @@
+{ 
+    
+
+"First1": "Champion tippen",
+"First2": "Top 2 tippen",
+"First3": "Top 3 tippen",
+"First4": "Top 4 tippen",
+"First5": "Top 5 tippen",
+"Fixed place": "Festplatz",
+"Dragon/Tiger": "Drachen/Tiger",
+"Pick": "Auswahl",
+
+"First 2": "Erste 2",
+"Last 2": "Letzte 2",
+"Fixed Place": "Feste Stelle",
+"Any Place": "Beliebiger Platz",
+"Dragon/Tiger/Tie": "Drache/ Tiger/ Unentschieden",
+"B/S/O/E": "Groß/ Klein/ Ungerade/ Gerade",
+"B/S/O/E of Sum": "Summe Groß/ Klein/ Ungerade/ Gerade",
+"Clear": "Löschen",
+"Big": "Groß",
+"Small": "Klein",
+"Even": "Gerade",
+"Odd": "Ungerade",
+
+
+
+"Hot/Cold": "Heiß/Kalt",
+  "Lack": "Aktuelles Fehlen",
+  "Prize": "Preis",
+  "Straight": "Direkt",
+  "Group": "Gruppe",
+  "All": "Alle",
+  "1st V 2nd": "Erster gegen Zweiter",
+  "1st V 3rd": "Erster gegen Dritter",
+  "2nd V 3rd": "Zweiter gegen Dritter",
+  "Dragon": "Drache",
+  "Tiger": "Tiger",
+  "Tie": "Unentschieden",
+  "Combo": "Kombination",
+  "Sum": "Summe",
+
+  "Sum of Top Two": "Summe der oberen zwei",
+  "Sum of First 3": "Summe der ersten drei",
+  "Guess rank": "Rang raten",
+  "B/S/O/E sum of Top Two": "Summe der oberen zwei B/S/O/E",
+  "B/S/O/E of FIRST 5": "B/S/O/E der ersten fünf",
+  "Pick 2 (Joint)": "Wähle 2 (Gemeinsam)",
+  "Pick 2 (Manual)": "Wähle 2 (Manuell)",
+  "Pick 3 (Joint)": "Wähle 3 (Gemeinsam)",
+  "Pick 3 (Manual)": "Wähle 3 (Manuell)",
+  "Select Place": "Wähle Ort",
+
+  "1st": "Erster Platz",
+  "2nd": "Zweiter Platz",
+  "3rd": "Dritter Platz",
+  "4th": "Vierter Platz",
+  "5th": "Fünfter Platz",
+  "6th": "Sechster Platz",
+  "7th": "Siebter Platz",
+  "8th": "Achter Platz",
+  "9th": "Neunter Platz",
+  "10th": "Zehnter Platz",
+  "Upload File": "Datei hochladen",
+
+
+
+  "First 5 Fixed Place": "Erste 5 feste Plätze",
+  "Last 5 Fixed Place": "Letzte 5 feste Plätze",
+  "First 1 straight (Joint)": "Erster 1 gerade (Joint)",
+  "First 2 straight (Joint)": "Erster 2 gerade (Kombination)",
+  "First 2 straight (Manual)": "Erster 2 gerade (Manual)",
+  "First 3 straight (Joint)": "Erster 3 gerade (Joint)",
+  "First 3 straight (Manual)": "Erster 3 gerade (Manual)",
+  "First 4 straight (Joint)": "Erster 4 gerade (Joint)",
+  "First 4 straight (Manual)": "Erster 4 gerade (Manual)",
+  "First 5 straight (Joint)": "Erster 5 gerade (Joint)",
+  "First 5 straight (Manual)": "Erster 5 gerade (Manual)",
+
+
+  "1st V 10th": "1. V 10.",
+  "2nd V 9th": "2. V 9.",
+  "3rd V 8th": "3. V 8.",
+  "4th V 7th": "4. V 7.",
+  "5th V 6th": "5. V 6."
+
+ }

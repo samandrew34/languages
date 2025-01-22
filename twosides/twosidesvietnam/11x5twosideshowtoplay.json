@@ -1,0 +1,85 @@
+
+
+{
+
+    "1. Sum
+
+Sum B/S: If you bet on Big and the sum of winning No. > 30 this is Big, If you bet on Small and the sum of winning No < 30 this is Small, 30 is a Tie and a refund of bet amount.
+Sum O/E : If you bet on Odd and the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; if you bet on Even and the sum of winning numbers is or has an ending number of 0, 2, 4, 6, 8 this is Even.
+Sum of Tails: Sum of winning No. Units digit ? 5 as Big; ? 4 as Even.
+Dragon/Tiger?When the winning number on the 1st Ball > 5th Ball, this is dragon. If the 1st Ball < 5th Ball, this is a tiger (0 smallest, 9 biggest).
+
+2 .B/S/O/E 1st~5th : From the range of numbers 01-11, you choose a number that will appear either on the 1st Ball, 2nd Ball, 3rd Ball, 4th Ball or 5th Ball. If you choose 06 to appear on Ball 2 and the draw results has the number 06 appearing on Ball 2, you win.
+B/S: If the winning number on the selected place or selected ball is > 6 this is Big; ? 5 this is small Small; 11 as Tie (Refund).
+O/E: If the winning number on the selected place or selected ball ends with 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; 11 is a Tie (Refund).
+
+3. Fixed Place 1st~5th : Select a number from 1st, 2nd, 3rd, 4th, 5th place to form a bet. When your selected number and winning draw number are in the same place, you win. Eg. Bet plan: 03,-,-,-,-; Winning No.: 03,*,*,*,* as a win. You select 03 to appear on the 1st Ball, and the winning drawn number also has 3 on the 1st Ball. This wins.
+4. Pick 1~Pick 8
+
+Pick 1: Select 1 number to form a bet. If the winning numbers included your selected number, this is a win.
+E.g. Winning No. 01, *, *, *, *; Your bet?01, 02?this is a win.
+Pick 2: Select 2 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 02, 01, *, *, *; Your bet?01, 02?this is a win.
+Pick 3: Select 3 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 03, 01, 02, *, *; Your bet?01, 02, 03?this is a win.
+Pick 4: Select 4 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 04, 03, *; Your bet?01, 02, 03, 04?this is a win.
+Pick 5: Select 5 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet?01, 02, 03, 04, 05?this is a win.
+Pick 6: Select 6 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet?01, 02, 03, 04, 05, 06?this is a win.
+Pick 7: Select 7 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet?01, 02, 03, 04, 05, 06, 07?this is a win.
+Pick 8: Select 8 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet?01, 02, 03, 04, 05, 06, 07, 08?this is a win.
+
+5. Group
+First 2 Group: Select 2 numbers to form a bet. If the selected numbers and first 2 winning numbers are the same, this is a win.
+E.g. Winning No. 02, 01, *, *, *; Your bet?01, 02?this is a win.
+First 3 Group: Select 3 numbers to form a bet. If the selected numbers and first 3 winning numbers are the same, this is a win.
+E.g. Winning No. 02, 01, 03, *, *; Your bet?01, 02, 03?this is a win.
+6. First 2 Straight: Select 1 number from 1st, 2nd form a bet, and the 2 numbers should be non repeating. If your selected numbers and the first 2 winning numbers are the same & in order, this is a win.
+E.g. Winning No. 02, 01, *, *, * ; Bet ?1st 02, 2nd 01?this is a win.
+
+7. First 3 Straight: Select 1 number from 1st, 2nd and 3rd to form a bet, and the 3 numbers should be non repeating. If your selected numbers and the first 3 winning numbers are the same & in order, this is a win.
+E.g. Winning No. 01, 02, 03, *, * ; Bet ?1st 01, 2nd 02, 3rd 03?this is a win.":"1. Tổng
+Tổng Tài/Xỉu: Tổng số mở thưởng >30 là Tài, <30 là Xỉu, 30 là Hòa, hoàn tiền cược.
+Tổng Lẻ/Chẵn: Số hàng đơn vị của tổng số mở thưởng là 1, 3, 5, 7, 9 là Lẻ, số đuôi 0, 2, 4, 6, 8 là Chẵn.
+Đuôi tổng Tài/Xỉu: Số hàng đơn vị của tổng số mở thưởng ≥5 là Tài, ≤4 là Xỉu.
+Rồng/Hổ: Số mở thưởng của bóng thứ 1 > bóng thứ 5 (0 nhỏ nhất, 9 lớn nhất), ngược lại là Hổ.
+2. Bóng thứ 1~5 Tài/Xỉu/Lẻ/Chẵn
+Chọn 1 vị trí và cược 1 thuộc tính, giống thuộc tính số mở thưởng cùng vị trí là trúng thưởng.
+Tài/Xỉu: Kết quả mở thưởng ≥6 là "Tài", ≤5 là "Xỉu", mở 11 là Hòa (Hoàn tiền cược).
+Lẻ/Chẵn: Số hàng đơn vị của số mở thưởng là 1, 3, 5, 7, 9 là "Lẻ", 0, 2, 4, 6, 8 là "Chẵn"; mở 11 là Hòa (Hoàn tiền cược).
+3. Chọn Bóng thứ 1~5
+Chọn 1 số từ bóng thứ 1~5, số đã chọn trùng với số mở thưởng cùng vị trí là trúng thưởng.
+VD: Kết quả mở thưởng 01, *, *, *, *, cược [Bóng thứ 1 là 01] trúng thưởng.
+4. Tùy chọn 1~Tùy chọn 8
+Tùy chọn 1: Chọn 1 số làm 1 cược. Kết quả mở thưởng bao gồm số đã chọn (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 01, *, *, *, *, cược [01] trúng thưởng.
+Tùy chọn 2: Chọn 2 số tạo thành 1 cược. Kết quả mở thưởng bao gồm 2 số đã chọn (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 02, 01, *, *, *, cược [01,02] trúng thưởng.
+Tùy chọn 3: Chọn 3 số tạo thành 1 cược. Kết quả mở thưởng bao gồm 3 số đã chọn (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 03, 01, 02, *, *, cược [01, 02, 03] trúng thưởng.
+Tùy chọn 4: Chọn 4 số tạo thành 1 cược. Kết quả mở thưởng bao gồm 4 số đã chọn (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 01, 02, 04, 03,*, cược [01, 02, 03, 04] trúng thưởng.
+Tùy chọn 5: Chọn 5 số tạo thành 1 cược. Số đã chọn trùng với 5 số mở thưởng (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 01, 02, 03, 05, 04, cược [01, 02, 03, 04, 05] trúng thưởng.
+Tùy chọn 6: Chọn 6 số tạo thành 1 cược. 5 số bất kỳ đã chọn trùng với 5 số mở thưởng (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 01, 02, 03, 05, 04, cược [01, 02, 03, 04, 05, 06] trúng thưởng.
+Tùy chọn 7: Chọn 7 số tạo thành 1 cược. 5 số bất kỳ đã chọn trùng với 5 số mở thưởng (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 01, 02, 03, 05, 04, cược [01, 02, 03, 04, 05, 06, 07] trúng thưởng.
+Tùy chọn 8: Chọn 8 số tạo thành 1 cược. 5 số bất kỳ đã chọn trùng với 5 số mở thưởng (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 01, 02, 03, 05, 04, cược [01, 02, 03, 04, 05, 06, 07, 08] trúng thưởng.
+5. Nhóm
+Tiền nhị Nhóm: Chọn 2 số tạo thành 1 cược. Số chọn trùng với 2 số đầu của kết quả mở thưởng (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 02, 01, *, *, *, cược [01, 02] trúng thưởng.
+Tiền tam Nhóm: Chọn 3 số tạo thành 1 cược. Số chọn trùng với 3 số đầu của kết quả mở thưởng (Không giới hạn thứ tự) là trúng thưởng.
+VD: Kết quả mở thưởng 02, 01, 03, *, *, cược [01, 02, 03] trúng thưởng.
+6. Hàng số
+Tiền nhị Hàng số: Chọn 1 số từ bóng thứ 1, 2 tạo thành 1 cược, 2 số không lặp lại. Số chọn trùng với 2 số đầu của kết quả mở thưởng và cùng thứ tự là trúng thưởng.
+VD: Kết quả mở thưởng 0201***, cược [Bóng thứ 1 02, Bóng thứ 2 01] trúng thưởng.
+Tiền tam Hàng số: Chọn 1 số từ bóng thứ 1, 2, 3 tạo thành 1 cược, 3 số không lặp lại. Số chọn trùng với 3 số đầu của kết quả mở thưởng và cùng thứ tự là trúng thưởng.
+VD: Kết quả mở thưởng 010203**, cược [Bóng thứ 1 01, Bóng thứ 2 02, Bóng thứ 3 03] trúng thưởng."
+   
+}

@@ -1,0 +1,56 @@
+{
+    "All3":"三星",
+    "First 2":"前二",
+    "Last 2":"后二",
+    "Fixed Place":"定位胆",
+    "Any Place":"不定胆",
+    "Dragon/Tiger/Tie":"龙虎",
+    "B/S/O/E":"大小单双",
+    "B/S/O/E OF Sum":"和值大小单双",
+    "Clear":"清",
+    "Big":"大",
+    "Small":"奇",
+    "Even":"偶",
+    "Odd":"奇",
+    "Hot/Cold":"冷热",
+    "Lack":"当前遗漏",
+    "Prize":"奖金",
+    "Straight":"直选",
+    "Group":"组选",
+    "All":"全",
+    "1st V 2nd":"万千",
+    "1st V 3rd":"万百",
+  
+  
+    "2nd V 3rd":"千百",
+    "Upload File":"上传文件",
+   
+    "Dragon":"龙",
+    "Tiger":"虎",
+    "Tie":"和",
+    "Combo":"组合",
+    "Sum":"和值",
+
+   
+    
+    "Three of a Kind":"三同号",
+    "Three No":"三不同号",
+    "One Pair":"二同号",
+    "Two No":"二不同号",
+    "Guess A No":"猜一个号",
+    "Guess A Number":"猜一个号",
+    "Two No. Group":"二不同号复选",
+    "Two No. Standard":"二不同号单选",
+    "One Pair Standard":"二同号单选",
+    "One Pair Group":"二同号复选",
+    "One Pair Standard (Manual)":"二同号单选单式",
+    "One Pair Standard (Joint)":"二同号单选复式",
+    "Three No Standard":"三不同号单选",
+    "Three No. Group":"三不同号复选",
+    "3 Row":"三连号",
+    "Half Streak":"半顺",
+    "Mixed 6":"杂六"
+   
+    
+  }
+  

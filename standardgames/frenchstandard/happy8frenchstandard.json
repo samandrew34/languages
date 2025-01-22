@@ -1,0 +1,44 @@
+
+
+
+{
+
+"Pick": "Choisir",
+    "Pick 1": "Choisir un",
+    "Pick 2": "Choisir deux",
+    "Pick 3": "Choisir trois",
+    "Pick 4": "Choisir quatre",
+    "Pick 5": "Choisir cinq",
+    "Pick 6": "Choisir six",
+    "Pick 7": "Choisir sept",
+    "Over": "Plus",
+    "Tie": "Égalité",
+    "Under": "Moins",
+    "Fun": "Divertissement",
+    "Over/Under": "Plus/Moins",
+    "First 2": "Premiers deux",
+    "Last 2": "Derniers deux",
+    "Clear": "Effacer",
+    "Big": "Grand",
+    "Small": "Petit",
+    "Even": "Pair",
+    "Odd": "Impair",
+    "Hot/Cold": "Chaud/Froid",
+    "Lack": "Manquant",
+    "Prize": "Prix",
+    "Straight": "Direct",
+    "Group": "Groupe",
+    "All": "Tout",
+    "1st V 2nd": "Premier contre deuxième",
+    "1st V 3rd": "Premier contre troisième",
+    "2nd V 3rd": "Deuxième contre troisième",
+    "Dragon": "Dragon",
+    "Tiger": "Tigre",
+    "Tie": "Égalité",
+    "Combo": "Combinaison",
+    "Sum": "Somme",
+    "Odd/Even": "Impair/Pair",
+    "B/S/O/E of Sum": "Plus/Moins/Impair/Pair de la somme"
+
+
+}

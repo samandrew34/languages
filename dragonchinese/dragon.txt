@@ -1,0 +1,10 @@
+3D = done
+5D= loading
+FAST3= done
+11X5= loading
+MARK6= done
+PK10= loading
+
+
+
+

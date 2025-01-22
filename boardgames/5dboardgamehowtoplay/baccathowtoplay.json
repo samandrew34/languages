@@ -1,0 +1,15 @@
+{
+
+
+ 
+"<span style='color:red'>Banker Pair: </span>  If the 1st Ball and 2nd Ball numbers are the same ( Ball 1 “3” and Ball 2 “3”), betting on Banker Pair wins.<br><span style='color:red'>Player Pair: </span>  If the 4th Ball and 5th Ball numbers are the same ( Ball 4 “3” and Ball 5 “3”), betting on Player Pair wins.<br>#":"<span style='color:red'>庄对: </span>  第一球及第二球号码相同，则投注庄对赢<br><span style='color:red'>闲对: </span> 第四球及第五球号码相同，则投注闲对赢<br>#",
+  "<span style='color:red'>Banker: </span>  The sum of the first and second balls' numbers, with only the units digit taken, is considered the Banker. The sum of the fourth and fifth balls' numbers, with only the units digit taken, is considered the Player.If the Banker is greater than the Player, betting on Banker wins.If the Banker is less than the Player, betting on Player wins.If the Banker equals the Player, betting on Tie wins.":"<span style='color:red'>庄: </span>  第一球及第二球的加总取个位数为庄，第四球及第五球的加总取个位数为闲庄大于闲，投注庄赢庄小于闲，投注闲赢庄等于闲，则投注和赢",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+  
+}

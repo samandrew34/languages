@@ -1,0 +1,39 @@
+{
+
+
+
+  "<span style='color:red'>Quintuple: </span>All five winning numbers are the same (e.g. 22222, 66666, 88888, betting on five of a kind wins, but betting on the others does not win)<br>
+<span style='color:red'>Quadruple: </span>Four of the five numbers drawn are the same and the other number different (for example, 22221, 66663, 88885, betting on this wins)<br>
+<span style='color:red'>A pair: </span>Only one set of the five numbers drawn is the same (for example, 22168, 66315, 82968, betting on one pair wins)<br>
+<span style='color:red'>Triple Pair: </span>Three of the five numbers drawn are the same (three of a kind) and the other two are also the same (a pair) (e.g. 22211, 66633, betting on Triple Pair wins)<br>
+<span style='color:red'>Streak : </span>The positions of the five winning numbers are in row (for example, 01234, 12345, 23456, 34567, 45678, 56789, 67890, 78901, 89012, 90123, betting on a straight will win)<br>
+<span style='color:red'>T.O.A.K: </span>Three of the five numbers drawn are the same and the other two are different (for example, 22231, 66623, 88895, betting on three of a kind wins)<br>
+<span style='color:red'>Two pairs: </span>Two of the five winning numbers are the same (for example, 22166, 66355, 82668, betting on two pairs wins)<br>
+<span style='color:red'>Loose cards: </span>When winning numbers are different and not in row (e.g. 23186, 13579, 21968, betting on loose cards wins, others do not win.
+":"<span style='color:red'>五条: </span>开奖的五个号码全部相同（例如 22222、66666、88888，投注 五条 中奖，其它不中奖）<br>
+<span style='color:red'>四条: </span>开奖的五个号码中有四个号码相同（例如 22221、66663、88885，投注 四条 中奖，其它不中奖）<br>
+<span style='color:red'>一对: </span>开奖的五个号码中有三个号码相同（三条）另外两个号码也相同（一对）（例如 22211、66633，投注 葫芦 中奖，其它不中奖）<br>
+<span style='color:red'>葫芦: </span>开奖的五个号码位置不限，包含下例十组号码（例如 01234、12345、23456、34567、45678、56789、67890、78901、89012、90123，投注 顺子 中奖，其它不中奖）<br>
+<span style='color:red'>顺子 : </span>开奖的五个号码中有三个号码相同另外两个不相同（例如 22231、66623、88895, 投注 三条 中奖，其它不中奖）<br>
+<span style='color:red'>三条: </span>开奖的五个号码中有两组号码相同（例如 22166、66355、82668, 投注 两对 中奖，其它不中奖<br>
+<span style='color:red'>两对: </span>开奖的五个号码中只有一组号码相同（例如 22168、66315、82968, 投注 一对 中奖，其它不中奖<br>
+<span style='color:red'>散牌: </span>开奖号码不是五条、四条、葫芦、三条、顺子、两对、一对的其它所有开奖号码（例如 23186、13579、21968, 投注 散牌 中奖，其它不中奖
+",
+  "":"",
+  "":"",
+  "":"",
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+  
+}

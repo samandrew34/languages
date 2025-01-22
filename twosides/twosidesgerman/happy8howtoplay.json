@@ -1,0 +1,37 @@
+{
+
+    "1. Sum
+
+B/S: If the sum of winning numbers is > 810 this is Big; < 810 this is Small; 810 as Tie, refund.
+O/E: If the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; 0, 2, 4, 6, 8 this is Even.
+
+2.Sum Pass
+If the sum of winning numbers is > 810 this is Big; < 810 this is Small; If the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; 0, 2, 4, 6, 8 this is Even.; 810 as Tie, will refund.Big/Small, Odd/Even combo generate「Big Odd」,「Small Odd」,「Big Even」,「Small Even」, 4 combo.
+E.g. Sum of winning numbers is 811; your bet is 「Big Odd」, this is a win because 811 is both big and odd and you win if you bet on Big Odd.
+
+3. More First/Last
+The winning numbers of 01- 40 are regarded as First; and 41- 80 are regarded as Last. So if the numbers between the range of 01- 40 are more than the numbers between the range 41 -80 betting on「More First」this is a win; if 41-80 is more than 01-40 betting on「More Last」this is a win; Equal will refund.
+
+4. 5 Elements
+The sum of the 20 winning numbers are arranged in 5 parts and named as Gold (210-695) Wood (696-763) , Water (764-856), Fire (857-924), Earth (925-1410) E.g. If the sum of winning numbers is 693; You bet is「Gold」, this is win because the number 693 is included in Gold (210-695).
+
+5. Ball No.
+Bet on 1 number to form a bet and if any of the 20 draw numbers include the same number selected this is a win.
+E.g. winning No. 01*******************; Bet「01」this is a win.":"1.Summe
+Größe: Wenn die Summe der Lottozahlen >810 ist, ist sie „groß“, <810 ist „klein“ und 810 ist die Summe, wird der Kapitalbetrag zurückerstattet.
+Ungerade und gerade: Die einzelnen Ziffern der Summe der Lottozahlen sind 1, 3, 5, 7 und 9 für „ungerade“ und 0, 2, 4, 6 und 8 für „gerade“.
+2.Gesamtdurchlauf
+Die Summe der Lottozahlen >810 ist „groß“, <810 ist „klein“; einzelne Ziffern 1, 3, 5, 7 und 9 sind „ungerade“ und 0, 2, 4, 6 und 8 sind „gerade“.  . 810 ist die Summe und der Kapitalbetrag wird zurückgegeben.
+Durch die Kombination von groß und klein und ungerade und gerade entstehen vier Kombinationen: „große ungerade“, „kleine ungerade“, „große gerade“ und „kleine gerade“.
+Beispiel: Wenn die Summe der Gewinnzahlen 811 beträgt, setzen Sie auf „Big Order“ und Sie werden gewinnen.
+3. Viele vorne und hinten
+Die Lottozahlen 1-40 sind „vorne“ und 41-80 sind „hinten“. Wenn bei den 20 Lottozahlen die Zahlen „vorne“ größer sind als die Zahlen „hinten“, heißt es „mehr innen“. vorne“, und umgekehrt ist es „eher hinten“. Bei gleicher Menge wird der Hauptbetrag zurückerstattet.
+4. Ungerades und gerades Vielfaches
+Die einzelnen Ziffern der Lottozahlen sind 1, 3, 5, 7 und 9 für ungerade Zahlen und 0, 2, 4, 6 und 8 für gerade Zahlen. Unter den 20 gezogenen Zahlen gibt es weitere „ungerade“.  Zahlen als „gerade“ Zahlen. Das ist „einfach-viele“ und umgekehrt ist „doppelt-viele“. Bei gleicher Menge wird der Hauptbetrag zurückerstattet.
+5. Fünf Elemente
+Teilen Sie die Summe der 20 gezogenen Zahlen in 5 Segmente auf, nämlich Gold (210-695), Holz (696-763), Wasser (764-856), Feuer (857-924) und Erde (925-1410).
+Beispiel: Wenn die Summe der Gewinnzahlen 693 beträgt, setzen Sie „Gold“ und Sie gewinnen.
+6. Positiver Code
+Wenn die Zahl, auf die Sie setzen, mit einer der 20 im aktuellen Zeitraum gezogenen Zahlen übereinstimmt, gewinnen Sie.
+Beispiel: Wenn die Lottozahl 01 ist********************, setzen Sie „01“ und Sie gewinnen."
+}

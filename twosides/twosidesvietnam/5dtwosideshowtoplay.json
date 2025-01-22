@@ -1,0 +1,58 @@
+{
+
+  "1. B/S/O/E Sum of Top 2
+Sum of Top 2 B/S: If the sum of the top 2 winning numbers is >11, it's considered "Big"; if the sum is ?11, it's considered "Small."
+Sum of Top 2 O/E: When the sum of the top 2 winning numbers ends with 1, 3, 5, 7, or 9, it's considered "Odd"; if it ends with 0, 2, 4, 6, or 8, it's considered "Even".
+2. 1st Prize ~ 10th Prize, B/S & O/E & Dragon/Tiger
+1st Prize ~ 10th Prize: From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 . If you choose 6 to appear on Ball 2 and the draw results has the number 6 appearing on Ball 2, you win.
+B/S: If the winning number on each winning drawn ball is ? 6, it's considered "Big"; if it's ? 5, it's considered "Small."
+
+O/E: If the digit of the winning number on each winning drawn ball is or 1, 3, 5, 7, or 9, it's considered "Odd"; if it's 0, 2, 4, 6, or 8, it's considered "Even."
+
+Dragon/Tiger:
+
+If the former number is bigger than the latter, it's considered "Dragon"; otherwise, it's considered "Tiger."
+(1 is the smallest, 10 is the biggest)
+1st Dragon/Tiger: 1st vs. 10th compete.
+2nd Dragon/Tiger: 2nd vs. 9th compete.
+3rd Dragon/Tiger: 3rd vs. 8th compete.
+4th Dragon/Tiger: 4th vs. 7th compete.
+5th Dragon/Tiger: 5th vs. 6th compete.
+Win Sample?Bet plan:1stV10th Dragon; Winning No.:10,*,*,*,*,*,*,*,*,1, this is a win.
+3. Fixed Place
+From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 .
+If the selected and winning number places are the same and in order, it's a win.
+Example: If the winning number is 1, *, *, *, *, *, *, *, *, * and you bet 1st 1, it's a win.
+4. Sum of Top Two
+Select a number. If the sum of the 1st and 2nd winning numbers matches the selected number, it's a win.
+Example: If the winning numbers are 1, 2, *, *, *, *, *, *, *, * and you bet on?3?2+1=3,, it's a win.":1. Tổng Rồng/Hổ/Hòa
+Tổng Tài/Xỉu: Tổng số mở thưởng ≥23 là "Tài", ≤22 là "Xỉu".
+Tổng Lẻ/Chẵn: Số hàng đơn vị của tổng số mở thưởng là 1, 3, 5, 7, 9 là "Lẻ"; 0, 2,4, 6, 8 là "Chẵn".
+Rồng/Hổ/Hòa: Số mở thưởng của bóng thứ 1 > bóng thứ 5 (0 nhỏ nhất, 9 lớn nhất) là Rồng, ngược lại là Hổ, bằng nhau là Hòa.
+2. Bóng thứ 1~5
+Chọn 1 vị trí và cược 1 thuộc tính, giống thuộc tính số mở thưởng cùng vị trí là trúng thưởng.
+Tài/Xỉu: Số mở thưởng ≥5 là "Tài", ≤4 là "Xỉu".
+Lẻ/Chẵn: Số mở thưởng 1, 3, 5, 7, 9 là "Lẻ"; 0, 2, 4, 6, 8 là "Chẵn".
+SNT/HS: Số mở thưởng 1, 2, 3, 5, 7 là "Số Nguyên Tố"; 0, 4, 6, 8, 9 là "Hợp Số".
+3. Chọn Bóng thứ 1~5
+Chọn 1 số tại vị trí bóng thứ 1~5, số chọn trùng với số mở thưởng cùng vị trí là trúng thưởng.
+VD: Bóng thứ 1 mở 8, cược [Bóng thứ 1 8] trúng thưởng.
+4. Tiền tam, Trung tam, Hậu tam Cách chơi đặc biệt:
+Tiền tam: [Bóng thứ 1, bóng thứ 2, bóng thứ 3]
+Trung tam: [Bóng thứ 2, bóng thứ 3, bóng thứ 4]
+Hậu tam: [Bóng thứ 3, bóng thứ 4, bóng thứ 5]
+Liên tiếp: Vòng lặp giữa 0-1-2-3-4-5-6-7-8-9-0
+Bão: 3 số giống nhau
+VD: Kết quả mở thưởng 1, 1, 1, *, *, cược [Tiền tam Bão] trúng thưởng.
+Sảnh: 3 số liên tiếp, không giới hạn thứ tự
+VD: Kết quả mở thưởng 9, 1, 0, *, *, cược [Tiền tam Sảnh] trúng thưởng.
+Đôi: Trong 3 số có 1 số xuất hiện 2 lần, 1 số khác xuất hiện 1 lần, không giới hạn thứ tự
+VD: Kết quả mở thưởng 0, 3, 0, *, *, cược [Tiền tam Đôi] trúng thưởng.
+Bán sảnh: 3 số khác nhau, trong đó có 2 số liên tiếp; không giới hạn thứ tự
+VD: Kết quả mở thưởng 0, 1, 3, *, *, cược [Tiền tam Bán sảnh] trúng thưởng.
+Tạp lục: 3 số khác nhau và không liên tiếp
+VD: Kết quả mở thưởng 0, 3, 5, *, *, cược [Tiền tam Tạp lục] trúng thưởng."
+
+
+
+}

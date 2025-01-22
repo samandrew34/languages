@@ -1,0 +1,53 @@
+
+
+{
+
+    "<span style='color:red'>Big: </span>When the sum of the 20 numbers drawn is greater than > 810 this is big.<br>
+<span style='color:red'>Small: </span>When the sum of the 20 numbers drawn is lesser than < 810 this is small.<br>
+<span style='color:red'>Tie: </span>When the sum of the 20 numbers drawn is equal to = 810 this is a tie.<br>
+For example, if you choose "Big" and the sum of the 20 winning numbers is 1000, which is greater than > 810, this is a win.":"<span style='color:red'>大: </span>When the sum of the 20 numbers drawn is greater than > 810 this is big.<br>
+<span style='color:red'>小: </span>当抽出的 20 个数字的总和小于 < 810 时，这个数字就小了。<br>
+<span style='color:red'>和: </span>当抽出的 20 个数字的总和等于 = 810 时，即为平局。<br>
+开出的20个号码的和值大于810为大、等于810为和、小于810为小。
+如：选择"大"，20个开奖号码的和值为1000，大于810，即为中奖。",
+    "<span style='color:red'>Upper Range: </span>Among the 20 winning numbers, if the numbers in the range of (01-40) is greater than the numbers in the range of (41-80), this Upper range.<br>
+<span style='color:red'>Lower Range: </span>Among the 20 winning numbers, if the numbers in the range of (01-40) is lesser than the numbers in the range of (41-80), this Lower range.<br>
+<span style='color:red'>Tie: </span>Among the 20 winning numbers, if the numbers in the Upper range of (01-40) is equal to = the numbers in the Lower range of (41-80), this is a tie.<br>
+For example, if you choose "Upper range", and among the 20 winning numbers, there are 13 numbers in the Upper range (01-40) and 7 numbers in the lower plate (41-80). If you bet on the Upper Range, you win, because the upper range is larger than the lower range.
+|":"<span style='color:red'>上: </span>20个中奖号码中，若（01-40）范围内的数字大于（41-80）范围内的数字，则为上中奖号码。<br>
+<span style='color:red'>下: </span>20个中奖号码中，若（01-40）范围内的数字小于（41-80）范围内的数字，则该范围较低。<br>
+<span style='color:red'>和: </span>在20个中奖号码中，若上位数（01-40）等于下位数（41-80），则为平局。<br>
+20个开奖号码中，(01-40)范围内的号码个数大于(41-80)范围内的号码个数，称为上盘；等于则为中盘；小于则为下盘。
+如：选择"上"，20个开奖号码中，上盘(01-40)号码有13个，下盘(41-80)号码个数有7个，上盘大于下盘，则中奖。
+|",
+"<span style='color:red'>Odd Range: </span>Among the 20 winning numbers, if the count of odd numbers is more than the count of even numbers, it is called Odd range.<br>
+<span style='color:red'>Even Range: </span>Among the 20 winning numbers, if the count of odd numbers is lesser than the count of even numbers, it is called Even range.<br>
+<span style='color:red'>Tie Range: </span>Among the 20 winning numbers, if the count of odd numbers is equal to the count of even numbers, it is called Tie range.<br>
+For example: If you choose "Odd range", and there are 13 odd numbers and 7 even numbers among 20 winning numbers, this makes the odd numbers more than the even numbers, and betting on the Odd range is a win.
+":"<span style='color:red'>奇: </span>20个中奖号码中，奇数个数多于偶数个数，称为奇数范围。<br>
+<span style='color:red'>偶: </span>20个中奖号码中，奇数个数少于偶数个数，称为偶数范围。<br>
+<span style='color:red'>和: </span>Among the 20 winning numbers, if the count of odd numbers is equal to the count of even numbers, it is called Tie range.<br>20个开奖号码中，奇数的个数大于偶数的个数，称为奇盘；等于则为和盘；小于则为偶盘
+如：选择"奇"，20个号码中的奇数为13个，偶数为7个，奇数大于偶数，则中奖。
+",
+"<span style='color:red'>Sum Odd: </span>When the sum of the 20 numbers drawn ends with 1, 3, 5, 7, 9, this Sum odd. Eg. If the sum of the 20 numbers drawn is 783, this is Sum odd.<br>
+<span style='color:red'>Sum Even: </span>When the sum of the 20 numbers drawn ends with 0, 2, 4, 6, 8, this Sum even. Eg. If the sum of the 20 numbers drawn is 784, this is Sum even.<br>
+<span style='color:red'>Big Odd: </span>When the sum of the 20 numbers drawn is greater than 810 and is an odd number, it is “Big odd”.<br>
+<span style='color:red'>Small Odd: </span>When the sum of the 20 numbers drawn is less than 810 and is an odd number, it is “Small odd”.<br>
+<span style='color:red'>Big Even: </span>When the sum of the 20 numbers drawn is greater than 810 and is an even number (including equal to 810), it is “Big even”.<br>
+<span style='color:red'>Small Even: </span>When the sum of the 20 numbers drawn is less than 810 and is an even number, it is “Small even”.<br>
+For example, if you choose "Big Even", and the sum of the 20 winning numbers is 1002, which is greater than 810 and is an even number, you win if you select Big Even.
+":"<span style='color:red'>单: </span>当抽出的20个数字的总和以1、3、5、7、9结尾时，这就是总和奇数。例如，如果抽出的20个数字的总和是783，这就是总和奇数。<br>
+<span style='color:red'>双: </span>当抽出的 20 个数字的总和以 0、2、4、6、8 结尾时，此总和为双数。例如，如果抽出的 20 个数字的总和为 784，则此总和为双数。<br>
+<span style='color:red'>大/单: </span>当抽出的20个数字总和大于810，且为奇数时，即为“大奇”。<br>
+<span style='color:red'>小/单: </span>当抽出的20个号码总和小于810，且为奇数时，为“小奇”。<br>
+<span style='color:red'>大/双: </span>当开出的20个号码总和大于810，且为双数（包括等于810）时，即为“大双”。<br>
+<span style='color:red'>小/双: </span>当开出的20个号码总和小于810，且为双数时，为“小双”。<br>
+开出的20个号码的和值大于810且为奇数时，为“大单”；和值小于810且为奇数时，为“小单”；和值大于810且为偶数时（包括等于810），为“大双”；总和值小于810且为偶数时，为“小双”。
+如：选择"大双"，20个开奖号码的总和值为1002，大于810且为偶数，即为中奖。
+",
+"<span style='color:red'>Five Element: </span>The total sum of the 20 winning numbers is divided into 5 categories: Gold (210-695), Wood (696-763), Water (764-855), Fire (856-923) and Earth (924-1410). For example, if you choose "Gold", and the total sum of the 20 winning numbers is 300, which is within the range of "Gold (210~695)", you win.
+":"<span style='color:red'>五元素: </span>将20个开奖号码的合值按5个区间进行划分：金（210～695）、木（696～763）、水（764～855）、火（856～923）、土（924～1410）
+如：选择"金"，20个开奖号码的总和值为300，处于"金(210~695)"的范围内，则中奖。
+"
+    wrote in chat
+}

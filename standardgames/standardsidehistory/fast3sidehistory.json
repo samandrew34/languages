@@ -1,0 +1,27 @@
+{
+  
+  "Draw":"期号",
+  "Winning No.":"开奖号码",
+  "Sum":"和值",
+  "Big/Small":"大小",
+  "Odd/Even":"单双",
+  "S":"小",
+  "B":"大",
+  "O":"单",
+  "E":"双",
+  "3 No.":"三不同",
+  "3 of a kind":"三同",
+  "3 Row":"三连号",
+  "One Pair":"二同",
+  "Three No.":"三不同",
+  "Three of a kind":"形态遗漏",
+  "Two No.":"形态遗漏",
+  "Recent Draw":"近期开奖",
+  "Dragon":"长龙",
+  "Trend":"好路",
+  "Recent bet":"近期投注",
+
+
+  "":""
+
+}

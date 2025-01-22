@@ -1,0 +1,44 @@
+
+
+
+{
+
+
+    "Pick":"任选",
+    "Pick 1":" Tùy chọn 1",
+    "Pick 2":" Tùy chọn 2",
+    "Pick 3":" Tùy chọn 3",
+    "Pick 4":" Tùy chọn 4",
+    "Pick 5":" Tùy chọn 5",
+    "Pick 6":" Tùy chọn 6",
+    "Pick 7":" Tùy chọn 7",
+    "Over":"Trên",
+    "Tie":"Hòa",
+    "Under":"Dưới",
+    "Fun":"Thú vị",
+    "Over/Under":"Trên/Dưới",
+    "First 2": "Hai số đầu",
+    "Last 2": "Hai số cuối",
+    "Clear": "Xóa",
+    "Big": "Lớn",
+    "Small": "Nhỏ",
+    "Even": "Chẵn",
+    "Odd": "Lẻ",
+    "Hot/Cold": "Nóng/Lạnh",
+    "Lack": "Thiếu hiện tại",
+    "Prize": "Giải thưởng",
+    "Straight": "Trực tiếp",
+    "Group": "Nhóm",
+    "All": "Tất cả",
+    "1st V 2nd": "Vạn nghìn",
+    "1st V 3rd": "Vạn trăm",
+    "2nd V 3rd": "Nghìn trăm",
+    "Dragon": "Rồng",
+    "Tiger": "Hổ",
+    "Combo": "Kết hợp",
+    "Sum": "Tổng",
+    "Odd/Even":"Lẻ/Chẵn",
+    "B/S/O/E of Sum":"Tổng Tài/Xỉu/Lẻ/Chẵn"
+
+
+}

@@ -1,0 +1,34 @@
+
+
+{
+  
+    "1st": "Erster ",
+    "2nd": "Zweiter ",
+    "3rd": "Dritter ",
+    "4th": "Vierter ",
+    "5th": "Fünfter ",
+    "Rapido": "Schnell",
+    "All Kinds": "Alles Mögliche",
+    "Big": "Groß",
+    "Prime": "Primzahl",
+    "Small": "Klein",
+    "Composite": "Zusammengesetzt",
+    "Odd": "Ungerade",
+    "Even": "Gerade",
+    "How to Play": "Spielanleitung",
+    "2sides": "Zweiseitig",
+    "Tiger": "Tiger",
+    "Dragon": "Drache",
+    "Tie": "Unentschieden",
+    "Hot/Cold": "Heiß/Kalt",
+    "Lack": "Derzeit Fehlt",
+    
+    "Guess Number B/S": "Drei Armeen Groß/Klein",
+    "Specific Any Triple": "Triple Spezifisch Alle",
+    "Any Triple": "Jedes Triple",
+    "Point": "Punkt",
+    "Any Two": "Langkarte",
+    "One Pair": "Kurzkarte",
+    "Fish/Pawn/Crab": "Fisch/Garnele/Krabbe",
+    "": ""
+}

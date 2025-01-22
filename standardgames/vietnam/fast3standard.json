@@ -1,0 +1,56 @@
+{
+    "All3": "Ba sao",
+    "First 2": "Hai số đầu",
+    "Last 2": "Hai số cuối",
+    "Fixed Place": "Đặt cố định",
+    "Any Place": "Không cố định",
+    "Dragon/Tiger/Tie": "Rồng/Hổ/Hòa",
+    "B/S/O/E": "Lớn/Nhỏ/Chẵn/Lẻ",
+    "B/S/O/E OF Sum":"Tổng Tài/Xỉu/Lẻ/Chẵn",
+    "Clear":"Xóa",
+    "Big":"Tài",
+    "Small":"Xỉu",
+    "Even":"Chẵn",
+    "Odd":"Lẻ",
+   
+    
+    "Prize": "Tiền thưởng:",
+    "Hot/Cold": "Nóng/Lạnh",
+    "Lack": "Thiếu hiện tại",
+    "Straight": "Trực tiếp",
+    "Group": "Nhóm",
+    "All": "Tất cả",
+    "1st V 2nd": "Hàng ngàn",
+    "1st V 3rd": "Hàng trăm",
+    "2nd V 3rd": "Hàng chục",
+    "Upload File": "Tải tệp lên",
+   
+    "Dragon": "Rồng",
+    "Tiger": "Hổ",
+    "Tie":"和",
+
+    "Combo": "Kết hợp",
+    
+    "Three of a Kind":"Bộ ba",
+
+
+    "Three No":"Ba số",
+    "One Pair":"Đôi",
+    "Two No":"Hai số",
+    "Guess A No":"Đoán 1 số",
+    "Guess A Number":"Đoán 1 số",
+    "Two No. Group":"Hai số Nhóm",
+    "Two No. Standard":"Hai số Cơ bản",
+    "One Pair Standard":"Đôi Cơ bản",
+    "One Pair Group":"Đôi Nhóm",
+    "One Pair Standard (Manual)":"Đôi Cơ bản(Chọn số)",
+    "One Pair Standard (Joint)":"Đôi Cơ bản(Ghép số)",
+    "Three No Standard":"Ba số Cơ bản",
+    "Three No. Group":"Ba số Nhóm",
+    "3 Row":"Ba số liên tiếp",
+    "Half Streak":"Bán sảnh",
+    "Mixed 6":"Tạp lục"
+   
+    
+  }
+  

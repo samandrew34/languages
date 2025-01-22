@@ -1,0 +1,37 @@
+{
+
+    "1. Sum
+
+B/S: If the sum of winning numbers is > 810 this is Big; < 810 this is Small; 810 as Tie, refund.
+O/E: If the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; 0, 2, 4, 6, 8 this is Even.
+
+2.Sum Pass
+If the sum of winning numbers is > 810 this is Big; < 810 this is Small; If the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; 0, 2, 4, 6, 8 this is Even.; 810 as Tie, will refund.Big/Small, Odd/Even combo generate「Big Odd」,「Small Odd」,「Big Even」,「Small Even」, 4 combo.
+E.g. Sum of winning numbers is 811; your bet is 「Big Odd」, this is a win because 811 is both big and odd and you win if you bet on Big Odd.
+
+3. More First/Last
+The winning numbers of 01- 40 are regarded as First; and 41- 80 are regarded as Last. So if the numbers between the range of 01- 40 are more than the numbers between the range 41 -80 betting on「More First」this is a win; if 41-80 is more than 01-40 betting on「More Last」this is a win; Equal will refund.
+
+4. 5 Elements
+The sum of the 20 winning numbers are arranged in 5 parts and named as Gold (210-695) Wood (696-763) , Water (764-856), Fire (857-924), Earth (925-1410) E.g. If the sum of winning numbers is 693; You bet is「Gold」, this is win because the number 693 is included in Gold (210-695).
+
+5. Ball No.
+Bet on 1 number to form a bet and if any of the 20 draw numbers include the same number selected this is a win.
+E.g. winning No. 01*******************; Bet「01」this is a win.":"1. Tổng
+Tài/Xỉu: Tổng số mở thưởng >810 là "Tài", <810 là "Xỉu", 810 là Hòa, hoàn tiền cược.
+Lẻ/Chẵn: Số hàng đơn vị của tổng kết quả mở thưởng là 1, 3, 5, 7, 9 là "Lẻ"; 0, 2, 4, 6, 8 là "Chẵn".
+2. Tổng Xiên
+Tổng kết quả mở thưởng >810 là "Tài", <810 là "Xỉu"; hàng đơn vị 1, 3, 5, 7, 9 là "Lẻ", 0, 2, 4, 6, 8 là "Chẵn". 810 là Hòa, hoàn tiền cược.
+Tài/Xỉu và Lẻ/Chẵn tạo thành 4 tổ hợp [Tài Lẻ], [Xỉu Lẻ], [Tài Chẵn], [Xỉu Chẵn].
+VD: Tổng kết quả mở thưởng 811, cược [Tài Lẻ] trúng thưởng.
+3. Nhiều Trước/Sau
+Số mở thưởng 01-40 là "Trước", 41-80 là "Sau", trong 20 số mở thưởng, số "Trước" nhiều hơn số "Sau" là "Nhiều Trước", ngược lại là "Nhiều Sau", bằng nhau hoàn tiền cược.
+4. Nhiều Lẻ/Chẵn
+Số hàng đơn vị của số mở thưởng là 1, 3, 5, 7, 9 là Lẻ, 0, 2, 4, 6, 8 là Chẵn. Trong 20 số mở thưởng, số "Lẻ" nhiều hơn số "Chẵn" là "Nhiều Lẻ", ngược lại là "Nhiều Chẵn", bằng nhau hoàn tiền cược.
+5. Ngũ hành
+Tổng 20 số mở thưởng chia thành 5 phần, Kim (210-695), Mộc (696-763), Thủy (764-856), Hỏa (857-924), Thổ (925-1410).
+VD: Tổng số mở thưởng 693, cược [Kim] trúng thưởng.
+6. Số chính
+Cược 1 số trùng với 1 trong 20 số mở thưởng là trúng thưởng.
+VD: Kết quả mở thưởng 01*******************, cược [01] trúng thưởng."
+}

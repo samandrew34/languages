@@ -1,0 +1,30 @@
+{
+
+    "1st": "Hạng 1",
+    "2nd": "Hạng 2",
+    "3rd": "Hạng 3",
+    "4th": "Hạng 4",
+    "5th": "Hạng 5",
+    "6th": "Hạng 6",
+    "7th": "Hạng 7",
+    "8th": "Hạng 8",
+    "9th": "Hạng 9",
+    "10th": "Hạng10",
+    "Rapido": "Nhanh",
+    "Big": "Tài",
+    "Small": "Xỉu",
+    
+    "Odd": "Lẻ",
+    "Even": "Chẵn",
+    "Tiger": "Hổ",
+    "Dragon": "Rồng",
+    "Composite": "Hợp số",
+    "Hot/Cold": "Nóng/Lạnh",
+    "Lack": "Thiếu hiện tại",
+    "2 sides": "Hai mặt",
+    "Fixed Place": "Vị trí cố định",
+    "Sum of Top Two": "Tổng của hai giá trị cao nhất",
+    "How to Play": "Hướng dẫn chơi",
+  
+    "":""
+}

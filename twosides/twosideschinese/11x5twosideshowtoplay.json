@@ -1,0 +1,85 @@
+
+
+{
+
+    "1. Sum
+
+Sum B/S: If you bet on Big and the sum of winning No. > 30 this is Big, If you bet on Small and the sum of winning No < 30 this is Small, 30 is a Tie and a refund of bet amount.
+Sum O/E : If you bet on Odd and the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; if you bet on Even and the sum of winning numbers is or has an ending number of 0, 2, 4, 6, 8 this is Even.
+Sum of Tails: Sum of winning No. Units digit ? 5 as Big; ? 4 as Even.
+Dragon/Tiger?When the winning number on the 1st Ball > 5th Ball, this is dragon. If the 1st Ball < 5th Ball, this is a tiger (0 smallest, 9 biggest).
+
+2 .B/S/O/E 1st~5th : From the range of numbers 01-11, you choose a number that will appear either on the 1st Ball, 2nd Ball, 3rd Ball, 4th Ball or 5th Ball. If you choose 06 to appear on Ball 2 and the draw results has the number 06 appearing on Ball 2, you win.
+B/S: If the winning number on the selected place or selected ball is > 6 this is Big; ? 5 this is small Small; 11 as Tie (Refund).
+O/E: If the winning number on the selected place or selected ball ends with 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; 11 is a Tie (Refund).
+
+3. Fixed Place 1st~5th : Select a number from 1st, 2nd, 3rd, 4th, 5th place to form a bet. When your selected number and winning draw number are in the same place, you win. Eg. Bet plan: 03,-,-,-,-; Winning No.: 03,*,*,*,* as a win. You select 03 to appear on the 1st Ball, and the winning drawn number also has 3 on the 1st Ball. This wins.
+4. Pick 1~Pick 8
+
+Pick 1: Select 1 number to form a bet. If the winning numbers included your selected number, this is a win.
+E.g. Winning No. 01, *, *, *, *; Your bet?01, 02?this is a win.
+Pick 2: Select 2 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 02, 01, *, *, *; Your bet?01, 02?this is a win.
+Pick 3: Select 3 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 03, 01, 02, *, *; Your bet?01, 02, 03?this is a win.
+Pick 4: Select 4 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 04, 03, *; Your bet?01, 02, 03, 04?this is a win.
+Pick 5: Select 5 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet?01, 02, 03, 04, 05?this is a win.
+Pick 6: Select 6 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet?01, 02, 03, 04, 05, 06?this is a win.
+Pick 7: Select 7 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet?01, 02, 03, 04, 05, 06, 07?this is a win.
+Pick 8: Select 8 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet?01, 02, 03, 04, 05, 06, 07, 08?this is a win.
+
+5. Group
+First 2 Group: Select 2 numbers to form a bet. If the selected numbers and first 2 winning numbers are the same, this is a win.
+E.g. Winning No. 02, 01, *, *, *; Your bet?01, 02?this is a win.
+First 3 Group: Select 3 numbers to form a bet. If the selected numbers and first 3 winning numbers are the same, this is a win.
+E.g. Winning No. 02, 01, 03, *, *; Your bet?01, 02, 03?this is a win.
+6. First 2 Straight: Select 1 number from 1st, 2nd form a bet, and the 2 numbers should be non repeating. If your selected numbers and the first 2 winning numbers are the same & in order, this is a win.
+E.g. Winning No. 02, 01, *, *, * ; Bet ?1st 02, 2nd 01?this is a win.
+
+7. First 3 Straight: Select 1 number from 1st, 2nd and 3rd to form a bet, and the 3 numbers should be non repeating. If your selected numbers and the first 3 winning numbers are the same & in order, this is a win.
+E.g. Winning No. 01, 02, 03, *, * ; Bet ?1st 01, 2nd 02, 3rd 03?this is a win.":"1.总和
+总和大小:开奖号码之和>30为大，<30为小，30为和，退还本金。
+总和单双:开奖号码之和的个位数是1、3、5、7、9为单，尾数是0、2、4、6、8，为双。
+总和尾数大小:开奖号码之和的个位数≥5为大，≤4为小。
+龙虎：第一球的开奖号码大于第五球的开奖号码（0为最小，9为最大），反之为虎。
+2.第一球~第五球大小、单双
+选择一个号码位置，并投注一种属性，投注的属性与该位置的开奖号码属性相同时，即中奖。
+大小：开奖号码≥6为“大”，≤5为“小”，开出11为和(退还本金)。
+单双：开奖号码的个位数为1、3、5、7、9为“单”，0，2，4，6，8为“双”。；开出11为和(退还本金)。
+3.第一球~第五球选号
+从第一球～第五球任意位置选择1个号码，所选号码与相同位置上的开奖号码一致，即中奖。
+举例：开奖号码01,*,*,*,*，投注「第一球为01」，即中奖。
+4.任选一~任选八
+任选一:选择1个号码为1注。开奖号码中包含所选号码（顺序不限），即中奖。
+举例：开奖号码01,*,*,*,*，投注「01」，即中奖。
+任选二:选择2个号码形成1注。开奖号码中包含所选的2个号码（顺序不限），即中奖。
+举例：开奖号码02,01,*,*,*，投注「01,02」，即中奖。
+任选三:选择3个号码形成1注。开奖号码中包含所选的3个号码（顺序不限），即中奖。
+举例：开奖号码03,01,02,*,*，投注「01,02,03」，即中奖
+任选四:选择4个号码形成1注。开奖号码中包含的4个所选号码（顺序不限），即中奖。
+举例：开奖号码01,02,04,03,*，投注「01,02,03,04」，即中奖。
+任选五:选择5个号码形成1注。所选号码与的5个开奖号码相同（顺序不限），即中奖。
+举例：开奖号码01,02,03,05,04，投注「01,02,03,04,05」，即中奖。
+任选六:选择6个号码形成1注，选择号码中的任意5个号码与全部的开奖号码相同(顺序不限)，即为中奖。
+举例：开奖号码01,02,03,05,04，投注「01,02,03,04,05,06」，即中奖。
+任选七:选择7个号码形成1注，选择号码中的任意5个号码与全部的开奖号码相同(顺序不限)，即为中奖。
+举例：开奖号码01,02,03,05,04，投注「01,02,03,04,05,06,07」，即中奖。
+任选八:选择8个号码形成1注，选择号码中的任意5个号码与全部的开奖号码相同(顺序不限)，即为中奖。
+举例：开奖号码01,02,03,05,04，投注「01,02,03,04,05,06,07,08」，即中奖。
+5.组选
+组选前二:选择2个号码组成1注。所选号码与开奖号码的前2球相同，且顺序不限，即中奖。
+举例：开奖号码02,01,*,*,*，投注「01,02」，即中奖。
+组选前三:选择3个号码组成1注。所选号码与开奖号码的前3球相同，且顺序不限，即中奖。
+举例：开奖号码02,01,03*,*，投注「01,02,03」，即中奖。
+6.直选
+直选前二:从第一、第二位球上各选择1个号码组成1注，两个号码不重复。所选号码与开奖号码的前2位相同，且顺序一致，即中奖。
+举例：开奖号码0201***，投注「第一球02，第二球01」，即中奖。
+直选前三:从第一、第二、第三球上各选择1个号码组成1注，三个号码不重复。所选号码与开奖号码的前3个号码相同，且顺序一致，即中奖。
+举例：开奖号码010203**，投注第一球「01，第二球02，第三球03」，即中奖。"
+   
+}

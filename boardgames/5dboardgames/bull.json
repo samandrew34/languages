@@ -1,0 +1,37 @@
+{
+
+    "Bull Big":"大",
+    "Bull Odd":"单",
+    "Bull Small":"小",
+    "Bull Even":"双",
+    "Maximum Value":"最大值",   
+  "Minimum Value":"最小值",
+  "Dragon":"狮",
+  "Tiger":"虎",
+  "Tie":"和",
+  "Ball 1":"万",
+  "Ball 2":"千",
+  "Ball 3":"百",
+  "Ball 4":"十",
+  "Ball 5":"个",
+  "ball 1":"万",
+  "ball 2":"千",
+  "ball 3":"百",
+  "ball 4":"十",
+  "ball 5":"个",
+  "Bull 1":"牛1",
+  "Bull 2":"牛2",
+  "Bull 3":"牛3",
+  "Bull 4":"牛4",
+  "Bull 5":"牛5",
+  "Bull 6":"牛6",
+  "Bull 7":"牛7",
+  "Bull 8":"牛8",
+  "Bull 9":"牛9",
+  "Bull Bull":"牛牛",
+  "No Bull":"杂牌",
+  "Bull Game":"牛牛游戏",
+  "Tiger Game":"狮虎游戏"
+ 
+
+}

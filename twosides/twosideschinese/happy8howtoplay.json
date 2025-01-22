@@ -1,0 +1,37 @@
+{
+
+    "1. Sum
+
+B/S: If the sum of winning numbers is > 810 this is Big; < 810 this is Small; 810 as Tie, refund.
+O/E: If the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; 0, 2, 4, 6, 8 this is Even.
+
+2.Sum Pass
+If the sum of winning numbers is > 810 this is Big; < 810 this is Small; If the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; 0, 2, 4, 6, 8 this is Even.; 810 as Tie, will refund.Big/Small, Odd/Even combo generate「Big Odd」,「Small Odd」,「Big Even」,「Small Even」, 4 combo.
+E.g. Sum of winning numbers is 811; your bet is 「Big Odd」, this is a win because 811 is both big and odd and you win if you bet on Big Odd.
+
+3. More First/Last
+The winning numbers of 01- 40 are regarded as First; and 41- 80 are regarded as Last. So if the numbers between the range of 01- 40 are more than the numbers between the range 41 -80 betting on「More First」this is a win; if 41-80 is more than 01-40 betting on「More Last」this is a win; Equal will refund.
+
+4. 5 Elements
+The sum of the 20 winning numbers are arranged in 5 parts and named as Gold (210-695) Wood (696-763) , Water (764-856), Fire (857-924), Earth (925-1410) E.g. If the sum of winning numbers is 693; You bet is「Gold」, this is win because the number 693 is included in Gold (210-695).
+
+5. Ball No.
+Bet on 1 number to form a bet and if any of the 20 draw numbers include the same number selected this is a win.
+E.g. winning No. 01*******************; Bet「01」this is a win.":"1.总和
+大小：开奖号码之和>810为“大”，<810为“小”，810为和，退还本金。
+单双：开奖号码之和的个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”。
+2.总和过关
+开奖号码之和>810为“大”，<810，为“小”；个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”。810为和，退还本金。
+通过大小和单双组合产生「大单」，「小单」，「大双」和「小双」四种组合。
+举例：开奖号码之和811，投注「大单」，即中奖。
+3.前后多
+开奖号码1-40为“前”，41-80为“后”，开奖的20个号码中，“前”的号码多于“后”的号码即为「前多」，反之为「后多」。数量相同退还本金。
+4.单双多
+开奖号码的个位数为1、3、5、7、9为单，0、2、4、6、8为双，开奖的20个号码中，“单”的号码多于“双”的号码即为“单多”，反之为“双多”。数量相同退还本金。
+5.五行
+把开出的20个号码的总和分在5个段，以金（210～695）、木（696-763）、水（764-856）、火（857-924）、土（925-1410）命名。
+举例：开奖号码之和693，投注「金」，即中奖。
+6.正码
+投注的1个号码与当期开出的20个号码中的任1个号码相同，则中奖。
+举例：开奖号码01*******************，投注「01」，即中奖。"
+}

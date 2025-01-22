@@ -1,0 +1,45 @@
+
+
+
+{
+
+
+    "Pick":"任选",
+    "Pick 1":"任选一",
+    "Pick 2":"任选二",
+    "Pick 3":"任选三",
+    "Pick 4":"任选四",
+    "Pick 5":"任选五",
+    "Pick 6":"任选六",
+    "Pick 7":"任选七",
+    "Over":"上",
+    "Tie":"中",
+    "Under":"下",
+    "Fun":"趣味",
+    "Over/Under":"上下盘",
+    "First 2":"前二",
+    "Last 2":"后二",
+    "Clear":"清",
+    "Big": "大",
+    "Small":"奇",
+    "Even":"偶",
+    "Odd":"奇",
+    "Hot/Cold":"冷热",
+    "Lack": "当前遗漏",
+    "Prize": "奖金",
+    "Straight":"直选",
+    "Group":"组选",
+    "All":"全",
+    "1st V 2nd":"万千",
+    "1st V 3rd":"万百",
+    "2nd V 3rd":"千百",
+    "Dragon":"龙",
+    "Tiger":"虎",
+    "Tie":"和",
+    "Combo":"组合",
+    "Sum":"和值",
+    "Odd/Even":"奇偶盘",
+    "B/S/O/E of Sum":"和值大小单双"
+
+
+}

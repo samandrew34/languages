@@ -1,0 +1,312 @@
+
+
+{
+
+    "Extra No. 2 Sides
+B/S Extra No.: When the Extra number drawn ≥ 25 this is Big; ≤ 24 this is Small; when the Extra number is 49 this is a Tie, and a refund is given.
+
+O/E Extra No.: When the Extra number drawn has an ending number of 1, 3, 5, 7, 9 this is Odd. Eg. If the extra number is 17 this is odd because the ending number of 17 which is 7 is odd; and when the Extra number drawn has an ending number of 0, 2, 4, 6, 8 this is Even Eg. If the extra number is 34 this is even because the ending number of 34 which is 4 is even; when the Extra number is 49 this is a Tie, and a refund is given.
+
+B/S Sum of Extra head & tail: When the sum of the 1st and 2nd digit of the Extra number drawn is ≥ 7 this is Sum Big Eg. If the extra number is 27, the sum of the first and second digit 2+7=9, and 9 > 7 so this is Sum big; when the sum ≤ 6 this is Sum Small Eg. 13 as extra number, sum is 3+1=4, and 4 < 6 so this is Sum small; when the Extra number is 49 this is Tie, and a refund.
+
+O/E Sum of extra head & tail: When the sum of the 1st and 2nd digit of the Extra number drawn has an ending number 1, 3, 5, 7, 9 this is Sum Odd; and 0, 2, 4, 6, 8 this is Sum Even. Extra No. 49 as Tie, refund.
+
+Extra No.: Zodiac Sky or Zodiac Ground: Select one Extra zodiac, either Zodiac Sky or Zodiac Ground to form a bet. If the Extra number in the winning drawn numbers includes either Ox, Rabbit, Dragon, Horse, Monkey, Pig and you select Zodiac Sky as the Zodiac Extra Number, you win as Sky Zodiac; If either Rat, Tiger, Snake, Goat, Cock, Dog is drawn as the extra zodiac number and you select Zodiac ground you win as Ground Zodiac; If the Extra number is 49 this is a Tie, and a refund.
+
+Extra No.: Zodiac First, Zodiac Last: Select one extra zodiac, either Zodiac First or Zodiac Last to form a bet. If the Extra number in the winning drawn numbers includes either
+Rat, Ox, Tiger, Rabbit, Dragon, Snake and you select Zodiac First as the Zodiac Extra Number, you win as Zodiac First;. If either Horse, Goat, Monkey, Cock, Dog, Pig is drawn as the extra zodiac number and you select Zodiac Last you win as Zodiac Last**;** If the Extra number is 49 this is a Tie, and a refund.
+
+Extra No.: Zodiac Poultry, Zodiac Beast: Select one extra zodiac, either Zodiac Poultry or Zodiac Beast to form a bet. If the Extra number in the winning drawn numbers includes either
+Ox, Horse, Goat, Cock, Dog, Pig and you select Zodiac Poultry as the Zodiac Extra Number, you win as Zodiac Poultry; If either Rat, Tiger, Dragon, Snake, Rabbit, Monkey is drawn as the extra zodiac number and you select Zodiac Beast you win as Zodiac Beast; If the Extra number is 49 this is a Tie, and a refund.
+
+B/S Extra tail: If the ending digit (tail) of the Extra number drawn is ≥ 5 (eg. 18, 8 is bigger than 5) this is Big tail; ≤ 4 (eg. 23, 3 is smaller than 4) this is Small tail; If the Extra number is 49 this is a Tie, and a refund.
+
+B/S/O/E Extra No.: If the Extra number ≥ 25 this is Big; ≤ 24 this is Small. If the Extra number is or has an ending digit of 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; If the Extra number is 49 this is a Tie, and a refund.
+
+B/S, O/E Combo Generate:「Select 1 type to form a bet 「Big Odd」,「Small Odd」,「Big Even」,「Small Even」 (Small: 01-24, Big: 25-48; Odd: Unit digit 1,3,5,7,9, Even: Unit digit 0,2,4,6,8), if your selection is matching the form of the Extra winning number this is a win.
+E.g. If the Extra number is 48; Your bet is「Big Even」, this is a win, because 48 is big and also an even number.
+
+2.Extra No.
+Select a Number from 1- 49 to form a bet. If your selected number and the Extra Number are the same, this is a win. E.g. Extra No. 01; Your Bet 01, this is a win.
+
+3.Extra No. All color
+Color: 49 numbers are split into Red, Blue, Green. If your selected color and Extra number color are the same, this is a win.
+Red balls 01 ,02 ,07 ,08 ,12 ,13 ,18 ,19 ,23 ,24 ,29 ,30 ,34 ,35 ,40 ,45 ,46
+Blue balls 03 ,04 ,09 ,10 ,14 ,15 ,20 ,25 ,26 ,31 ,36 ,37 ,41 ,42 ,47 ,48
+Green balls 05 ,06 ,11 ,16 ,17 ,21 ,22 ,27 ,28 ,32 ,33 ,38 ,39 ,43 ,44 ,49
+
+2 Side Color: The Colors are combined with Big, Small, Odd and Even, as 2 Side Color game play. ≥ 25 is Big; and ≤ 24 is Small; 1, 3, 5, 7, 9 is Odd; 0, 2, 4, 6, 8 is Even. If your selected and Extra number drawn for 2 Side Color is the same, this is a win. If the Extra number is 49 this is a Tie, and a refund.
+E.g. If the Extra Number is 48 and your bet is「Big Blue」this is a win because 48 is split to the blue balls color and it is also Big (≥25)
+
+4 Side Color: The Colors are combined with Big Odd, Small Even, Small Odd and Small Even,as 4 Side Color gameplay.
+If your selected and Extra number drawn for 4 Side Color is the same, this is a win. If the Extra number is 49 this is a Tie, and a refund.
+E.g. If the Extra Number is 48 and your bet is「Big Blue Even」this is a win because 48 is split to the blue balls color, it is an even number and it is also Big (≥25).
+
+4.Extra No. Special zodiac head & tail
+Extra No. Zodiac: Select 1 Zodiac to form a bet. If the Extra winning number drawn is within your selected Number, this is a win. Now Dragon year (based on lunar year). 12 Zodiac as follows:
+Rat: 05,17,29,41
+Ox:04,16,28,40
+Tiger: 03,15,27,39
+Rabbit: 02,14,26,38
+Dragon: 01,13,25,37,49
+Snake: 12,24,36,48
+Horse: 11,23,35,47
+Goat: 10,22,34,46
+Monkey: 09,21,33,45
+Cock: 08,20,32,44
+Dog: 07,19,31,43
+Pig: 06,18,30,42
+
+Extra No. head: Select 1 value to form a bet. If the 1st digit of the Extra Number and your selection is the same, this is a win.
+E.g. Extra Winning Number is. 01, If your bet is「0 head」this is a win, because the first digit of the extra number is 0.
+
+Extra No. tail: Select 1 value to form a bet . If the 2nd digit (tail) of the Extra Number and your selection is the same, this is a win.
+E.g. Extra Winning Number is. 10, If your bet is「0 tail」, this is a win, because the second digit (tail) of the extra number is 0.
+
+5. Extra No - Combo zodiac : Select 2 Zodiacs to form a bet. If the Extra WInning Number is within your selected Numbers, this is a win. If the Extra number is 49 this is a Tie, and a refund.
+
+6. Extra No - 5 Elements
+Bet on one of the 5 elements. If the Extra Winning Number is within your selected Numbers, this is a win. Dragon year (based on lunar year).
+5 elements No. as follows:
+Metal：02,03,10,11,24,25,32,33,40,41
+Wood：06,07,14,15,22,23,36,37,44,45
+Water：12,13,20,21,28,29,42,43
+Fire：01,08,09,16,17,30,31,38,39,46,47
+Earth：04,05,18,19,26,27,34,35,48,49
+
+7. Ball No. - Pick 1
+Select a Number to form a bet. If the drawn winning number is included in your selection this is a win.
+E.g. Winning No. 01,02,03,04,05,06+07, your bet is 02, this is a win.
+
+8.Ball No. 1~6
+Select a Ball number position, and bet on 1 element. If the selected and winning number or element is the same, this is a win.
+B/S: ≥ 25 this is Big; ≤ 24 this is Small; If the Extra number is 49 this is a Tie, and a refund.
+O/E: If the winning number is 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; Ball No. 49 as Tie, refund.
+B/S Sum: If the sum of 1st, 2nd winning number ≥ 7 this is Sum Big; ≤ 6 as Sum Small; Ball No. 49 as Tie, refund.
+O/E Sum: If the sum of 1st, 2nd is or has an ending digit of 1, 3, 5, 7, 9 this is Sum Odd; and 0, 2, 4, 6, 8 this is Sum Even; Ball No. 49 as Tie, refund.
+Tail B/S: Winning No. ≥ 5 as Big tail; ≤ 4 as Small tail; Ball No. 49 as Tie, refund.
+Color:
+Red 01 ,02 ,07 ,08 ,12 ,13 ,18 ,19 ,23 ,24 ,29 ,30 ,34 ,35 ,40 ,45 ,46
+Blue 03 ,04 ,09 ,10 ,14 ,15 ,20 ,25 ,26 ,31 ,36 ,37 ,41 ,42 ,47 ,48
+Green 05 ,06 ,11 ,16 ,17 ,21 ,22 ,27 ,28 ,32 ,33 ,38 ,39 ,43 ,44 ,49
+
+9.One Zodiac Color Balls
+One Zodiac: Select 1(one) Zodiac to form a bet. If your selection or zodiac selection is drawn in the winning numbers and this is a win.
+No matter how often the same Zodiac animal you selected appears, you only win once.
+
+Color Balls: Select 1 Color balls to form a bet. The Ball number color count for the first six balls is 1; The Extra number color is counted as 1.5. So after counting and adding up the Red, Blue, Green ball colors respectively, the highest Color Balls drawn wins.
+Eg. If a drawn winning numbers has a total of 3 red balls, 3 blue balls and 1 green ball, this is generally a tie unless the blue ball or the red ball occurs as the extra number position, them in that case instead of the blue or or red ball having a total count each if 3, then one that appeared at extra number position will have a count of 1.5. So if red for instance occurs at the extra number position, the count will be as follows: 3.5 red balls, 3 blue balls and 1 green ball. So the red balls will have the highest count and betting on red balls will be a win.
+A Tie can occur in 3 result as follows:
+1: If the first 6 Balls are: 3 Blue Balls, 3 Green Balls, and the Extra number is a Red Ball
+2: If the first 6 Balls are: 3 Blue Balls, 3 Red Balls, and the Extra number is a Green Ball
+3: If the first 6 Balls are: 3 Green Balls, 3 Red Balls, and the Extra number is a Blue Ball
+If a Tie occurs, all Red, Green, Blue Color Balls bet wagers will be refunded; You can also choose to bet on Tie
+
+10.Fixed place
+1st~6th winning No. Fixed place Ball1~Fixed place Ball6, as Ball1~Ball6.
+
+From the range of numbers 01-49, you choose or select 1 number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5 or Ball 6 to form a bet. If your selected number and winning number is the same and same position, this is a win.
+E.g. Winning No. 01, 02, 03, 04, 05, 06 +07; If you bet on the number 01 to appear on Ball 1 「Fixed Place Ball1 01 」,this is a win because Ball 1 had the number 01.
+
+11. Row Zodiac Row tail
+2 Row Zodiac ~ 5 Row Zodiac
+If the 7 winning zodiac drawn numbers include your selected zodiac, this is a win. Bet combo includes Natal Zodiac and its odds. No matter how often the same Zodiac number appears, you only win once.
+
+2 Row Zodiac: Select 2 Zodiacs to form a bet.
+E.g. Bet「Dragon, Tiger」, Winning numbers include Dragon, Tiger Numbers, this is a win.
+
+3 Row Zodiac: Select 3 Zodiacs to form a bet.
+E.g. Bet「Dragon, Tiger, Rat」, Winning numbers includes Dragon, Tiger, Rat Numbers, this is a win.
+
+4 Row Zodiac: Select 4 Zodiacs to form a bet.
+E.g. Bet「Dragon, Tiger, Rat, Rabbit」, Winning numbers includes Dragon, Tiger, Rat, Rabbit Numbers, this is a win.
+
+5 Row Zodiac: Select 5 Zodiacs to form a bet.
+E.g. Bet「Dragon, Tiger, Rat, Rabbit, Pig」, Winning numbers includes Dragon, Tiger, Rat, Rabbit, Pig Numbers, this is a win.
+
+2 Row Tail ~ 5Row Tail
+
+If the 7 winning zodiac drawn numbers include your selected zodiac, this is a win. Bet combo includes 0 tail and its odds. No matter how often the same tail number appears, you only win once.
+
+2 Row Tail: Select 2 tails to form a bet.
+E.g. Bet「0 tail, 1 tail」, Winning numbers 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0 and 1 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1)
+
+3 Row Tail: Select 3 tails to form a bet.
+E.g. Bet「0 tail, 1 tail 2 tail」, Winning numbers 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1 and 2 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2)
+
+4 Row Tail: Select 4 tails to form a bet.
+E.g. Bet「0 tail, 1 tail, 2 tail, 3 Tail」, Winning No. 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1, 2 and 3 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2, 43 ends with 3)
+
+5 Row Tail: Select 5 tails to form a bet.
+E.g. Bet「0 tail, 1 tail, 2 tail, 3 Tail, 4 tail」, Winning No. 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1, 2, 3 and 4 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2, 43 ends with 3, 44 ends with 4)
+
+12. Row No.
+Win 4: Select 4 numbers to form a bet. If the winning ball numbers include your selection, this is a win.
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03,04」this is a win.
+
+Win 3: Select 3 numbers to form a bet. If the winning ball numbers include your selection, this is a win.
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03」this is a win.
+
+Win 2/3: Select 3 numbers to form a bet. If the 3 winning ball numbers include all your 3 selections, win 3/3; If the 3 winning ball numbers include your 2 selections, win 2/3.
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03」this is a win.
+
+Win 2/2: Select 2 numbers to form a bet. If the winning ball numbers include your selection, this is a win.
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02」this is a win.
+
+2No.: Select 2 Numbers to form a bet. If the winning ball numbers include your 2 numbers selection, this is a win as 2 Ball Number. Also 1 Ball Number and 1 Extra Number, this is a Win Extra.
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet is 「01,02」this is a win.
+
+Win Extra No.: Select 2 Numbers to form a bet. If the winning numbers and extra number is included in your selection, this is a win. Any 1 Ball Number, 1 Extra Number, as win.
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,07」this is a win, because the number 7 which is the extra number and number 1 are what you selected.
+
+13. Zodiac & tail
+
+Extra & Ball Zodiac: Select 1 Zodiac to form a bet. If the 7 drawn Zodiac winning numbers, include your zodiac selection this is a win. No matter how often the same Zodiac Number appears, you only win once.
+Extra & Ball tail: Select 1 tail number to form. If the 7 drawn tail Numbers include your selection this is a win. No matter how often the same tail Number appears, you only win once.
+E.g. Your bet「Tail 1」, Winning Numbers. 01,02,03,04,05,06+07; this is a win, because the 01 in the winning number has a tail or ending digit of 1, which is the same as your selection Tail 1.
+
+Zodiac No.: Select 1 Zodiac to form a bet. If the 7 drawn Zodiac winning numbers, include your zodiac selection this is a win.
+E.g. Your bet「2 Zodiac」; If the winning numbers have only 2 different Zodiac Numbers, this is a win.
+
+O/E: If the Zodiac animal count in the 7 winning draw numbers is 3, 5, 7 Zodiac this is Zodiac Number Odd; 2, 4, 6 this is Zodiac Number Even.
+
+14.Sum
+B/S Sum: If the Sum of the 7 winning Numbers ≥ 176 this is Sum Big; ≤ 174 this is Sum Small; If the sum = 175 this is a Tie, and a refund.
+Total sum without Tie: If the Sum of the 7 winning Numbers ≥ 176 this is Sum Big; ≤ 174 this is Sum Small, there is no tie.
+
+O/E Sum: If the Sum of the 7 winning Numbers has an ending digit or tail 1, 3, 5, 7, 9 this is Sum Odd; and 0, 2, 4, 6, 8 this is Sum Even.
+
+15.Mismatch
+Select between 5~11 numbers from a range of 49 numbers to form a bet. If your selection and the winning Ball Numbers and Extra Number.are not the same, this is a win.
+E.g. Winning No. 01,02,03,04,05,06+07, your bet「08,09,10,11,12」this is a win.
+
+16.Optional
+Choose any 1 number from 49 numbers to form a bet, if the 7 numbers in the draw contain the chosen number, it is a win.
+Example: Drawing numbers 01,02,03,04,05,06+07, betting on 02 wins the prize.":"1.Sondercode-doppelseitig
+Sondercodegröße: Der Sondercode der Lotterie ist ≥25 als „groß“, ≤24 als „klein“ und wenn der Sondercode 49 ist, ist es ein Unentschieden und der Kapitalbetrag wird zurückerstattet.
+Sondercode ungerade und gerade: Die einzelnen Ziffern des Lotterie-Sondercodes sind 1, 3, 5, 7 und 9 für „ungerade“, 0, 2, 4, 6 und 8 für „gerade“. Es handelt sich um ein Unentschieden und das Kapital wird zurückerstattet.
+Spezielle Kombinationsgröße: Wenn die Summe der Zehner- und Einerstellen des Lotterie-Sondercodes ≥7 ist, handelt es sich um eine „große Kombination“ und ≤6 ist eine „kleine Kombination“. Wenn der Sondercode 49 ist, handelt es sich um eine Unentschieden und der Hauptbetrag werden zurückerstattet. Zum Beispiel: Der Sondercode ist 07, wetten Sie auf „合大“ und Sie werden gewinnen.
+Spezielle kombinierte ungerade und gerade Zahlen: Die einzelnen Ziffern der Summe der Zehner- und Einerstellen des Lotterie-Sondercodes sind 1, 3, 5, 7 und 9 für „kombinierte ungerade“ und 0, 2, 4, 6, und 8 für „kombiniert gerade“. Wenn der Sondercode 49 ist, ist es ein Unentschieden und der Kapitalbetrag wird zurückerstattet.
+Sondercodes: Himmels- und Erdzeichen: Die Lotterie-Sondercodes gehören zu den zwölf Tierkreiszeichen Ochse, Hase, Drache, Pferd, Affe und Schwein „Xiao“. Wenn der Sondercode 49 ist, handelt es sich um ein Unentschieden und das Hauptzeichen wird erstattet.
+Sondercodes: Vorder- und Hintertiere: Die Lotterie-Sondercodes gehören zu den zwölf Tierkreiszeichen Ratte, Ochse, Tiger, Hase, Drache und Schlange. Die Zahlen sind „Vordertiere“ und die Zahlen Pferd, Schaf, Affe, Huhn , Hund und Schwein sind „Hintertiere“. Wenn der Sondercode 49 ist, ist es ein Unentschieden und der Hauptbetrag wird zurückerstattet.
+Sondercodes: Heim- und Wildtiere: Die Lotto-Sondercodes gehören zu den zwölf Tierkreiszeichen Ochse, Pferd, Schaf, Huhn, Hund und Schwein. Die Zahlen Ratte, Tiger, Drache, Schlange, Kaninchen und Affe sind „wild“. Tiere.“ „Xiao“, wenn der Sondercode 49 ist, ist es ein Unentschieden und der Hauptbetrag wird zurückerstattet.
+Die Größe des Schwanzes des Sondercodes: Die einzelne Ziffer des Lotterie-Sondercodes ist ≥5, was „großer Schwanz“ bedeutet, und ≤4, was „kleiner Schwanz“ bedeutet. Wenn der Sondercode 49 ist, handelt es sich um ein Unentschieden Der Hauptbetrag wird zurückerstattet.
+Die Größe des Sondercodes ist ungerade oder gerade: Der Lotterie-Sondercode ≥ 25 ist „groß“, ≤ 24 ist „klein“, die einzelne Ziffer des Lotterie-Sondercodes ist 1, 3, 5, 7, 9 ist „ungerade“. „, 0, 2, 4, 6 und 8 sind „gerade“, und wenn der Sondercode 49 ist, ist es ein Unentschieden und der Kapitalbetrag wird zurückerstattet.
+Durch die Kombination von groß und klein und ungerade und gerade entstehen vier Kombinationen: „große ungerade“, „kleine ungerade“, „große gerade“ und „kleine gerade“.
+Beispiel: Wenn der spezielle Lotteriecode 48 ist, setzen Sie auf „Big Even“ und Sie werden gewinnen.
+2.Spezielle Codenummer
+Wählen Sie 1 Zahl aus 49 Zahlen aus, um eine Wette zu bilden. Wenn die ausgewählte Zahl mit dem Sondercode in der Lotterie übereinstimmt, gewinnen Sie. Beispiel: Wenn Sie den Lotto-Sondercode 01 eingeben und auf 01 setzen, gewinnen Sie.
+3. Spezielle Code-Farbwelle-Halbwelle
+Farbwelle: Die 49 Zahlen sind in drei Farben unterteilt: Rot, Blau und Grün. Wenn die Farbwelle, auf die Sie wetten, dieselbe Farbe hat wie der Spezialcode, gewinnen Sie.
+Rote Welle-01,02,07,08,12,13,18,19,23,24,29,30,34,35,40,45,46
+Blaue Welle-03,04,09,10,14,15,20,25,26,31,36,37,41,42,47,48
+Grüne Welle-05,06,11,16,17,21,22,27,28,32,33,38,39,43,44,49
+Halbwelle: Durch die Kombination von Farbwellen mit großen, kleinen, einfachen und doppelten Wellen entsteht eine Halbwelle. ≥25 ist „groß“; ≤24 ist „klein“; einzelne Ziffern 1, 3, 5, 7 und 9 sind „ungerade“; Wenn die Halbwelle der Wette mit der Halbwelle des Sondercodes der Lotterie übereinstimmt, ist der Preis gewonnen. Wenn der Sondercode 49 lautet, herrscht Gleichstand und der Hauptbetrag wird zurückerstattet. Beispiel: Wenn der Sondercode der Lotterie 48 lautet, setzen Sie „Blue Big“ und Sie werden gewinnen.
+Halbe und halbe Welle: Durch die Kombination der Farbwelle mit großer Einzelwelle, großer gerader Welle, kleiner einfacher Welle und kleiner gerader Welle entsteht jeweils eine halbe bzw. halbe Welle. Wenn die halbe Welle der Wette mit der halben Welle des Sondercodes der Lotterie übereinstimmt, wird der Preis gewonnen. Wenn der Sondercode 49 lautet, herrscht Gleichstand und der Hauptbetrag wird zurückerstattet. Zum Beispiel: Der Lotterie-Sondercode ist 48, wetten Sie auf „Blue Double“ und Sie werden gewinnen.
+4.Sondercode – Erste und letzte Ziffer des Sondercodes
+Sondercode-Sternzeichen: Wählen Sie 1 Sternzeichen für 1 Wette. Wenn der Sondercode innerhalb des Zahlenbereichs liegt, der der Sternzeichen-Wette entspricht, gewinnen Sie.
+Dieses Jahr ist beispielsweise das Jahr des Drachen (basierend auf dem Mondjahr) und die Zahlen, die den 12 Tierkreistieren entsprechen, lauten wie folgt:
+Ratte: 05,17,29,41
+Kuh: 04,16,28,40
+Tiger: 03,15,27,39
+Kaninchen: 02,14,26,38
+Drache: 01,13,25,37,49
+Schlange: 12,24,36,48
+Pferd: 11,23,35,47
+Schafe: 10,22,34,46
+Affe: 09,21,33,45
+Huhn: 08,20,32,44
+Hund: 07,19,31,43
+Schwein: 06,18,30,42
+
+Anzahl der Sonderzahlen: Wählen Sie einen Wert von 1 Einsatz, der der zehnten Ziffer des Lotto-Sondercodes entspricht, d. h. Sie gewinnen.
+Beispiel: Wenn Sie den Lotterie-Sondercode 01 verwenden und auf „0 Kopf“ setzen, gewinnen Sie.
+Die Mantisse des Sondercodes: Die Einerstelle ist die Mantisse, wählen Sie einen Wert als 1 Note, und der Wert ist derselbe wie die Einerstelle des Lotto-Sondercodes, das heißt, Sie gewinnen.
+Beispiel: Wenn der Lotterie-Sondercode 10 ist, setzen Sie auf „0 Zahl“, und Sie gewinnen.
+5. Spezielles Code-kombiniertes Sternzeichen
+Wählen Sie 2 Sternzeichen, um 1 Wette zu bilden. Wenn der spezielle Lotteriecode innerhalb des Zahlenbereichs liegt, der dem Sternzeichen entspricht, auf das Sie gewettet haben, gewinnen Sie. Wenn der Sondercode 49 lautet, herrscht Gleichstand und der Hauptbetrag wird zurückerstattet.
+6.Spezieller Code – Fünf Elemente
+Wenn Sie auf ein Attribut mit fünf Elementen wetten, gewinnen Sie, wenn der spezielle Lotteriecode im Jahr des Drachen (basierend auf dem Mondjahr) innerhalb des Zahlenbereichs liegt, der den fünf Elementen Ihrer Wette entspricht Die fünf Elemente sind wie folgt
+Gold: 02,03,10,11,24,25,32,33,40,41
+Holz: 06,07,14,15,22,23,36,37,44,45
+Wasser: 12,13,20,21,28,29,42,43
+Feuer: 01,08,09,16,17,30,31,38,39,46,47
+Erde: 04,05,18,19,26,27,34,35,48,49
+7. Positiver Code – wählen Sie einen aus
+Wählen Sie 1 Zahl, um eine Wette zu bilden. Wenn die Gewinnzahl die Wettzahl enthält, gewinnen Sie. Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie 02, Sie gewinnen.
+8. Positiver Code 1-6
+Wählen Sie eine positive Zahlenposition und setzen Sie auf ein Attribut, das mit dem Attribut der Lottozahl an dieser Position übereinstimmt.
+Größe: ≥25 ist „groß“, ≤24 ist „klein“, wenn der positive Code 49 ist, handelt es sich um eine Summe, und der Kapitalbetrag wird zurückerstattet.
+Ungerade und gerade: Die einzelnen Ziffern der Lottozahlen 1, 3, 5, 7 und 9 sind ungerade, 0, 2, 4, 6 und 8 sind „gerade“. Die positive Zahl ist 49, also eine Summe. und der Kapitalbetrag wird zurückerstattet.
+Gesamtgröße: Die Summe der Zehner- und Einzelziffern der Lottozahlen beträgt ≥7, was „insgesamt groß“ bedeutet, und ≤6, was „insgesamt klein“ bedeutet. Der positive Code ist 49 und der Hauptwert wird zurückgegeben.
+Gesamte ungerade und gerade Zahlen: Die einzelnen Ziffern der Summe der Zehner- und Einzelziffern der Lottozahlen sind 1, 3, 5, 7 und 9 sind „kombinierte ungerade“ Zahlen, und 0, 2, 4, 6, und 8 sind „kombinierte gerade Zahlen“. Der positive Code ist 49 und der Hauptwert wird zurückgegeben.
+Die Größe des Schwanzes: Die einzelne Ziffer der Lottozahl ist ≥5, was „großer Schwanz“ bedeutet, und ≤4, was „kleiner Schwanz“ bedeutet. Der positive Code ist 49 und der Hauptwert wird zurückgegeben.
+Farbwelle:
+Rote Welle-01,02,07,08,12,13,18,19,23,24,29,30,34,35,40,45,46
+Blaue Welle-03,04,09,10,14,15,20,25,26,31,36,37,41,42,47,48
+Grüne Welle-05,06,11,16,17,21,22,27,28,32,33,38,39,43,44,49
+9. Die siebenfarbige Welle des richtigen Zeichens
+Positives Sternzeichen: Wählen Sie ein Sternzeichen als 1-Wette. Wenn ein positives Sternzeichen zum gleichen Sternzeichen gehört wie das ausgewählte Sternzeichen, gewinnen Sie. Egal wie oft die Zahlen desselben Sternzeichens vorkommen, Sie gewinnen nur einmal.
+Welle mit sieben Farben: Wählen Sie 1 Wellenfarbe, was 1 Wette entspricht. Die Wellenfarbe des regulären Codes wird als 1 gezählt und die Wellenfarbe des Spezialcodes wird als 1,5 gezählt. Nach der Addition der Lotteriezahlen entsprechend den entsprechenden Werten für „rote Welle“, „blaue Welle“ und „grüne Welle“ ist die Wellenfarbe mit dem höheren Wert die aktuelle Siebenfarben-Wellenlotteriefarbe.
+Die folgenden drei Ergebnisse gelten als Unentschieden.
+1: 6 positive Zahlen ergeben 3 blaue und 3 grüne Wellen, während der Sondercode eine rote Welle ist.
+2: 6 positive Zahlen ergeben 3 blaue und 3 rote Wellen, während der Sondercode eine grüne Welle ist.
+3: 6 positive Zahlen ergeben 3 grüne Wellen und 3 rote Wellen, während der Sondercode eine blaue Welle ist.
+Bei einem Unentschieden werden alle Wetten auf rote, grüne und blaue Wellen zurückerstattet; Wetten auf ein Unentschieden können abgeschlossen werden.
+10. Zhengmate
+Positive eins Sonderzahlen ~ positive sechs Sonderzahlen entsprechen der ersten bis sechsten Zahl der Lotteriezahlen, also positiver Code eins bis positiver Code sechs
+Wählen Sie als erste Wette eine Zahl an einer beliebigen Stelle von eins bis sechs. Wenn die ausgewählte Zahl mit der Gewinnzahl für diese Position übereinstimmt, gewinnen Sie.
+Beispiel: Die Lotterienummer ist 010203040506+07, wetten Sie auf „Zhengyi Te 01“ und Sie werden gewinnen.
+11. Lianxiaolianwei
+Zwei aufeinanderfolgende Sternzeichen ~ Fünf aufeinanderfolgende Sternzeichen:
+Wenn das Sternzeichen, das den 7 Lottozahlen entspricht, das ausgewählte Sternzeichen enthält, gewinnen Sie. Wenn die Wettkombination das Sternzeichen des Geburtsjahres enthält, werden die Quoten des Sternzeichens des Geburtsjahres verwendet. Egal wie oft die Zahlen desselben Sternzeichens vorkommen, Sie gewinnen nur einmal.
+Zwei aufeinanderfolgende Sternzeichen: Wählen Sie 2 Sternzeichen für 1 Wette.
+Zum Beispiel: In den Lottozahlen gibt es Zahlen, die dem Drachen und dem Tiger entsprechen. Wetten Sie auf „Drache oder Tiger“ und Sie werden gewinnen.
+Drei aufeinanderfolgende Sternzeichen: Wählen Sie 3 Sternzeichen als 1 Wette.
+Zum Beispiel: Die Lottozahlen umfassen Zahlen, die einem Drachen, einem Tiger und einer Ratte entsprechen. Wetten Sie auf „Drache, Tiger, Ratte“ und Sie werden gewinnen.
+Vier Sternzeichen: Wählen Sie 4 Sternzeichen als 1 Wette.
+Zum Beispiel: Die Lottozahlen umfassen Zahlen, die Drachen, Tiger, Ratte und Kaninchen entsprechen. Wetten Sie auf „Drache, Tiger, Ratte, Hase“ und Sie werden gewinnen.
+Fünf aufeinanderfolgende Sternzeichen: Wählen Sie 5 Sternzeichen als 1 Wette.
+Zum Beispiel: Die Lottozahlen umfassen Zahlen, die Drachen, Tiger, Ratte, Kaninchen und Schwein entsprechen. Wetten Sie auf „Drache, Tiger, Ratte, Kaninchen, Schwein“, um zu gewinnen.
+Zwei aufeinanderfolgende Schwänze bis fünf aufeinanderfolgende Schwänze:
+Wenn die einzelnen Ziffern der 7 gezogenen Zahlen die ausgewählte Mantisse enthalten, gewinnen Sie. Wenn die Wettkombination einen Wert von 0 enthält, werden die Quoten eines Werts von 0 berücksichtigt. Unabhängig davon, wie oft Zahlen mit der gleichen Endzahl erscheinen, wird der Gewinn nur einmal ausgezahlt.
+Zwei aufeinanderfolgende Zahlen: Wählen Sie 2 Mantissen als 1 Wette.
+Beispiel: Wenn die Lottozahlen 10, 20, 30, 41, 42, 43+44 lauten, setzen Sie auf „0 oder 1“, Sie gewinnen.
+Drei aufeinanderfolgende Zahlen: Wählen Sie 3 Mantissen als 1 Wette.
+Beispiel: Wenn die Lottozahlen 10, 20, 30, 41, 42, 43+44 lauten, setzen Sie auf „0 Ende, 1 Ende, 2 Ende“, Sie werden gewinnen.
+Vier aufeinanderfolgende Zahlen: Wählen Sie 4 Zahlen als 1 Wette.
+Beispiel: Wenn die Lottozahlen 10, 20, 30, 41, 42, 43+44 lauten, setzen Sie auf „0 Ende, 1 Ende, 2 Ende, 3 Ende“, Sie werden gewinnen.
+Fünf Zahlen in einer Reihe: Wählen Sie 5 Zahlen als 1 Wette.
+Beispiel: Wenn die Lottozahlen 10, 20, 30, 41, 42, 43+44 lauten, setzen Sie auf „0, 1, 2, 3, 4“ und Sie werden gewinnen.
+12. Kontinuierlicher Code
+Alle vier Gewinnzahlen: Wählen Sie 4 Zahlen, um eine Wette zu bilden, und die Gewinnzahl enthält 4 Wettzahlen, was bedeutet, dass Sie gewinnen.
+Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie „01,02,03,04“ und Sie werden gewinnen.
+Drei Treffer: Wählen Sie 3 Zahlen, um eine Wette zu bilden, und die Gewinnzahl enthält 3 Wettzahlen, was bedeutet, dass Sie gewinnen.
+Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie „01,02,03“ und Sie werden gewinnen.
+Zwei aus drei: Wählen Sie 3 Zahlen aus, um eine Wette zu bilden. Die richtige Zahl enthält 3 Wettzahlen, was bedeutet, dass Sie „drei von drei“ gewinnen. Wenn sie 2 Wettzahlen enthält, bedeutet dies, dass Sie „zwei von drei“ gewinnen.
+Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie „01,02,03“ und Sie werden gewinnen.
+Zwei Treffer: Wählen Sie 2 Zahlen, um eine Wette zu bilden, und die Gewinnzahl enthält 2 Wettzahlen, was bedeutet, dass Sie gewinnen.
+Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie „01,02“ und Sie gewinnen.
+Zwei-Treffer-Spezial: Wählen Sie 2 Zahlen aus, um eine Wette zu bilden. Wenn beide Zahlen die richtigen Zahlen der Lotterie sind, gewinnen Sie „Zwei-in-eins“, wenn eine davon eine positive Zahl ist und die andere Mit einer Sonderzahl gewinnen Sie einen „Hit-in-Special“.
+Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie „01,02“ und Sie gewinnen.
+Sonderzeichenfolge: Wählen Sie 2 Zahlen, um eine Wette zu bilden, von denen eine mit dem Sondercode in der Lotterie identisch ist und die andere Zahl mit einem beliebigen positiven Code identisch ist, d. h. Sie gewinnen.
+Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie „01,07“ und Sie werden gewinnen.
+13. Die Gesamtzahl einer einzelnen Zahl und ihre spezielle Mantisse
+Besonderes Ein Sternzeichen: Wählen Sie 1 Sternzeichen, um eine Wette zu bilden. Wenn die Sternzeichen, die den 7 Lottozahlen entsprechen, dieses Sternzeichen enthalten (die Reihenfolge ist nicht begrenzt), gewinnen Sie. Egal wie oft die Zahlen desselben Sternzeichens vorkommen, Sie gewinnen nur einmal.
+Spezielle Mantisse: Wählen Sie 1 Mantisse. Wenn die Mantisse unter den 7 gezogenen Zahlen die ausgewählte Mantisse enthält, gewinnen Sie. Egal wie oft die gleiche Ziffer erscheint, Sie gewinnen nur einmal.
+Beispiel: Wenn die Lottozahlen 01, 02, 03, 04, 05, 06+07 lauten, setzen Sie auf „1 Zahl“ und Sie gewinnen.
+Gesamtzahl der Sternzeichen: Wählen Sie insgesamt 1 Sternzeichen. Wenn die Anzahl der verschiedenen Sternzeichen, die den 7 Lotteriezahlen entspricht, mit der Gesamtzahl der gesetzten Sternzeichen übereinstimmt, gewinnen Sie.
+Beispiel: Die Anzahl der verschiedenen Sternzeichen in den Lottozahlen beträgt 2. Wenn Sie auf „zwei Sternzeichen“ wetten, gewinnen Sie.
+Die Gesamtzahl der Tierkreiszeichen ist ungerade und gerade: Die Zahlen 3, 5 und 7, die den verschiedenen Tierkreiszeichen entsprechen, die den 7 Lottozahlen entsprechen, sind „Gesamtzahl der ungeraden Tierkreiszeichen“ und 2, 4 und 6 sind „Gesamtzahl der geraden Tierkreiszeichen“. .
+14.Summe
+Gesamtgröße: Die Summe der sieben Lotteriezahlen ist ≥176, was bedeutet, dass die „Summe groß“ ist, ≤174, was bedeutet, dass die „Summe klein ist“, und wenn sie gleich 175 ist, ist sie die Summe, und das Der Hauptbetrag wird zurückerstattet.
+In der Gesamtgröße ist die Summe nicht enthalten: Die Summe der sieben Lottozahlen beträgt ≥175 für „groß“, ≤174 für „klein“ und es gibt keinen Summenwert.
+Die Summe ungerader und gerader Zahlen: Die einzelnen Ziffern 1, 3, 5, 7 und 9 der Summe der sieben Lottozahlen sind „Summe ungerade“, und 0, 2, 4, 6 und 8 sind „Summe gerade“. 
+15. Erfolglose Auswahl
+Wählen Sie zufällig 5 bis 11 Zahlen aus den 49 Zahlen als Wette aus. Wenn alle regulären Zahlen und Sonderzahlen in der Lotterie von den ausgewählten Zahlen abweichen, gewinnen Sie.
+Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie auf „08,09,10,11,12“, Sie werden gewinnen.
+16. Optional
+Selbstgewählt: Wählen Sie eine beliebige Zahl aus 49 Zahlen als Wette. Wenn die 7 gezogenen Zahlen die ausgewählte Zahl enthalten, gewinnen Sie.
+Beispiel: Wenn die Lottozahlen 01,02,03,04,05,06+07 lauten, setzen Sie „02“, Sie gewinnen."
+
+}
