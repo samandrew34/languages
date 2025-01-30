@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Games</title>
+</head>
+<body>
+   
+
+
+  <span style="'color:red;'></span><br>
+  
+  <span style="color:red;"></span><br>
+  
+ <span style="color:red;">3D</span><br>
+ <span style="color:red;">1.第一、第二、第三</span><br>
+从数字 0-9 的范围中，您可选择将出现在球 1、球 2、球 3 上的数字（勾选第 1、第 2 或第 3）。如果您选择 6 出现在球 2 上，并且开奖结果显示数字 6 出现在球 2 上，则您获胜.<br>
+	B/S中奖数字≥5，视为“B”（大）；≤4，视为“S”（小）.<br>
+  <span style="color:red;">O/E: ：</span><br>中奖数字若为 1、3、5、7、9，则计为“O”（单数）；若为 0、2、4、6、8，则计为“E”（双数)<br>
+	<span style="color:red;">P/C:</span><br> 如果中奖数字是 1、2、3、5、7，则视为“P”（素数）；如果是 0、4、6、8、9，则视为“C”（合数.<br>
+
+<span style="color:red;">2.第一名/第二名 & 第一名/第三名 & 第二名/第三名</span><br>
+<span style="color:red;">总和 O/E（第一/第二）:</span><br> 如果第一和第二个开出的中奖数字之和为 1、3、5、7、9，则为“和单”；如果第一和第二个开出的中奖数字之和为 0、2、4、6、8，则为“和双”.<br>
+<span style="color:red;">总和 O/E（第一名/第三名）:</span><br> 如果第一、第三个中奖号码之和为 1、3、5、7、9，则为“单数”；如果第一、第二个中奖号码之和为 0、2、4、6、8，则为“双数”.<br>
+<span style="color:red;">总和 O/E（第二/第三）:</span><br> 若第二、第三个开出的中奖数字之和为1、3、5、7、9，则为“和单”；若第一、第二个开出的中奖数字之和为0、2、4、6、8，则为“和双”.<br>
+
+
+<span style="color:red;">尾数 P/C(第一名/第二名)</span><br>: 如果第一和第二个中奖号码的总和结尾数字为 1、2、3、5、7，则为“尾和素数”，例如 13 或 12 或 13；如果总和为 0、4、6、8、9，则为“尾和合数”，例如 14 或 18 或 16 等.<br>
+<span style="color:red;">尾数 P/C(第一名/第三名):</span><br> 如果第一、第三个中奖号码尾数之和为 1、2、3、5、7，则为“尾和质数”；如果第一、第三个中奖号码尾数之和为 0、4、6、8、9，则为“尾和合数”。<br>
+<span style="color:red;">尾数 P/C(第二名/第三名):</span><br> 如果第一、第三个中奖号码尾数之和为 1、2、3、5、7，则为“尾和质数”；如果第一、第三个中奖号码尾数为 0、4、6、8、9，则为“尾和合数”。<br>
+
+
+<span style="color:red;">尾数 B/S(第一名/第二名):</span><br>  若第一、二期中奖号码尾数之和≥5为“尾数大”，≤4为“尾数小”<br>
+<span style="color:red;">尾数 B/S(第 1 名/第 3 名):</span><br>  若第一、三期开奖号码尾数之和≥5为“尾数大”，≤4为“尾数小”<br>
+<span style="color:red;">尾数 B/S(第二名/第三名):</span><br>  若第二、三期开奖号码尾数之和≥5为“尾数大”，≤4为“尾数小”<br>
+
+<span style="color:red;">4.第一名/ 第二名/ 第三名</span><br>
+
+<span style="color:red;">总和 B/S:</span><br> 若三个中奖数字之和≥14，则为“总和大”；若≤13，则为“总和小”<br>
+
+<span style="color:red;">总和 O/E:</span><br> 如果三个中奖号码的总和或其尾数为 1、3、5、7、9，则为“总和单数”；如果三个中奖号码的总和或其尾数为 0、2、4、6、8，则为“总和双数”<br>
+
+<span style="color:red;">尾数 B/S:</span><br> 若三个中奖数字之和或尾数≥5为“尾数大”；≤4为“尾数小”<br>
+
+<span style="color:red;">尾款 P/C:</span><br>  如果三个中奖号码的总和或其尾数为 1、2、3、5、7，则为“尾和质数”；如果三个中奖号码的总和或其尾数为 0、4、6、8、9，则为“尾和合数”<br>
+
+
+<span style="color:red;">5. 1号组合: </span><br> 选择1个数字进行下注。如果中奖号码包含您选择的号码，则获胜。<br>
+例如：中奖号码1、2、3；您的投注为「1」，则获胜。<br>
+
+<span style="color:red;">2号组合:</span><br>	 选择2个组合号码进行下注，若中奖号码包含您选择的号码，即为中奖<br>
+	例如：中奖号码2、1、1；您的下注号码为「12」，即为中奖。<br>
+
+
+<span style="color:red;">3号组合:</span><br>	 选择3个组合数字进行下注，若中奖号码包含您选择的号码，即为中奖例如：中奖号码3、2、1；您的下注为「123」即为中奖。<br>
+<span style="color:red;">6. 固定位置1号 :</span><br> 从数字 0-9 的范围中，您可选择或选择一个将出现在球 1、球 2 或球 3 上的数字来下注。如果您所选的数字和中奖数字相同且位置相同，则为中奖.<br>
+例如中奖号码 1、2、3；如果您押注号码 1 出现在球 1 或球 2 上，那么这就是中奖，因为球 1 上的号码是 1.<br>
+<span style="color:red;">固定位置2号 :</span><br>  从数字 0-9 的范围中，您可以从两个位置（球 1 和球 2、球 1 和球 3 或球 2 和球 3）各选择 1 个数字来形成赌注.<br>
+如果你选择的号码和中奖号码相同且位置相同，则为中奖.<br>
+例如中奖号码1、2、3；如果你投注1号球和2号球分别为1号和2号，则「第一球-1，第二球-2」，因为你的1号和2号两个号码都在中奖号码中，且在相同的位置，所以算中奖<br>
+
+<span style="color:red;">固定位置3号:</span><br>  从数字 0-9 的范围中，您选择或选定 3 个将出现在球 1、球 2、球 3 上的数字来下注。如果您选择的数字和中奖数字相同且位置或顺序相同，则为中奖.<br>
+例如中奖号码 1、2、3；如果您押注数字 1 出现在第 1 号球上、数字 2 出现在第 2 号球上以及数字 3 出现在第 3 号球上，那么您就中奖了，因为您的三个数字 1、2 和 3 都出现在中奖号码中，并且位置或顺序相同.<br>
+<span style="color:red;">7. 2 号总和 第一名/第二名、第一名/第三名、第二名/第三名 :</span><br> 选取一个数字进行下注，若中奖号码的 1/2、1/3 或 2/3 之和与所选号码相符，即为中奖。例：中奖号码为 1、2、4，您选取 1/2，并押注数字「3」1+2=3，即为中奖.<br>
+
+
+<span style="color:red;">8.第一和第二的尾数 :</span><br> 选择一个数字进行下注。第一球和第二球中奖号码的总和给出的数值与您选择的数字的末尾数字相同，即为获胜.<br>
+例：中奖号码1、2、3；您投注「首二尾3」，第一球与第二球之和为1+2=03，第一球与第二球之和尾数为3，选尾3即中奖.<br>
+例：中奖号码8、6、3；您投注「首二尾4」，第一球与第二球之和为8+6=14，第一球与第二球之和尾数为4，选尾4即中奖.<br>
+<span style="color:red;">9. 3 个数字之和 :</span><br> 选择一个号码，若第1、2、3个中奖号码总和与所选号码相符，则中奖。<br>
+例如：中奖号码2、3、4；若投注「9」，则中奖（2+3+4=9).<br>
+<span style="color:red;">10.3 号尾数之和 :</span><br> 选择一个数字进行下注，第一球、第二球、第三球中奖号码的总和，与您选择的号码结尾的数字相同，即为中奖.<br>
+例：中奖号码1、2、3；您投注「首二三尾6」，首二三球总和为1+2+3=06，首二三球总和尾数为6，选尾6即中奖.<br>
+例：中奖号码8、6、3；您投注「首二三尾7」，首二三球总和为8+6+3=17，首二三球总和尾数为7，选尾7即中奖.<br>
+<span style="color:red;">10. 第 3 组 :</span><br> 在一对中选择一个数字和一个数字组成投注，如果中奖号码包含你选择的一对中的数字和一对，则中奖。<br>
+例如：中奖号码1，1，2；你的投注是「一对：1，；一个号码：2」，这是中奖，因为你选择的一对中的数字1，代表会出现2次，而一个数字中的数字2，代表会出现1次，中奖号码是1，1，2。<br>
+<span style="color:red;">11. 第 6 组 :</span><br> 选择3个数字组成投注，如果您选择的号码和中奖号码相同，即为中奖。<br>
+例如：中奖号码3、2、1；您选择的投注是「1、2、3」，即为中奖.<br>
+<span style="color:red;">12. 跨度 :</span><br> 选取一个号码进行投注，若中奖号码中最高与最低的数差与您选择的数相同，即为中奖<br>
+例如：中奖号码1、2、3；您所选的投注为「2」，中奖号码中最高为3，最低为1，若您找出最高与最低的数差（3-1=2），则中奖号码为2，与您选择的数相同。<br>
+例如：中奖号码4、0、9；您所选的投注为「9」，中奖号码中最高为9，最低为0，若您找出最高与最低的数差（9-0=9），则中奖号码为9，与您选择的数相同。<br>
+
+
+
+
+
+
+
+
+
+
+
+
+english below
+
+
+
+
+
+
+
+
+
+
+<span style="color:red;">3D</span><br>
+<span style="color:red;">1. 1st, 2nd, 3rd</span><br>
+From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3 by ticking 1st, 2nd or 3rd. If you choose 6 to appear on Ball 2 and the draw results has the number 6 appearing on Ball 2, you win.<br>
+<span style="color:red;">B/S: </span><br>If the winning number is ≥ 5, it's considered "B" (Big); if it's ≤ 4, it's considered "S" (Small).<br>
+<span style="color:red;">O/E:</span><br> If the winning numbers are 1, 3, 5, 7, 9, it's considered "O" (Odd); if it's 0, 2, 4, 6, 8, it's considered "E" (Even).<br>
+<span style="color:red;">P/C:</span><br> If the winning numbers are 1, 2, 3, 5, 7, it's considered "P" (Prime); if it's 0, 4, 6, 8, 9, it's considered "C" (Composite).<br>
+
+<span style="color:red;">2. 1st/2nd & 1st/3rd & 2nd/3rd</span><br>
+<span style="color:red;">Sum O/E(1st/2nd):</span><br> If the sum of the first and second drawn winning numbers is 1, 3, 5, 7, 9 this is "Sum Odd"; If the sum of the first and second drawn winning numbers 0, 2, 4, 6, 8 this is "Sum Even".<br>
+<span style="color:red;">Sum O/E(1st/3rd):</span><br> If the sum of the first and third drawn winning numbers is 1, 3, 5, 7, 9 this is "Sum Odd"; If the sum of the first and second drawn winning numbers 0, 2, 4, 6, 8 this is "Sum Even".<br>
+<span style="color:red;">Sum O/E(2nd/3rd):</span><br> If the sum of the second and third drawn winning numbers is 1, 3, 5, 7, 9 this is "Sum Odd"; If the sum of the first and second drawn winning numbers 0, 2, 4, 6, 8 this is "Sum Even".<br>
+
+
+<span style="color:red;">Tail sum P/C(1st/2nd):</span><br> If the sum of the first and second drawn winning numbers has an ending number of 1, 2, 3, 5, 7 this is "Tail sum Prime" eg. 13 or 12 or 13;  and  0, 4, 6, 8, 9 this is "Tail sum composite" eg. 14 or 18 or 16 etc.<br> 
+<span style="color:red;">Tail sum P/C(1st/3rd):</span><br> If the sum of the first and third drawn winning numbers has an ending number of 1, 2, 3, 5, 7 this is "Tail sum prime"; and 0, 4, 6, 8, 9 this is "Tail sum composite."<br>
+<span style="color:red;">Tail sum P/C(2nd/3rd):</span><br> If the sum of the first and third drawn winning numbers has an ending number of 1, 2, 3, 5, 7 this is "Tail sum prime"; 0, 4, 6, 8, 9 this is "Tail sum composite."<br>
+
+<span style="color:red;">Tail sum B/S(1st/2nd)::</span><br>  If the sum of the first and second drawn winning numbers has an ending number ≥ 5 this is "Tail sum Big” and ≤ 4 this is "Tail sum Small”<br>
+<span style="color:red;">Tail sum B/S(1st/3rd):</span><br>  If the sum of the first and third drawn winning numbers has an ending number ≥ 5 this is "Tail sum Big” and ≤ 4 this is "Tail sum Small”<br>
+<span style="color:red;">Tail sum B/S(2nd/3rd)::</span><br>  If the sum of the second and third drawn winning numbers has an ending number ≥ 5 this is "Tail sum Big” and ≤ 4 this is "Tail sum Small”<br>
+
+<span style="color:red;">4. 1st/ 2nd/ 3rd</span><br>
+
+<span style="color:red;">Sum B/S:</span><br> If the sum of the three winning numbers is  ≥ 14 this is "Sum Big"; ≤ 13 this is "Sum Small."<br>
+
+
+<span style="color:red;">Sum O/E:</span><br> If the sum of the three winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is "Sum Odd"; and 0, 2, 4, 6, 8 this is "Sum Even”.<br>
+
+
+<span style="color:red;">Sum O/E:</span><br>Tail sum B/S: If the sum of the three winning numbers is or has an ending number ≥ 5 this is "Tail sum Big"; and ≤ 4 this is "Tail sum Small".
+
+
+<span style="color:red;">Tail sum P/C: </span> <br>If the sum of the three winning numbers is or has an ending number 1, 2, 3, 5, 7 this is "Tail sum Prime"; and  0, 4, 6, 8, 9 as "Tail sum Composite."
+
+
+<span style="color:red;">5. 	1 No. Combo: </span><br> Select 1 Number to form a bet. If the winning numbers include your  
+            selected number, this is a win.<br>
+E.g. Winning No. 1, 2, 3; Your Bet is「1, this is win.<br>
+
+
+<span style="color:red;">2 No. Combo:</span><br> Select a 2 combo numbers to form a bet. If the winning numbers include your selected number, this is win.<br>
+E.g. Winning No. 2, 1, 1; Your bet is「12」this is a win.<br>
+
+
+<span style="color:red;">3 No. Combo:</span><br>3 No. Combo: Select a 3 combo numbers to form a bet. If the winning numbers include your selected number, this is a win.<br>
+E.g. Winning No. 3, 2, 1; Your bet is「123」this is a win.<br>
+
+
+<span style="color:red;">6. Fixed Place 1 No. :</span><br> From the range of numbers 0-9, you choose or select 1 number that will appear either on Ball 1, Ball 2, Ball 3 to form a bet.  If your selected number and winning number is the same and same position, this is a win. <br>
+E.g. Winning No. 1, 2, 3; If you bet on the number 1 to appear on Ball 1 or Ball 2, this is a win because Ball 1 had the number 1.<br>
+
+<span style="color:red;">Fixed Place 2 No. :</span><br> From the range of numbers 0-9, you choose or select 1 number each from     two positions, either in  Ball 1 and  Ball 2, Ball 1 and Ball 3, or Ball 2 and Ball 3  to form a bet.<br>
+If your selected number and winning number is the same and same position, this is a win.<br>
+E.g. Winning No. 1, 2, 3; If you bet on Ball 1 and Ball 2 to have the number 1 and 2 respectively「1st Ball -1, 2nd Ball - 2」this is a win because your two numbers 1 and 2 are found in the winning number and also in the same positions.<br>
+
+<span style="color:red;">Fixed Place 3 No. :</span><br>   From the range of numbers 0-9, you choose or select 3 numbers that will appear on Ball 1, Ball 2, Ball 3 to form a bet. If your selected numbers and winning numbers are the same and in the same position or order, this is a win.<br> 
+E.g. Winning No. 1, 2, 3; If you bet on the number 1 to appear on Ball 1, 2 to appear on Ball 2 and 3 to appear on Ball 3,  this is a win because your three numbers 1, 2 and 3 were found in the winning numbers and also in the same position or order.<br>
+
+<span style="color:red;">7. Sum of 2 No. 1st/2nd, 1st/3rd, 2nd/3rd :</span><br>  Select a number to form a bet. If the 1st/2nd, 1st/3rd or 2nd/3rd sum of the winning numbers matches the number you selected, it's a win.   Eg.: If the winning numbers are 1, 2, 4 and you choose 1st/2nd and bet on the number「3」1+2=3, this is a win. <br>
+
+
+<span style="color:red;">8. Tail Sum of 1st&2nd :</span><br> Select a number to form a bet. The sum of the 1st Ball & 2nd Ball winning numbers gives a value with an ending number same as the number you selected, this is win.<br>
+E.g. Winning No. 1, 2, 3; Your bet「1st/2nd tail3」, the sum of 1st and 2nd ball is 1+2=03. The ending number or tail of the sum of1st & 2nd Ball is 3, so if you selected tail 3, you win.<br>
+E.g. Winning No. 8, 6, 3; Your bet「1st/2nd tail4」, the sum of 1st and 2nd ball is 8+6=14. The ending number or tail of the sum of1st & 2nd Ball is 4 , so if you selected tail 4, you win.<br>
+
+<span style="color:red;">9. Sum of 3 No. :</span><br> Select a number. If the sum of the 1st,  2nd and 3rd winning numbers matches the selected number, it's a win.<br>
+E.g. Winning No. 2, 3, 4; If you bet「9」, this is a win (2+3+4=9).<br>
+
+<span style="color:red;">10. Tail Sum of 3 No. :</span><br> Select a number to form a bet. The sum of the 1st Ball, 2nd Ball and 3rd Ball winning numbers gives a value with an ending number same as the number you selected, this is win.<br>
+E.g. Winning No. 1, 2, 3; Your bet「1st/2nd/3rd tail6」, the sum of 1st, 2nd and 3rd ball is 1+2+3=06. The ending number or tail of the sum of 1st, 2nd and 3rd Ball is 6, so if you selected tail 6, you win.<br>
+E.g. Winning No. 8, 6, 3; Your bet「1st/2nd/3rd tail7」, the sum of 1st, 2nd and 3rd ball is 8+6+3=17. The ending number or tail of the sum of 1st, 2nd and 3rd Ball is 7 , so if you selected tail 7, you win.<br>
+
+<span style="color:red;">10. Group 3 :</span><br> Select a number in One Pair and a number in One number to form a bet. If the winning numbers include the number from One number and a pair of the number in One pair that you selected, this is a win.<br>
+E.g. Winning No. 1, 1, 2; Your bet is「One Pair: 1,; One No.: 2」, this is a win, because you selected the number 1 in one pair, meaning it will appear 2 times and 2 in One number meaning it will appear once, and the winning number was 1,1,2.<br>
+<span style="color:red;">11. Group 6 :</span><br> Select 3 Numbers to form a bet. If your selected numbers and winning numbers are the same, this is a win.<br>
+E.g. Winning No. 3, 2, 1; Your selected bet is「1, 2, 3」, this is a win.<br>
+<span style="color:red;">12. Span :</span><br> Select a number to form a bet. If the difference of the highest number and lowest number in the winning numbers is the same as your selection, this is a win.<br>
+E.g. Winning No. 1, 2, 3; Your selected Bet is「2」, this is a win, because the highest number in the winning numbers is 3 and the lowest number is 1, and if you find the difference between highest and lowest (3-1=2), you get 2 which is the same as you selected.<br>
+E.g. Winning No. 4, 0, 9; Your selected Bet is「9」, this is a win, because the highest number in the winning numbers is 9 and the lowest number is 0, and if you find the difference between highest and lowest (9-0=9), you get 9 which is the same as you selected.<br>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

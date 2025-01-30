@@ -1,0 +1,436 @@
+{
+
+
+
+    "
+
+<span style='color:red;'>Extra No. 2 Sides</span><br>
+
+<span style='color:red;'>B/S Extra No.:</span><br> When the Extra number drawn  ≥ 25 this is Big;  ≤ 24 this is Small; when the Extra number is 49 this is a Tie, and a refund is given.<br>
+
+
+<span style='color:red;'>O/E Extra No.:</span><br> When the Extra number drawn has an ending number of 1, 3, 5, 7, 9 this is Odd.  Eg. If the extra number is 17 this is odd because the ending number of 17 which is 7 is odd; and when the Extra number drawn has an ending number of  0, 2, 4, 6, 8 this is Even Eg. If the extra number is 34 this is even because the ending number of 34 which is 4 is even; when the Extra number is 49 this is a Tie, and a refund is given.<br>
+
+
+<span style='color:red;'>B/S Sum of Extra head & tail:</span><br> When the sum of the 1st and 2nd digit of the Extra number drawn is  ≥ 7 this is  Sum Big Eg. If the extra number is 27, the sum of the first and second digit 2+7=9, and 9 > 7 so this is Sum big; when the sum ≤ 6 this is Sum Small Eg. 13 as extra number, sum is 3+1=4, and 4 < 6 so this is Sum small; when the Extra number is 49 this is Tie, and a refund.<br>
+
+
+<span style='color:red;'>O/E Sum of extra head & tail:</span><br>  When the sum of the 1st and 2nd digit of the Extra number drawn has an ending number 1, 3, 5, 7, 9 this is Sum Odd; and 0, 2, 4, 6, 8 this is Sum Even. Extra No. 49 as Tie, refund.<br>
+
+
+<span style='color:red;'>Extra No.: </span><br> Zodiac Sky or Zodiac Ground: Select one Extra zodiac, either Zodiac Sky or Zodiac Ground to form a bet. If the Extra number in the winning drawn numbers includes either Ox, Rabbit, Dragon, Horse, Monkey, Pig  and you select Zodiac Sky as the Zodiac Extra Number, you win as Sky Zodiac; If  either Rat, Tiger, Snake, Goat, Cock, Dog is drawn as the extra zodiac number and you select Zodiac ground you win as Ground Zodiac; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+
+<span style='color:red;'>Extra No.: </span><br> Zodiac First, Zodiac Last: Select one extra zodiac, either Zodiac First or Zodiac Last to form a bet. If the Extra number in the winning drawn numbers includes either <br>
+Rat, Ox, Tiger, Rabbit, Dragon, Snake and you select Zodiac First as the Zodiac Extra Number, you win as Zodiac First;. If either Horse, Goat, Monkey, Cock, Dog, Pig is drawn as the extra zodiac number and you select Zodiac Last you win as Zodiac Last; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+
+<span style='color:red;'>Extra No.:</span><br> Zodiac Poultry, Zodiac Beast: Select one extra zodiac, either Zodiac Poultry or Zodiac Beast to form a bet.  If the Extra number in the winning drawn numbers includes either<br>
+Ox, Horse, Goat, Cock, Dog, Pig and you select Zodiac Poultry as the Zodiac Extra Number, you win as Zodiac Poultry; If  either Rat, Tiger, Dragon, Snake, Rabbit, Monkey is drawn as the extra zodiac number and you select Zodiac Beast you win as Zodiac Beast; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+
+<span style='color:red;'>B/S Extra tail:</span><br> If the ending digit (tail) of the Extra number drawn is  ≥  5 (eg. 18, 8 is bigger than 5) this is Big tail;  ≤ 4 (eg. 23, 3 is smaller than 4) this is Small tail; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+
+<span style='color:red;'>B/S/O/E Extra No.:</span><br> If the Extra number  ≥ 25 this is Big;  ≤ 24 this is Small. If the Extra number is or has an ending digit of 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+
+<span style='color:red;'>B/S, O/E Combo Generate:</span><br>「Select 1 type to form a bet 「Big Odd」,「Small Odd」,「Big Even」,「Small Even」 (Small: 01-24, Big: 25-48; Odd: Unit digit 1,3,5,7,9, Even: Unit digit 0,2,4,6,8), if your selection is matching the form of the Extra winning number this is a  win.<br>
+E.g. If the Extra number is 48; Your bet is「Big Even」, this is a win, because 48 is big and also an even number.<br>
+
+
+
+
+<span style='color:red;'>2.Extra No.</span><br>
+Select a Number from 1- 49 to form a bet. If your selected number and the Extra Number are the same, this is a win. E.g. Extra No. 01; Your Bet 01, this is a win.<br>
+
+<span style='color:red;'>3.Extra No. All color</span><br>
+
+<span style='color:red;'>Color:</span><br>49 numbers are split into Red, Blue, Green. If your selected color and Extra number color are the same, this is a win.<br>
+<span style='color:red;'>Red balls</span><br> 01 ,02 ,07 ,08 ,12 ,13 ,18 ,19 ,23 ,24 ,29 ,30 ,34 ,35 ,40 ,45 ,46<br>
+<span style='color:red;'>Blue balls</span><br> 03 ,04 ,09 ,10 ,14 ,15 ,20 ,25 ,26 ,31 ,36 ,37 ,41 ,42 ,47 ,48<br>
+<span style='color:red;'>Green balls</span><br>05 ,06 ,11 ,16 ,17 ,21 ,22 ,27 ,28 ,32 ,33 ,38 ,39 ,43 ,44 ,49<br>
+
+
+<span style='color:red;'>2 Side Color:</span><br> The Colors are combined with Big, Small, Odd and Even, as 2 Side Color game play. ≥ 25 is Big;  and  ≤ 24 is Small; 1, 3, 5, 7, 9 is Odd; 0, 2, 4, 6, 8 is Even. If your selected and Extra number drawn for 2 Side Color is the same, this is a win. If the Extra number is 49 this is a Tie, and a refund.<br>
+ E.g. If the Extra Number is 48  and your bet is「Big Blue」this is a  win because 48 is split to the blue balls color and it is also Big (≥25)<br>
+
+
+
+
+ <span style='color:red;'>4 Side Color:</span><br> The Colors are combined with Big Odd, Small Even, Small Odd and Small Even,as 4 Side Color gameplay.<br>
+If your selected and Extra number drawn for 4 Side Color is the same, this is a win. If the Extra number is 49 this is a Tie, and a refund.<br>
+E.g.  If the Extra Number is 48  and your bet is「Big Blue Even」this is a  win because 48 is split to the blue balls color, it is an even number and it is also Big (≥25).<br>
+
+
+
+
+<span style='color:red;'>4.Extra No. Special zodiac head & tail</span><br>
+<span style='color:red;'>Extra No. Zodiac: </span><br>Select 1 Zodiac to form a bet. If the Extra winning number drawn is within your selected Number, this is a win. Now Dragon year (based on lunar year). 12 Zodiac as follows:<br>
+<span style='color:red;'>Rat: </span> 05,17,29,41<br>
+<span style='color:red;'>Ox:</span>04,16,28,40<br>
+<span style='color:red;'>Tiger:</span> 03,15,27,39<br>
+<span style='color:red;'>Rabbit:</span> 02,14,26,38<br>
+<span style='color:red;'>Dragon:</span> 01,13,25,37,49<br>
+<span style='color:red;'>Snake:</span> 12,24,36,48<br>
+<span style='color:red;'>Horse:</span> 11,23,35,47<br>
+<span style='color:red;'>Goat:</span> 10,22,34,46<br>
+<span style='color:red;'>Monkey:</span> 09,21,33,45<br>
+<span style='color:red;'>Cock:</span> 08,20,32,44<br>
+<span style='color:red;'>Dog:</span> 07,19,31,43<br>
+<span style='color:red;'>Pig:</span> 06,18,30,42<br>
+
+
+<span style='color:red;'>Extra No. head:</span><br> Select 1 value to form a bet. If the 1st digit of the Extra Number and your selection is the same, this is a win.<br>
+E.g. Extra Winning Number is. 01, If your bet is「0 head」this is a win, because the first digit of the extra number is 0.<br>
+
+
+<span style='color:red;'>Extra No. tail:</span><br> Select 1 value to form a bet . If the 2nd digit (tail) of the Extra Number and your selection is the same, this is a win.<br>
+E.g. Extra Winning Number is. 10, If your bet is「0 tail」, this is a win, because the second digit (tail) of the extra number is 0.<br>
+
+
+
+
+
+
+<span style='color:red;'>5. Extra No - Combo zodiac :</span><br> Select 2 Zodiacs to form a bet. If the Extra WInning Number is within your selected Numbers, this is a win. If the Extra number is 49 this is a Tie, and a refund.<br>
+
+
+<span style='color:red;'>6. Extra No - 5 Elements</span><br>
+Bet on one of the 5 elements. If the Extra Winning Number is within your selected Numbers, this is a win. Dragon year (based on lunar year).<br>
+<span style='color:red;'>5 elements No. as follows:</span><br>
+<span style='color:red;'>Metal：</span><br>02,03,10,11,24,25,32,33,40,41<br>
+<span style='color:red;'>Wood：</span><br>06,07,14,15,22,23,36,37,44,45<br>
+<span style='color:red;'>Water:</span><br>：12,13,20,21,28,29,42,43<br>
+<span style='color:red;'>Fire：</span><br>01,08,09,16,17,30,31,38,39,46,47<br>
+<span style='color:red;'>Earth:</span><br>04,05,18,19,26,27,34,35,48,49<br>
+
+
+<span style='color:red;'>7. Ball No. - Pick 1</span><br>
+Select a Number to form a bet. If the drawn winning number is included in your selection this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, your bet is 02, this is a win.<br>
+
+<span style='color:red;'>8.Ball No. 1~6</span><br>
+
+Select a Ball number position, and bet on 1 element. If the selected and winning number or element is the same, this is a win.<br>
+<span style='color:red;'>B/S:</span><br> ≥ 25 this is Big; ≤ 24  this is Small; If the Extra number is 49 this is a Tie, and a refund.<br>
+<span style='color:red;'>O/E:</span><br> If the winning number is 1, 3, 5, 7, 9 this is Odd; and  0, 2, 4, 6, 8 this is Even; Ball No. 49 as Tie, refund.<br>
+<span style='color:red;'>B/S Sum:</span><br> If the sum of 1st, 2nd winning number  ≥ 7 this is Sum Big; ≤ 6 as Sum Small; Ball No. 49 as Tie, refund.<br>
+<span style='color:red;'>O/E Sum: </span><br>If the sum of 1st, 2nd is or has an ending digit of 1, 3, 5, 7, 9 this is Sum Odd; and  0, 2, 4, 6, 8 this is  Sum Even; Ball No. 49 as Tie, refund.<br>
+<span style='color:red;'>Tail B/S:</span><br> Winning No. ≥ 5 as “Big tail”; ≤ 4 as Small tail; Ball No. 49 as Tie, refund.<br>
+<span style='color:red;'>Color:</span><br>
+<span style='color:red;'>Red</span><br> 01 ,02 ,07 ,08 ,12 ,13 ,18 ,19 ,23 ,24 ,29 ,30 ,34 ,35 ,40 ,45 ,46<br>
+<span style='color:red;'>Blue</span><br> 03 ,04 ,09 ,10 ,14 ,15 ,20 ,25 ,26 ,31 ,36 ,37 ,41 ,42 ,47 ,48<br>
+<span style='color:red;'>Green</span><br> 05 ,06 ,11 ,16 ,17 ,21 ,22 ,27 ,28 ,32 ,33 ,38 ,39 ,43 ,44 ,49<br>
+
+<span style='color:red;'>9.One Zodiac Color Balls</span><br>
+
+
+<span style='color:red;'>One Zodiac:</span><br> Select 1(one) Zodiac to form a bet. If your selection or zodiac selection is drawn in the winning numbers and this is a win.<br>
+No matter how often the same Zodiac animal you selected  appears, you only win once.<br>
+
+<span style='color:red;'>Color Balls:</span><br> Select 1 Color balls to form a bet. The Ball number color count for the first six balls is 1; The Extra number color is counted as 1.5. So after counting and adding up the Red, Blue, Green ball colors respectively, the highest Color Balls drawn wins.<br>
+Eg. If a drawn winning numbers has a total of 3 red balls, 3 blue balls and 1 green ball, this is generally a tie unless the blue ball or the red ball occurs as the extra number position, them in that case instead of the blue or or red ball having a total count each if 3, then one that appeared at extra number position will have a count of 1.5. So if red for instance occurs at the extra number position, the count will be as follows: 3.5 red balls, 3 blue balls and 1 green ball. So the red balls will have the highest count and betting on red balls will be a win.<br>
+A Tie can occur in 3 result as follows:<br>
+1: If the first 6 Balls are: 3 Blue Balls, 3 Green Balls, and the  Extra number is a Red Ball<br>
+2: If the first 6 Balls are: 3 Blue Balls,  3 Red Balls, and the Extra number is a Green Ball<br>
+3: If the first 6 Balls are: 3 Green Balls, 3 Red Balls,  and the Extra number is a Blue Ball<br>
+If a Tie occurs, all Red, Green, Blue Color Balls bet wagers will be refunded; You can also choose to bet on Tie<br>
+
+
+<span style='color:red;'>10.Fixed place</span><br>
+<span style='color:red;'>1st~6th winning No. Fixed place Ball1~Fixed place Ball6, as Ball1~Ball6.</span><br>
+From the range of numbers 01-49, you choose or select 1 number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5 or Ball 6 to form a bet.  If your selected number and winning number is the same and same position, this is a win. <br>
+E.g. Winning No. 01, 02, 03, 04, 05, 06 +07; If you bet on the number 01 to appear on Ball 1 「Fixed Place Ball1 01 」,this is a win because Ball 1 had the number 01.<br>
+
+<span style='color:red;'>11. Row Zodiac Row tail</span><br>
+<span style='color:red;'>2 Row Zodiac ~ 5 Row Zodiac</span><br>
+If the 7 winning zodiac drawn numbers include your selected zodiac, this is a win. Bet combo includes Natal Zodiac and its odds. No matter how often the same Zodiac number appears, you only win once.<br>
+
+<span style='color:red;'>2 Row Zodiac:</span><br> Select 2 Zodiacs to form a bet.
+E.g. Bet「Dragon, Tiger」, Winning numbers include Dragon, Tiger Numbers, this is a win.<br>
+
+<span style='color:red;'>2 Row Zodiac:</span><br> Select 3 Zodiacs to form a bet.<br>
+E.g. Bet「Dragon, Tiger, Rat」, Winning numbers includes Dragon, Tiger, Rat Numbers, this is a win.<br>
+
+<span style='color:red;'>4 Row Zodiac:</span><br> Select 4 Zodiacs to form a bet.<br>
+E.g. Bet「Dragon, Tiger, Rat, Rabbit」, Winning numbers includes Dragon, Tiger, Rat, Rabbit Numbers, this is a win.<br>
+
+<span style='color:red;'>5 Row Zodiac:</span><br> Select 5 Zodiacs to form a bet.<br>
+E.g. Bet「Dragon, Tiger, Rat, Rabbit, Pig」, Winning numbers includes Dragon, Tiger, Rat, Rabbit, Pig Numbers, this is a win.<br>
+
+<span style='color:red;'>2 Row Tail ~ 5Row Tail</span><br>
+
+If the 7 winning zodiac drawn numbers include your selected zodiac, this is a win. Bet combo includes 0 tail and its odds. No matter how often the same tail number appears, you only win once.<br>
+<span style='color:red;'>2 Row Tail:</span><br>
+ Select 2 tails to form a bet.
+E.g.  Bet「0 tail, 1 tail」,  Winning numbers  10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0 and 1 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1)
+<br>
+<span style='color:red;'>3 Row Tail:</span><br> Select 3 tails to form a bet.
+E.g. Bet「0 tail, 1 tail 2 tail」, Winning numbers  10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1 and 2 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2)<br>
+
+<span style='color:red;'>4 Row Tail:</span><br>  Select 4 tails to form a bet.
+E.g. Bet「0 tail, 1 tail, 2 tail, 3 Tail」,  Winning No. 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1, 2 and 3 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2, 43 ends with 3)<br>
+<span style='color:red;'>5 Row Tail:</span><br>
+ Select 5 tails to form a bet.
+E.g. Bet「0 tail, 1 tail, 2 tail, 3 Tail, 4 tail」,   Winning No. 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1, 2, 3 and 4 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2, 43 ends with 3, 44 ends with 4)<br>
+
+<span style='color:red;'>12. Row No.</span><br>
+<span style='color:red;'>Win 4:</span><br>
+ Select 4 numbers to form a bet. If the winning ball numbers include your selection, this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03,04」this is a win.<br>
+<span style='color:red;'>Win 3:</span><br>
+ Select 3 numbers to form a bet. If the winning ball numbers include your selection, this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03」this is a win.<br>
+<span style='color:red;'>Win 2/3:</span><br>
+ Select 3 numbers to form a bet. If the 3 winning ball numbers include all your 3 selections, win 3/3; If the 3 winning ball numbers include your 2 selections, win 2/3.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03」this is a win.<br>
+<span style='color:red;'>Win 2/2:</span><br>
+ Select 2 numbers to form a bet. If the winning ball numbers include your selection, this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02」this is a win.<br>
+<span style='color:red;'>2No.:</span><br>
+ Select 2 Numbers to form a bet. If the winning ball numbers include your 2 numbers selection, this is a win as 2 Ball Number. Also 1 Ball Number and 1 Extra Number, this is a Win Extra.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet is 「01,02」this is a win.<br>
+<span style='color:red;'>Win Extra No.:</span><br>
+ Select 2 Numbers to form a bet. If the winning numbers and extra number is included in your selection, this is a win.  Any 1 Ball Number, 1 Extra Number, as win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,07」this is a win, because the number 7 which is the extra number and number 1 are what you selected. <br>
+
+
+<span style='color:red;'>13. Zodiac & tail</span><br>
+
+<span style='color:red;'>Extra & Ball Zodiac:</span><br>
+ Select 1 Zodiac to form a bet. If the 7 drawn Zodiac winning numbers, include your zodiac selection this is a win. No matter how often the same Zodiac Number appears, you only win once.<br>
+ <span style='color:red;'>Extra & Ball tail:</span><br> Select 1 tail number to form. If the 7 drawn tail Numbers include your selection this is a win. No matter how often the same tail Number appears, you only win once.<br>
+E.g. Your bet「Tail 1」, Winning Numbers. 01,02,03,04,05,06+07; this is a win, because the 01 in the winning number has a tail or ending digit of 1, which is the same as your selection Tail 1.<br>
+<span style='color:red;'>Zodiac No.:</span><br> 
+ Select 1 Zodiac to form a bet. If the 7 drawn Zodiac winning numbers, include your zodiac selection this is a win.<br>
+E.g. Your bet「2 Zodiac」; If the winning numbers have only 2 different Zodiac Numbers, this is a win.<br>
+<span style='color:red;'>O/E:</span><br> 
+ If the Zodiac animal count in the 7 winning draw numbers is 3, 5, 7 Zodiac this is  Zodiac Number Odd; 2, 4, 6 this is Zodiac Number Even.<br>
+
+ <span style='color:red;'>O/E:</span><br> 
+ <span style='color:red;'> 14.Sum</span><br>
+ <span style='color:red;'> B/S Sum:</span><br> If the Sum of the 7 winning Numbers  ≥ 176 this is Sum Big;  ≤ 174 this is Sum Small; If the sum = 175 this is a Tie, and a refund.<br>
+ <span style='color:red;'> Total sum without Tie:</span><br> If the Sum of the 7 winning Numbers  ≥ 176 this is Sum Big;  ≤ 174 this is Sum Small, there is no tie.<br>
+
+ <span style='color:red;'> O/E Sum:</span><br> If the Sum of the 7 winning Numbers has an ending digit or tail 1, 3, 5, 7, 9 this is Sum Odd; and  0, 2, 4, 6, 8 this is Sum Even.<br>
+ <span style='color:red;'> 15.Mismatch</span><br>
+
+Select between 5~11 numbers from a range of 49 numbers to form a bet. If your selection and the winning Ball Numbers and Extra Number.are not the  same, this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, your bet「08,09,10,11,12」this is a win.<br>
+<span style='color:red;'>16.Optional</span><br>
+
+Choose any 1 number from 49 numbers to form a bet, if the 7 numbers in the draw contain the chosen number, it is a win.<br>
+Example: Drawing numbers 01,02,03,04,05,06+07, betting on 02 wins the prize.<br>
+
+
+
+
+
+":"
+
+     <span style='color:red;'>Mark6</span><br>
+
+    
+
+      <span style='color:red;'>  1.	Extra No. 2 Sides</span><br>
+    
+      
+      <span style='color:red;'> B/S Extra No.:</span><br> 当开出的加码数≥25时为“大”；≤24时为“小”；当开出的加码数为49时为平局，并退款<br>
+      <span style='color:red;'> O/E Extra No.:</span><br> 如果抽出的额外数字的尾数为 1、3、5、7、9，则为“奇数”。例如，如果额外数字为 17，则为奇数，因为 17 的尾数为 7，即为奇数；如果抽出的额外数字的尾数为 0、2、4、6、8，则为“偶数”。例如，如果额外数字为 34，则为偶数，因为 34 的尾数为 4，即为偶数；如果额外数字为 49，则为平局，并退款.<br>
+      
+      <span style='color:red;'> B/S Sum of Extra head & tail:</span><br> 开出的加码第一位和第二位数字之和≥7为“和大” 例如加码为27，第一位和第二位数字之和为2+7=9，9>7为和大；和≤6为“和小” 例如加码为13，和为3+1=4，4<6为和小；加码为49为平局，退款.<br>
+      
+      
+      <span style='color:red;'> O/E Sum of extra head & tail: </span><br>当开出的加码号码第一位和第二位数字的总和为 1、3、5、7、9 时，为“总和奇数”；为 0、2、4、6、8 时，为“总和偶数”。加码号码 49 为平局，退款.<br>
+      
+      <span style='color:red;'> Extra No.: </span><br> Zodiac Sky or Zodiac Ground: 选择一个额外生肖，无论是天生肖还是地生肖，都可以下注。如果中奖抽奖号码中的额外数字包括牛、兔、龙、马、猴、猪，并且您选择天生肖作为额外生肖数字，则您以“天生肖”获胜；如果额外生肖数字是鼠、虎、蛇、羊、鸡、狗，并且您选择地生肖，则您以“地生肖”获胜；如果额外数字是 49，则为平局，并退款.<br>
+      
+      <span style='color:red;'> Extra No.:</span><br> Zodiac First, Zodiac Last: 选择一个额外的生肖，无论是生肖第一还是生肖最后，以形成赌注。如果中奖抽奖号码中的额外数字包括鼠、牛、虎、兔、龙、蛇，并且您选择生肖第一作为生肖额外数字，则您以“生肖第一”获胜；如果抽奖号码为马、羊、猴、鸡、狗、猪，并且您选择生肖最后，则您以“生肖最后”获胜；如果额外数字为 49，则为平局，并退款<br>
+      <span style='color:red;'>Extra No.:</span><br> Zodiac Poultry, Zodiac Beast: 选择一个额外生肖，即生肖禽兽或生肖兽，进行下注。如果中奖抽奖号码中的额外数字包括<br>
+      牛、马、羊、鸡、狗、猪，并且您选择生肖禽兽作为额外生肖数字，则您以“生肖禽兽”获胜；如果额外数字为鼠、虎、龙、蛇、兔、猴，并且您选择生肖兽兽，则您以“生肖兽兽”获胜；如果额外数字为 49，则为平局，并退款.<br>
+      <span style='color:red;'>B/S Extra tail:</span><br>  如果开出的额外号码尾数（尾部）≥5（例如18、8大于5），则为“大尾”；≤4（例如23、3小于4），则为“小尾”；如果额外号码为49，则为平局，并退款.<br>
+     <span style='color:red;'>B/S/O/E Extra No.:</span><br>  如果额外数字≥25，则为“大”；≤24，则为“小”。如果额外数字是或尾数为1、3、5、7、9，则为“奇”；为0、2、4、6、8，则为“偶”；如果额外数字为49，则为平局，并退款.<br>
+      
+      <span style='color:red;'>B/S, O/E Combo Generate:</span><br> 「选择1种投注方式组成「大单」、「小单」、「大双」、「小双」 (小：01-24，大：25-48；单数：个位1、3、5、7、9，双数：个位0、2、4、6、8)，若您的选择与加码开奖号码形式相符即为中奖。<br>
+      例如：加码开奖号码为48；您的投注为「大双」，即为中奖，因为48是大数，也是双数.<br>
+      
+      
+      
+     <span style='color:red;'>2.Extra No.:</span><br>
+      从 1-49 中选择一个数字进行下注。如果您选择的号码和额外号码相同，则获胜。例如，额外号码 01；您的投注 01，则获胜.<br>
+      <span style='color:red;'>3.Extra No. All color</span><br>
+      颜色：49 个数字分为红色、蓝色、绿色。如果您选择的颜色和额外数字颜色相同，则获胜。<br>
+      红球 01 、02 、07 、08 、12 、13 、18 、19 、23 、24 、29 、30 、34 、35 、40 、45 、46<br>
+      蓝球 03 、04 、09 、10 、14 、15 、20 、25 、26 、31 、36 、37 、41 、42 、47 、48<br>
+      绿球 05 、06 、11 、16 、17 、21 、22 、27 、28 、32 、33 、38 、39 、43 、44 、49<br>
+      <span style='color:red;'>2 Side Color:</span><br> 颜色以大、小、奇、双组合，为双色游戏。≥ 25 为“大”；≤ 24 为“小”；1、3、5、7、9 为“奇”；0、2、4、6、8 为“双”。如果您选择的双色号码和抽出的额外号码相同，则为赢。如果额外号码为 49，则为平局，并退款。<br>
+      例如：如果额外号码为 48，而您的投注为“大蓝”，则为赢，因为 48 被分成蓝球颜色，并且也是大（≥25）<br>
+      
+      <span style='color:red;'>4 Side Color:</span><br> 颜色组合为大单、小双、小单、小双，为4边色玩法。<br>
+      如果您选择的4边色和抽出的额外数字相同，则获胜。如果额外数字是49，则为平局，并退款。<br>
+      例如。如果额外数字是48，而您的投注是“大蓝双”，则获胜，因为48被分成蓝球颜色，它是一个偶数，也是大（≥25）<br>
+      
+      <span style='color:red;'>4.Extra No. Special zodiac head & tail</span><br>
+      <span style='color:red;'>Extra No. Zodiac:</span><br> 选择 1 个生肖进行下注。如果抽出的额外中奖号码在您选择的号码范围内，则获胜。现在是龙年（以农历为准）。12 生肖如下：<br>
+      <span style='color:red;'>4 Side Color:</span><br> 05,17,29,41<br>
+      <span style='color:red;'>ox</span><br>04,16,28,40<br>
+      <span style='color:red;'>Tiger</span><br> 03,15,27,39<br>
+      <span style='color:red;'>Rabbit</span><br>02,14,26,38<br>
+     <span style='color:red;'>Dragon</span><br> 01,13,25,37,49<br>
+      <span style='color:red;'>Snake</span><br> 12,24,36,48<br>
+     <span style='color:red;'>Horse</span><br> 11,23,35,47<br>
+      <span style='color:red;'>Goat</span><br>10,22,34,46<br>
+     <span style='color:red;'>Monkey</span><br> 09,21,33,45<br>
+      <span style='color:red;'>Cock</span><br> 08,20,32,44<br>
+      <span style='color:red;'>Dog</span><br> 07,19,31,43<br>
+     <span style='color:red;'>Pig</span><br> 06,18,30,42<br>
+     <span style='color:red;'>Pig</span><br> 06,18,30,42<br>
+      Extra No. head: 选择1个数值进行下注，如果加码号码第一位和您选择的相同，则中奖。<br>
+      例如加码中奖号码是01，如果您下注的是「0头」，则中奖，因为加码号码第一位是0。<br>
+     <span style='color:red;'>  Extra No. tail:</span><br>
+     选择1个数值进行下注，如果加码数字的第二个数字（尾数）和您选择的数字相同，则获胜。<br>
+      例如加码中奖号码为10，如果您投注的是「0尾」，则获胜，因为加码数字的第二个数字（尾数）为0。<br>
+      
+      <span style='color:red;'> 5. Extra No - Combo zodiac :</span><br> 
+      选择 2 个十二生肖进行下注。如果额外中奖号码在您选择的号码范围内，则为中奖。如果额外号码为 49，则为平局，并退款。<br>
+      <span style='color:red;'>  6. Extra No - 5 Elements</span><br> 
+     
+      押注五行之一。如果额外中奖号码在您选择的号码之内，则中奖。龙年（以农历为准）。<br>
+      五行号码如下：<br>
+      <span style='color:red;'> Metal：</span><br> 02,03,10,11,24,25,32,33,40,41<br>
+      <span style='color:red;'> Wood：</span><br> 06,07,14,15,22,23,36,37,44,45<br>
+      <span style='color:red;'>  Water：</span><br> 12,13,20,21,28,29,42,43<br>
+     <span style='color:red;'> Fire：</span><br> 01,08,09,16,17,30,31,38,39,46,47<br>
+      <span style='color:red;'>  Earth</span><br> ：04,05,18,19,26,27,34,35,48,49<br>
+      <span style='color:red;'>    7. Ball No. - Pick 1</span><br>
+    
+      选择一个数字进行下注。如果中奖号码包含在您选择的号码中，则表示中奖。<br>
+      例如，中奖号码 01、02、03、04、05、06+07，您的下注是 02，则表示中奖。<br>
+     <span style='color:red;'>    7. Ball No. - Pick 1</span><br>
+      8.Ball No. 1~6
+      选择一个球号位置，押注 1 个元素。如果所选数字或元素与中奖数字或元素相同，则获胜B/S: ≥ 25 为“大”；≤ 24 为“小”；如果加码号码为 49 则为平局，退款。<br>
+      <span style='color:red;'>   O/E：</span><br>
+      如果中奖号码为 1、3、5、7、9 则为单数；如果中奖号码为 0、2、4、6、8 则为“双数”；第 49 号球为平局，退款<br>
+      <span style='color:red;'>   B/S Sum:</span><br>
+      若第一、二名中奖号码总和≥7则为“总和大”；≤6则为“总和小”；第49号球为和局，退还奖金。<br>
+      单双号总和：若第一、二名中奖号码总和为或尾数为1、3、5、7、9则为“总和单”；为0、2、4、6、8则为“总和双”；第49号球为和局，退还奖金.<br>
+      <span style='color:red;'>    Tail B/S:1</span><br>
+      中奖号码≥5为“大尾”；≤4为“小尾”；49号球为平局，退还。<br>
+      颜色：
+      <span style='color:red;'>    Red</span><br> 01 ,02 ,07 ,08 ,12 ,13 ,18 ,19 ,23 ,24 ,29 ,30 ,34 ,35 ,40 ,45 ,46<br>
+      <span style='color:red;'>     Blue </span><br>03 ,04 ,09 ,10 ,14 ,15 ,20 ,25 ,26 ,31 ,36 ,37 ,41 ,42 ,47 ,48<br>
+     <span style='color:red;'>    Green</span><br> 05 ,06 ,11 ,16 ,17 ,21 ,22 ,27 ,28 ,32 ,33 ,38 ,39 ,43 ,44 ,49<br>
+      
+     <span style='color:red;'>     9.One Zodiac Color Balls</span><br> 
+      <span style='color:red;'> One Zodiac:</span><br> 
+       选择 1（一个）个生肖进行下注。如果您选择或生肖选择中奖号码，则获胜。<br>
+      无论您选择的生肖动物出现多少次，您都只能赢一次.<br>
+      <span style='color:red;'>     Color Balls:</span><br> 
+      选择 1 种颜色的球进行下注。前六个球的球号颜色计数为 1；额外数字颜色计数为 1.5。因此，在分别计算并加总“红”、“蓝”、“绿”球颜色后，抽出的颜色最高的球获胜。<br>
+      例如。如果抽出的中奖号码共有 3 个红球、3 个蓝球和 1 个绿球，则通常是平局，除非蓝球或红球出现在额外数字位置，在这种情况下，如果蓝球或红球的总计数为 3，则出现在额外数字位置的球的计数为 1.5。因此，如果红色出现在额外数字位置，计数将如下：3.5 个红球、3 个蓝球和 1 个绿球。因此，红球的计数最高，投注红球将获胜。<br>
+      平局可能发生在以下 3 个结果中：<br>
+      1：如果前 6 个球是：3 个蓝球、3 个绿球，且额外号码为红球<br>
+      2：如果前 6 个球是：3 个蓝球、3 个红球，且额外号码为绿球<br>
+      3：如果前 6 个球是：3 个绿球、3 个红球，且额外号码为蓝球<br>
+      如果出现平局，所有红、绿、蓝色彩球投注注金将被退还；您也可以选择投注平局<br>
+      <span style='color:red;'>   10.Fixed place</span><br> 
+      
+      第1~6个中奖号码固定位置球1~固定位置球6，即球1~球6。<br>
+      从01-49的数字范围内，您选择或选择一个将出现在球1、球2、球3、球4、球5或球6上的数字进行投注。如果您选择的号码和中奖号码相同且位置相同，则中奖。<br>
+      例如：中奖号码01、02、03、04、05、06+07；如果您投注号码01出现在球1「固定位置球1 01」上，则中奖，因为球1上有号码01。<br>
+      <span style='color:red;'>    11. Row Zodiac Row tail</span><br>
+      <span style='color:red;'>     2 Row Zodiac ~ 5 Row Zodiac</span><br>
+    
+   
+      如果 7 个中奖生肖数字包含您选择的生肖，则您获胜。投注组合包括本命生肖及其赔率。无论相同生肖数字出现多少次，您都只能获胜一次.<br>
+     <span style='color:red;'>    2 Row Zodiac:</span><br>
+      选择2个生肖组成投注。<br>
+      例如投注「龙、虎」，中奖号码包含龙、虎号码，即为中奖<br>
+    <span style='color:red;'>     3 Row Zodiac:</span><br>
+       选择3个生肖进行下注。<br>
+      例如：投注「龙、虎、鼠」，中奖号码包含龙、虎、鼠号码，即为中奖。<br>
+      <span style='color:red;'>     4 Row Zodiac:</span><br> 选择4个生肖组成投注。<br>
+      例如投注「龙虎鼠兔」，中奖号码包含龙、虎、鼠、兔号码，即为中奖。<br>
+     <span style='color:red;'>      5 Row Zodiac:</span><br> 选择5个生肖组成投注。<br>
+      例如投注「龙虎鼠兔猪」，中奖号码包含龙、虎、鼠、兔、猪数字，即为中奖。<br>
+     <span style='color:red;'>     2 Row Tail ~ 5Row Tail</span><br>
+      
+      如果 7 个中奖生肖数字包含您选择的生肖，则您获胜。投注组合包括 0 尾及其赔率。无论相同的尾数出现多少次，您都只能获胜一次。<br>
+      <span style='color:red;'>    2 Row Tail ~ 5Row Tail</span><br>
+      2 Row Tail: 选择2个反面组成下注。<br>
+      例如：投注「0反1反」，中奖号码10、20、30、41、42、43+44，则中奖，因为中奖号码的尾数或末尾数字有0和1（10或20或30的末尾数字都是0，而41的末尾数字是1）<br>
+     <span style='color:red;'>     2 Row Tail ~ 5Row Tail</span><br>
+      3 Row Tail: 选取3个反面组成下注。<br>
+      例如：投注「0反1反2反」，中奖号码10、20、30、41、42、43+44，则中奖，因为中奖号码的尾数有0、1、2（10或20或30的尾数都是0，而41的尾数是1，42的尾数是2）<br>
+      
+      <span style='color:red;'>    4 Row Tail:</span><br>
+       选取4个反面组成下注。<br>
+      例如：投注「0反、1反、2反、3反」，中奖号码10、20、30、41、42、43+44，则中奖，因为中奖号码的尾数有0、1、2、3（10或20或30的尾数都是0，而41的尾数是1，42的尾数是2，43的尾数是3）<br>
+     <span style='color:red;'>    5 Row Tail:</span><br>
+       选取5个反面组成下注。<br>
+      例如：投注「0反，1反，2反，3反，4反」，中奖号码10，20，30，41，42，43+44，则中奖，因为中奖号码的尾数有0，1，2，3，4（10或20或30的尾数都是0，而41的尾数是1，42的尾数是2，43的尾数是3，44的尾数是4）<br>
+      <span style='color:red;'>    12. Row No.</span><br>
+     
+      <span style='color:red;'>     Win 4:</span><br>
+      选择4个号码组成投注，若中奖球号包含您选择的号码，即为中奖。<br>
+      例如：中奖号码01、02、03、04、05、06+07，您投注「01、02、03、04」即为中奖。<br>
+     <span style='color:red;'>  Win 3:</span><br>
+      选择3个号码组成投注，若中奖球号包含您选择的号码，即为中奖.<br>
+      例如：中奖号码01、02、03、04、05、06+07，您投注「01、02、03」即为中奖.<br>
+      <span style='color:red;'>    Win 2/3:</span><br>
+      选择3个号码组成投注，若3个中奖球号包含您选择的3个号码，则中奖3/3；若3个中奖球号包含您选择的2个号码，则中奖2/3。<br>
+      例如：中奖号码01,02,03,04,05,06+07，您投注「01,02,03」即中奖。<br>
+      <span style='color:red;'>       Win 2/2:</span><br>
+     选择2个号码组成投注，若中奖球号包含您选择的号码，即为中奖。<br>
+      例如：中奖号码01、02、03、04、05、06+07，您投注「01、02」即为中奖。<br>
+      <span style='color:red;'>    2No.:</span><br>
+      选择2个号码组成投注。如果中奖球号包含您选择的2个号码，则为“2球号”中奖。如果1球号和1个额外号码，则为“额外中奖”。<br>
+      例如：中奖号码01,02,03,04,05,06+07，您的投注为“01,02”，即为中奖.<br>
+      <span style='color:red;'>   Win Extra No.:</span><br>
+       选择2个号码组成投注，如果中奖号码和加号都在您的选择中，即为中奖，任意1个球号，1个加号，即为中奖。<br>
+      例如：中奖号码01,02,03,04,05,06+07，您投注「01,07」即为中奖，因为加号7和1都是您选择的号码。<br>
+      
+     
+      <span style='color:red;'>   13. Zodiac & tail</span><br>
+      <span style='color:red;'>   Extra & Ball Zodiac:</span><br> 选择 1 个生肖进行下注。如果抽出的 7 个生肖中奖号码包括您选择的生肖，则获胜。无论同一个生肖号码出现多少次，您都只能获胜一次。<br>
+      <span style='color:red;'>  Extra & Ball tail:</span><br>  选择1个尾号组成，如果开出的7个尾号包含您选择的号码，则中奖。无论相同的尾号出现多少次，您都只能中奖一次。<br>
+      例如：您投注的「尾1」，中奖号码为01,02,03,04,05,06+07；中奖，因为中奖号码中的01尾数为1，与您所选的尾1相同。<br>
+     <span style='color:red;'>   Zodiac No.:</span><br> 选择1个生肖进行下注，若开出的7个生肖中奖号码，包含您选择的生肖，则为中奖。<br>
+      例如：您投注「2个生肖」；若中奖号码只有2个不同的生肖号码，则为中奖。<br>
+      <span style='color:red;'>   O/E:</span><br> 若7个中奖号码的生肖数为3、5、7，则为“生肖单数”；若为2、4、6，则为“生肖双数”。<br>
+      
+      <span style='color:red;'>   14.Sum</span><br> 
+      <span style='color:red;'>  B/S Sum:</span><br> 如果7个中奖数字的总和≥176，则为“总和大”；≤174，则为“总和小”；如果总和=175，则为平局，并退款。<br>
+      <span style='color:red;'>   Total sum without Tie:</span><br>  如果7个中奖号码之和≥176，则为“总和大”；≤174，则为“总和小”，没有平局<br>
+      
+      <span style='color:red;'>   O/E Sum:</span><br> 如果 7 个中奖号码的总和结尾数字或尾数为 1、3、5、7、9，则为“总和奇数”；如果总和为 0、2、4、6、8，则为“总和偶数”<br>
+      
+      <span style='color:red;'>   15.Mismatch</span><br>
+      从49个数字中选择5~11个数字进行下注。如果您选择的号码和中奖球号及加码号码不相同，则为中奖。<br>
+      例如中奖号码01、02、03、04、05、06+07，您投注「08、09、10、11、12」即为中奖.<br>
+      <span style='color:red;'>   16.Optional</span><br> 
+      从49个数字中任意选择一个数字进行投注，开奖的7个数字包含所选数字即为中奖。<br>
+      例：开奖数字01、02、03、04、05、06+07，投注“02”即为中奖。<br>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      ",
+    "":"",
+    "":"", 
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+     "":"",
+     "":"",
+     "":""
+}
