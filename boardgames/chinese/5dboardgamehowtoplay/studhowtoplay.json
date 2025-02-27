@@ -1,0 +1,113 @@
+{
+
+
+
+  "<span style='color:red'>Quintuple: </span>All five winning numbers are the same (e.g. 22222, 66666, 88888, betting on five of a kind wins, but betting on the others does not win)<br>
+<span style='color:red'>Quadruple: </span>Four of the five numbers drawn are the same and the other number different (for example, 22221, 66663, 88885, betting on this wins)<br>
+<span style='color:red'>A pair: </span>Only one set of the five numbers drawn is the same (for example, 22168, 66315, 82968, betting on one pair wins)<br>
+<span style='color:red'>Triple Pair: </span>Three of the five numbers drawn are the same (three of a kind) and the other two are also the same (a pair) (e.g. 22211, 66633, betting on Triple Pair wins)<br>
+<span style='color:red'>Streak : </span>The positions of the five winning numbers are in row (for example, 01234, 12345, 23456, 34567, 45678, 56789, 67890, 78901, 89012, 90123, betting on a straight will win)<br>
+<span style='color:red'>T.O.A.K: </span>Three of the five numbers drawn are the same and the other two are different (for example, 22231, 66623, 88895, betting on three of a kind wins)<br>
+<span style='color:red'>Two pairs: </span>Two of the five winning numbers are the same (for example, 22166, 66355, 82668, betting on two pairs wins)<br>
+<span style='color:red'>Loose cards: </span>When winning numbers are different and not in row (e.g. 23186, 13579, 21968, betting on loose cards wins, others do not win.
+":"<span style='color:red'>五条: </span>开奖的五个号码全部相同（例如 22222、66666、88888，投注 五条 中奖，其它不中奖）<br>
+<span style='color:red'>四条: </span>开奖的五个号码中有四个号码相同（例如 22221、66663、88885，投注 四条 中奖，其它不中奖）<br>
+<span style='color:red'>一对: </span>开奖的五个号码中有三个号码相同（三条）另外两个号码也相同（一对）（例如 22211、66633，投注 葫芦 中奖，其它不中奖）<br>
+<span style='color:red'>葫芦: </span>开奖的五个号码位置不限，包含下例十组号码（例如 01234、12345、23456、34567、45678、56789、67890、78901、89012、90123，投注 顺子 中奖，其它不中奖）<br>
+<span style='color:red'>顺子 : </span>开奖的五个号码中有三个号码相同另外两个不相同（例如 22231、66623、88895, 投注 三条 中奖，其它不中奖）<br>
+<span style='color:red'>三条: </span>开奖的五个号码中有两组号码相同（例如 22166、66355、82668, 投注 两对 中奖，其它不中奖<br>
+<span style='color:red'>两对: </span>开奖的五个号码中只有一组号码相同（例如 22168、66315、82968, 投注 一对 中奖，其它不中奖<br>
+<span style='color:red'>散牌: </span>开奖号码不是五条、四条、葫芦、三条、顺子、两对、一对的其它所有开奖号码（例如 23186、13579、21968, 投注 散牌 中奖，其它不中奖
+",
+  "<span style='color:red'>Tripple: </span>If the hundreds, thousands, and ten-thousands digits of the winning numbers are all the same (e.g., 000, 111, 999), betting on Tripple wins; otherwise, it is not a win.<br>
+   <span style='color:red'>Streak: </span> If the hundreds, thousands, and ten-thousands digits of the winning numbers are consecutive, regardless of order (9, 0, and 1 are considered consecutive). For example, if the winning numbers are 123, 901, 321, 546, the digits are consecutive, so betting on Streak wins; otherwise, it is not a win.<br>
+    <span style='color:red'>Pair: </span> If any two of the hundreds, thousands, and ten-thousands digits of the winning numbers are the same (excluding Tripple), for example, 001, 112, 696, where two of the digits are the same, betting on Pair wins; otherwise, it is not a win.<br>
+     <span style='color:red'>Loose Cards: </span> Any winning numbers that do not fall under Tripple, Pair, Straight, or Half-Straight, such as 157, where the digits have no relation to each other, betting on Loose Cards wins; otherwise, it is not a win.<br>
+      <span style='color:red'>Half-Streak: </span> If any two of the hundreds, thousands, and ten-thousands digits of the winning numbers are consecutive, regardless of order (excluding Straight and Pair). For example, if the winning numbers are 125, 540, 390, 706, where two digits are consecutive, betting on Half-Straight wins; otherwise, it is not a win.<br>":"
+      <span style='color:red'>豹子： </span>中奖号码的百位千位万位数字都相同，如中奖号码为 000、111、999 等，则投注 豹子 中奖，其它视为不中奖<br>
+   <span style='color:red'>顺子: </span> 中奖号码的十位百位千位数字都相连，不分顺序（数字 9、0、1 相连）如中奖号码为123、901、321、546，中奖号码十位百位千位数字相连，则投注 顺子 中奖，其它视为不中奖<br>
+    <span style='color:red'>对子: </span> 中奖号码的十位百位千位任意两位数字相同（不包括豹子）如中奖号码为 001，112、696，中奖号码有两位数字相同，则投注 对子 中奖，其它视为不中奖<br>
+     <span style='color:red'>杂六: </span> 不包括豹子、对子、顺子、半顺的所有中奖号码，如中奖号码为 157，中奖号码位数之间无关联性，则投注 杂六 中奖，其它视为不中奖<br>
+      <span style='color:red'>半顺: </span> 中奖号码的十位百位千位任意两位数字相连，不分顺序（不包括顺子、对子） 如中奖号码为 125、540、390、706，中奖号码有两位数字相连，则投注 半顺 中奖，其它视为不中奖<br>",
+  
+  
+      
+  "Compare the winning numbers of the ten-thousands place and thousands place.<br>
+<span style='color:red'>Odd-Odd: </span>
+ If the ten-thousands place number is odd and the thousands place number is also odd, it is considered a win. For example, if the winning numbers are 3, 5, 9, 8, 0, the ten-thousands place number "3" and the thousands place number "5" are both odd, so it is a win.<br>
+<span style='color:red'>Odd-Even: </span>
+ If the ten-thousands place number is odd and the thousands place number is even, it is considered a win. For example, if the winning numbers are 3, 6, 9, 8, 0, the ten-thousands place number "3" is odd and the thousands place number "6" is even, so it is a win.<br>
+<span style='color:red'>Even-Odd:</span>
+ If the ten-thousands place number is even and the thousands place number is odd, it is considered a win. For example, if the winning numbers are 6, 3, 9, 8, 0, the ten-thousands place number "6" is even and the thousands place number "3" is odd, so it is a win.<br>
+<span style='color:red'>Even-Even:</span>
+ If the ten-thousands place number is even and the thousands place number is also even, it is considered a win. For example, if the winning numbers are 4, 6, 9, 8, 0, the ten-thousands place number "4" and the thousands place number "6" are both even, so it is a win.<br>":
+ "以开奖的 "万位" 与 "千位" 的号码做对比.<br>
+<span style='color:red'>单单: </span>
+ 万位开奖号码的形态为单数，千位开奖号码的形态为单数，即为中奖
+如开奖号码为 3、5、9、8、 <br>万位 "3" 与千位 "5" 开奖号码形态均是单数，为中奖<br>
+<span style='color:red'>单双: </span>
+ 万位开奖号码的形态为单数，千位开奖号码的形态为双数，即为中奖
+如开奖号码为 3、6、9、8、0<br>
+万位 "3" 开奖号码形态均是单数，千位 "6" 开奖号码形态均是双数，为中奖<br>
+<span style='color:red'>双单:</span>
+ 万位开奖号码的形态为双数，千位开奖号码的形态为单数，即为中奖
+如开奖号码为 6、3、9、8、0<br>
+万位 "6" 开奖号码形态均是双数，千位 "3" 开奖号码形态均是单数，为中奖.<br>
+<span style='color:red'>双双:</span>
+万位开奖号码的形态为双数，千位开奖号码的形态为双数，即为中奖
+如开奖号码为 4、6、9、8、0<br>
+万位 "4" 与千位 "6" 开奖号码形态均是双数，为中奖<br>",
+  
+
+middle three
+"<span style='color:red'>Tripple: </span> If the tens, hundreds, and thousands digits of the winning numbers are all the same (e.g., 000, 111, 999), and the tens, hundreds, and thousands digits of the winning numbers are the same, betting on Tripple wins; otherwise, it is not a win.<br>
+<span style='color:red'>Straight: </span> If the tens, hundreds, and thousands digits of the winning numbers are consecutive, regardless of order (9, 0, and 1 are considered consecutive). For example, if the winning numbers are 123, 901, 321, or 546, the digits are consecutive, so betting on Straight wins; otherwise, it is not a win.<br>
+<span style='color:red'>Pair: </span> If any two of the tens, hundreds, and thousands digits of the winning numbers are the same (excluding Tripple), for example, 001, 112, or 696, where two digits are the same, betting on Pair wins; otherwise, it is not a win.<br>
+<span style='color:red'>Loose Cards: </span>
+ Any winning numbers that do not fall under Tripple, Pair, Straight, or Half-Streak, such as 157, where the digits have no relation to each other, betting on Loose Cards wins; otherwise, it is not a win.<br>
+<span style='color:red'>Half-Streak: </span>
+ If any two of the tens, hundreds, and thousands digits of the winning numbers are consecutive, regardless of order (excluding Straight and Pair). For example, if the winning numbers are 125, 540, 390, or 706, where two digits are consecutive, betting on Half-Streak wins; otherwise, it is not a win.":
+ 
+ 
+  "<span style='color:red'>豹子： </span> 中奖号码的十位百位千位数字都相同，如中奖号码为 000、111、999 等，中奖号码的十位百位千位数字相同，则投注 豹子 中奖，其它视为不中奖
+<br>
+<span style='color:red'>顺子: </span> 中奖号码的十位百位千位数字都相连，不分顺序（数字 9、0、1 相连）如中奖号码为123、901、321、546，中奖号码十位百位千位数字相连，则投注 顺子 中奖，其它视为不中奖.<br>
+<span style='color:red'>对子: </span>中奖号码的十位百位千位任意两位数字相同（不包括豹子）如中奖号码为 001，112、696，中奖号码有两位数字相同，则投注 对子 中奖，其它视为不中奖<br>
+<span style='color:red'>杂六: </span>
+ 不包括豹子、对子、顺子、半顺的所有中奖号码，如中奖号码为 157，中奖号码位数之间无关联性，则投注 杂六 中奖，其它视为不中奖<br>
+<span style='color:red'>半顺: </span>
+ 中奖号码的十位百位千位任意两位数字相连，不分顺序（不包括顺子、对子） 如中奖号码为 125、540、390、706，中奖号码有两位数字相连，则投注 半顺 中奖，其它视为不中奖",
+
+
+ last three
+"<span style='color:red'>Tripple: </span>   If the tens, hundreds, and thousands digits of the winning numbers are all the same (e.g., 000, 111, 999), and the tens, hundreds, and thousands digits of the winning numbers are the same, betting on Tripple wins; otherwise, it is not a win.<br>
+<span style='color:red'>Straight: </span> 
+ If the tens, hundreds, and thousands digits of the winning numbers are consecutive, regardless of order (9, 0, and 1 are considered consecutive). For example, if the winning numbers are 123, 901, 321, or 546, the digits are consecutive, so betting on Straight wins; otherwise, it is not a win.<br><span style='color:red'>Pair: </span> 
+ If any two of the tens, hundreds, and thousands digits of the winning numbers are the same (excluding Tripple), for example, 001, 112, or 696, where two digits are the same, betting on Pair wins; otherwise, it is not a win.<span style='color:red'>Loose Cards: </span> 
+ Any winning numbers that do not fall under Tripple, Pair, Straight, or Half-Streak, such as 157, where the digits have no relation to each other, betting on Loose Cards wins; otherwise, it is not a win.<br>
+<span style='color:red'>Half-Streak: </span> 
+ If any two of the tens, hundreds, and thousands digits of the winning numbers are consecutive, regardless of order (excluding Straight and Pair). For example, if the winning numbers are 125, 540, 390, or 706, where two digits are consecutive, betting on Half-Streak wins; otherwise, it is not a win.":"
+ <span style='color:red'>豹子: </span>   中奖号码的个位十位百位数字都相同，如中奖号码为 000、111、999 等，中奖号码的个位十位百位数字相同，则投注 豹子 中奖，其它视为不中奖<br>
+<span style='color:red'>顺子: </span> 
+ 中奖号码的十位百位千位数字都相连，不分顺序（数字 9、0、1 相连）如中奖号码为123、901、321、546，中奖号码十位百位千位数字相连，则投注 顺子 中奖，其它视为不中奖<br>
+ <span style='color:red'>对子: </span> 
+ 中奖号码的个位十位百位任意两位数字相同（不包括豹子）如中奖号码为 001，112、696，中奖号码有两位数字相同，则投注 对子 中奖，其它视为不中奖
+ <span style='color:red'>杂六: </span> 
+ 不包括豹子、对子、顺子、半顺的所有中奖号码，如中奖号码为 157，中奖号码位数之间无关联性，则投注 杂六 中奖，其它视为不中奖.<br>
+<span style='color:red'>半顺: </span> 
+中奖号码的个位十位百位任意两位数字相连，不分顺序（不包括顺子、对子） 如中奖号码为 125、540、390、706，中奖号码有两位数字相连，则投注 半顺 中奖，其它视为不中奖.",
+"":"",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+  
+}

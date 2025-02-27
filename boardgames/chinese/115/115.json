@@ -38,7 +38,20 @@
   "Dragon Tiger":"狮虎游戏",
   "Bull Small":"小",
   "Bull Even":"双",
-  "":""
+
+  11x5 tab 2
+  "Range plate": "上下盘",
+  "Odd Even plate": "单双盘",
+  "Odd Numbers": "单盘",
+  "Guess Middle Value": "猜中位",
+  "Even Numbers": "双盘",
+  "First Range": "上盘",
+  "Last Range": "下盘",
+  "Tie/Draw": "和盘",
+
+  "Odd Even plate":"猜和值",
+  "":"",
+   "":""
 
 
 }

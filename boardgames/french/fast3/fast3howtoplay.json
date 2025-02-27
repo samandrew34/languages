@@ -1,0 +1,48 @@
+{
+
+    "<span style='color:red'>Big and Small: </span> When the sum of the points drawn by the three dice is 4-10, this is small, and when the sum of the points is 11-17, this is big.<br>
+<span style='color:red'>Odd and even:</span> When the total value or sum of the three lottery numbers is 5,7,9,11,13,15,17, this is odd; when the total value or sum is 4,6,8,10,12,14,16, this is even.<br>
+**If the three dice have the same number, you will not win a prize.<p></p>
+For example: the winning numbers are 4, 5, and 6, and the total value or sum is 15, then the bet on big, is a win.":"<span style='color:red'>Grand et petit : </span> lorsque la somme des points tirés par les trois dés est de 4 à 10, c'est petit, et lorsque la somme des points est de 11 à 17, c'est grand.<br>
+<span style='color:red'>Pair et impair :</span> lorsque la valeur totale ou la somme des trois numéros de loterie est de 5, 7, 9, 11, 13, 15, 17, c'est impair ; lorsque la valeur totale ou la somme est de 4, 6, 8, 10, 12, 14, 16, c'est pair.<br>
+**Si les trois dés ont le même numéro, vous ne gagnerez pas de prix.<p></p>
+Par exemple : les numéros gagnants sont 4, 5 et 6, et la valeur totale ou la somme est de 15, alors le pari sur le gros lot est gagnant.",
+"<span style='color:red'>Pair Dice: </span> If any two characters of the lottery numbers are the same and match your selected pair combination, you will win.<p></p>
+For example: If the winning numbers are 1, 1, 3, you win if you bet on the 1, 1.":"<span style='color:red'>Dés à paires : </span> Si deux caractères des numéros de loterie sont identiques et correspondent à la combinaison de paires que vous avez sélectionnée, vous gagnez.<p></p>
+Par exemple : si les numéros gagnants sont 1, 1, 3, vous gagnez si vous pariez sur 1, 1.。",
+"":"",
+"<span style='color:red'>Three of A Kind: </span> Any T.O.A.K: If the winning points/numbers are all the same on all three dice and the same as your selected points you win.
+For example: If you choose a single dice of 111, if the result is 111, you win. ":"<span style='color:red'>Trois d'une sorte : </span> N'importe quel T.O.A.K : si les points/numéros gagnants sont tous identiques sur les trois dés et identiques aux points que vous avez sélectionnés, vous gagnez.
+Par exemple : si vous choisissez un seul dé de 111, si le résultat est 111, vous gagnez. ",
+"<span style='color:red'>Two of A Kind: </span> If any two of the three winning dice have the same number as your selected number, this is deemed to be a win.<p></p>
+For example: The winning point is 1 2 3. If your selection contains any two numbers ("1 2"or "2 3"or "1 3") of the three winning dice numbers you win. 6.6
+":"<span style='color:red'>Deux d'une sorte : </span> Si deux des trois dés gagnants ont le même numéro que votre numéro sélectionné, cela est considéré comme une victoire.<p></p>
+Par exemple : le point gagnant est 1 2 3. Si votre sélection contient deux numéros (« 1 2 » ou « 2 3 » ou « 1 3 ») parmi les trois numéros gagnants des dés, vous gagnez. 6.6",
+
+"<span style='color:red'>Guess Sum: </span>Select a number from the sum (sum of three dices) of the 4 - 17 range to form a bet.
+When the sum of the points drawn by the three dices is the same as your selection, this is a win.<br>
+Eg. If you select 11 and the point on the three dice is 2:3:6,
+the sum of the points is 2+3+6=11, so you win because the sum of the points on the three dice is the same as your selection
+":"<span style='color:red'>Devinez la somme : </span>Sélectionnez un nombre dans la somme (somme de trois dés) de la plage 4 - 17 pour former un pari.
+Lorsque la somme des points tirés par les trois dés est la même que votre sélection, vous gagnez.<br>
+Par exemple, si vous sélectionnez 11 et que le point sur les trois dés est 2 : 3 : 6,
+la somme des points est 2 + 3 + 6 = 11, vous gagnez donc car la somme des points sur les trois dés est la même que votre sélection
+",
+"<span style='color:red'>Guess The Number: </span>Choose Dice: Choose a point from 1-6 points to form a bet.
+If your selected number appears once in the lottery winning numbers, this is a single dice win bonus.<p></p>
+If your selected number appears twice in the lottery winning numbers, this is a double dice win bonus.<p></p>
+If your selected number appears three times in the lottery winning draw, this is a triple dice win bonus 1.1
+":"<span style='color:red'>Devinez le numéro : </span>Choisissez un dé : Choisissez un point entre 1 et 6 points pour former un pari.
+Si votre numéro sélectionné apparaît une fois dans les numéros gagnants de la loterie, il s'agit d'un bonus de gain de dé simple.<p></p>
+Si votre numéro sélectionné apparaît deux fois dans les numéros gagnants de la loterie, il s'agit d'un bonus de gain de dé double.<p></p>
+Si votre numéro sélectionné apparaît trois fois dans le tirage gagnant de la loterie, il s'agit d'un bonus de gain de dé triple 1.1
+",
+"
+<span style='color:red'>All T.O.A.K: </span>If you select, All dice combinations and the winning numbers are the same, you win.
+For example: If you choose to bet on All dice, and the result is any number that appears three times ( 111 or 222 or 333 etc), you win. 
+":"
+<span style='color:red'>Tous les dés : </span>Si vous sélectionnez Toutes les combinaisons de dés et les numéros gagnants sont les mêmes, vous gagnez.
+Par exemple : si vous choisissez de parier sur Tous les dés et que le résultat est un nombre qui apparaît trois fois (111 ou 222 ou 333, etc.), vous gagnez.
+"
+
+}

@@ -1,0 +1,85 @@
+{
+
+
+
+
+  "<span style='color:red'>Big: </span> When you choose big, the sum of the five numbers in the winning draw numbers should be between 31-45 (31 and 45 inclusive), this is a win.<br>
+<span style='color:red'>Small: </span> When you choose small, the sum of the five numbers in the winning draw numbers should be between 15-30 (15 and 30 inclusive), this is a win.<br>
+<span style='color:red'>Odd: </span> When you choose odd, the sum of the five numbers in the winning draw numbers should be an odd number, this is a win.<br>
+<span style='color:red'>Even: </span> When you choose even, the sum of the five numbers in the winning draw numbers should be an even number, this is a win.<br>
+For example, the winning numbers are 09, 05, 03, 11, 01 The sum of the 5 winning numbers is: 09+05+03+11+01=29 The sum of the numbers 29 is between 15-30 and is considered small or even. If you choose small or even , you win.<br>
+Note: For any of these gameplays to win, the winning draw numbers must not be a No Bull.":"<span style='color:red'>Big: </span> Khi bạn chọn big, tổng của năm số trong số trúng thưởng phải nằm trong khoảng từ 31-45 (bao gồm cả 31 và 45), đây là một chiến thắng.<br>  
+<span style='color:red'>Small: </span> Khi bạn chọn small, tổng của năm số trong số trúng thưởng phải nằm trong khoảng từ 15-30 (bao gồm cả 15 và 30), đây là một chiến thắng.<br>  
+<span style='color:red'>Odd: </span> Khi bạn chọn odd, tổng của năm số trong số trúng thưởng phải là một số lẻ, đây là một chiến thắng.<br>  
+<span style='color:red'>Even: </span> Khi bạn chọn even, tổng của năm số trong số trúng thưởng phải là một số chẵn, đây là một chiến thắng.<br>  
+Ví dụ, số trúng thưởng là 09, 05, 03, 11, 01. Tổng của năm số trúng thưởng là: 09+05+03+11+01=29. Tổng của các số 29 nằm trong khoảng 15-30 và được coi là small hoặc odd. Nếu bạn chọn small hoặc odd, bạn thắng.<br>  
+Lưu ý: Để bất kỳ lối chơi nào trong số này thắng, các số trúng thưởng không được là No Bull.",
+  "<span style='color:red'>Maximum value: </span>Winning Condition - If the betting position you select corresponds to the position of the biggest number in the drawn sequence, you win. Eg.
+If you bet on Ball 4 being the maximum value and the drawn numbers are 4, 7, 1, 8, 2: The number 8 is in the Ball 4 position and is the highest number in the sequence. Therefore, you win if you bet on Ball 4 having the maximum value. (If there are multiple identical maximum values, only one of them will do).
+":"<span style='color:red'>Giá trị lớn nhất: </span>Điều kiện chiến thắng - Nếu vị trí cược của bạn trùng với vị trí của số lớn nhất trong dãy số được rút, bạn thắng. Ví dụ:  
+Nếu bạn cược rằng Quả bóng 4 có giá trị lớn nhất và các số được rút ra là 4, 7, 1, 8, 2: Số 8 nằm ở vị trí Quả bóng 4 và là số lớn nhất trong dãy. Do đó, bạn thắng nếu cược rằng Quả bóng 4 có giá trị lớn nhất. (Nếu có nhiều số lớn nhất giống nhau, chỉ một trong số đó sẽ được tính).  
+",
+  "<span style='color:red'>Minimum value: </span>Winning Condition - If the betting position you select corresponds to the position of the smallest number in the drawn sequence, you win. Eg.
+If you bet on the Ball 3 being the minimum value, and the drawn numbers are 4, 9, 1, 8, 2: The number 1 is in the Ball 3 position and is the smallest number in the sequence. Therefore, you win if you bet on Ball 3 having the minimum value.(if there are multiple identical minimum values, only one of them will do).
+":"<span style='color:red'>Giá trị tối thiểu: </span>Điều kiện chiến thắng - Nếu vị trí cá cược mà bạn chọn tương ứng với vị trí của số nhỏ nhất trong dãy số được rút thăm, bạn sẽ thắng. Ví dụ: 
+Nếu bạn đặt cược vào Ball 3 là giá trị tối thiểu, và các số được rút thăm là 4, 9, 1, 8, 2: Số 1 ở vị trí Ball 3 và là số nhỏ nhất trong dãy số. Vì vậy, bạn thắng nếu bạn đặt cược vào Ball 3 có giá trị tối thiểu. (Nếu có nhiều giá trị tối thiểu giống nhau, chỉ một trong số chúng sẽ được tính).
+",
+  
+  "<span style='color:red'>Dragon: </span>If the numerical value of Ball 4 is greater (>) than the numerical value of ball 5, you win if you select Dragon.
+Eg. If the drawn winning numbers are 4, 9, 1, 8, 2. If you compare the numerical value of Ball 4 (8) with the numerical value of Ball 5 (02). Since 08 > 02, selecting Dragon would result in a win.<br>
+<span style='color:red'>Tiger: </span>If the numerical value of Ball 4 is lesser (<) than the numerical value of ball 5, you win if you select Tiger.
+Eg. If the drawn winning numbers are 6, 8, 7, 1, 9. Compare the numerical value of Ball 4 (1) with the numerical value of Ball 5 (9). Since 01 < 09, selecting Tiger would result in a win.
+":"```html
+<span style='color:red'>Dragon: </span>Nếu giá trị số của Quả bóng 4 lớn hơn (>) giá trị số của quả bóng 5, bạn thắng nếu chọn Dragon.
+Ví dụ: Nếu các số trúng thưởng là 4, 9, 1, 8, 2. Khi so sánh giá trị số của Quả bóng 4 (8) với giá trị số của quả bóng 5 (02). Vì 08 > 02, chọn Dragon sẽ thắng.<br>
+<span style='color:red'>Tiger: </span>Nếu giá trị số của Quả bóng 4 nhỏ hơn (<) giá trị số của quả bóng 5, bạn thắng nếu chọn Tiger.
+Ví dụ: Nếu các số trúng thưởng là 6, 8, 7, 1, 9. So sánh giá trị số của Quả bóng 4 (1) với giá trị số của quả bóng 5 (9). Vì 01 < 09, chọn Tiger sẽ thắng.
+```
+",
+  "<span style='color:red'>Bull N: </span>If the sum of any three of the five numbers in the winning number ends with 0 or multiples of 10 and the sum of the remaining two numbers ends with N, then it is Bull N (e.g. 12347: 7+1+2=10 “ends with 0”, the remaining two numbers 3 and 4 sum: 3+4=7. This makes the draw number a Bull 7 , 00206: 0+0+0=0 “ends with 0”, the remaining two numbers 2 and 6 sum: 2+6=8. This makes the draw number a Bull 8, 01828: 0+2+8=10 “ends with 0” the remaining two numbers 1 and 8 sum: 1+8=9. This makes the draw number a Bull 9 ).<br>
+<span style='color:red'>No Bull: </span>If the sum of any three of the five digits in the winning number does not equal 0, it is a No Bull. (eg. 01234: The sum of any three numbers out of the five winning numbers does not equal 0 or multiples of 10 ) Note: When five numbers are the same, only 00000 is considered as Bull Bull, any other such as 11111, 66666, etc. are all No Bull.
+":"<span style='color:red'>Bull N: </span>Nếu tổng của bất kỳ ba trong năm số của số trúng thưởng có tổng kết thúc bằng 0 hoặc là bội của 10 và tổng của hai số còn lại kết thúc bằng N, thì đó là Bull N (ví dụ: 12347: 7+1+2=10 "kết thúc bằng 0", hai số còn lại 3 và 4 tổng: 3+4=7. Điều này khiến số trúng thưởng là Bull 7, 00206: 0+0+0=0 "kết thúc bằng 0", hai số còn lại 2 và 6 tổng: 2+6=8. Điều này khiến số trúng thưởng là Bull 8, 01828: 0+2+8=10 "kết thúc bằng 0" hai số còn lại 1 và 8 tổng: 1+8=9. Điều này khiến số trúng thưởng là Bull 9).<br>
+<span style='color:red'>No Bull: </span>Nếu tổng của bất kỳ ba trong năm chữ số của số trúng thưởng không bằng 0, đó là No Bull. (ví dụ: 01234: Tổng của bất kỳ ba số nào trong năm số trúng thưởng không bằng 0 hoặc là bội của 10). Lưu ý: Khi năm số giống nhau, chỉ có 00000 mới được xem là Bull Bull, bất kỳ số nào khác như 11111, 66666, v.v. đều là No Bull.
+",
+
+
+
+
+tab two 11x5
+  "<span style='color:red'>First range: </span>Among the 5 winning numbers, the number of First range (01-05) numbers > the number of Last range (07-11) numbers.<br>
+<span style='color:red'>Tie/Draw: </span>The count of numbers in the First range (01-05) of the 5 winning numbers = the count of numbers in the Last range (07-11) excluding 06. For example: Bet on the Tie/Draw , the winning numbers are 04, 09, 01, 08, 06, it is considered a win.<br>
+<span style='color:red'>Last range: </span>The count of numbers in the First range (01-05) among the 5 winning numbers is < less than the number of numbers in the Last range (07-11).
+For example: Bet on the First range , the winning numbers are,
+04, 09, 01, 08, 02 If the number of First range 01, 02, 04 is > greater than the number of Last range 08, 09, it is considered a win.":"<span style='color:red'>First range: </span>Trong 5 số trúng thưởng, số lượng số trong phạm vi Đầu tiên (01-05) lớn hơn số lượng số trong phạm vi Cuối cùng (07-11).<br>  
+<span style='color:red'>Tie/Draw: </span>Số lượng số trong phạm vi Đầu tiên (01-05) của 5 số trúng thưởng bằng với số lượng số trong phạm vi Cuối cùng (07-11), không tính 06. Ví dụ: Đặt cược vào Hòa, nếu các số trúng thưởng là 04, 09, 01, 08, 06 thì được coi là thắng.<br>  
+<span style='color:red'>Last range: </span>Số lượng số trong phạm vi Đầu tiên (01-05) trong 5 số trúng thưởng nhỏ hơn số lượng số trong phạm vi Cuối cùng (07-11).  
+Ví dụ: Đặt cược vào phạm vi Đầu tiên, nếu các số trúng thưởng là 04, 09, 01, 08, 02, với số trong phạm vi Đầu tiên là 01, 02, 04 lớn hơn số trong phạm vi Cuối cùng là 08, 09, thì được coi là thắng.",
+
+
+  "<span style='color:red'>Guess middle digit: </span>Choose 1 number from 03 to 09 to form a bet. If the third number after the 5 winning numbers are arranged in ascending order is the same as your selected number, you win. <p></p>The probability of winning the number is different, and the prize money is also different. The prize money is ranked from high to low: 03/09, 04/08, 05/07, 06. For example: Bet on the number 4 , the winning numbers are 04, 09, 01, 08, 02 The winning numbers are arranged in ascending order: 01, 02, 04, 08, 09. The third number (4) of the winning numbers is the same as your selected bet number and is considered a winner.
+":"<span style='color:red'>Biển số lẻ: </span>Số lượng số lẻ trong 5 số trúng lớn hơn số lượng số chẵn.<br>  
+<span style='color:red'>Biển số chẵn: </span>Số lượng số lẻ trong 5 số trúng ít hơn số lượng số chẵn.
+",
+  
+  "
+<span style='color:red'>Odd plate: </span>The number of odd numbers among the 5 winning numbers is > greater than the number of even numbers.<br>
+<span style='color:red'>Even plate: </span>The number of odd numbers among the 5 winning numbers is < less than the number of even numbers.
+":"<span style='color:red'>Biển số lẻ: </span>Số lượng số lẻ trong 5 số trúng lớn hơn số lượng số chẵn.<br>  
+<span style='color:red'>Biển số chẵn: </span>Số lượng số lẻ trong 5 số trúng ít hơn số lượng số chẵn.  
+",
+  "<span style='color:red'>Guess the sum value: </span>Select a number from the sum of the 5 winning numbers. If it is the same as the sum of the winning numbers, you win. For example: You bet on 24, the winning numbers are 04, 09, 01, 08, 02 The sum of the winning numbers is 24, which is the same as your bet number and is considered a win.
+":"<span style='color:red'>Đoán giá trị tổng: </span>Chọn một số từ tổng của 5 số trúng thưởng. Nếu nó giống với tổng của các số trúng thưởng, bạn thắng. Ví dụ: Bạn đặt cược vào 24, các số trúng thưởng là 04, 09, 01, 08, 02. Tổng của các số trúng thưởng là 24, trùng với số bạn đặt cược và được coi là chiến thắng.
+",
+  "":"",
+  "":"",
+  "":"",
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+  
+}

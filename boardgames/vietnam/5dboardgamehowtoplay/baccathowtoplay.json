@@ -1,0 +1,16 @@
+{
+
+
+ 
+"<span style='color:red'>Banker Pair: </span>  If the 1st Ball and 2nd Ball numbers are the same ( Ball 1 “3” and Ball 2 “3”), betting on Banker Pair wins.<br><span style='color:red'>Player Pair: </span>  If the 4th Ball and 5th Ball numbers are the same ( Ball 4 “3” and Ball 5 “3”), betting on Player Pair wins.<br>#":"<span style='color:red'>Banker Pair: </span>  Nếu số của Quả bóng thứ 1 và Quả bóng thứ 2 giống nhau (Quả bóng 1 “3” và Quả bóng 2 “3”), cược vào Banker Pair thắng.<br><span style='color:red'>Player Pair: </span>  Nếu số của Quả bóng thứ 4 và Quả bóng thứ 5 giống nhau (Quả bóng 4 “3” và Quả bóng 5 “3”), cược vào Player Pair thắng.<br>
+",
+  "<span style='color:red'>Banker: </span>  The sum of the first and second balls' numbers, with only the units digit taken, is considered the Banker. The sum of the fourth and fifth balls' numbers, with only the units digit taken, is considered the Player.If the Banker is greater than the Player, betting on Banker wins.If the Banker is less than the Player, betting on Player wins.If the Banker equals the Player, betting on Tie wins.":"<span style='color:red'>Banker: </span> Tổng của số trên quả bóng thứ nhất và thứ hai, chỉ lấy chữ số hàng đơn vị, được coi là Banker. Tổng của số trên quả bóng thứ tư và thứ năm, chỉ lấy chữ số hàng đơn vị, được coi là Player. Nếu Banker lớn hơn Player, cược vào Banker sẽ thắng. Nếu Banker nhỏ hơn Player, cược vào Player sẽ thắng. Nếu Banker bằng Player, cược vào Tie sẽ thắng.",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+  
+}

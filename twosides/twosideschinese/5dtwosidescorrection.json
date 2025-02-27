@@ -1,0 +1,94 @@
+{
+
+    "Big": "大",
+    "Prime": "质数",
+    "Small": "小",
+    "Odd": "奇数",
+    "Even": "偶数",
+    "Composite": "合数",
+    "Edit Amount": "编辑金额",
+    "Reset to default": "重置为默认",
+    "Save": "保存",
+    "Recent Bet": "最近投注",
+    "Recent Track": "最近追踪",
+    "Recharges": "充值",
+    "Withdrawals": "提款",
+    "Profit and Loss": "盈亏",
+    "Plan Record": "计划记录",
+    "Details": "详情",
+    "All Betting": "所有投注"
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+
+    "":"",
+
+
+    //how to play 
+
+    "1. B/S/O/E Sum of Top 2
+    Sum of Top 2 B/S: If the sum of the top 2 winning numbers is >11, it's considered "Big"; if the sum is ?11, it's considered "Small."
+    Sum of Top 2 O/E: When the sum of the top 2 winning numbers ends with 1, 3, 5, 7, or 9, it's considered "Odd"; if it ends with 0, 2, 4, 6, or 8, it's considered "Even".
+    2. 1st Prize ~ 10th Prize, B/S & O/E & Dragon/Tiger
+    1st Prize ~ 10th Prize: From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 . If you choose 6 to appear on Ball 2 and the draw results has the number 6 appearing on Ball 2, you win.
+    B/S: If the winning number on each winning drawn ball is ? 6, it's considered "Big"; if it's ? 5, it's considered "Small."
+    
+    O/E: If the digit of the winning number on each winning drawn ball is or 1, 3, 5, 7, or 9, it's considered "Odd"; if it's 0, 2, 4, 6, or 8, it's considered "Even."
+    
+    Dragon/Tiger:
+    
+    If the former number is bigger than the latter, it's considered "Dragon"; otherwise, it's considered "Tiger."
+    (1 is the smallest, 10 is the biggest)
+    1st Dragon/Tiger: 1st vs. 10th compete.
+    2nd Dragon/Tiger: 2nd vs. 9th compete.
+    3rd Dragon/Tiger: 3rd vs. 8th compete.
+    4th Dragon/Tiger: 4th vs. 7th compete.
+    5th Dragon/Tiger: 5th vs. 6th compete.
+    Win Sample?Bet plan:1stV10th Dragon; Winning No.:10,*,*,*,*,*,*,*,*,1, this is a win.
+    3. Fixed Place
+    From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5, Ball 6, Ball 7, Ball 8, Ball 9 and Ball 10 .
+    If the selected and winning number places are the same and in order, it's a win.
+    Example: If the winning number is 1, *, *, *, *, *, *, *, *, * and you bet 1st 1, it's a win.
+    4. Sum of Top Two
+    Select a number. If the sum of the 1st and 2nd winning numbers matches the selected number, it's a win.
+    Example: If the winning numbers are 1, 2, *, *, *, *, *, *, *, * and you bet on?3?2+1=3,, it's a win.":"1.总和-龙虎和
+    总和大小：开奖号码之和≥23为“大”，≤22为“小”。
+    总和单双：开奖号码之和的个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”。
+    龙虎和：第一球的开奖号码>第五球的开奖号码（0为最小，9为最大）为龙，反之为虎，相同为和。
+    2.第一球~第五球
+    选择一个位置，并投注一种属性，投注的属性与该位置的开奖号码属性相同时，即中奖。
+    大小：开奖号码≥5为“大”，≤4为“小”。
+    单双：开奖号码1、3、5、7、9为“单”，0、2、4、6、8为“双”。
+    质合：开奖号码1、2、3、5、7为“质”，0、4、6、8、9为“合”。
+    3.第一球~第五球选号
+    在第一球～第五球任意位置上选择1个号码，当该位置的开奖号码与所选号码相同时，即中奖。
+    举例：第一球开出号码8，投注「第一球8」，即中奖。
+    4.前三、中三、后三特殊玩法
+    前三定义：[第一球、第二球、第三球]
+    中三定义：[第二球、第三球、第四球]
+    后三定义：[第三球、第四球、第五球]
+    相连定义：0-1-2-3-4-5-6-7-8-9-0之间循环
+    豹子：3个相同的号码
+    举例：开奖号码1,1,1,*,*,投注「前三豹子」，即中奖。
+    顺子：3个相连的号码；顺序不限；
+    举例：开奖号码9,1,0,*,*，投注「前三顺子」，即中奖。
+    对子：3个数字中有1个数字出现2次，另1个数字出现1次，顺序不限；
+    举例：开奖号码0,3,0,*,*，投注「前三对子」，即中奖。
+    半顺：3个数字各不相同，且其中只有2个数字相连；顺序不限；
+    举例：开奖号码0,1,3,*,*，投注「前三半顺」，即中奖。
+    杂六：3个数字各不相同且互不相连。
+    举例：开奖号码0,3,5,*,*，投注「前三杂六」，即中奖。"
+    
+
+
+}

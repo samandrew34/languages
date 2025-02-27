@@ -1,5 +1,25 @@
 {
    
+
+    "Type Of Play": "游戏类型",
+    "Consecutive": "连续",
+    "Cover Time": "覆盖时间",
+    "Chasing The Dragon": "追龙",
+    "Zhanlong": "战龙",
+
+
+    
+        "Current": "当前",
+        "All Colors": "所有颜色",
+        "Customize": "自定义",
+        "5D": "5D",
+        "Big": "大",
+        "Odd": "奇数",
+        "Small": "小",
+        "Even": "偶数",
+        "issues in a row": "连续问题",
+    
+    
     
     "1st Ball Big/Small":"第一球大/小",
     "2nd Ball Big/Small":"第二球大/小",

@@ -1,0 +1,50 @@
+{
+
+    "<span style='color:red'>Big and Small: </span> When the sum of the points drawn by the three dice is 4-10, this is small, and when the sum of the points is 11-17, this is big.<br>
+<span style='color:red'>Odd and even:</span> When the total value or sum of the three lottery numbers is 5,7,9,11,13,15,17, this is odd; when the total value or sum is 4,6,8,10,12,14,16, this is even.<br>
+**If the three dice have the same number, you will not win a prize.<p></p>
+For example: the winning numbers are 4, 5, and 6, and the total value or sum is 15, then the bet on big, is a win.":"<span style='color:red'>Lớn và Nhỏ: </span> Khi tổng điểm của ba con xúc xắc là từ 4-10, đó là nhỏ, và khi tổng điểm là từ 11-17, đó là lớn.<br>  
+<span style='color:red'>Lẻ và Chẵn:</span> Khi tổng giá trị hoặc tổng số của ba số xổ số là 5,7,9,11,13,15,17, đó là lẻ; khi tổng giá trị hoặc tổng số là 4,6,8,10,12,14,16, đó là chẵn.<br>  
+**Nếu cả ba con xúc xắc đều có cùng một số, bạn sẽ không thắng giải.<p></p>  
+Ví dụ: Các số trúng thưởng là 4, 5 và 6, và tổng giá trị hoặc tổng số là 15, thì cược vào lớn sẽ thắng.。",
+"<span style='color:red'>Pair Dice: </span> If any two characters of the lottery numbers are the same and match your selected pair combination, you will win.<p></p>
+For example: If the winning numbers are 1, 1, 3, you win if you bet on the 1, 1.":"<span style='color:red'>Pair Dice: </span> Nếu bất kỳ hai chữ số nào của số trúng thưởng giống nhau và khớp với cặp số bạn đã chọn, bạn sẽ thắng.  
+<p></p>  
+Ví dụ: Nếu số trúng thưởng là 1, 1, 3, bạn sẽ thắng nếu bạn đặt cược vào 1, 1.",
+"<span style='color:red'>Three of A Kind: </span> Any T.O.A.K: If the winning points/numbers are all the same on all three dice and the same as your selected points you win.
+For example: If you choose a single dice of 111, if the result is 111, you win. ":"<span style='color:red'>Three of A Kind: </span> Bất kỳ T.O.A.K: Nếu các điểm/số trúng thưởng giống nhau trên cả ba con xúc xắc và trùng với số bạn đã chọn, bạn thắng.  
+Ví dụ: Nếu bạn chọn một xúc xắc đơn là 111, nếu kết quả là 111, bạn thắng. ",
+"<span style='color:red'>Two of A Kind: </span> If any two of the three winning dice have the same number as your selected number, this is deemed to be a win.<p></p>
+For example: The winning point is 1 2 3. If your selection contains any two numbers ("1 2"or "2 3"or "1 3") of the three winning dice numbers you win. 6.6
+":"<span style='color:red'>Hai trong một: </span> Nếu hai trong ba con xúc xắc trúng thưởng có cùng số với số bạn đã chọn, bạn sẽ thắng.<p></p>
+Ví dụ: Điểm trúng thưởng là 1 2 3. Nếu lựa chọn của bạn chứa bất kỳ hai số nào ("1 2" hoặc "2 3" hoặc "1 3") trong ba số trúng thưởng, bạn sẽ thắng. 6.6
+",
+
+"<span style='color:red'>Guess Sum: </span>Select a number from the sum (sum of three dices) of the 4 - 17 range to form a bet.
+When the sum of the points drawn by the three dices is the same as your selection, this is a win.<br>
+Eg. If you select 11 and the point on the three dice is 2:3:6,
+the sum of the points is 2+3+6=11, so you win because the sum of the points on the three dice is the same as your selection
+":"<span style='color:red'>Đoán Tổng: </span>Chọn một số từ tổng (tổng của ba con xúc xắc) trong khoảng 4 - 17 để đặt cược.  
+Khi tổng số điểm của ba con xúc xắc bằng với lựa chọn của bạn, bạn sẽ thắng.  
+<br>  
+Ví dụ: Nếu bạn chọn 11 và số điểm trên ba con xúc xắc là 2:3:6,  
+tổng số điểm là 2+3+6=11, vậy bạn thắng vì tổng số điểm trên ba con xúc xắc bằng với lựa chọn của bạn.
+",
+"<span style='color:red'>Guess The Number: </span>Choose Dice: Choose a point from 1-6 points to form a bet.
+If your selected number appears once in the lottery winning numbers, this is a single dice win bonus.<p></p>
+If your selected number appears twice in the lottery winning numbers, this is a double dice win bonus.<p></p>
+If your selected number appears three times in the lottery winning draw, this is a triple dice win bonus 1.1
+":"<span style='color:red'>Đoán Số: </span>Chọn Xúc Xắc: Chọn một số từ 1-6 điểm để đặt cược.  
+Nếu số bạn chọn xuất hiện một lần trong số trúng thưởng xổ số, đây là tiền thưởng thắng xúc xắc đơn.<p></p>  
+Nếu số bạn chọn xuất hiện hai lần trong số trúng thưởng xổ số, đây là tiền thưởng thắng xúc xắc đôi.<p></p>  
+Nếu số bạn chọn xuất hiện ba lần trong số trúng thưởng xổ số, đây là tiền thưởng thắng xúc xắc ba 1.1  
+",
+"
+<span style='color:red'>All T.O.A.K: </span>If you select, All dice combinations and the winning numbers are the same, you win.
+For example: If you choose to bet on All dice, and the result is any number that appears three times ( 111 or 222 or 333 etc), you win. 
+":"
+<span style='color:red'>所有 T.O.A.K: </span>如果您选择所有骰子组合且中奖数字相同，您就赢了。
+例如：如果您选择押注所有骰子，并且结果是出现三次的任何数字（111 或 222 或 333 等），您就赢了。
+"
+
+}

@@ -1,0 +1,48 @@
+
+
+
+{
+
+    
+
+    "<span style='color:red'>Big Extra Number: </span>If the Extra number drawn is greater than or equal to 25, this is a Big Extra Number, and you win if you select the Big Extra number.<br>
+<span style='color:red'>Small Extra Number: </span>If the Extra number drawn is less than or equal to 24, this is a Small Extra Number, and you win if you select the Small Extra number.<br>
+<span style='color:red'>Odd Extra Number: </span>If the Extra number drawn is an odd number, you win if you select Odd Extra Number. If the Extra number is 26, choose the Big extra number or Even extra number to win.<br>
+<span style='color:red'>Even Extra Number: </span>If the Extra number drawn is an even number, you win if you select Even Extra Number.
+":"<span style='color:red'>Số phụ lớn: </span>Nếu số phụ được rút ra lớn hơn hoặc bằng 25, đây là Số phụ lớn và bạn thắng nếu chọn Số phụ lớn.<br>  
+<span style='color:red'>Số phụ nhỏ: </span>Nếu số phụ được rút ra nhỏ hơn hoặc bằng 24, đây là Số phụ nhỏ và bạn thắng nếu chọn Số phụ nhỏ.<br>  
+<span style='color:red'>Số phụ lẻ: </span>Nếu số phụ được rút ra là số lẻ, bạn thắng nếu chọn Số phụ lẻ. Nếu số phụ là 26, hãy chọn Số phụ lớn hoặc Số phụ chẵn để thắng.<br>  
+<span style='color:red'>Số phụ chẵn: </span>Nếu số phụ được rút ra là số chẵn, bạn thắng nếu chọn Số phụ chẵn.  
+",
+    "<span style='color:red'>Ball Color: </span>The Extra winning number draw, chosen from a range of numbers
+01 - 49 is categorized into three colors;
+Red balls : 01, 02, 07, 08, 12, 13, 18, 19, 23, 24, 29, 30, 34, 35, 40, 45, 46
+Blue balls : 03, 04, 09, 10, 14, 15, 20, 25, 26, 31, 36, 37, 41, 42, 47, 48
+Green balls : 05, 06, 11, 16, 17, 21, 22, 27, 28, 32, 33, 38, 39, 43, 44, 49
+If the extra winning number drawn is 25, and your bet is Blue balls you win.":"",
+    "":"<span style='color:red'>Màu bóng: </span> Số trúng thưởng phụ, được chọn từ dãy số 01 - 49, được phân thành ba màu:  
+Bóng đỏ: 01, 02, 07, 08, 12, 13, 18, 19, 23, 24, 29, 30, 34, 35, 40, 45, 46  
+Bóng xanh dương: 03, 04, 09, 10, 14, 15, 20, 25, 26, 31, 36, 37, 41, 42, 47, 48  
+Bóng xanh lá: 05, 06, 11, 16, 17, 21, 22, 27, 28, 32, 33, 38, 39, 43, 44, 49  
+
+Nếu số trúng thưởng phụ là 25 và bạn đặt cược vào bóng xanh dương, bạn thắng.",
+    "<span style='color:red'>Guess Extra Number: </span>Select a number from 01 - 49, to form a bet. If the selected and the Extra winning number is the same, this is a win. Eg. If the Extra number is 15, betting on 15 will win the prize.
+":"<span style='color:red'>Đoán Số Thêm: </span>Chọn một số từ 01 - 49 để đặt cược. Nếu số đã chọn và số thắng Thêm giống nhau, bạn sẽ thắng. Ví dụ: Nếu số Thêm là 15, đặt cược vào 15 sẽ giành được giải thưởng.
+",
+    "":"", 
+    "":"",
+    "":"", 
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":""
+  }

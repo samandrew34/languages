@@ -1,0 +1,18 @@
+{
+
+
+ 
+"<span style='color:red'>Banker Pair: </span>  If the 1st Ball and 2nd Ball numbers are the same ( Ball 1 “3” and Ball 2 “3”), betting on Banker Pair wins.<br>
+
+
+<span style='color:red'>Player Pair: </span>  If the 4th Ball and 5th Ball numbers are the same ( Ball 4 “3” and Ball 5 “3”), betting on Player Pair wins.<br>#":"<span style='color:red'>Paire de banquiers: </span>  Si les numéros de la 1ère et de la 2ème boule sont les mêmes (boule 1 « 3 » et boule 2 « 3 »), le pari sur la paire de banquiers est gagnant.<br><span style='color:red'>Paire de joueurs: </span>Si les numéros de la 4e boule et de la 5e boule sont les mêmes (boule 4 « 3 » et boule 5 « 3 »), le pari sur la paire de joueurs est gagnant.<br>#",
+  "<span style='color:red'>Banker: </span>  The sum of the first and second balls' numbers, with only the units digit taken, is considered the Banker. The sum of the fourth and fifth balls' numbers, with only the units digit taken, is considered the Player.If the Banker is greater than the Player, betting on Banker wins.If the Banker is less than the Player, betting on Player wins.If the Banker equals the Player, betting on Tie wins.":"<span style='color:red'>Banquière: </span>  La somme des numéros des première et deuxième boules, en prenant uniquement le chiffre des unités, est considérée comme le banquier. La somme des numéros des quatrième et cinquième boules, en prenant uniquement le chiffre des unités, est considérée comme le joueur. Si le banquier est supérieur au joueur, le pari sur le banquier est gagnant. Si le banquier est inférieur au joueur, le pari sur le joueur est gagnant. Si le banquier est égal au joueur, le pari sur l'égalité est gagnant.",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+  
+}

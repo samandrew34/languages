@@ -1,0 +1,39 @@
+{
+
+
+
+  "<span style='color:red'>Quintuple: </span>All five winning numbers are the same (e.g. 22222, 66666, 88888, betting on five of a kind wins, but betting on the others does not win)<br>
+<span style='color:red'>Quadruple: </span>Four of the five numbers drawn are the same and the other number different (for example, 22221, 66663, 88885, betting on this wins)<br>
+<span style='color:red'>A pair: </span>Only one set of the five numbers drawn is the same (for example, 22168, 66315, 82968, betting on one pair wins)<br>
+<span style='color:red'>Triple Pair: </span>Three of the five numbers drawn are the same (three of a kind) and the other two are also the same (a pair) (e.g. 22211, 66633, betting on Triple Pair wins)<br>
+<span style='color:red'>Streak : </span>The positions of the five winning numbers are in row (for example, 01234, 12345, 23456, 34567, 45678, 56789, 67890, 78901, 89012, 90123, betting on a straight will win)<br>
+<span style='color:red'>T.O.A.K: </span>Three of the five numbers drawn are the same and the other two are different (for example, 22231, 66623, 88895, betting on three of a kind wins)<br>
+<span style='color:red'>Two pairs: </span>Two of the five winning numbers are the same (for example, 22166, 66355, 82668, betting on two pairs wins)<br>
+<span style='color:red'>Loose cards: </span>When winning numbers are different and not in row (e.g. 23186, 13579, 21968, betting on loose cards wins, others do not win.
+":"<span style='color:red'>Quintupl: </span>Tất cả năm con số chiến thắng đều giống nhau (ví dụ: 22222, 66666, 88888, cược vào năm con số giống nhau sẽ thắng, nhưng cược vào các con số khác sẽ không thắng)<br>
+<span style='color:red'>Bốn số giống nhau: </span>Bốn trong năm con số được rút ra giống nhau và con số còn lại khác (ví dụ: 22221, 66663, 88885, cược vào này sẽ thắng)<br>
+<span style='color:red'>Một cặp: </span>Chỉ có một bộ trong năm con số được rút ra là giống nhau (ví dụ: 22168, 66315, 82968, cược vào một cặp sẽ thắng)<br>
+<span style='color:red'>Cặp ba: </span>Ba trong năm con số được rút ra là giống nhau (ba con số giống nhau) và hai con số còn lại cũng giống nhau (một cặp) (ví dụ: 22211, 66633, cược vào Cặp ba sẽ thắng)<br>
+<span style='color:red'>Dãy số: </span>Vị trí của năm con số chiến thắng theo thứ tự liên tiếp (ví dụ: 01234, 12345, 23456, 34567, 45678, 56789, 67890, 78901, 89012, 90123, cược vào một dãy số sẽ thắng)<br>
+<span style='color:red'>T.O.A.K: </span>Ba trong năm con số được rút ra giống nhau và hai con số còn lại khác nhau (ví dụ: 22231, 66623, 88895, cược vào ba con số giống nhau sẽ thắng)<br>
+<span style='color:red'>Hai cặp: </span>Hai trong năm con số chiến thắng là giống nhau (ví dụ: 22166, 66355, 82668, cược vào hai cặp sẽ thắng)<br>
+<span style='color:red'>Thẻ rời: </span>Khi các con số chiến thắng khác nhau và không theo thứ tự liên tiếp (ví dụ: 23186, 13579, 21968, cược vào thẻ rời sẽ thắng, các cược khác không thắng).
+",
+  "":"",
+  "":"",
+  "":"",
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+  
+}

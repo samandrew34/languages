@@ -1,0 +1,54 @@
+{
+  
+
+ "Guess First Number": "猜冠军",
+  "Next Draw": "下次抽奖",
+  "Select from custom species": "从自定义种类中选择",
+  "Total Draw": "总抽奖次数",
+  "Track ID": "追踪ID",
+  "": "",
+  "": "",
+
+
+  //track management 
+ 
+
+ 
+   "Track": "轨道",
+  "No": "号码",
+  "Type": "类型",
+  "Betting Content": "投注内容",
+  "Number of Bets": "投注次数",
+  "Units": "单位",
+  "Bet Amount": "投注金额",
+  "First Draw": "首次开奖",
+  "Track Draws": "跟踪开奖",
+  "First Mult": "首次倍数",
+  "Every": "每",
+  "Draw (Maximum Track 120 Draws)": "开奖（最多跟踪120期）",
+  "Draw(s) Mult.X": "开奖倍数X",
+  "Current": "当前",
+  "Track No": "跟踪号码",
+  "Multiplier": "倍数",
+  "Estimate draw time": "预计开奖时间",
+  "Balance: ": "余额:",
+  "Total Track:": "总跟踪:",
+  "Total:": "总计:",
+  "Total Amount:": "总金额:",
+  "Confirm Track": "确认跟踪",
+  "Stop If Win": "中奖即停止",
+  "Stop If Not Win": "未中奖停止",
+  "Time Remaining:": "剩余时间:",
+  "Profit Margin Tracking Number": "利润率跟踪号码",
+  "Bonus": "奖金",
+  "Cummulative Betting Amount": "累计投注金额",
+  "Expected profit amount": "预计利润金额",
+  "Expected Profitability (%)": "预计盈利率 (%)",
+  "Estimate ....": "估计....",
+  "Minimum Yield": "最低收益"
+
+
+  "": "",
+  "": "",
+  "": ""
+}

@@ -1,0 +1,76 @@
+{
+
+
+
+
+  "
+//pk10
+<span style='color:red'>First 5: </span> When the sum of the first five digits of the winning numbers > the sum of the last five digits, and you bet on the First 5 you win.<br>
+<span style='color:red'>Last 5: </span> The sum of the first five digits of the winning numbers < the sum of the last five digits, which means you win.
+Eg., The winning numbers are 07, 05, 03, 09, 06, 02, 01, 08, 04, 10
+The ranking is divided into the First five and the Last five
+First five: 07, 05, 03, 09, 06
+Last five: 02, 01, 08, 04, 10
+The sum of the first five: 07+05+03+09+06 = 30
+The sum of the last five digits: 02+01+08+04+10 = 25
+Compare the sum of the first five and the last five, 30 > 25, that is, the first 5 > the last 5
+The selected sum value PK is the first 5 and this a win.":"<span style='color:red'>前: </span> 开奖号码前五位的和值 > 后五位的和值，即为中奖.<br>
+<span style='color:red'>后: </span> 开奖号码前五位的和值 < 后五位的和值，即为中奖
+如开奖号码为 07、05、03、09、06、02、01、08、04、10
+将排位按照前五和后五划分
+前五：07、05、03、09、06
+后五：02、01、08、04、10
+前五之和：07+05+03+09+06 = 30
+后五之和：02+01+08+04+10 = 25
+比较前五和后五之和的数字，30 > 25，即前五 > 后五
+选和值 PK 为 前 视为中奖",
+  "
+<span style='color:red'>First 5: </span> If the first five digits of the winning numbers include 01, you win.
+<span style='color:red'>Last 5: </span> If the last five digits of the winning number include 01, you win.
+For example, the winning numbers are 07, 05, 03, 09, 06, 02, 01, 08, 04, 10
+":"<span style='color:red'>快: </span> 开奖号码前五位包含了 01 号，即为中奖
+<span style='color:red'>慢: </span> 开奖号码后五位包含了 01 号，即为中奖
+如开奖号码为 07、05、03、09、06、02、01、08、04、10
+01 车的位置是后五位，在猜快慢的 慢 位押注即为中奖",
+  "<span style='color:red'>Maximum Value (First 5): </span>
+Select which ball out of the First 5 winning balls would have the largest number. If your selection is the same in value and position to the winning draw numbers, you win. 
+For example, the winning numbers are 07, 05, 03, 09, 06, 02, 01, 08, 04, 10
+09 is the largest number among the first five winning numbers. Betting on Ball 4 to have the largest number among the first five numbers will win the prize.
+":"<span style='color:red'>第四位: </span>
+所选投注项与开奖号码前五名的最大号码所对应的位置一致，即为中奖
+如开奖号码为 07、05、03、09、06、02、01、08、04、10
+09 为前五名号码最大数，押注前五名最大号的 第四位 即为中奖.
+",
+  "<span style='color:red'>Minimum Value (Last 5): </span>
+Select which ball out of the Last 5 winning balls would have the smallest number. If your selection is the same in value and position to the winning draw numbers, you win. 
+For example, the winning numbers are 07, 05, 03, 09, 06, 02, 01, 08, 04, 10
+01 is the smallest number of the last five winning numbers. Betting on the Ball 7 to have the smallest number of the last five numbers will win the prize.":"<span style='color:red'>第七位</span>
+所选投注项与开奖号码后五名的最小号码所对应的位置一致，即为中奖
+如开奖号码为 07、05、03、09、06、02、01、08、04、10
+01 为后五个号码最小数，押注后五名最小号的 第七位 即为中奖",
+  "
+  <span style='color:red'>Guess First Number: </span> Select from the range of numbers 01-10, which number will be in the first position or Ball 1 in the winning drawn numbers. For example, the winning numbers are 07, 05, 03, 09, 06, 02, 01, 08, 04, 10. If you bet 07 in the Guess First Number position, you will win.
+
+
+":"<span style='color:red'>冠军: </span> 所选投注项与开奖号码冠军位置的号码一致，即为中奖
+如：开奖车辆号码分别为，07、05、03、09、06、02、01、08、04、10
+在猜冠军位置押注07，则为中奖.",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+
+
+
+
+
+
+
+
+  
+}

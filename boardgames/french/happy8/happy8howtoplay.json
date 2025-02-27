@@ -1,0 +1,48 @@
+
+
+{
+
+    "<span style='color:red'>Big: </span>When the sum of the 20 numbers drawn is greater than > 810 this is big.<br>
+<span style='color:red'>Small: </span>When the sum of the 20 numbers drawn is lesser than < 810 this is small.<br>
+<span style='color:red'>Tie: </span>When the sum of the 20 numbers drawn is equal to = 810 this is a tie.<br>
+For example, if you choose "Big" and the sum of the 20 winning numbers is 1000, which is greater than > 810, this is a win.":"<span style='color:red'>Grand : </span> Lorsque la somme des 20 numéros tirés est supérieure à 810, c'est "Grand".<br>  
+<span style='color:red'>Petit : </span> Lorsque la somme des 20 numéros tirés est inférieure à 810, c'est "Petit".<br>  
+<span style='color:red'>Égalité : </span> Lorsque la somme des 20 numéros tirés est égale à 810, c'est une égalité.<br>  
+Par exemple, si vous choisissez "Grand" et que la somme des 20 numéros gagnants est de 1000, ce qui est supérieur à 810, alors c'est une victoire.",
+    "<span style='color:red'>Upper Range: </span>Among the 20 winning numbers, if the numbers in the range of (01-40) is greater than the numbers in the range of (41-80), this Upper range.<br>
+<span style='color:red'>Lower Range: </span>Among the 20 winning numbers, if the numbers in the range of (01-40) is lesser than the numbers in the range of (41-80), this Lower range.<br>
+<span style='color:red'>Tie: </span>Among the 20 winning numbers, if the numbers in the Upper range of (01-40) is equal to = the numbers in the Lower range of (41-80), this is a tie.<br>
+For example, if you choose "Upper range", and among the 20 winning numbers, there are 13 numbers in the Upper range (01-40) and 7 numbers in the lower plate (41-80). If you bet on the Upper Range, you win, because the upper range is larger than the lower range.
+|":"<span style='color:red'>Plage Supérieure : </span>Parmi les 20 numéros gagnants, si le nombre de numéros dans la plage (01-40) est supérieur au nombre de numéros dans la plage (41-80), c'est la Plage Supérieure.<br>  
+<span style='color:red'>Plage Inférieure : </span>Parmi les 20 numéros gagnants, si le nombre de numéros dans la plage (01-40) est inférieur au nombre de numéros dans la plage (41-80), c'est la Plage Inférieure.<br>  
+<span style='color:red'>Égalité : </span>Parmi les 20 numéros gagnants, si le nombre de numéros dans la Plage Supérieure (01-40) est égal au nombre de numéros dans la Plage Inférieure (41-80), c'est une égalité.<br>  
+Par exemple, si vous choisissez la "Plage Supérieure" et que parmi les 20 numéros gagnants, il y a 13 numéros dans la Plage Supérieure (01-40) et 7 numéros dans la Plage Inférieure (41-80), vous gagnez votre pari sur la Plage Supérieure, car elle est plus grande que la Plage Inférieure.",
+"<span style='color:red'>Odd Range: </span>Among the 20 winning numbers, if the count of odd numbers is more than the count of even numbers, it is called Odd range.<br>
+<span style='color:red'>Even Range: </span>Among the 20 winning numbers, if the count of odd numbers is lesser than the count of even numbers, it is called Even range.<br>
+<span style='color:red'>Tie Range: </span>Among the 20 winning numbers, if the count of odd numbers is equal to the count of even numbers, it is called Tie range.<br>
+For example: If you choose "Odd range", and there are 13 odd numbers and 7 even numbers among 20 winning numbers, this makes the odd numbers more than the even numbers, and betting on the Odd range is a win.
+":"<span style='color:red'>Plage Impaire : </span>Parmi les 20 numéros gagnants, si le nombre de numéros impairs est supérieur au nombre de numéros pairs, on parle de Plage Impaire.<br>  
+<span style='color:red'>Plage Paire : </span>Parmi les 20 numéros gagnants, si le nombre de numéros impairs est inférieur au nombre de numéros pairs, on parle de Plage Paire.<br>  
+<span style='color:red'>Plage Égalité : </span>Parmi les 20 numéros gagnants, si le nombre de numéros impairs est égal au nombre de numéros pairs, on parle de Plage Égalité.<br>  
+Par exemple : Si vous choisissez la "Plage Impaire" et qu'il y a 13 numéros impairs et 7 numéros pairs parmi les 20 numéros gagnants, cela signifie que les numéros impairs sont plus nombreux que les numéros pairs, et parier sur la Plage Impaire est une victoire.
+",
+"<span style='color:red'>Sum Odd: </span>When the sum of the 20 numbers drawn ends with 1, 3, 5, 7, 9, this Sum odd. Eg. If the sum of the 20 numbers drawn is 783, this is Sum odd.<br>
+<span style='color:red'>Sum Even: </span>When the sum of the 20 numbers drawn ends with 0, 2, 4, 6, 8, this Sum even. Eg. If the sum of the 20 numbers drawn is 784, this is Sum even.<br>
+<span style='color:red'>Big Odd: </span>When the sum of the 20 numbers drawn is greater than 810 and is an odd number, it is “Big odd”.<br>
+<span style='color:red'>Small Odd: </span>When the sum of the 20 numbers drawn is less than 810 and is an odd number, it is “Small odd”.<br>
+<span style='color:red'>Big Even: </span>When the sum of the 20 numbers drawn is greater than 810 and is an even number (including equal to 810), it is “Big even”.<br>
+<span style='color:red'>Small Even: </span>When the sum of the 20 numbers drawn is less than 810 and is an even number, it is “Small even”.<br>
+For example, if you choose "Big Even", and the sum of the 20 winning numbers is 1002, which is greater than 810 and is an even number, you win if you select Big Even.
+":"<span style='color:red'>Somme Impaire : </span>Lorsque la somme des 20 numéros tirés se termine par 1, 3, 5, 7 ou 9, c'est une "Somme Impaire". Exemple : Si la somme des 20 numéros tirés est 783, c'est une "Somme Impaire".<br>  
+<span style='color:red'>Somme Paire : </span>Lorsque la somme des 20 numéros tirés se termine par 0, 2, 4, 6 ou 8, c'est une "Somme Paire". Exemple : Si la somme des 20 numéros tirés est 784, c'est une "Somme Paire".<br>  
+<span style='color:red'>Grande Impaire : </span>Lorsque la somme des 20 numéros tirés est supérieure à 810 et est un nombre impair, c'est une "Grande Impaire".<br>  
+<span style='color:red'>Petite Impaire : </span>Lorsque la somme des 20 numéros tirés est inférieure à 810 et est un nombre impair, c'est une "Petite Impaire".<br>  
+<span style='color:red'>Grande Paire : </span>Lorsque la somme des 20 numéros tirés est supérieure à 810 et est un nombre pair (y compris 810), c'est une "Grande Paire".<br>  
+<span style='color:red'>Petite Paire : </span>Lorsque la somme des 20 numéros tirés est inférieure à 810 et est un nombre pair, c'est une "Petite Paire".<br>  
+Par exemple, si vous choisissez "Grande Paire" et que la somme des 20 numéros gagnants est 1002, qui est supérieure à 810 et est un nombre pair, vous gagnez si vous avez sélectionné "Grande Paire".
+",
+"<span style='color:red'>Five Element: </span>The total sum of the 20 winning numbers is divided into 5 categories: Gold (210-695), Wood (696-763), Water (764-855), Fire (856-923) and Earth (924-1410). For example, if you choose "Gold", and the total sum of the 20 winning numbers is 300, which is within the range of "Gold (210~695)", you win.
+":"<span style='color:red'>Cinq Éléments : </span>La somme totale des 20 numéros gagnants est divisée en 5 catégories : Or (210-695), Bois (696-763), Eau (764-855), Feu (856-923) et Terre (924-1410). Par exemple, si vous choisissez "Or" et que la somme totale des 20 numéros gagnants est de 300, ce qui se situe dans la plage "Or (210~695)", vous gagnez.
+"
+    wrote in chat
+}

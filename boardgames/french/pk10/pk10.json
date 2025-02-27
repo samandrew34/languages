@@ -1,0 +1,44 @@
+
+
+{
+
+    
+"High Range": "Plage Élevée",
+    "First 5": "Premiers 5",
+    "Last 5": "Derniers 5",
+    "Max Value (First 5)": "Valeur Max (Premiers 5)",
+    "Min Value (Last 5)": "Valeur Min (Derniers 5)",
+    "Guess The Number 1": "Devinez Le Nombre 1",
+    "Guess First Winner": "Devinez Le Premier Gagnant",
+    "01": "01",
+    "02": "02",
+    "03": "03",
+    "04": "04",
+    "05": "05",
+    "06": "06",
+    "07": "07",
+    "08": "08",
+    "09": "09",
+    "10": "10",
+    "BALL 1": "BALLE 1",
+    "BALL 2": "BALLE 2",
+    "BALL 3": "BALLE 3",
+    "BALL 4": "BALLE 4",
+    "BALL 5": "BALLE 5",
+    "BALL 6": "BALLE 6",
+    "BALL 7": "BALLE 7",
+    "BALL 8": "BALLE 8",
+    "BALL 9": "BALLE 9",
+    "BALL 10": "BALLE 10",
+    "First 5 (First 5 > Last 5)": "Premiers 5 (Premiers 5 > Derniers 5)",
+    "LAST 5 (Last 5 contains 01)": "Derniers 5 (Derniers 5 contient 01)",
+    "(First 5 > Last 5)": "(Premiers 5 > Derniers 5)",
+    "(Last 5 > First 5)": "(Derniers 5 > Premiers 5)",
+    "FIRST 5": "PREMIERS 5",
+    "LAST 5": "DERNIERS 5",
+    "(First 5 contains 01)": "(Premiers 5 contient 01)",
+    "(Last 5 contains 01)": "(Derniers 5 contient 01)"
+    "":"",
+    "":"",
+    "":""
+  }

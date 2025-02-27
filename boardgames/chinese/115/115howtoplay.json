@@ -44,11 +44,34 @@ Eg. If the drawn winning numbers are 6, 8, 7, 1, 9. Compare the numerical value 
 如：押注 杂牌，开奖号码为 04、09、01、08、02
 开奖号码中无论哪三个数字相加尾数都不为 0，与投注结果一致视为中奖
 ",
-  "":"",
-  "":"",
+
+
+tab two 11x5
+  "<span style='color:red'>First range: </span>Among the 5 winning numbers, the number of First range (01-05) numbers > the number of Last range (07-11) numbers.<br>
+<span style='color:red'>Tie/Draw: </span>The count of numbers in the First range (01-05) of the 5 winning numbers = the count of numbers in the Last range (07-11) excluding 06. For example: Bet on the Tie/Draw , the winning numbers are 04, 09, 01, 08, 06, it is considered a win.<br>
+<span style='color:red'>Last range: </span>The count of numbers in the First range (01-05) among the 5 winning numbers is < less than the number of numbers in the Last range (07-11).
+For example: Bet on the First range , the winning numbers are,
+04, 09, 01, 08, 02 If the number of First range 01, 02, 04 is > greater than the number of Last range 08, 09, it is considered a win.":"<span style='color:red'>上盘: </span>5 个开奖号码中 上盘(01-05) 号码个数 > 下盘(07-11) 号码个数<br>
+<span style='color:red'>下盘: </span>5 个开奖号码中 上盘(01-05) 号码个数 < 下盘(07-11) 号码个数<br>
+<span style='color:red'>和盘: </span>5 个开奖号码中 上盘(01-05) 号码个数 = 下盘(07-11) 号码个数
+如：押注 上盘，开奖号码为 04、09、01、08、02
+上盘 01、02、04 的个数大于下盘 08、09 的个数，视为中奖",
+
+
+  "<span style='color:red'>Guess middle digit: </span>Choose 1 number from 03 to 09 to form a bet. If the third number after the 5 winning numbers are arranged in ascending order is the same as your selected number, you win. <p></p>The probability of winning the number is different, and the prize money is also different. The prize money is ranked from high to low: 03/09, 04/08, 05/07, 06. For example: Bet on the number 4 , the winning numbers are 04, 09, 01, 08, 02 The winning numbers are arranged in ascending order: 01, 02, 04, 08, 09. The third number (4) of the winning numbers is the same as your selected bet number and is considered a winner.
+":"<span style='color:red'>猜中位: </span>从 03 至 09 中选择 1 个号码作为 1 注，若开奖号码按照从大到小顺序排列后的第 3 个号码与投注号码相同，即为中奖。号码中奖概率不一样，奖金也不相同，奖金由高至低排列依次为：03/09、04/08、05/07、06。
+如：押注 4，开奖号码为 04、09、01、08、02
+开奖号码按大小顺序排列为 01、02、04、08、09，第三个号码与投注号码相同视为中奖",
   
-  "":"",
-  "":"",
+  "
+<span style='color:red'>Odd plate: </span>The number of odd numbers among the 5 winning numbers is > greater than the number of even numbers.<br>
+<span style='color:red'>Even plate: </span>The number of odd numbers among the 5 winning numbers is < less than the number of even numbers.
+":"<span style='color:red'>单盘: </span>5 个开奖号码中 奇盘(奇数) 号码个数 > 偶盘(偶数) 号码个数.<br>
+<span style='color:red'>双盘: </span>5 个开奖号码中 奇盘(奇数) 号码个数 < 偶盘(偶数) 号码个数.",
+  "<span style='color:red'>Guess the sum value: </span>Select a number from the sum of the 5 winning numbers. If it is the same as the sum of the winning numbers, you win. For example: You bet on 24, the winning numbers are 04, 09, 01, 08, 02 The sum of the winning numbers is 24, which is the same as your bet number and is considered a win.
+":"<span style='color:red'>猜和值: </span>从 5 个开奖号码总和值选择一个投注，若与开奖号码的和值相同，则中奖
+如：押注 24，开奖号码为 04、09、01、08、02
+开奖号码的和值为 24，与投注号码一致视为中奖",
   "":"",
   "":"",
   "":""

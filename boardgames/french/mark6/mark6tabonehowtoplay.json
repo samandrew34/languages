@@ -1,0 +1,48 @@
+
+
+
+{
+
+    
+
+    "<span style='color:red'>Big Extra Number: </span>If the Extra number drawn is greater than or equal to 25, this is a Big Extra Number, and you win if you select the Big Extra number.<br>
+<span style='color:red'>Small Extra Number: </span>If the Extra number drawn is less than or equal to 24, this is a Small Extra Number, and you win if you select the Small Extra number.<br>
+<span style='color:red'>Odd Extra Number: </span>If the Extra number drawn is an odd number, you win if you select Odd Extra Number. If the Extra number is 26, choose the Big extra number or Even extra number to win.<br>
+<span style='color:red'>Even Extra Number: </span>If the Extra number drawn is an even number, you win if you select Even Extra Number.
+":"<span style='color:red'>Grand Numéro Extra : </span>Si le numéro extra tiré est supérieur ou égal à 25, c'est un Grand Numéro Extra, et vous gagnez si vous sélectionnez le Grand Numéro Extra.<br>  
+<span style='color:red'>Petit Numéro Extra : </span>Si le numéro extra tiré est inférieur ou égal à 24, c'est un Petit Numéro Extra, et vous gagnez si vous sélectionnez le Petit Numéro Extra.<br>  
+<span style='color:red'>Numéro Extra Impair : </span>Si le numéro extra tiré est un nombre impair, vous gagnez si vous sélectionnez le Numéro Extra Impair. Si le numéro extra est 26, choisissez le Grand Numéro Extra ou le Numéro Extra Pair pour gagner.<br>  
+<span style='color:red'>Numéro Extra Pair : </span>Si le numéro extra tiré est un nombre pair, vous gagnez si vous sélectionnez le Numéro Extra Pair.
+",
+    "<span style='color:red'>Ball Color: </span>The Extra winning number draw, chosen from a range of numbers
+01 - 49 is categorized into three colors;
+Red balls : 01, 02, 07, 08, 12, 13, 18, 19, 23, 24, 29, 30, 34, 35, 40, 45, 46
+Blue balls : 03, 04, 09, 10, 14, 15, 20, 25, 26, 31, 36, 37, 41, 42, 47, 48
+Green balls : 05, 06, 11, 16, 17, 21, 22, 27, 28, 32, 33, 38, 39, 43, 44, 49
+If the extra winning number drawn is 25, and your bet is Blue balls you win.":"",
+    "":"<span style='color:red'>Couleur de la boule : </span>Le numéro gagnant supplémentaire tiré au sort, choisi parmi une plage de nombres de 01 à 49, est catégorisé en trois couleurs :  
+Boules rouges : 01, 02, 07, 08, 12, 13, 18, 19, 23, 24, 29, 30, 34, 35, 40, 45, 46  
+Boules bleues : 03, 04, 09, 10, 14, 15, 20, 25, 26, 31, 36, 37, 41, 42, 47, 48  
+Boules vertes : 05, 06, 11, 16, 17, 21, 22, 27, 28, 32, 33, 38, 39, 43, 44, 49  
+
+Si le numéro gagnant supplémentaire tiré est 25 et que votre mise est sur les boules bleues, vous gagnez.",
+    "<span style='color:red'>Guess Extra Number: </span>Select a number from 01 - 49, to form a bet. If the selected and the Extra winning number is the same, this is a win. Eg. If the Extra number is 15, betting on 15 will win the prize.
+":"<span style='color:red'>Devinez le Numéro Extra : </span>Sélectionnez un numéro entre 01 et 49 pour placer un pari. Si le numéro sélectionné et le numéro gagnant Extra sont identiques, vous gagnez. Par exemple, si le numéro Extra est 15, parier sur 15 vous fera gagner le prix.",
+    "":"",
+    "":"", 
+    "":"",
+    "":"", 
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":"",
+    "":""
+  }

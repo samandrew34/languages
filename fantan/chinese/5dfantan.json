@@ -7,7 +7,7 @@
 "11X5":"11X5",
 "Mark6":"马克6",
 "Happy8":"Happy8",
-"Big":"大的",
+"Big":"大",
 "Main":"主要的",
 "Fantan 1":"番摊1",
 "Fantan 2":"番摊2",
@@ -96,10 +96,10 @@
 "O/E":"原厂配件",
 "SumL3":"萨姆3",
 "Fantan":"番摊",
-"B":"B",
-"S":"S",
-"O":"O",
-"E":"E",
+"B":"大",
+"S":"小",
+"O":"哦",
+"E":"偶",
 "Royal 10":"皇家10",
 "Speedy PK10 1.5min":"快速PK10 1.5分钟",
 "Lucky PK10 3m":"幸运 PK10 3m",
@@ -172,14 +172,16 @@
 "Water":"水",
 "Earth":"地球",
 "5 Elements":"5 要素",
-"":"",
-"":"",
-"":"",
-"":"",
-"":"",
-"":"",
-"":"",
-"":"",
+"Edit Amount":"",
+"Save":"",
+"Reset to default":"",
+"Last Record":"",
+
+Mark 6 5mins
+Mark 6 Board Game 1min
+Mark6 Fantan1min
+Mark6 Fantan20sec
+Mark 6 Board Game 20secs
 "":"",
 "":"",
 "":"",

@@ -10,15 +10,14 @@
 <span style='color:red'>T.O.A.K: </span>Three of the five numbers drawn are the same and the other two are different (for example, 22231, 66623, 88895, betting on three of a kind wins)<br>
 <span style='color:red'>Two pairs: </span>Two of the five winning numbers are the same (for example, 22166, 66355, 82668, betting on two pairs wins)<br>
 <span style='color:red'>Loose cards: </span>When winning numbers are different and not in row (e.g. 23186, 13579, 21968, betting on loose cards wins, others do not win.
-":"<span style='color:red'>五条: </span>开奖的五个号码全部相同（例如 22222、66666、88888，投注 五条 中奖，其它不中奖）<br>
-<span style='color:red'>四条: </span>开奖的五个号码中有四个号码相同（例如 22221、66663、88885，投注 四条 中奖，其它不中奖）<br>
-<span style='color:red'>一对: </span>开奖的五个号码中有三个号码相同（三条）另外两个号码也相同（一对）（例如 22211、66633，投注 葫芦 中奖，其它不中奖）<br>
-<span style='color:red'>葫芦: </span>开奖的五个号码位置不限，包含下例十组号码（例如 01234、12345、23456、34567、45678、56789、67890、78901、89012、90123，投注 顺子 中奖，其它不中奖）<br>
-<span style='color:red'>顺子 : </span>开奖的五个号码中有三个号码相同另外两个不相同（例如 22231、66623、88895, 投注 三条 中奖，其它不中奖）<br>
-<span style='color:red'>三条: </span>开奖的五个号码中有两组号码相同（例如 22166、66355、82668, 投注 两对 中奖，其它不中奖<br>
-<span style='color:red'>两对: </span>开奖的五个号码中只有一组号码相同（例如 22168、66315、82968, 投注 一对 中奖，其它不中奖<br>
-<span style='color:red'>散牌: </span>开奖号码不是五条、四条、葫芦、三条、顺子、两对、一对的其它所有开奖号码（例如 23186、13579、21968, 投注 散牌 中奖，其它不中奖
-",
+":"<span style='color:red'>Quintuple: </span>Alle fünf Gewinnzahlen sind gleich (z. B. 22222, 66666, 88888, Wetten auf fünf gleiche Zahlen gewinnt, aber Wetten auf andere Zahlen gewinnt nicht)<br>  
+<span style='color:red'>Quadruple: </span>Vier der fünf gezogenen Zahlen sind gleich und die andere Zahl ist unterschiedlich (z. B. 22221, 66663, 88885, Wetten auf diese Kombination gewinnt)<br>  
+<span style='color:red'>A pair: </span>Nur ein Zahlenpaar ist unter den fünf gezogenen Zahlen vorhanden (z. B. 22168, 66315, 82968, Wetten auf ein Paar gewinnt)<br>  
+<span style='color:red'>Triple Pair: </span>Drei der fünf gezogenen Zahlen sind gleich (Drilling), und die anderen zwei sind ebenfalls gleich (ein Paar) (z. B. 22211, 66633, Wetten auf Triple Pair gewinnt)<br>  
+<span style='color:red'>Streak: </span>Die fünf Gewinnzahlen sind in einer aufeinanderfolgenden Reihenfolge (z. B. 01234, 12345, 23456, 34567, 45678, 56789, 67890, 78901, 89012, 90123, Wetten auf eine Reihe gewinnt)<br>  
+<span style='color:red'>T.O.A.K: </span>Drei der fünf gezogenen Zahlen sind gleich und die anderen zwei sind unterschiedlich (z. B. 22231, 66623, 88895, Wetten auf drei gleiche Zahlen gewinnt)<br>  
+<span style='color:red'>Two pairs: </span>Zwei der fünf Gewinnzahlen sind gleich (z. B. 22166, 66355, 82668, Wetten auf zwei Paare gewinnt)<br>  
+<span style='color:red'>Loose cards: </span>Alle Gewinnzahlen sind unterschiedlich und nicht in einer Reihenfolge (z. B. 23186, 13579, 21968, Wetten auf lose Karten gewinnt, andere Wetten verlieren).",
   "":"",
   "":"",
   "":"",
