@@ -1,0 +1,42 @@
+
+
+{
+
+    
+    "1st":"第一球",
+    "2nd":"第二球",
+    "3rd":"第三球",
+    "4th":"第四球",
+    "5th":"第五球",
+    "Rapido":"快捷",
+    "All Kinds":"整合",
+    "Big":"大",
+    "Prime":"质",
+    "Small":"小",
+    "Composite":"合",
+    "Odd":"单",
+    "Even":"双",
+    "How to Play":"玩法说明",
+    "2sides":"双面盘",
+    "Tiger":"虎",
+    "Dragon":"龙",
+    "Tie":"和",
+    "Sum of Dragon/Tiger/Tie":"总和龙虎和",
+    "Hot/Cold":"冷热",
+    "Lack":"当前遗漏",
+    "First 3":"前三",
+    "Middle 3":"中三",
+    "Last 3":"后三",
+    "TOAK":"豹子",
+    "Streak":"顺子",
+    "Half Streak":"半顺",
+    "Mixed 6":"杂六",
+    "Pair":"对子",
+   
+
+    "First3":"前三",
+    "Middle3":"中三",
+    "Last3":"后三"
+    
+
+}
