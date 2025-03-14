@@ -1,0 +1,862 @@
+
+
+{
+
+
+//5d games
+
+
+"<span style='color:red; font-weight:bold;'>1.Sum - Dragon/Tiger/Tie</span><br>
+B/S Sum: Winning No. sum ≥23 as Big, ≤22 as Small.<br>
+O/E Sum: Winning No. ones place as 1, 3, 5, 7, 9 as Odd; 0, 2, 4, 6, 8 as Even.<br>
+Dragon/Tiger/Tie: 1st>5th winning No. (0 smallest, 9 biggest) as Dragon, or else Tiger. Equal as Tie.<br>
+<span style='color:red; font-weight:bold;'>2.1st~5th</span><br>
+Select 1 place & bet 1 element. Bet & winning No. place elements same, as win.<br>
+B/S: Winning No. ≥5 as Big; ≤4 as Small.<br>
+O/E: Winning No. 1, 3, 5, 7, 9 as Odd; 0, 2, 4, 6, 8 as Even.<br>
+P/C: Winning No. 1, 2, 3, 5, 7 as Prime; 0, 4, 6, 8, 9 as Composite.<br>
+<span style='color:red; font-weight:bold;'>3.Fixed Place 1st~5th</span><br>
+1st~5th ball pick select 1 number from 1st~5th. Selected and place winning No. same, as win.<br>
+E.g. 1st draw 8. Bet[1st 8], as win.<br>
+<span style='color:red; font-weight:bold;'>4.Unique First 3, Mid 3, Last 3</span><br>
+First3: [1st, 2nd, 3rd].<br>
+Mid3: [2nd, 3rd, 4th].<br>
+Last3: [3rd, 4th, 5th].<br>
+In row: Cycle between 0-1-2-3-4-5-6-7-8-9-0.<br>
+TOAK: 3 same numbers.<br>
+E.g. Winning No. 1, 1, 1, *, *. Bet[First 3 TOAK], as win.<br>
+Streak: 3 related numbers.<br>
+E.g. Winning No. 9, 1, 0, *, *. Bet [First 3 Straight], as win.<br>
+Pair: 1 of 3 numbers occur 2x, other occur 1x.<br>
+E.g. Winning No. 0, 3, 0, *, *. Bet[First 3 Pair], as win.<br>
+Half Streak: 3 different numbers, 2 numbers related.<br>
+E.g. Winning No. 0, 1, 3, *, *. Bet[First 3 Half Streak], as win.<br>
+Mixed 6: 3 different & unrelated numbers.<br>
+E.g. Winning No. 0, 3, 5, *, *. Bet[First 3 Mixed 6], as win.":
+
+"<span style='color:red; font-weight:bold;'>1. Summe - Drache/Tiger/Unentschieden</span>**<br>  
+B/S Summe: Gewinnzahl-Summe ≥23 als Groß, ≤22 als Klein.<br>  
+O/E Summe: Einerstelle der Gewinnzahl als 1, 3, 5, 7, 9 = Ungerade; 0, 2, 4, 6, 8 = Gerade.<br>  
+Drache/Tiger/Unentschieden: 1. Gewinnzahl > 5. Gewinnzahl (0 = kleinste, 9 = größte) als Drache, ansonsten Tiger. Gleichstand = Unentschieden.<br>  
+
+**<span style='color:red; font-weight:bold;'>2. 1. bis 5.</span>**<br>  
+Wählen Sie eine Position und setzen Sie auf ein Element. Wenn die gesetzte Position und die Gewinnzahl-Position übereinstimmen, gewinnen Sie.<br>  
+B/S: Gewinnzahl ≥5 als Groß; ≤4 als Klein.<br>  
+O/E: Gewinnzahl 1, 3, 5, 7, 9 = Ungerade; 0, 2, 4, 6, 8 = Gerade.<br>  
+P/C: Gewinnzahl 1, 2, 3, 5, 7 = Primzahl; 0, 4, 6, 8, 9 = Zusammengesetzt.<br>  
+
+**<span style='color:red; font-weight:bold;'>3. Fester Platz 1. bis 5.</span>**<br>  
+Wählen Sie eine Zahl für den 1. bis 5. Ball aus. Wenn die ausgewählte Zahl mit der Gewinnzahl an der gleichen Position übereinstimmt, gewinnen Sie.<br>  
+Beispiel: 1. Ziehung 8. Einsatz [1. Platz 8] = Gewinn.<br>  
+
+**<span style='color:red; font-weight:bold;'>4. Einzigartige Erste 3, Mittlere 3, Letzte 3</span>**<br>  
+Erste 3: [1., 2., 3.]<br>  
+Mittlere 3: [2., 3., 4.]<br>  
+Letzte 3: [3., 4., 5.]<br>  
+In Reihe: Zyklus zwischen 0-1-2-3-4-5-6-7-8-9-0.<br>  
+TOAK (Drilling): 3 gleiche Zahlen.<br>  
+Beispiel: Gewinnzahlen 1, 1, 1, *, *. Einsatz [Erste 3 Drilling] = Gewinn.<br>  
+Strecke: 3 aufeinanderfolgende Zahlen.<br>  
+Beispiel: Gewinnzahlen 9, 1, 0, *, *. Einsatz [Erste 3 Straße] = Gewinn.<br>  
+Paar: 1 von 3 Zahlen kommt zweimal vor, die andere einmal.<br>  
+Beispiel: Gewinnzahlen 0, 3, 0, *, *. Einsatz [Erste 3 Paar] = Gewinn.<br>  
+Halbe Strecke: 3 verschiedene Zahlen, davon 2 aufeinanderfolgend.<br>  
+Beispiel: Gewinnzahlen 0, 1, 3, *, *. Einsatz [Erste 3 Halbe Straße] = Gewinn.<br>  
+Gemischte 6: 3 verschiedene und nicht zusammenhängende Zahlen.<br>  
+Beispiel: Gewinnzahlen 0, 3, 5, *, *. Einsatz [Erste 3 Gemischte 6] = Gewinn.<br>",
+
+
+
+
+
+// pk 10
+
+
+"<span style='color:red; font-weight:bold;'>1. Two Sides</span><br>
+<span style='color:red; font-weight:bold;'>1.1 B/S/O/E - Sum of Top 2</span><br>
+<span style='color:red; font-weight:bold;'>Sum of Top 2 B/S</span> If the sum of the top two winning numbers is greater than 11, it is considered Big; if it is 11 or less, it is considered Small.<br>
+<span style='color:red; font-weight:bold;'>Sum of Top 2 O/E: </span>If the unit digit of the sum of the top two winning numbers is 1, 3, 5, 7, or 9, it is considered Odd; if it is 0, 2, 4, 6, or 8, it is considered Even.<br>
+<span style='color:red; font-weight:bold;'>1.2 1st Prize ~ 10th Prize (B/S & O/E & Dragon/Tiger)</span><br>
+<span style='color:red; font-weight:bold;'>B/S:</span> If the winning number is 6 or greater, it is considered Big; if it is 5 or less, it is considered Small.<br>
+<span style='color:red; font-weight:bold;'>O/E: </span>If the unit digit of the winning number is 1, 3, 5, 7, or 9, it is considered Odd; if it is 0, 2, 4, 6, or 8, it is considered Even.<br>
+<span style='color:red; font-weight:bold;'>Dragon/Tiger:</span> If the former number is bigger than the latter, it is considered Dragon; otherwise, it is Tiger (1 is the smallest, 10 is the biggest).<br>
+<span style='color:red; font-weight:bold;'>1st Dragon/Tiger:</span>1st vs. 10th compete.<br>
+<span style='color:red; font-weight:bold;'>2nd Dragon/Tiger:</span>2nd vs. 9th compete.<br>
+<span style='color:red; font-weight:bold;'>>3rd Dragon/Tiger</span> 3rd vs. 8th compete.<br>
+<span style='color:red; font-weight:bold;'>4th Dragon/Tiger:</span>4th vs. 7th compete.<br>
+<span style='color:red; font-weight:bold;'>5th Dragon/Tiger:</span> 5th vs. 6th compete.<br>
+<span style='color:red; font-weight:bold;'>2. Fixed Place</span><br>
+ Select places from 1st to 10th.<br>
+Select one number from any 1 to 10.<br>
+ If the selected number and the winning number in the chosen place match, it is considered a win.<br>
+ Example: Winning numbers: 1,* ,* ,* ,* , *, *, *, *, ; Bet on 1st place with number 1, and it is considered a win.<br>
+<span style='color:red; font-weight:bold;'>3. Sum of Top Two</span><br>
+ Select one value.<br>
+ If the sum of the 1st and 2nd winning numbers matches the selected value, it is considered a win.<br>
+Example: Winning numbers: 1, 2, *, *, *, *, *, *, *, ; Bet on 3 and it is considered a win.":"
+**<span style='color:red; font-weight:bold;'>1. Zwei Seiten</span>**<br>  
+**<span style='color:red; font-weight:bold;'>1.1 B/S/O/E - Summe der obersten 2</span>**<br>  
+**<span style='color:red; font-weight:bold;'>Summe der obersten 2 B/S:</span>** Wenn die Summe der zwei höchsten Gewinnzahlen größer als 11 ist, gilt sie als Groß; wenn sie 11 oder weniger beträgt, gilt sie als Klein.<br>  
+**<span style='color:red; font-weight:bold;'>Summe der obersten 2 O/E:</span>** Wenn die Einerstelle der Summe der zwei höchsten Gewinnzahlen 1, 3, 5, 7 oder 9 ist, gilt sie als Ungerade; wenn sie 0, 2, 4, 6 oder 8 ist, gilt sie als Gerade.<br>  
+
+**<span style='color:red; font-weight:bold;'>1.2 1. Preis ~ 10. Preis (B/S & O/E & Drache/Tiger)</span>**<br>  
+**<span style='color:red; font-weight:bold;'>B/S:</span>** Wenn die Gewinnzahl 6 oder größer ist, gilt sie als Groß; wenn sie 5 oder kleiner ist, gilt sie als Klein.<br>  
+**<span style='color:red; font-weight:bold;'>O/E:</span>** Wenn die Einerstelle der Gewinnzahl 1, 3, 5, 7 oder 9 ist, gilt sie als Ungerade; wenn sie 0, 2, 4, 6 oder 8 ist, gilt sie als Gerade.<br>  
+**<span style='color:red; font-weight:bold;'>Drache/Tiger:</span>** Wenn die vorherige Zahl größer als die nachfolgende ist, gilt sie als Drache; andernfalls als Tiger (1 ist die kleinste, 10 die größte Zahl).<br>  
+**<span style='color:red; font-weight:bold;'>1. Drache/Tiger:</span>** 1. vs. 10. treten gegeneinander an.<br>  
+**<span style='color:red; font-weight:bold;'>2. Drache/Tiger:</span>** 2. vs. 9. treten gegeneinander an.<br>  
+**<span style='color:red; font-weight:bold;'>3. Drache/Tiger:</span>** 3. vs. 8. treten gegeneinander an.<br>  
+**<span style='color:red; font-weight:bold;'>4. Drache/Tiger:</span>** 4. vs. 7. treten gegeneinander an.<br>  
+**<span style='color:red; font-weight:bold;'>5. Drache/Tiger:</span>** 5. vs. 6. treten gegeneinander an.<br>  
+
+**<span style='color:red; font-weight:bold;'>2. Fester Platz</span>**<br>  
+Wählen Sie Plätze von 1. bis 10.<br>  
+Wählen Sie eine Zahl von 1 bis 10.<br>  
+Wenn die gewählte Zahl mit der Gewinnzahl an der ausgewählten Position übereinstimmt, gilt dies als Gewinn.<br>  
+**Beispiel:** Gewinnzahlen: 1, *, *, *, *, *, *, *, *, *; Wette auf den 1. Platz mit der Zahl 1 – dies gilt als Gewinn.<br>  
+
+**<span style='color:red; font-weight:bold;'>3. Summe der obersten zwei</span>**<br>  
+Wählen Sie einen Wert.<br>  
+Wenn die Summe der 1. und 2. Gewinnzahl mit dem gewählten Wert übereinstimmt, gilt dies als Gewinn.<br>  
+**Beispiel:** Gewinnzahlen: 1, 2, *, *, *, *, *, *, *, *; Wette auf 3 – dies gilt als Gewinn.<br>"
+
+//fast 3
+"":"",
+
+"<span style='color:red; font-weight:bold;'>1. Guess No.</span><br>  
+Select a number to form a bet. If the winning numbers include your selected number, it's a win.<br>  
+Example: If the winning numbers are 1, 1, 3, and you bet or select ?1?, it's a win.<br>  
+
+<span style='color:red; font-weight:bold;'>2. B/S Sum *</span><br>  
+If the sum of the winning numbers is 11-18, it's considered Big; if the sum is Small: 3-10, it's considered Small.<br>  
+If all 3 numbers are the same, it's not a win.   <br> 
+
+<span style='color:red; font-weight:bold;'>3. Point Sum*</span>  <br> 
+Select a number. If the sum of the winning numbers matches the selected number, it's a win.<br>  
+Example: If the winning numbers are 1, 1, 1, and you bet on ?3?, it's a win. <br>  
+
+<span style='color:red; font-weight:bold;'>4. Specific & Any Triple *</span> <br>  
+Specific: Select 1 specific combination to form a bet. If the selected combination matches the winning numbers, it's a win.<br>  
+Example: If the winning numbers are 1, 1, 1, and you bet on ?111?, it's a win.   <br> 
+
+<span style='color:red; font-weight:bold;'>* Any Triple: </span>  <br> 
+If all 3 winning numbers drawn are the same, it's a win.<br>  
+This selection does not care which specific number occurs 3 times.<br>  
+
+<span style='color:red; font-weight:bold;'>5. Any Two & One Pair *</span>  
+Any Two: Select 1 combination to form a bet. If the winning numbers include your selected combination, it's a win.<br>  
+Example: If the winning numbers are 1, 1, 2, and you bet on ?12?, it's a win.  <br> 
+
+<span style='color:red; font-weight:bold;'>* One Pair:</span>  <br> 
+Select 1 combination pair to form a bet.<br>  
+If the selected combination matches the winning numbers, it's a win.<br>   
+Example: If the winning numbers are 1, 1, 2, and you bet on ?11?, it's a win.  <br> 
+
+<span style='color:red; font-weight:bold;'>6. Fish/Prawn/Crab :</span>  
+If 1 of the 3 winning numbers matches the selected symbol, it's a win.<br>  
+Example: If the winning numbers are 1, 2, 3, and you bet on ?Fish (1)?, it's a win.   
+":
+"
+<span style='color:red; font-weight:bold;'>1. Zahlen raten.</span><br>  
+Wählen Sie eine Zahl, um eine Wette zu platzieren. Wenn die Gewinnzahlen Ihre gewählte Zahl enthalten, gewinnen Sie.<br>  
+Beispiel: Wenn die Gewinnzahlen 1, 1, 3 sind und Sie auf ?1? setzen, gewinnen Sie.<br>  
+
+<span style='color:red; font-weight:bold;'>2. B/S Summe *</span><br>  
+Wenn die Summe der Gewinnzahlen zwischen 11 und 18 liegt, gilt sie als Groß; wenn die Summe zwischen 3 und 10 liegt, gilt sie als Klein.<br>  
+Wenn alle 3 Zahlen gleich sind, gibt es keinen Gewinn.   <br> 
+
+<span style='color:red; font-weight:bold;'>3. Punktsumme *</span>  <br> 
+Wählen Sie eine Zahl. Wenn die Summe der Gewinnzahlen mit der gewählten Zahl übereinstimmt, gewinnen Sie.<br>  
+Beispiel: Wenn die Gewinnzahlen 1, 1, 1 sind und Sie auf ?3? setzen, gewinnen Sie. <br>  
+
+<span style='color:red; font-weight:bold;'>4. Spezifischer & beliebiger Drilling *</span> <br>  
+Spezifisch: Wählen Sie eine bestimmte Kombination, um eine Wette zu platzieren. Wenn die gewählte Kombination mit den Gewinnzahlen übereinstimmt, gewinnen Sie.<br>  
+Beispiel: Wenn die Gewinnzahlen 1, 1, 1 sind und Sie auf ?111? setzen, gewinnen Sie.   <br> 
+
+<span style='color:red; font-weight:bold;'>* Beliebiger Drilling: </span>  <br> 
+Wenn alle 3 gezogenen Gewinnzahlen gleich sind, gewinnen Sie.<br>  
+Diese Auswahl berücksichtigt nicht, welche spezifische Zahl dreimal vorkommt.<br>  
+
+<span style='color:red; font-weight:bold;'>5. Beliebige Zwei & Ein Paar *</span>  
+Beliebige Zwei: Wählen Sie eine Kombination, um eine Wette zu platzieren. Wenn die Gewinnzahlen Ihre gewählte Kombination enthalten, gewinnen Sie.<br>  
+Beispiel: Wenn die Gewinnzahlen 1, 1, 2 sind und Sie auf ?12? setzen, gewinnen Sie.  <br> 
+
+<span style='color:red; font-weight:bold;'>* Ein Paar:</span>  <br> 
+Wählen Sie eine Kombination aus zwei gleichen Zahlen, um eine Wette zu platzieren.<br>  
+Wenn die gewählte Kombination mit den Gewinnzahlen übereinstimmt, gewinnen Sie.<br>   
+Beispiel: Wenn die Gewinnzahlen 1, 1, 2 sind und Sie auf ?11? setzen, gewinnen Sie.  <br> 
+
+<span style='color:red; font-weight:bold;'>6. Fisch/Garnele/Krabbe :</span>  
+Wenn eine der 3 Gewinnzahlen mit dem gewählten Symbol übereinstimmt, gewinnen Sie.<br>  
+Beispiel: Wenn die Gewinnzahlen 1, 2, 3 sind und Sie auf ?Fisch (1)? setzen, gewinnen Sie.
+",
+
+
+
+// 3d twosides
+
+
+"
+<span style='color:red; font-weight:bold;'>1. 1st, 2nd, 3rd</span><br>
+
+From the range of numbers 0-9, you choose a number that will appear either on Ball 1, Ball 2, Ball 3 by ticking 1st, 2nd or 3rd. If you choose 6 to appear on Ball 2 and the draw results has the number 6 appearing on Ball 2, you win.<br>
+
+<span style='color:red; font-weight:bold;'>B/S:</span> If the winning number is ? 5, it's considered B (Big); if it's ? 4, it's considered S (Small).<br>
+<span style='color:red; font-weight:bold;'>O/E:</span> If the winning numbers are 1, 3, 5, 7, 9, it's considered O (Odd); if it's 0, 2, 4, 6, 8, it's considered E (Even).<br>
+<span style='color:red; font-weight:bold;'>P/C: </span>If the winning numbers are 1, 2, 3, 5, 7, it's considered P (Prime); if it's 0, 4, 6, 8, 9, it's considered C (Composite).<br>
+<span style='color:red; font-weight:bold;'>2. 1st/2nd & 1st/3rd & 2nd/3rd</span><br>
+
+<span style='color:red; font-weight:bold;'>Sum O/E(1st/2nd):</span> If the sum of the first and second drawn winning numbers is 1, 3, 5, 7, 9 this is Sum Odd; If the sum of the first and second drawn winning numbers 0, 2, 4, 6, 8 this is Sum Even.<br>
+
+<span style='color:red; font-weight:bold;'>Sum O/E(1st/3rd):</span> If the sum of the first and third drawn winning numbers is 1, 3, 5, 7, 9 this is Sum Odd; If the sum of the first and second drawn winning numbers 0, 2, 4, 6, 8 this is Sum Even.<br>
+
+<span style='color:red; font-weight:bold;'>Sum O/E(2nd/3rd):</span> If the sum of the second and third drawn winning numbers is 1, 3, 5, 7, 9 this is Sum Odd; If the sum of the first and second drawn winning numbers 0, 2, 4, 6, 8 this is Sum Even.<br>
+
+<span style='color:red; font-weight:bold;'>Tail sum P/C(1st/2nd):</span> If the sum of the first and second drawn winning numbers has an ending number of 1, 2, 3, 5, 7 this is Tail sum Prime eg. 13 or 12 or 13; and 0, 4, 6, 8, 9 this is Tail sum composite eg. 14 or 18 or 16 etc.<br>
+
+<span style='color:red; font-weight:bold;'>Tail sum P/C(1st/3rd):</span> If the sum of the first and third drawn winning numbers has an ending number of 1, 2, 3, 5, 7 this is Tail sum prime; and 0, 4, 6, 8, 9 this is Tail sum composite.<br>
+
+<span style='color:red; font-weight:bold;'>Tail sum P/C(2nd/3rd):</span> If the sum of the first and third drawn winning numbers has an ending number of 1, 2, 3, 5, 7 this is Tail sum prime; 0, 4, 6, 8, 9 this is Tail sum composite.<br>
+
+<span style='color:red; font-weight:bold;'>Tail sum B/S(1st/2nd):</span> If the sum of the first and second drawn winning numbers has an ending number ? 5 this is Tail sum Big and ? 4 this is Tail sum Small<br>
+
+<span style='color:red; font-weight:bold;'>Tail sum B/S(1st/3rd):</span> If the sum of the first and third drawn winning numbers has an ending number ? 5 this is Tail sum Big and ? 4 this is Tail sum Small<br>
+
+<span style='color:red; font-weight:bold;'>Tail sum B/S(2nd/3rd):</span> If the sum of the second and third drawn winning numbers has an ending number ? 5 this is Tail sum Big and ? 4 this is Tail sum Small<br>
+
+<span style='color:red; font-weight:bold;'>4. 1st/ 2nd/ 3rd</span><br>
+Sum B/S: If the sum of the three winning numbers is ? 14 this is Sum Big; ? 13 this is Sum Small.<br>
+
+<span style='color:red; font-weight:bold;'>Sum O/E:</span> If the sum of the three winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Sum Odd; and 0, 2, 4, 6, 8 this is Sum Even.<br>
+
+<span style='color:red; font-weight:bold;'>Tail sum B/S:</span>If the sum of the three winning numbers is or has an ending number ? 5 this is Tail sum Big; and ? 4 this is Tail sum Small.<br>
+
+<span style='color:red; font-weight:bold;'>Tail sum P/C:</span> If the sum of the three winning numbers is or has an ending number 1, 2, 3, 5, 7 this is Tail sum Prime; and 0, 4, 6, 8, 9 as Tail sum Composite.<br>
+
+<span style='color:red; font-weight:bold;'>5. 1 No. Combo: </span>Select 1 Number to form a bet. If the winning numbers include your<br>
+selected number, this is a win.<br>
+E.g. Winning No. 1, 2, 3; Your Bet is?1, this is win.<br>
+
+<span style='color:red; font-weight:bold;'>2 No. Combo:</span><br>
+Select a 2 combo numbers to form a bet. If the winning numbers include your selected number, this is win<br>
+
+E.g. Winning No. 2, 1, 1, Your bet is?12?this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>3 No. Combo:</span> Select a 3 combo numbers to form a bet. If the winning numbers include your selected number, this is a win<br>
+E.g. Winning No. 3, 2, 1; Your bet is?123?this is a win.<br>
+<span style='color:red'>6. Fixed Place 1 No. :</span><br>
+From the range of numbers 0-9, you choose or select 1 number that will appear either on Ball 1, Ball 2, Ball 3 to form a bet. If your selected number and winning number is the same and same position, this is a win. E.g. Winning No. 1, 2, 3; If you bet on the number 1 to appear on Ball 1 or Ball 2, this is a win because Ball 1 had the number 1.<br>
+
+<span style='color:red; font-weight:bold;'>Fixed Place 2 No. :</span> From the range of numbers 0-9, you choose or select 1 number each from two positions, either in Ball 1 and Ball 2, Ball 1 and Ball 3, or Ball 2 and Ball 3 to form a bet.<br>
+
+If your selected number and winning number is the same and same position, this is a win.<br>
+E.g. Winning No. 1, 2, 3; If you bet on Ball 1 and Ball 2 to have the number 1 and 2 respectively?1st Ball -1, 2nd Ball - 2?this is a win because your two numbers 1 and 2 are found in the winning number and also in the same positions.
+
+<span style='color:red; font-weight:bold;'>Fixed Place 3 No. : </span>From the range of numbers 0-9, you choose or select 3 numbers that will appear on Ball 1, Ball 2, Ball 3 to form a bet. If your selected numbers and winning numbers are the same and in the same position or order, this is a win.
+E.g. Winning No. 1, 2, 3; If you bet on the number 1 to appear on Ball 1, 2 to appear on Ball 2 and 3 to appear on Ball 3, this is a win because your three numbers 1, 2 and 3 were found in the winning numbers and also in the same position or order.
+
+<span style='color:red; font-weight:bold;'>7. Sum of 2 No. 1st/2nd, 1st/3rd, 2nd/3rd :</span> Select a number to form a bet. If the 1st/2nd, 1st/3rd or 2nd/3rd sum of the winning numbers matches the number you selected, it is a win. Eg.: If the winning numbers are 1, 2, 4 and you choose 1st/2nd and bet on the number?3?1+2=3, this is a win.
+
+<span style='color:red; font-weight:bold;'>8. Tail Sum of 1st&2nd : </span>Select a number to form a bet. The sum of the 1st Ball & 2nd Ball winning numbers gives a value with an ending number same as the number you selected, this is win.<br>
+E.g. Winning No. 1, 2, 3; Your bet?1st/2nd tail3?, the sum of 1st and 2nd ball is 1+2=03. The ending number or tail of the sum of1st & 2nd Ball is 3, so if you selected tail 3, you win.<br>
+E.g. Winning No. 8, 6, 3; Your bet?1st/2nd tail4?, the sum of 1st and 2nd ball is 8+6=14. The ending number or tail of the sum of1st & 2nd Ball is 4 , so if you selected tail 4, you win.<br>
+
+<span style='color:red; font-weight:bold;'>9. Sum of 3 No. :</span><br>
+Select a number. If the sum of the 1st, 2nd and 3rd winning numbers matches the selected number, it's a win. E.g. Winning No. 2, 3, 4; If you bet?9?, this is a win (2+3+4=9). 10. Tail Sum of 3 No. : Select a number to form a bet. The sum of the 1st Ball, 2nd Ball and 3rd Ball winning numbers gives a value with an ending number same as the number you selected, this is win. E.g. Winning No. 1, 2, 3; Your bet?1st/2nd/3rd tail6?, the sum of 1st, 2nd and 3rd ball is 1+2+3=06. The ending number or tail of the sum of 1st, 2nd and 3rd Ball is 6, so if you selected tail 6, you win. E.g. Winning No. 8, 6, 3; Your bet?1st/2nd/3rd tail7?, the sum of 1st, 2nd and 3rd ball is 8+6+3=17. The ending number or tail of the sum of 1st, 2nd and 3rd Ball is 7 , so if you selected tail 7, you win.<br>
+
+<span style='color:red; font-weight:bold;'>10. Group 3 :</span> Select a number in One Pair and a number in One number to form a bet. If the winning numbers include the number from One number and a pair of the number in One pair that you selected, this is a win.<br>
+E.g. Winning No. 1, 1, 2; Your bet is?One Pair: 1,; One No.: 2?, this is a win, because you selected the number 1 in one pair, meaning it will appear 2 times and 2 in One number meaning it will appear once, and the winning number was 1,1,2.<br>
+
+<span style='color:red; font-weight:bold;'>11. Group 6 :</span> Select 3 Numbers to form a bet. If your selected numbers and winning numbers are the same, this is a win.<br>
+E.g. Winning No. 3, 2, 1; Your selected bet is?1, 2, 3?, this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>12.Span :</span> Select a number to form a bet. If the difference of the highest number and lowest number in the winning numbers is the same as your selection, this is a win<br>
+E.g. Winning No. 1, 2, 3; Your selected Bet is?2?, this is a win, because the highest number in the winning numbers is 3 and the lowest number is 1, and if you find the difference between highest and lowest (3-1=2), you get 2 which is the same as you selected.<br>
+E.g. Winning No. 4, 0, 9; Your selected Bet is?9?, this is a win, because the highest number in the winning numbers is 9 and the lowest number is 0, and if you find the difference between highest and lowest (9-0=9), you get 9 which is the same as you selected.":
+"
+<span style='color:red; font-weight:bold;'>1.百、十、个</span>
+<br>
+选择一个号码位置，并投注一种属性，投注的属性与该位置的开奖号码属性相同时，即中奖。<br>
+<span style='color:red; font-weight:bold;'>大小：</span>开奖号码≥5为“大”，≤4为“小”。<br>
+<span style='color:red; font-weight:bold;'>单双</span>：开奖号码1、3、5、7、9为“单”，0、2、4、6、8为“双”。<br>
+<span style='color:red; font-weight:bold;'>质合：</span>开奖号码1、2、3、5、7为“质”，0、4、6、8、9为“合”。<br>
+<span style='color:red; font-weight:bold;'>2.百十、百个、十个</span><br>
+<span style='color:red; font-weight:bold;'>和数单双：</span>开奖号码中对应2个位置的号码之和的个位数是1、3、5、7、9为“和单”，0、2、4、6、8为“和双”。<br>
+<span style='color:red; font-weight:bold;'>和数尾数大小：</span>开奖号码中对应2个位置的号码之和的个位数≥5为“和尾大”，≤4为“和尾小”。<br>
+<span style='color:red; font-weight:bold;'>和数尾数质合：</span>开奖号码中对应2个位置的号码之和的个位数是1、2、3、5、7为“和尾质”，0、4、6、8、9为“和尾合”。<br>
+<span style='color:red; font-weight:bold;'>3.百十个</span><br>
+<span style='color:red; font-weight:bold;'>和数大小：</span>开奖的3个号码之和≥14为“和大”，≤13为“和小”。<br>
+<span style='color:red; font-weight:bold;'>和数单双：</span>开奖的3个号码之和的个位数为1、3、5、7、9为“和单”，0、2、4、6、8为“和双”。<br>
+<span style='color:red; font-weight:bold;'>和数尾数大小：</span>开奖的3个号码之和的尾数≥5为“和尾大”，≤4为“和尾小”。<br>
+<span style='color:red; font-weight:bold;'>和数尾数质合：</span>开奖的3个号码之和的尾数是1、2、3、5、7为“和尾质”，0、4、6、8、9为“和尾合”。<br>
+<span style='color:red; font-weight:bold;'>2.一字组合</span><br>
+选择1个号码为1注。开奖号码包含所选号码（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码1,2,3，投注「1」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>3.二字组合</span><br>
+选择1组号码为1注。开奖号码包含所选的1组（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码2,1,1，投注「12」，即中奖。<br>
+<span style='color:red; font-weight:bold;'></span>4.三字组合<br>
+选择1组号码为1注。开奖号码与所选号码相同（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例:</span>：开奖号码3,2,1，投注「123」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>5.一字定位</span><br>
+从百位、十位、个位任意位置选择1个号码组成1注，所选号码与该位置上的开奖号码一致，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码1,2,3，投注「百位1」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>6.二字定位</span><br>
+从百位、十位、个位中任意选择2个位置，在这2个位置上各选择1个号码组成一注。开奖号码与所选2个号码相同，且顺序一致，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码1,2,3，投注「百位1，十位2」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>7.三字定位</span><br>
+从百位、十位、个位中各选择1个号码组成1注，所选号码与开奖号码相同，且顺序一致，即为中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码1,2,3，投注「百位1，十位2，个位3」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>8.二字和数</span><br>
+<span style='color:red; font-weight:bold;'>百十、百个、十个</span><br>
+<span style='color:red; font-weight:bold;'>和数：</span>选择的数值与开奖号码中对应位置的2个号码之和相等，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码2,3,1，投注「十个4」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>和数尾数：</span>选择1个数值，与开奖号码中对应位置的2个号码之和的个位数相同，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码1,2,3，投注「百十尾3」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>9.三字和数<br></span>
+百十个和数：选择的数值与开奖号码之和相等，即中奖。
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码2,3,1，投注「0-6」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>百十个和数尾数:</span>选择1个数值，与开奖号码之和的个位数相同，即中奖。<br>
+举例开奖号码9,9,6，投注「4」，即中奖。<br>
+<span style='color:red; font-weight:bold;'10.组三<br></span>
+选择1个重号与1个不重号组成1注，重号在开奖号码中出现2次，不重号出现1次（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码2,1,1，投注「重号1，不重号2」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>11.组六</span><br>
+选择3个号码组成1注。所选号码与开奖号码相同(顺序不限)，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码3,2,1，投注「1,2,3」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>12.跨度</span><br>
+选择1个数值，与开奖号码中的最大的号码与最小号码相减的差值相同，即中奖。<br>
+举例：开奖号码1,2,3，投注「2」，即中奖。",
+
+11x5
+
+
+"<span style='color:red; font-weight:bold;'>1. Sum</span><br>
+
+<span style='color:red; font-weight:bold;'>Sum B/S:</span> If you bet on Big and the sum of winning No. > 30 this is Big, If you bet on Small and the sum of winning No < 30 this is Small, 30 is a Tie and a refund of bet amount.<br>
+<span style='color:red; font-weight:bold;'>Sum O/E </span>: If you bet on Odd and the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; if you bet on Even and the sum of winning numbers is or has an ending number of 0, 2, 4, 6, 8 this is Even.<br>
+<span style='color:red; font-weight:bold;'>Sum of Tails:</span> Sum of winning No. Units digit ≥ 5 as Big; ≤ 4 as Even.<br>
+<span style='color:red; font-weight:bold;'>Dragon/Tiger：</span>When the winning number on the 1st Ball > 5th Ball, this is dragon. If the 1st Ball < 5th Ball, this is a tiger (0 smallest, 9 biggest).<br>
+
+<span style='color:red; font-weight:bold;'>2 .B/S/O/E 1st~5th :</span> From the range of numbers 01-11, you choose a number that will appear either on the 1st Ball, 2nd Ball, 3rd Ball, 4th Ball or 5th Ball. If you choose 06 to appear on Ball 2 and the draw results has the number 06 appearing on Ball 2, you win.<br>
+<span style='color:red; font-weight:bold;'>B/S: </span>If the winning number on the selected place or selected ball is > 6 this is Big; ≤ 5 this is small Small; 11 as Tie (Refund).<br>
+<span style='color:red; font-weight:bold;'>O/E:</span> If the winning number on the selected place or selected ball ends with 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; 11 is a Tie (Refund).<br>
+
+<span style='color:red; font-weight:bold;'>3. Fixed Place 1st~5th :</span> Select a number from 1st, 2nd, 3rd, 4th, 5th place to form a bet. When your selected number and winning draw number are in the same place, you win. Eg. Bet plan: 03,-,-,-,-; Winning No.: 03,*,*,*,* as a win. You select 03 to appear on the 1st Ball, and the winning drawn number also has 3 on the 1st Ball. This wins.<br>
+<span style='color:red; font-weight:bold;'>4. Pick 1~Pick 8</span><br>
+
+<span style='color:red; font-weight:bold;'>Pick 1:</span> Select 1 number to form a bet. If the winning numbers included your selected number, this is a win.<br>
+E.g. Winning No. 01, *, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 2:</span> Select 2 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 3:</span> Select 3 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 03, 01, 02, *, *; Your bet「01, 02, 03」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 4:</span> Select 4 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 04, 03, *; Your bet「01, 02, 03, 04」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 5:</span> Select 5 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 6:</span> Select 6 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 7:</span> Select 7 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06, 07」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 8: </span>Select 8 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06, 07, 08」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>5. Group</span><br>
+<span style='color:red; font-weight:bold;'>First 2 Group:</span> Select 2 numbers to form a bet. If the selected numbers and first 2 winning numbers are the same, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>First 3 Group:</span> Select 3 numbers to form a bet. If the selected numbers and first 3 winning numbers are the same, this is a win.<br>
+E.g. Winning No. 02, 01, 03, *, *; Your bet「01, 02, 03」this is a win.<br>
+<span style='color:red; font-weight:bold;'>6. First 2 Straight:</span> Select 1 number from 1st, 2nd form a bet, and the 2 numbers should be non repeating. If your selected numbers and the first 2 winning numbers are the same & in order, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, * ; Bet 「1st 02, 2nd 01」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>7. First 3 Straight:</span> Select 1 number from 1st, 2nd and 3rd to form a bet, and the 3 numbers should be non repeating. If your selected numbers and the first 3 winning numbers are the same & in order, this is a win.<br>
+E.g. Winning No. 01, 02, 03, *, * ; Bet 「1st 01, 2nd 02, 3rd 03」this is a win.":"
+<span style='color:red; font-weight:bold;'>1.总和</span><br>
+总和大小:开奖号码之和>30为大，<30为小，30为和，退还本金。<br>
+总和单双:开奖号码之和的个位数是1、3、5、7、9为单，尾数是0、2、4、6、8，为双。<br>
+总和尾数大小:开奖号码之和的个位数≥5为大，≤4为小。<br>
+<span style='color:red; font-weight:bold;'>龙虎：</span>第一球的开奖号码大于第五球的开奖号码（0为最小，9为最大），反之为虎。<br>
+<span style='color:red; font-weight:bold;'>2.第一球~第五球大小、单双</span><br>
+选择一个号码位置，并投注一种属性，投注的属性与该位置的开奖号码属性相同时，即中奖。<br>
+<span style='color:red; font-weight:bold;'>大小：</span>开奖号码≥6为“大”，≤5为“小”，开出11为和(退还本金)。<br>
+<span style='color:red; font-weight:bold;'>单双：</span>开奖号码的个位数为1、3、5、7、9为“单”，0，2，4，6，8为“双”。；开出11为和(退还本金)。<br>
+<span style='color:red; font-weight:bold;'>3.第一球~第五球选号</span><br>
+从第一球～第五球任意位置选择1个号码，所选号码与相同位置上的开奖号码一致，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,*,*,*,*，投注「第一球为01」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>4.任选一~任选八</span><br>
+任选一:选择1个号码为1注。开奖号码中包含所选号码（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,*,*,*,*，投注「01」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>任选二:</span>选择2个号码形成1注。开奖号码中包含所选的2个号码（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码02,01,*,*,*，投注「01,02」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>任选三:</span>选择3个号码形成1注。开奖号码中包含所选的3个号码（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码03,01,02,*,*，投注「01,02,03」，即中奖<br>
+<span style='color:red; font-weight:bold;'>任选四:</span>选择4个号码形成1注。开奖号码中包含的4个所选号码（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,04,03,*，投注「01,02,03,04」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>任选五:</span>选择5个号码形成1注。所选号码与的5个开奖号码相同（顺序不限），即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,05,04，投注「01,02,03,04,05」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>任选六:</span>选择6个号码形成1注，选择号码中的任意5个号码与全部的开奖号码相同(顺序不限)，即为中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,05,04，投注「01,02,03,04,05,06」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>任选七:</span>选择7个号码形成1注，选择号码中的任意5个号码与全部的开奖号码相同(顺序不限)，即为中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,05,04，投注「01,02,03,04,05,06,07」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>任选八:</span>选择8个号码形成1注，选择号码中的任意5个号码与全部的开奖号码相同(顺序不限)，即为中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,05,04，投注「01,02,03,04,05,06,07,08」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>5.组选</span><br>
+组选前二:选择2个号码组成1注。所选号码与开奖号码的前2球相同，且顺序不限，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码02,01,*,*,*，投注「01,02」，即中奖。<br>
+组选前三:选择3个号码组成1注。所选号码与开奖号码的前3球相同，且顺序不限，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码02,01,03*,*，投注「01,02,03」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>6.直选</span><br>
+直选前二:从第一、第二位球上各选择1个号码组成1注，两个号码不重复。所选号码与开奖号码的前2位相同，且顺序一致，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码0201***，投注「第一球02，第二球01」，即中奖。<br>
+直选前三:从第一、第二、第三球上各选择1个号码组成1注，三个号码不重复。所选号码与开奖号码的前3个号码相同，且顺序一致，即中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码010203**，投注第一球「01，第二球02，第三球03」，即中奖。",
+
+
+
+
+//happy 8
+
+"
+
+<span style='color:red; font-weight:bold;'>1. Sum</span><br>
+
+<span style='color:red; font-weight:bold;'>B/S:</span> If the sum of winning numbers is > 810 this is Big; < 810 this is Small; 810 as Tie, refund.<br>
+<span style='color:red; font-weight:bold;'>O/E:</span> If the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; 0, 2, 4, 6, 8 this is Even.<br>
+
+<span style='color:red; font-weight:bold;'>2. Sum Pass</span><br>
+If the sum of winning numbers is > 810 this is Big; < 810 this is Small; If the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; 0, 2, 4, 6, 8 this is Even.; 810 as Tie, will refund. Big/Small, Odd/Even combo generate「Big Odd」,「Small Odd」,「Big Even」,「Small Even」, 4 combo.<br>
+E.g. Sum of winning numbers is 811; your bet is 「Big Odd」, this is a win because 811 is both big and odd and you win if you bet on Big Odd.<br>
+
+<span style='color:red; font-weight:bold;'>3. More First/Last</span><br>
+The winning numbers of 01-40 are regarded as First; and 41-80 are regarded as Last. So if the numbers between the range of 01-40 are more than the numbers between the range 41-80 betting on「More First」this is a win; if 41-80 is more than 01-40 betting on「More Last」this is a win; Equal will refund.<br>
+
+<span style='color:red; font-weight:bold;'>4. 5 Elements</span><br>
+The sum of the 20 winning numbers are arranged in 5 parts and named as Gold (210-695), Wood (696-763), Water (764-856), Fire (857-924), Earth (925-1410). E.g. If the sum of winning numbers is 693; You bet is「Gold」, this is win because the number 693 is included in Gold (210-695).<br>
+
+<span style='color:red; font-weight:bold;'>5. Ball No.</span><br>
+Bet on 1 number to form a bet and if any of the 20 draw numbers include the same number selected this is a win.<br>
+E.g. winning No. 01*******************; Bet「01」this is a win.<br>":"
+<span style='color:red; font-weight:bold;'>1. 总和</span><br>
+<span style='color:red; font-weight:bold;'>大小：</span>开奖号码之和>810为“大”，<810为“小”，810为和，退还本金。<br>
+<span style='color:red; font-weight:bold;'>单双：</span>开奖号码之和的个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”。<br>
+<span style='color:red; font-weight:bold;'>2. 总和过关</span><br>
+开奖号码之和>810为“大”，<810，为“小”；个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”。810为和，退还本金。<br>
+通过大小和单双组合产生「大单」，「小单」，「大双」和「小双」四种组合。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码之和811，投注「大单」，即中奖。<br>
+
+<span style='color:red; font-weight:bold;'>3. 前后多</span><br>
+开奖号码1-40为“前”，41-80为“后”，开奖的20个号码中，“前”的号码多于“后”的号码即为「前多」，反之为「后多」。数量相同退还本金。<br>
+
+<span style='color:red; font-weight:bold;'>4. 单双多</span><br>
+开奖号码的个位数为1、3、5、7、9为单，0、2、4、6、8为双，开奖的20个号码中，“单”的号码多于“双”的号码即为“单多”，反之为“双多”。数量相同退还本金。<br>
+
+<span style='color:red; font-weight:bold;'>5. 五行</span><br>
+把开出的20个号码的总和分在5个段，以金（210～695）、木（696-763）、水（764-856）、火（857-924）、土（925-1410）命名。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码之和693，投注「金」，即中奖。<br>
+
+<span style='color:red; font-weight:bold;'>6. 正码</span><br>
+投注的1个号码与当期开出的20个号码中的任1个号码相同，则中奖。<br>
+<span style='color:red; font-weight:bold;'>举例：</span>开奖号码01*******************，投注「01」，即中奖。<br>",
+"":"",
+
+
+
+
+//mark 6
+"<span style='color:red; font-weight:bold;'>1. Sum</span><br>
+
+<span style='color:red; font-weight:bold;'>Sum B/S:</span> If you bet on Big and the sum of winning No. > 30 this is Big, If you bet on Small and the sum of winning No < 30 this is Small, 30 is a Tie and a refund of bet amount.<br>
+<span style='color:red; font-weight:bold;'>Sum O/E </span>: If you bet on Odd and the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; if you bet on Even and the sum of winning numbers is or has an ending number of 0, 2, 4, 6, 8 this is Even.<br>
+<span style='color:red; font-weight:bold;'>Sum of Tails:</span> Sum of winning No. Units digit ≥ 5 as Big; ≤ 4 as Even.<br>
+<span style='color:red; font-weight:bold;'>Dragon/Tiger：</span>When the winning number on the 1st Ball > 5th Ball, this is dragon. If the 1st Ball < 5th Ball, this is a tiger (0 smallest, 9 biggest).<br>
+
+<span style='color:red; font-weight:bold;'>2 .B/S/O/E 1st~5th :</span> From the range of numbers 01-11, you choose a number that will appear either on the 1st Ball, 2nd Ball, 3rd Ball, 4th Ball or 5th Ball. If you choose 06 to appear on Ball 2 and the draw results has the number 06 appearing on Ball 2, you win.<br>
+<span style='color:red; font-weight:bold;'>B/S: </span>If the winning number on the selected place or selected ball is > 6 this is Big; ≤ 5 this is small Small; 11 as Tie (Refund).<br>
+<span style='color:red; font-weight:bold;'>O/E:</span> If the winning number on the selected place or selected ball ends with 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; 11 is a Tie (Refund).<br>
+
+<span style='color:red; font-weight:bold;'>3. Fixed Place 1st~5th :</span> Select a number from 1st, 2nd, 3rd, 4th, 5th place to form a bet. When your selected number and winning draw number are in the same place, you win. Eg. Bet plan: 03,-,-,-,-; Winning No.: 03,*,*,*,* as a win. You select 03 to appear on the 1st Ball, and the winning drawn number also has 3 on the 1st Ball. This wins.<br>
+<span style='color:red; font-weight:bold;'>4. Pick 1~Pick 8</span><br>
+
+<span style='color:red; font-weight:bold;'>Pick 1:</span> Select 1 number to form a bet. If the winning numbers included your selected number, this is a win.<br>
+E.g. Winning No. 01, *, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 2:</span> Select 2 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 3:</span> Select 3 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 03, 01, 02, *, *; Your bet「01, 02, 03」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 4:</span> Select 4 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 04, 03, *; Your bet「01, 02, 03, 04」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 5:</span> Select 5 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 6:</span> Select 6 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 7:</span> Select 7 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06, 07」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 8: </span>Select 8 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06, 07, 08」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>5. Group</span><br>
+<span style='color:red; font-weight:bold;'>First 2 Group:</span> Select 2 numbers to form a bet. If the selected numbers and first 2 winning numbers are the same, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>First 3 Group:</span> Select 3 numbers to form a bet. If the selected numbers and first 3 winning numbers are the same, this is a win.<br>
+E.g. Winning No. 02, 01, 03, *, *; Your bet「01, 02, 03」this is a win.<br>
+<span style='color:red; font-weight:bold;'>6. First 2 Straight:</span> Select 1 number from 1st, 2nd form a bet, and the 2 numbers should be non repeating. If your selected numbers and the first 2 winning numbers are the same & in order, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, * ; Bet 「1st 02, 2nd 01」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>7. First 3 Straight:</span> Select 1 number from 1st, 2nd and 3rd to form a bet, and the 3 numbers should be non repeating. If your selected numbers and the first 3 winning numbers are the same & in order, this is a win.<br>
+E.g. Winning No. 01, 02, 03, *, * ; Bet 「1st 01, 2nd 02, 3rd 03」this is a win.Extra No. 2 Sides</span><br>
+<span style='color:red'>B/S Extra No.:</span> When the Extra number drawn ≥ 25 this is Big; ≤ 24 this is Small; when the Extra number is 49 this is a Tie, and a refund is given.<br>
+
+<span style='color:red; font-weight:bold;'>1. Sum</span><br>
+
+<span style='color:red; font-weight:bold;'>Sum B/S:</span> If you bet on Big and the sum of winning No. > 30 this is Big, If you bet on Small and the sum of winning No < 30 this is Small, 30 is a Tie and a refund of bet amount.<br>
+<span style='color:red; font-weight:bold;'>Sum O/E </span>: If you bet on Odd and the sum of winning numbers is or has an ending number of 1, 3, 5, 7, 9 this is Odd; if you bet on Even and the sum of winning numbers is or has an ending number of 0, 2, 4, 6, 8 this is Even.<br>
+<span style='color:red; font-weight:bold;'>Sum of Tails:</span> Sum of winning No. Units digit ≥ 5 as Big; ≤ 4 as Even.<br>
+<span style='color:red; font-weight:bold;'>Dragon/Tiger：</span>When the winning number on the 1st Ball > 5th Ball, this is dragon. If the 1st Ball < 5th Ball, this is a tiger (0 smallest, 9 biggest).<br>
+
+<span style='color:red; font-weight:bold;'>2 .B/S/O/E 1st~5th :</span> From the range of numbers 01-11, you choose a number that will appear either on the 1st Ball, 2nd Ball, 3rd Ball, 4th Ball or 5th Ball. If you choose 06 to appear on Ball 2 and the draw results has the number 06 appearing on Ball 2, you win.<br>
+<span style='color:red; font-weight:bold;'>B/S: </span>If the winning number on the selected place or selected ball is > 6 this is Big; ≤ 5 this is small Small; 11 as Tie (Refund).<br>
+<span style='color:red; font-weight:bold;'>O/E:</span> If the winning number on the selected place or selected ball ends with 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; 11 is a Tie (Refund).<br>
+
+<span style='color:red; font-weight:bold;'>3. Fixed Place 1st~5th :</span> Select a number from 1st, 2nd, 3rd, 4th, 5th place to form a bet. When your selected number and winning draw number are in the same place, you win. Eg. Bet plan: 03,-,-,-,-; Winning No.: 03,*,*,*,* as a win. You select 03 to appear on the 1st Ball, and the winning drawn number also has 3 on the 1st Ball. This wins.<br>
+<span style='color:red; font-weight:bold;'>4. Pick 1~Pick 8</span><br>
+
+<span style='color:red; font-weight:bold;'>Pick 1:</span> Select 1 number to form a bet. If the winning numbers included your selected number, this is a win.<br>
+E.g. Winning No. 01, *, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 2:</span> Select 2 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 3:</span> Select 3 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 03, 01, 02, *, *; Your bet「01, 02, 03」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 4:</span> Select 4 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 04, 03, *; Your bet「01, 02, 03, 04」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 5:</span> Select 5 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 6:</span> Select 6 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 7:</span> Select 7 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06, 07」this is a win.<br>
+<span style='color:red; font-weight:bold;'>Pick 8: </span>Select 8 numbers to form a bet. If the winning numbers included your selected numbers, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 05, 04; Your bet「01, 02, 03, 04, 05, 06, 07, 08」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>5. Group</span><br>
+<span style='color:red; font-weight:bold;'>First 2 Group:</span> Select 2 numbers to form a bet. If the selected numbers and first 2 winning numbers are the same, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, *; Your bet「01, 02」this is a win.<br>
+<span style='color:red; font-weight:bold;'>First 3 Group:</span> Select 3 numbers to form a bet. If the selected numbers and first 3 winning numbers are the same, this is a win.<br>
+E.g. Winning No. 02, 01, 03, *, *; Your bet「01, 02, 03」this is a win.<br>
+<span style='color:red; font-weight:bold;'>6. First 2 Straight:</span> Select 1 number from 1st, 2nd form a bet, and the 2 numbers should be non repeating. If your selected numbers and the first 2 winning numbers are the same & in order, this is a win.<br>
+E.g. Winning No. 02, 01, *, *, * ; Bet 「1st 02, 2nd 01」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>7. First 3 Straight:</span> Select 1 number from 1st, 2nd and 3rd to form a bet, and the 3 numbers should be non repeating. If your selected numbers and the first 3 winning numbers are the same & in order, this is a win.<br>
+E.g. Winning No. 01, 02, 03, *, * ; Bet 「1st 01, 2nd 02, 3rd 03」this is a win.O/E Extra No.:</span> When the Extra number drawn has an ending number of 1, 3, 5, 7, 9 this is Odd. Eg. If the extra number is 17 this is odd because the ending number of 17 which is 7 is odd; and when the Extra number drawn has an ending number of 0, 2, 4, 6, 8 this is Even Eg. If the extra number is 34 this is even because the ending number of 34 which is 4 is even; when the Extra number is 49 this is a Tie, and a refund is given.<br>
+
+<span style='color:red; font-weight:bold;'>B/S Sum of Extra head & tail:</span> When the sum of the 1st and 2nd digit of the Extra number drawn is ≥ 7 this is Sum Big Eg. If the extra number is 27, the sum of the first and second digit 2+7=9, and 9 > 7 so this is Sum big; when the sum ≤ 6 this is Sum Small Eg. 13 as extra number, sum is 3+1=4, and 4 < 6 so this is Sum small; when the Extra number is 49 this is Tie, and a refund.<br>
+
+<span style='color:red; font-weight:bold;'>O/E Sum of extra head & tail:</span> When the sum of the 1st and 2nd digit of the Extra number drawn has an ending number 1, 3, 5, 7, 9 this is Sum Odd; and 0, 2, 4, 6, 8 this is Sum Even. Extra No. 49 as Tie, refund.<br>
+
+<span style='color:red; font-weight:bold;'>Extra No.:</span> Zodiac Sky or Zodiac Ground: Select one Extra zodiac, either Zodiac Sky or Zodiac Ground to form a bet. If the Extra number in the winning drawn numbers includes either Ox, Rabbit, Dragon, Horse, Monkey, Pig and you select Zodiac Sky as the Zodiac Extra Number, you win as Sky Zodiac; If either Rat, Tiger, Snake, Goat, Cock, Dog is drawn as the extra zodiac number and you select Zodiac ground you win as Ground Zodiac; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+<span style='color:red; font-weight:bold;'>Extra No.:</span> Zodiac First, Zodiac Last: Select one extra zodiac, either Zodiac First or Zodiac Last to form a bet. If the Extra number in the winning drawn numbers includes either<br>
+Rat, Ox, Tiger, Rabbit, Dragon, Snake and you select Zodiac First as the Zodiac Extra Number, you win as Zodiac First;. If either Horse, Goat, Monkey, Cock, Dog, Pig is drawn as the extra zodiac number and you select Zodiac Last you win as Zodiac Last**;** If the Extra number is 49 this is a Tie, and a refund.<br>
+
+<span style='color:red; font-weight:bold;'>Extra No.:</span> Zodiac Poultry, Zodiac Beast: Select one extra zodiac, either Zodiac Poultry or Zodiac Beast to form a bet. If the Extra number in the winning drawn numbers includes either<br>
+Ox, Horse, Goat, Cock, Dog, Pig and you select Zodiac Poultry as the Zodiac Extra Number, you win as Zodiac Poultry; If either Rat, Tiger, Dragon, Snake, Rabbit, Monkey is drawn as the extra zodiac number and you select Zodiac Beast you win as Zodiac Beast; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+<span style='color:red; font-weight:bold;'>B/S Extra tail:</span> If the ending digit (tail) of the Extra number drawn is ≥ 5 (eg. 18, 8 is bigger than 5) this is Big tail; ≤ 4 (eg. 23, 3 is smaller than 4) this is Small tail; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+<span style='color:red; font-weight:bold;'>B/S/O/E Extra No.:</span> If the Extra number ≥ 25 this is Big; ≤ 24 this is Small. If the Extra number is or has an ending digit of 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; If the Extra number is 49 this is a Tie, and a refund.<br>
+
+<span style='color:red; font-weight:bold;'>B/S, O/E Combo Generate:</span>「Select 1 type to form a bet 「Big Odd」,「Small Odd」,「Big Even」,「Small Even」 (Small: 01-24, Big: 25-48; Odd: Unit digit 1,3,5,7,9, Even: Unit digit 0,2,4,6,8), if your selection is matching the form of the Extra winning number this is a win.<br>
+E.g. If the Extra number is 48; Your bet is「Big Even」, this is a win, because 48 is big and also an even number.<br>
+
+<span style='color:red; font-weight:bold;'>2.Extra No.</span><br>
+Select a Number from 1- 49 to form a bet. If your selected number and the Extra Number are the same, this is a win. E.g. Extra No. 01; Your Bet 01, this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>3.Extra No. All color</span><br>
+<span style='color:red; font-weight:bold;'>Color:</span> 49 numbers are split into Red, Blue, Green. If your selected color and Extra number color are the same, this is a win.<br>
+Red balls 01 ,02 ,07 ,08 ,12 ,13 ,18 ,19 ,23 ,24 ,29 ,30 ,34 ,35 ,40 ,45 ,46<br>
+Blue balls 03 ,04 ,09 ,10 ,14 ,15 ,20 ,25 ,26 ,31 ,36 ,37 ,41 ,42 ,47 ,48<br>
+Green balls 05 ,06 ,11 ,16 ,17 ,21 ,22 ,27 ,28 ,32 ,33 ,38 ,39 ,43 ,44 ,49<br>
+
+<span style='color:red; font-weight:bold;'>2 Side Color: </span>The Colors are combined with Big, Small, Odd and Even, as 2 Side Color game play. ≥ 25 is Big; and ≤ 24 is Small; 1, 3, 5, 7, 9 is Odd; 0, 2, 4, 6, 8 is Even. If your selected and Extra number drawn for 2 Side Color is the same, this is a win. If the Extra number is 49 this is a Tie, and a refund.<br>
+E.g. If the Extra Number is 48 and your bet is「Big Blue」this is a win because 48 is split to the blue balls color and it is also Big (≥25)<br>
+
+<span style='color:red; font-weight:bold;'>4 Side Color:</span> The Colors are combined with Big Odd, Small Even, Small Odd and Small Even,as 4 Side Color gameplay.<br>
+If your selected and Extra number drawn for 4 Side Color is the same, this is a win. If the Extra number is 49 this is a Tie, and a refund.<br>
+E.g. If the Extra Number is 48 and your bet is「Big Blue Even」this is a win because 48 is split to the blue balls color, it is an even number and it is also Big (≥25).<br>
+<span style='color:red; font-weight:bold;'>4.Extra No. Special zodiac head & tail</span><br>
+<span style='color:red; font-weight:bold;'>Extra No. Zodiac:</span> Select 1 Zodiac to form a bet. If the Extra winning number drawn is within your selected Number, this is a win. Now Dragon year (based on lunar year). 12 Zodiac as follows:<br>
+<span style='color:red; font-weight:bold;'>Rat:</span> 05,17,29,41<br>
+<span style='color:red; font-weight:bold;'>Ox:</span>04,16,28,40<br>
+<span style='color:red; font-weight:bold;'>Tiger:</span> 03,15,27,39<br>
+<span style='color:red; font-weight:bold;'>>Rabbit:</span> 02,14,26,38<br>
+<span style='color:red; font-weight:bold;'>Dragon:</span> 01,13,25,37,49<br>
+<span style='color:red; font-weight:bold;'>Snake:</span> 12,24,36,48<br>
+<span style='color:red; font-weight:bold;'>Horse:</span> 11,23,35,47<br>
+<span style='color:red; font-weight:bold;'>Goat:</span> 10,22,34,46<br>
+<span style='color:red; font-weight:bold;'>Monkey:</span> 09,21,33,45<br>
+<span style='color:red; font-weight:bold;'>Cock</span>: 08,20,32,44<br>
+<span style='color:red; font-weight:bold;'>Dog:</span> 07,19,31,43<br>
+<span style='color:red; font-weight:bold;'>Pig:</span> 06,18,30,42<br>
+
+<span style='color:red; font-weight:bold;'>Extra No. head:</span> Select 1 value to form a bet. If the 1st digit of the Extra Number and your selection is the same, this is a win.<br>
+E.g. Extra Winning Number is. 01, If your bet is「0 head」this is a win, because the first digit of the extra number is 0.<br>
+
+<span style='color:red; font-weight:bold;'>Extra No. tail:</span> Select 1 value to form a bet . If the 2nd digit (tail) of the Extra Number and your selection is the same, this is a win.<br>
+E.g. Extra Winning Number is. 10, If your bet is「0 tail」, this is a win, because the second digit (tail) of the extra number is 0.<br>
+
+<span style='color:red; font-weight:bold;'>Extra No - Combo zodiac :</span>5.  Select 2 Zodiacs to form a bet. If the Extra WInning Number is within your selected Numbers, this is a win. If the Extra number is 49 this is a Tie, and a refund.<br>
+
+<span style='color:red; font-weight:bold;'>6. Extra No - 5 Elements</span><br>
+Bet on one of the 5 elements. If the Extra Winning Number is within your selected Numbers, this is a win. Dragon year (based on lunar year).<br>
+<span style='color:red; font-weight:bold;'>>5 elements No. as follows:</span><br>
+<span style='color:red; font-weight:bold;'>>Metal：</span>02,03,10,11,24,25,32,33,40,41<br>
+<span style='color:red; font-weight:bold;'>Wood</span>06,07,14,15,22,23,36,37,44,45<br>
+<span style='color:red; font-weight:bold;'>ater：</span>W12,13,20,21,28,29,42,43<br>
+<span style='color:red; font-weight:bold;'>Fire</span>01,08,09,16,17,30,31,38,39,46,47<br>
+<span style='color:red; font-weight:bold;'>Earth：</span>04,05,18,19,26,27,34,35,48,49<br>
+
+<span style='color:red; font-weight:bold;'>7. Ball No. - Pick 1</span><br>
+Select a Number to form a bet. If the drawn winning number is included in your selection this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, your bet is 02, this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>8.Ball No. 1~6</span><br>
+Select a Ball number position, and bet on 1 element. If the selected and winning number or element is the same, this is a win.<br>
+<span style='color:red; font-weight:bold;'>B/S:</span> ≥ 25 this is Big; ≤ 24 this is Small; If the Extra number is 49 this is a Tie, and a refund.<br>
+<span style='color:red; font-weight:bold;'>O/E:</span> If the winning number is 1, 3, 5, 7, 9 this is Odd; and 0, 2, 4, 6, 8 this is Even; Ball No. 49 as Tie, refund.<br>
+<span style='color:red; font-weight:bold;'>>B/S Sum:</span> If the sum of 1st, 2nd winning number ≥ 7 this is Sum Big; ≤ 6 as Sum Small; Ball No. 49 as Tie, refund.<br>
+<span style='color:red; font-weight:bold;'>O/E Sum:</span> If the sum of 1st, 2nd is or has an ending digit of 1, 3, 5, 7, 9 this is Sum Odd; and 0, 2, 4, 6, 8 this is Sum Even; Ball No. 49 as Tie, refund.<br>
+<span style='color:red; font-weight:bold;'>>Tail B/S:</span> Winning No. ≥ 5 as Big tail; ≤ 4 as Small tail; Ball No. 49 as Tie, refund.<br>
+<span style='color:red; font-weight:bold;'>Color:</span>
+Red 01 ,02 ,07 ,08 ,12 ,13 ,18 ,19 ,23 ,24 ,29 ,30 ,34 ,35 ,40 ,45 ,46<br>
+Blue 03 ,04 ,09 ,10 ,14 ,15 ,20 ,25 ,26 ,31 ,36 ,37 ,41 ,42 ,47 ,48<br>
+Green 05 ,06 ,11 ,16 ,17 ,21 ,22 ,27 ,28 ,32 ,33 ,38 ,39 ,43 ,44 ,49<br>
+
+<span style='color:red; font-weight:bold;'>9.One Zodiac Color Balls</span><br>
+<span style='color:red; font-weight:bold;'>One Zodiac:</span> Select 1(one) Zodiac to form a bet. If your selection or zodiac selection is drawn in the winning numbers and this is a win.<br>
+No matter how often the same Zodiac animal you selected appears, you only win once.<br>
+
+<span style='color:red; font-weight:bold;'>Color Balls:</span> Select 1 Color balls to form a bet. The Ball number color count for the first six balls is 1; The Extra number color is counted as 1.5. So after counting and adding up the Red, Blue, Green ball colors respectively, the highest Color Balls drawn wins.<br>
+Eg. If a drawn winning numbers has a total of 3 red balls, 3 blue balls and 1 green ball, this is generally a tie unless the blue ball or the red ball occurs as the extra number position, them in that case instead of the blue or or red ball having a total count each if 3, then one that appeared at extra number position will have a count of 1.5. So if red for instance occurs at the extra number position, the count will be as follows: 3.5 red balls, 3 blue balls and 1 green ball. So the red balls will have the highest count and betting on red balls will be a win.<br>
+A Tie can occur in 3 result as follows:<br>
+<span style='color:red; font-weight:bold;'>1: If the first 6 Balls are:</span> 3 Blue Balls, 3 Green Balls, and the Extra number is a Red Ball<br>
+<span style='color:red; font-weight:bold;'>2: If the first 6 Balls are:</span> 3 Blue Balls, 3 Red Balls, and the Extra number is a Green Ball<br>
+<span style='color:red; font-weight:bold;'>3: If the first 6 Balls are: </span>3 Green Balls, 3 Red Balls, and the Extra number is a Blue Ball<br>
+If a Tie occurs, all Red, Green, Blue Color Balls bet wagers will be refunded; You can also choose to bet on Tie<br>
+
+<span style='color:red; font-weight:bold;'>10.Fixed place</span><br>
+1st~6th winning No. Fixed place Ball1~Fixed place Ball6, as Ball1~Ball6.<br>
+
+From the range of numbers 01-49, you choose or select 1 number that will appear either on Ball 1, Ball 2, Ball 3, Ball 4, Ball 5 or Ball 6 to form a bet. If your selected number and winning number is the same and same position, this is a win.<br>
+E.g. Winning No. 01, 02, 03, 04, 05, 06 +07; If you bet on the number 01 to appear on Ball 1 「Fixed Place Ball1 01 」,this is a win because Ball 1 had the number 01.<br>
+
+<span style='color:red; font-weight:bold;'>11. Row Zodiac Row tail</span><br>
+<span style='color:red'>2 Row Zodiac ~ 5 Row Zodiac</span><br>
+If the 7 winning zodiac drawn numbers include your selected zodiac, this is a win. Bet combo includes Natal Zodiac and its odds. No matter how often the same Zodiac number appears, you only win once.<br>
+
+<span style='color:red; font-weight:bold;'>2 Row Zodiac: Select 2 Zodiacs to form a bet.</span><br>
+E.g. Bet「Dragon, Tiger」, Winning numbers include Dragon, Tiger Numbers, this is a win.<br><br>
+
+<span style='color:red; font-weight:bold;'>3 Row Zodiac: Select 3 Zodiacs to form a bet.</span><br>
+E.g. Bet「Dragon, Tiger, Rat」, Winning numbers includes Dragon, Tiger, Rat Numbers, this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>4 Row Zodiac: Select 4 Zodiacs to form a bet.</span><br>
+E.g. Bet「Dragon, Tiger, Rat, Rabbit」, Winning numbers includes Dragon, Tiger, Rat, Rabbit Numbers, this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>5 Row Zodiac: Select 5 Zodiacs to form a bet.</span><br>
+E.g. Bet「Dragon, Tiger, Rat, Rabbit, Pig」, Winning numbers includes Dragon, Tiger, Rat, Rabbit, Pig Numbers, this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>2 Row Tail ~ 5Row Tail</span><br>
+
+If the 7 winning zodiac drawn numbers include your selected zodiac, this is a win. Bet combo includes 0 tail and its odds. No matter how often the same tail number appears, you only win once.<br>
+
+<span style='color:red; font-weight:bold;'>2 Row Tail:</span><br> Select 2 tails to form a bet.
+E.g. Bet「0 tail, 1 tail」, Winning numbers 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0 and 1 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1)<br>
+
+<span style='color:red; font-weight:bold;'>3 Row Tail:</span><br> Select 3 tails to form a bet.
+E.g. Bet「0 tail, 1 tail 2 tail」, Winning numbers 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1 and 2 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2)<br>
+
+<span style='color:red; font-weight:bold;'>4 Row Tail:</span> Select 4 tails to form a bet.
+E.g. Bet「0 tail, 1 tail, 2 tail, 3 Tail」, Winning No. 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1, 2 and 3 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2, 43 ends with 3)<br>
+
+<span style='color:red; font-weight:bold;'>5 Row Tail:</span> Select 5 tails to form a bet.<br>
+E.g. Bet「0 tail, 1 tail, 2 tail, 3 Tail, 4 tail」, Winning No. 10, 20, 30, 41, 42, 43 +44, this is a win, because the tail or ending digits in the winning numbers have 0, 1, 2, 3 and 4 ( 10 or 20 or 30 all end with 0 and 41 which ends with 1, 42 ends with 2, 43 ends with 3, 44 ends with 4)<br>
+
+<span style='color:red; font-weight:bold;'>12. Row No.</span><br>
+<span styles='color:red'>Win 4:</span> Select 4 numbers to form a bet. If the winning ball numbers include your selection, this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03,04」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>>Win 3:</span> Select 3 numbers to form a bet. If the winning ball numbers include your selection, this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>Win 2/3:</span> Select 3 numbers to form a bet. If the 3 winning ball numbers include all your 3 selections, win 3/3; If the 3 winning ball numbers include your 2 selections, win 2/3.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02,03」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>Win 2/2:</span> Select 2 numbers to form a bet. If the winning ball numbers include your selection, this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,02」this is a win.<br>
+
+<span style='color:red'>2No.:</span> Select 2 Numbers to form a bet. If the winning ball numbers include your 2 numbers selection, this is a win as 2 Ball Number. Also 1 Ball Number and 1 Extra Number, this is a Win Extra.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet is 「01,02」this is a win.<br>
+
+<span style='color:red'>Win Extra No.:</span> Select 2 Numbers to form a bet. If the winning numbers and extra number is included in your selection, this is a win. Any 1 Ball Number, 1 Extra Number, as win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, Your bet「01,07」this is a win, because the number 7 which is the extra number and number 1 are what you selected.<br>
+
+<span style='color:red; font-weight:bold;'>13. Zodiac & tail</span><br>
+
+<span style='color:red; font-weight:bold;'>Extra & Ball Zodiac:</span> Select 1 Zodiac to form a bet. If the 7 drawn Zodiac winning numbers, include your zodiac selection this is a win. No matter how often the same Zodiac Number appears, you only win once.<br>
+<span style='color:red; font-weight:bold;'>Extra & Ball tail:</span> Select 1 tail number to form. If the 7 drawn tail Numbers include your selection this is a win. No matter how often the same tail Number appears, you only win once.<br>
+E.g. Your bet「Tail 1」, Winning Numbers. 01,02,03,04,05,06+07; this is a win, because the 01 in the winning number has a tail or ending digit of 1, which is the same as your selection Tail 1.<br>
+
+<span style='color:red; font-weight:bold;'>'>Zodiac No.:</span> Select 1 Zodiac to form a bet. If the 7 drawn Zodiac winning numbers, include your zodiac selection this is a win.<br>
+E.g. Your bet「2 Zodiac」; If the winning numbers have only 2 different Zodiac Numbers, this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>O/E:</span> If the Zodiac animal count in the 7 winning draw numbers is 3, 5, 7 Zodiac this is Zodiac Number Odd; 2, 4, 6 this is Zodiac Number Even.<br>
+
+<span style='color:red; font-weight:bold;'>>14.Sum</span><br>
+<span style='color:red; font-weight:bold;'>B/S Sum:</span> If the Sum of the 7 winning Numbers ≥ 176 this is Sum Big; ≤ 174 this is Sum Small; If the sum = 175 this is a Tie, and a refund.<br>
+Total sum without Tie: If the Sum of the 7 winning Numbers ≥ 176 this is Sum Big; ≤ 174 this is Sum Small, there is no tie.<br>
+
+<span style='color:red; font-weight:bold;'>O/E Sum:</span> If the Sum of the 7 winning Numbers has an ending digit or tail 1, 3, 5, 7, 9 this is Sum Odd; and 0, 2, 4, 6, 8 this is Sum Even.<br>
+
+<span style='color:red; font-weight:bold;'>5.Mismatch</span>,br>
+Select between 5~11 numbers from a range of 49 numbers to form a bet. If your selection and the winning Ball Numbers and Extra Number.are not the same, this is a win.<br>
+E.g. Winning No. 01,02,03,04,05,06+07, your bet「08,09,10,11,12」this is a win.<br>
+
+<span style='color:red; font-weight:bold;'>16.Optional</span><br>
+Choose any 1 number from 49 numbers to form a bet, if the 7 numbers in the draw contain the chosen number, it is a win.<br>
+Example: Drawing numbers 01,02,03,04,05,06+07, betting on 02 wins the prize.":"  <span style='color:red; font-weight:bold;'>1.特码-双面</span><br>
+  <span style='color:red; font-weight:bold;'>特码大小：</span>开奖特码≥25为“大”，≤24为“小”，特码为49时为和局，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>特码单双：</span>开奖特码个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”，特码为49时为和局，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>特合大小：</span>开奖特码十位与个位之和≥7为“合大”，≤6为“合小”，特码为49时为和局，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>特码为07，投注「合大」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>特合单双：</span>开奖特码十位与个位之和的个位数为1、3、5、7、9为“合单”，0、2、4、6、8为“合双”，特码为49时为和局，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>特码：</span>天、<span style='color:red'>地肖：</span>开奖特码属于十二生肖中的牛、兔、龙、马、猴、猪号码为“天肖”，鼠、虎、蛇、羊、鸡、狗号码为“地肖”，特码为49时为和局，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>特码：前、</span><span styles='color:red'>后肖：</span>开奖特码属于十二生肖中的鼠、牛、虎、兔、龙、蛇号码为“前肖”，马、羊、猴、鸡、狗、猪号码为“后肖”，特码为49时为和局，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>特码：家、</span><span style='color:red'>野肖：</span>开奖特码属于十二生肖中的牛、马、羊、鸡、狗、猪号码为“家肖”，鼠、虎、龙、蛇、兔、猴号码为“野肖”，特码为49时为和局，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>特码尾数大小：</span>开奖特码个位数≥5为“尾大”，≤4为“尾小”，特码为49时为和局，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>特码大小单双：</span>开奖特码≥25为“大”，≤24为“小”，开奖特码个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”，特码为49时为和局，退还本金。<br>
+  通过大小和单双组合产生「大单」，「小单」，「大双」和「小双」四种组合。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖特码48，投注「大双」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>2.特码-号码</span><br>
+  从49个号码中选择1个号码组成1注，所选号码与开奖的特码相同即中奖。<span style='color:red'>举例：</span>开奖特码01，投注01，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>3.特码-色波半波</span><br>
+  <span style='color:red; font-weight:bold;'>色波：</span>49个号码划分为红、蓝、绿三种颜色，投注的色波与特码属于的颜色相同时，即中奖。<br>
+  红波-01,02,07,08,12,13,18,19,23,24,29,30,34,35,40,45,46<br>
+  蓝波-03,04,09,10,14,15,20,25,26,31,36,37,41,42,47,48<br>
+  绿波-05,06,11,16,17,21,22,27,28,32,33,38,39,43,44,49<br>
+  <span style='color:red; font-weight:bold;'>半波：</span>把色波分别与大、小、单、双分别组合，即为半波。≥25为“大”；≤24为“小”；个位数为1、3、5、7、9为“单”；0、2、4、6、8为“双”。当投注的半波与开奖特码所在的半波相同时，即中奖。特码为49时为和局，退还本金。举例：开奖特码48，投注「蓝大」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>半半波：</span>把色波与大单、大双、小单、小双分别组合，即为半半波。当投注的半半波与开奖特码所在的半半波相同时，即为中奖。特码为49时为和局，退还本金。举例：开奖特码48，投注「蓝大双」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>4.特码-特肖头尾数</span><br>
+  <span style='color:red; font-weight:bold;'>特码生肖：</span>选择1个生肖为1注，开奖特码在投注的生肖所对应的号码范围内，即中奖。<br>
+  如今年为龙年（以农历年为基准），12个生肖对应的号码如下，<br>
+  <span style='color:red; font-weight:bold;'>鼠：</span>05,17,29,41<br>
+  <span style='color:red; font-weight:bold;'>牛：</span>04,16,28,40<br>
+  <span style='color:red; font-weight:bold;'>虎：</span>03,15,27,39<br>
+  <span style='color:red; font-weight:bold;'>兔：</span>02,14,26,38<br>
+  <span style='color:red; font-weight:bold;'>龙：</span>01,13,25,37,49<br>
+  <span style='color:red; font-weight:bold;'>蛇：</span>12,24,36,48<br>
+  <span style='color:red; font-weight:bold;'>马：</span>11,23,35,47<br>
+  <span style='color:red; font-weight:bold;'>羊：</span>10,22,34,46<br>
+  <span style='color:red; font-weight:bold;'>猴：</span>09,21,33,45<br>
+  <<span style='color:red; font-weight:bold;'>鸡：</span>08,20,32,44<br>
+  <span style='color:red; font-weight:bold;'>狗：</span>07,19,31,43<br>
+  <span style='color:red; font-weight:bold;'>>猪：</span>06,18,30,42<br>
+  
+  <span style='color:red; font-weight:bold;'>特码头数：</span>选择1个数值为1注，与开奖特码的十位的数值相同，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖特码01，投注「0头」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>特码尾数：</span>个位为尾数，选择1个数值为1注，与开奖特码的个位的数值相同，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>>举例：</span>开奖特码10，投注「0尾」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>5.特码-合肖</span><br>
+  选择2个生肖组成1注。开奖特码在投注的生肖所对应的号码范围内，即中奖。特码为49时为和局，退还本金。<br>
+  <span style='color:red'>6.特码-五行</span><br>
+  投注一个五行属性，开奖特码在投注的五行所对应的号码范围内，即为中奖；龙年（以农历年为基准）五行对应号码如下<br>
+  <span style='color:red; font-weight:bold;'>金：</span>02,03,10,11,24,25,32,33,40,41<br>
+  <span style='color:red; font-weight:bold;'>木：</span>06,07,14,15,22,23,36,37,44,45<br>
+  <span style='color:red; font-weight:bold;'>水：</span>12,13,20,21,28,29,42,43<br>
+  <span style='color:red; font-weight:bold;'>火：</span>01,08,09,16,17,30,31,38,39,46,47<br>
+  <span style='color:red; font-weight:bold;'>'>土：</span>04,05,18,19,26,27,34,35,48,49<br>
+  7.正码-任选一
+  选择1个号码组成1注，开奖的正码包含投注号码即中奖。举例：开奖号码01,02,03,04,05,06+07，投注02，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>8.正码1-6</span><br>
+  选择一个正码位置，并投注一种属性，投注的属性与该位置的开奖号码的属性相同时，即中奖。<br>
+  大小:≥25为“大”，≤24为“小”，该正码为49时为和，退还本金。<br>
+  单双:开奖号码的个位数1、3、5、7、9为单，0、2、4、6、8为“双”，该正码为49为和，退还本金。<br>
+  合数大小:开奖号码的十位数与个位数之和≥7为“合大”，≤6为“合小”。该正码为49为和，退还本金。<br>
+  合数单双:开奖号码的十位数与个位数之和的个位数为1、3、5、7、9为“合单”，0、2、4、6、8为“合双”。该正码为49为和，退还本金。<br>
+  尾数大小:开奖号码的个位数≥5为“尾大”，≤4为“尾小”。该正码为49为和，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>色波:</span><br>
+  红波-01,02,07,08,12,13,18,19,23,24,29,30,34,35,40,45,46<br>
+  蓝波-03,04,09,10,14,15,20,25,26,31,36,37,41,42,47,48<br>
+  绿波-05,06,11,16,17,21,22,27,28,32,33,38,39,43,44,49<br>
+  <span style='color:red; font-weight:bold;'>9.正肖七色波</span><br>
+  <span style='color:red; font-weight:bold;'>正肖：</span>选择1个生肖为1注，当任何一个正码所属生肖与所选生肖相同，即中奖。不论同生肖的号码出现次数，只中一次奖。<br>
+  <span style='color:red; font-weight:bold;'>七色波：</span>选择1个波色，即为1注。正码的波色计作1，特码的波色计作1.5。把开奖号码按所属“红波”“蓝波”“绿波”的数值分别相加后，数值高的波色，为当期的七色波开奖波色。
+  而以下3种结果视为和局。</span><br>
+  <span style='color:red; font-weight:bold;'>1：</span>6个正码开出3蓝波3绿波，而特别码是红波<br>
+  <span style='color:red; font-weight:bold;'>>2：</span>6个正码开出3蓝波3红波，而特别码是绿波<br>
+  <span style='color:red; font-weight:bold;'>3：</span>6个正码开出3绿波3红波，而特别码是蓝波<br>
+  如果出现和局，所有投注红，绿，蓝七色波的注单退还本金；可投注和局。<br>
+  <span style='color:red; font-weight:bold;'>10.正码特</span><br>
+  正一特～正六特对应开奖号码的第一个号码～第六个号码，即正码一～正码六<br>
+  在正码一～六中的任意位置上选择1个号码为1注。所选号码与该位置的开奖号码一致，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码010203040506+07，投注「正一特01」，即中奖。
+  <span style='color:red; font-weight:bold;'>11.连肖连尾</span><br>
+  <span style='color:red; font-weight:bold;'>二连肖～五连肖:</span><br>
+  开奖的7个号码所对应的生肖包含所选生肖，即中奖。如下注组合包含本命年生肖，则取本命年生肖的赔率。不论同生肖的号码出现次数，只中一次奖。<br>
+  <span style='color:red; font-weight:bold;'>二连肖：</span>选择2个生肖为1注。<br>
+  举例：开奖号码有出现龙、虎对应的号码。投注「龙、虎」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>三连肖：</span>选择3个生肖为1注。<br>
+  举例：开奖号码有出现龙、虎、鼠对应的号码。投注 龙、虎、鼠」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>四连肖：</span>选择4个生肖为1注。<br>
+  举例：开奖号码有出现龙、虎、鼠、兔对应的号码。投注「龙、虎、鼠、兔」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>五连肖：</span>选择5个生肖为1注。<br>
+  举例：开奖号码有出现龙、虎、鼠、兔、猪对应的号码。投注「龙、虎、鼠、兔、猪」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>二连尾～五连尾:</span><br>
+  开奖的7个号码的个位数包含所选尾数，即中奖。如下注组合包含0尾，则取0尾的赔率。不论同尾数的号码出现次数，派彩只派一次。<br>
+  <span style='color:red; font-weight:bold;'>二连尾：</span>选择2个尾数为1注。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码10,20,30,41,42,43+44，投注「0尾、1尾」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>三连尾：</span>选择3个尾数为1注。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码10,20,30,41,42,43+44，投注「0尾、1尾、2尾」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>四连尾：</span>选择4个尾数为1注。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码10,20,30,41,42,43+44，投注「0尾、1尾、2尾、3尾」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>五连尾：</span>选择5个尾数为1注。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码10,20,30,41,42,43+44，投注「0尾、1尾、2尾、3尾、4尾」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>12.连码</span><br>
+  <span style='color:red; font-weight:bold;'>四全中：</span>选择4个号码组成1注，开奖的正码包含4个投注号码，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「01,02,03,04」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>三全中：</span>选择3个号码组成1注，开奖的正码包含3个投注号码，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「01,02,03」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>三中二：</span>选择3个号码组成1注，开出的正码包含3个投注号码即中“三中三”，包含2个投注号码即中“三中二”。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「01,02,03」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>二全中：</span>选择2个号码组成1注，开奖的正码包含2个投注号码，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「01,02」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>二中特：</span>选择2个号码即组成1注，若2个号码都是开奖号码的正码，则中“中二”，若其中一个是正码，一个是特码，则中“中特”。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「01,02」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>>特串：</span>选择2个号码组成1注，其中1个号码与开奖的特码相同，另一个号码与任意一个正码相同，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「01,07」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>>13.一肖总肖平特尾数</span><br>
+  <span style='color:red; font-weight:bold;'>正特一肖：</span>选择1个生肖组成1注，开奖的7个号码所对应的生肖包含这个生肖（顺序不限），即中奖。不论同生肖的号码出现次数，只中一次奖。<br>
+  <span style='color:red; font-weight:bold;'>正特尾数：</span>选择1个尾数，开奖的7个号码中的尾数包含所选尾数，即中奖。不论相同尾数出现的次数，只中一次奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「1尾」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>总肖：</span>选择1个总肖数，开奖的7个号码对应的不同生肖的数量与投注的总肖数相同，即为中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码中不同生肖数量是2个，投注「二肖」，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>总肖单双：</span>开奖的7个号码对应的不同生肖的数量3、5、7为“总肖单”，2、4、6为“总肖双”。<br>
+  <span style='color:red; font-weight:bold;'>14.总和<span><br>
+  <span style='color:red; font-weight:bold;'>总和大小：</span>7个开奖号码之和≥176为“总和大”，≤174为“总和小”，等于175时为和，退还本金。<br>
+  <span style='color:red; font-weight:bold;'>总和大小不含和：</span>7个开奖号码之和≥175为“大”，≤174为“小”，无和值。<br>
+  <span style='color:red; font-weight:bold;'>总和单双：</span>7个开奖号码之和的个位数1、3、5、7、9为“总和单”，0、2、4、6、8为“总和双”。<br>
+  <span style='color:red; font-weight:bold;'>15.自选不中</span><br>
+  从49个号码中任意选择5~11个号码为一注，如开奖的所有正码和特码皆与选择的号码不同，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「08,09,10,11,12」，则中奖。<br>
+  <span style='color:red; font-weight:bold;'>16.自选</span><br>
+  <span style='color:red; font-weight:bold;'>自选：</span>从49个号码中任选1个号码为一注，如开奖的7个号码中包含选择的号码，即中奖。<br>
+  <span style='color:red; font-weight:bold;'>举例：</span>开奖号码01,02,03,04,05,06+07，投注「02」，则中奖。",
+  
+  
+  
+
+
+
+
+    
+    
+}

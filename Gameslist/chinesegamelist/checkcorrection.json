@@ -1,0 +1,239 @@
+{
+5d
+  //standard gamesb recent bet
+game name and game model games do  not change to chinese
+//twisides
+recent bet in twoside game nae and game model are not changing
+
+
+//long dragon
+    "Refetch data":"",
+    "":"",
+    "":"",
+    "":"",
+
+roadbet
+
+confirmbet cart after trsck
+
+
+type , selections and game  the data does not change to chinese
+
+change first draw pop up current to chinese 
+   "Current": "当前",
+
+
+
+   //many tables
+   recent bet game name and game model 
+
+   change the game names 
+   "Game Closed": "游戏已关闭",
+
+
+   //fantan
+
+fantan 2 type and selections donot change to chinese
+check the type and selecvtions for the  confirmm bet modal 
+
+"fantanRoad.odd_even": "奇偶",
+"fantanRoad.dragon_tiger_tie": "龙虎和",
+"fantanRoad.big_small": "大小",
+  "fantanRoad.colors": "番摊路颜色",
+  "fantanRoad.natural":"",
+
+  
+  //fantan gamelist
+"1 Tong : 2 4": "1 桶 : 2 4",
+"1 Tong : 2 3": "1 桶 : 2 3",
+"1 Tong : 3 4": "1 桶 : 3 4",
+"2 Tong : 1 3": "2 桶 : 1 3",
+"2 Tong : 1 4": "2 桶 : 1 4",
+"2 Tong : 3 4": "2 桶 : 3 4",
+"3 Tong : 1 2": "3 桶 : 1 2",
+"3 Tong : 1 4": "3 桶 : 1 4",
+"3 Tong : 2 4": "3 桶 : 2 4",
+"4 Tong : 1 2": "4 桶 : 1 2",
+"4 Tong : 1 3": "4 桶 : 1 3",
+"4 Tong : 2 3": "4 桶 : 2 3",
+"Reminder":"提醒",
+
+
+    //pk 10
+
+standard
+//recent bet
+Please check the following issues for road bet and other models:
+
+1. Game name and game model names do not translate to Chinese.
+2. In the Two Sides game, recent bet game name and game model are not changing.
+3. Two Sides game name and model are not displaying.
+
+    "Coming Soon":"",
+
+
+    
+//long dragon
+"Refetch data":"",
+
+"7th Ball Odd/Even: Even": "第七球 单/双: 双",
+"9th Ball Odd/Even: Even": "第九球 单/双: 双",
+"8th Bal Odd/Even: Even": "第八球 单/双: 双",
+"1st Bal Odd/Even: Even": "第一球 单/双: 双",
+"7th Ball Odd/Even: Big": "第七球 单/双: 大",
+"9th Ball Odd/Even: Big": "第九球 单/双: 大",
+"8th Bal Odd/Even: Big": "第八球 单/双: 大",
+"1st Bal Odd/Even: Big": "第一球 单/双: 大",
+"7th Ball Odd/Even: Small": "第七球 单/双: 小",
+"9th Ball Odd/Even: Small": "第九球 单/双: 小",
+"8th Bal Odd/Even: Small": "第八球 单/双: 小",
+"1st Bal Odd/Even: Small": "第一球 单/双: 小",
+"8th Bal Odd/Even: Odd": "第八球 单/双: 单",
+"1st Bal Odd/Even: Odd": "第一球 单/双: 单",
+"7th Ball Odd/Even: Dragon": "第七球 单/双: 龙",
+"9th Ball Odd/Even: Dragon": "第九球 单/双: 龙",
+"8th Bal Odd/Even: Dragon": "第八球 单/双: 龙",
+"1st Bal Odd/Even: Dragon": "第一球 单/双: 龙",
+"7th Ball Odd/Even: Tiger": "第七球 单/双: 虎",
+"9th Ball Odd/Even: Tiger": "第九球 单/双: 虎",
+"8th Bal Odd/Even: Tiger": "第八球 单/双: 虎",
+"1st Bal Odd/Even: Tiger": "第一球 单/双: 虎",
+"8th Bal Big/Small: Tiger": "第八球 大/小: 虎",
+"1st Bal Big/Small: Tiger": "第一球 大/小: 虎",
+"8th Bal Big/Small: Dragon": "第八球 大/小: 龙",
+"1st Bal Big/Small: Dragon": "第一球 大/小: 龙",
+"8th Bal Big/Small: Big": "第八球 大/小: 大",
+"1st Bal Big/Small: Big": "第一球 大/小: 大",
+"8th Bal Big/Small: Odd": "第八球 大/小: 单",
+"1st Bal Big/Small: Odd": "第一球 大/小: 单",
+"8th Bal Big/Small: Small": "第八球 大/小: 小",
+"1st Bal Big/Small: Small": "第一球 大/小: 小",
+"8th Bal Big/Small: Even": "第八球 大/小: 双",
+"1st Bal Big/Small: Even": "第一球 大/小: 双",
+
+"7th Ball Prime/Composite: Dragon": "第七球 质合: 龙",
+"9th Ball Prime/Composite: Dragon": "第九球 质合: 龙",
+"8th Ball Prime/Composite: Dragon": "第八球 质合: 龙",
+"1st Ball Prime/Composite: Dragon": "第一球 质合: 龙",
+"7th Ball Prime/Composite: Big": "第七球 质合: 大",
+"9th Ball Prime/Composite: Big": "第九球 质合: 大",
+"8th Ball Prime/Composite: Big": "第八球 质合: 大",
+"1st Ball Prime/Composite: Big": "第一球 质合: 大",
+"7th Ball Prime/Composite: Small": "第七球 质合: 小",
+"9th Ball Prime/Composite: Small": "第九球 质合: 小",
+"8th Ball Prime/Composite: Small": "第八球 质合: 小",
+"1st Ball Prime/Composite: Small": "第一球 质合: 小",
+"7th Ball Prime/Composite: Odd": "第七球 质合: 单",
+"9th Ball Prime/Composite: Odd": "第九球 质合: 单",
+"8th Ball Prime/Composite: Odd": "第八球 质合: 单",
+"1st Ball Prime/Composite: Odd": "第一球 质合: 单",
+"7th Ball Prime/Composite: Even": "第七球 质合: 双",
+"9th Ball Prime/Composite: Even": "第九球 质合: 双",
+"8th Ball Prime/Composite: Even": "第八球 质合: 双",
+"1st Ball Prime/Composite: Even": "第一球 质合: 双",
+"7th Ball Prime/Composite: Tiger": "第七球 质合: 虎",
+"9th Ball Prime/Composite: Tiger": "第九球 质合: 虎",
+"8th Ball Prime/Composite: Tiger": "第八球 质合: 虎",
+"1st Ball Prime/Composite: Tiger": "第一球 质合: 虎",
+"7th Ball Dragon Tiger: Big": "第七球 龙虎: 大",
+"9th Ball Dragon Tiger: Big": "第九球 龙虎: 大",
+"8th Ball Dragon Tiger: Big": "第八球 龙虎: 大",
+"1st Ball Dragon Tiger: Big": "第一球 龙虎: 大",
+"7th Ball Dragon Tiger: Small": "第七球 龙虎: 小",
+"9th Ball Dragon Tiger: Small": "第九球 龙虎: 小",
+
+"8th Ball Dragon Tiger: Small": "第八球龙虎：小",
+"1st Ball Dragon Tiger: Small": "第一球龙虎：小",
+"7th Ball Dragon Tiger: Odd": "第七球龙虎：单",
+"9th Ball Dragon Tiger: Odd": "第九球龙虎：单",
+"8th Ball Dragon Tiger: Odd": "第八球龙虎：单",
+"1st Ball Dragon Tiger: Odd": "第一球龙虎：单",
+"7th Ball Dragon Tiger: Even": "第七球龙虎：双",
+"9th Ball Dragon Tiger: Even": "第九球龙虎：双",
+"8th Ball Dragon Tiger: Even": "第八球龙虎：双",
+"1st Ball Dragon Tiger: Even": "第一球龙虎：双",
+"7th Ball Dragon Tiger: Dragon": "第七球龙虎：龙",
+"9th Ball Dragon Tiger: Dragon": "第九球龙虎：龙",
+"8th Ball Dragon Tiger: Dragon": "第八球龙虎：龙",
+"1st Ball Dragon Tiger: Dragon": "第一球龙虎：龙",
+"7th Ball Dragon Tiger: Tiger": "第七球龙虎：虎",
+"9th Ball Dragon Tiger: Tiger": "第九球龙虎：虎",
+"8th Ball Dragon Tiger: Tiger": "第八球龙虎：虎",
+"1st Ball Dragon Tiger: Tiger": "第一球龙虎：虎",
+"Any Two":"",
+"TOAK":"",
+"Guess No":"",
+
+"Streak":"",
+"Pair":"",
+"Thunder":"",
+"Light":"",
+"Main":"",
+"":"",
+"":"",
+
+
+
+//roadbet
+   "Could not place bet, try again": "无法下注，请重试"
+
+
+     //many tables
+     Please check the Recent Bet section. The Game Name and Game Model are not translating to Chinese.
+
+     Please check: Game names are not changing/ translating to Chinese.
+   "Game Closed": "游戏已关闭",
+    "":"",
+    "":"",
+    //fantan
+    Please check the 'Confirm Bet' pop-up. The type and selection text does not translate to Chinese
+
+
+
+    fast3 
+
+    standard 
+    please check the recent bet and recent track for standard and two sides
+
+
+    Please check: The 'Any Triple' text in the Confirm Bet pop-up is not translating to Chinese
+
+
+
+    "AnyTriple":"全骰",
+
+
+Some changes have not change in the tarck pop up modal     
+   "Next Day": "次日",
+    "Current": "当前",
+
+    //pop up messages
+    "Could not place bet, try again": "无法下注，请重试",
+
+
+    Please check the following issues for road bet and other models:
+
+1. Game name and game model names do not translate to Chinese.
+2. In the Two Sides game, recent bet game name and game model are not changing.
+3. Two Sides game name and model are not displaying.
+
+    "":"",
+
+    fantan chec confirm bet games popop up
+
+    //11x5
+
+Please check the following issues:
+
+1. Game name and game model names are not translating to Chinese.
+2. In the Two Sides game, the recent bet game name and game model are not changing to Chinese.
+    "":"",
+    "":"",
+
+    //longdragon
+  confirm bet pop up 
+    "":"",
+    "":"",
+    "":"",
+    "":""
+  }

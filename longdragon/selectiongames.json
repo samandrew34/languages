@@ -49,4 +49,20 @@
     "8th Ball Odd/Even: Even":""
      "3rd Ball Odd/Even: Even":""
       "5th Ball Odd/Even: Odd":""
+
+
+
+      "2nd Ball Odd/Even: Odd": "第二个球 单/双:单",
+
+  "6th Ball Odd/Even: Even": "第六个球 单/双:双",
+  "7th Ball Odd/Even: Odd": "第七个球 单/双:单",
+  "1st Ball Odd/Even: Odd": "第一个球 单/双:单",
+
+
+
+
+  "9th Ball Odd/Even: Odd": "第九个球 单/双:单",
+ 
+  "1st Ball Odd/Even: Eve": "第一个球 单/双:双",
+
 }

@@ -1,0 +1,51 @@
+{
+
+
+
+
+"<span style='color:red;'>1. Two Sides</span><br>
+<span style='color:red;'>1.1 B/S/O/E - Sum of Top 2</span><br>
+<span style='color:red;'>Sum of Top 2 B/S</span> If the sum of the top two winning numbers is greater than 11, it is considered Big; if it is 11 or less, it is considered Small.
+<span style='color:red;'>Sum of Top 2 O/E: </span>If the unit digit of the sum of the top two winning numbers is 1, 3, 5, 7, or 9, it is considered Odd; if it is 0, 2, 4, 6, or 8, it is considered Even.
+<span style='color:red;'>1.2 1st Prize ~ 10th Prize (B/S & O/E & Dragon/Tiger)</span><br>
+<span style='color:red;'>B/S:</span> If the winning number is 6 or greater, it is considered Big; if it is 5 or less, it is considered Small.<br>
+<span style='color:red;'>O/E: </span>If the unit digit of the winning number is 1, 3, 5, 7, or 9, it is considered Odd; if it is 0, 2, 4, 6, or 8, it is considered Even.<br>
+<span style='color:red;'>Dragon/Tiger:</span> If the former number is bigger than the latter, it is considered Dragon; otherwise, it is Tiger (1 is the smallest, 10 is the biggest).<br>
+<span style='color:red;'>1st Dragon/Tiger:</span>1st vs. 10th compete.<br>
+<span style='color:red;'>2nd Dragon/Tiger:</span>2nd vs. 9th compete.<br>
+<span style='color:red;'>3rd Dragon/Tiger</span> 3rd vs. 8th compete.<br>
+<span style='color:red;'>4th Dragon/Tiger:</span>4th vs. 7th compete.<br>
+<span style='color:red;'>5th Dragon/Tiger:</span> 5th vs. 6th compete.<br>
+<span style='color:red;'>2. Fixed Place</span><br>
+ Select places from 1st to 10th.<br>
+Select one number from any 1 to 10.<br>
+ If the selected number and the winning number in the chosen place match, it is considered a win.<br>
+ Example: Winning numbers: 1,* ,* ,* ,* , *, *, *, *, ; Bet on 1st place with number 1, and it is considered a win.<br>
+<span style='color:red;'>3. Sum of Top Two</span><br>
+ Select one value.<br>
+ If the sum of the 1st and 2nd winning numbers matches the selected value, it is considered a win.<br>
+Example: Winning numbers: 1, 2, *, *, *, *, *, *, *, ; Bet on 3 and it is considered a win.":"<span style='color:red;'></span><br>
+<span style='color:red;'>1.两面</span><br>
+<span style='color:red;'>1.冠亚和值大小、单双</span><br>
+冠亚和大小：开奖号码中冠军与亚军之和>11为“大”，≤11为“小”。<br>
+冠亚和单双：开奖号码中冠军与亚军之和的个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”。<br>
+<span style='color:red;'>2.冠军~第十名大小、单双、龙虎</span><br>
+选择一个号码位置，并投注一种属性，投注的属性与该位置的开奖号码属性相同时，即中奖。<br>
+<span style='color:red;'>大小：</span>开奖号码≥6为“大”，≤5为“小”。<br>
+<span style='color:red;'>单双：</span>开奖号码个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”。<br>
+<span style='color:red;'>龙虎：</span>两个位置的开奖号码进行比较，前面的比后面的大为“龙”，反之为“虎”。（1最小，10最大）<br>
+<span style='color:red;'>冠军龙虎：</span>冠军与第十名比较；<br>
+<span style='color:red;'>亚军龙虎：</span>亚军与第九名比较；<br>
+<span style='color:red;'>第三名龙虎：</span>第三名与第八名比较；<br>
+<span style='color:red;'>第四名龙虎：</span>第四名与第七名比较；<br>
+<span style='color:red;'>第五名龙虎：</span>第五名与第六名比较。<br>
+<span style='color:red;'>2.选号</span><br>
+在冠军～第十名中的任意位置上选择1个号码为1注。所选号码与该位置上的开奖号码一致，即中奖。<br>
+<span style='color:red;'>举例：</span>开奖号码1,*,*,*,*,*,*,*,*,*，投注「冠军1」，即中奖。<br>
+<span style='color:red;'>3.冠亚和值</span><br>
+选择1个数值，与开奖号码中冠军、亚军的2个号码之和相同，即中奖。<br>
+<span style='color:red;'>举例：</span>开奖号码1,2,*,*,*,*,*,*,*,*，投注「3」，即中奖。<br>"
+
+
+
+}

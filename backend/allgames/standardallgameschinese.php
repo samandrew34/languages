@@ -82,7 +82,7 @@ return [
     'First 2 Straight (Joint)' => '前二直选(联合)',
     'First 2 Straight (Manual)' => '前二直选(手动)',
     'Sum of First 2' => '前二和值',
-    'Span of First 2' => '前二跨度'
+    'Span of First 2' => '前二跨度',
 'First 2 Group (Joint)' => '前2组选（合）',
     'First 2 Group (Manual)' => '前2组选（手动）',
     'First 2 Sum of Group' => '前2组选和值',

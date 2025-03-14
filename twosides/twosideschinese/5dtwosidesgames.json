@@ -1,0 +1,71 @@
+
+
+{
+
+
+//5d games
+
+
+
+
+"<span style='color:red; font-weight:bold;'>1.Sum - Dragon/Tiger/Tie</span><br>
+B/SSum:WinningNo.sum≥23as Big,≤22as Small.<br>
+O/ESum:WinningNo.onesplaceas1,3,5,7,9as Odd;0,2,4,6,8as Even.<br>
+Dragon/Tiger/Tie:1st>5thwinningNo.(0smallest,9biggest)asDragon,orelseTiger.EqualasTie.<br>
+<span style='color:red; font-weight:bold;'>2.1st~5th</span><br>
+Select1place&bet1element.Bet&winningNo.placeelementssame,aswin.<br>
+B/S:WinningNo.≥5as Big;≤4as Small. <br>
+O/E:WinningNo.1,3,5,7,9as Odd ;0,2,4,6,8as Even.<br>
+P/C:WinningNo.1,2,3,5,7as Prime ;0,4,6,8,9as Composite.<br>
+<span style='color:red; font-weight:bold;'>3.Fixed Place 1st~5th</span><br>
+1st~5thballpickselect1numberfrom1st~5th.SelectedandplacewinningNo.same,aswin.<br>
+E.g.1stdraw8.Bet「1st8」,aswin.<br>
+<span style='color:red; font-weight:bold;'>4.Unique First 3, Mid 3, Last 3</span><br>
+First3:[1st,2nd,3rd].<br>
+Mid3:[2nd,3rd,4th].<br>
+Last3:[3rd,4th,5th].<br>
+Inrow:Cyclebetween0-1-2-3-4-5-6-7-8-9-0.<br>
+TOAK:3samenumbers.<br>
+E.g.WinningNo.1,1,1,*,*.Bet「First3TOAK」,aswin.<br>
+Streak:3relatednumbers.<br>
+E.g.WinningNo.9,1,0,*,*.Bet「First3Straight」,aswin.<br>
+Pair:1of3numbersoccur2x,otheroccur1x.<br>
+E.g.WinningNo.0,3,0,*,*.Bet「First3Pair」,aswin.<br>
+HalfStreak:3differentnumbers,2numbersrelated.<br>
+E.g.WinningNo.0,1,3,*,*.Bet「First3HalfStreak」,aswin.<br>
+Mixed6:3different&unrelatednumbers.<br>
+E.g.WinningNo.0,3,5,*,*.Bet「First3Mixed6」,aswin.":
+
+"<span style='color:red; font-weight:bold;'>1.总和-龙虎和</span><br>
+总和大小：开奖号码之和≥23为“大”，≤22为“小”。<br>
+总和单双：开奖号码之和的个位数为1、3、5、7、9为“单”，0、2、4、6、8为“双”。<br>
+龙虎和：第一球的开奖号码>第五球的开奖号码（0为最小，9为最大）为龙，反之为虎，相同为和。<br>
+<span style='color:red; font-weight:bold;'>2.第一球~第五球</span><br>
+选择一个位置，并投注一种属性，投注的属性与该位置的开奖号码属性相同时，即中奖。<br>
+大小：开奖号码≥5为“大”，≤4为“小”。<br>
+单双：开奖号码1、3、5、7、9为“单”，0、2、4、6、8为“双”。<br>
+质合：开奖号码1、2、3、5、7为“质”，0、4、6、8、9为“合”。<br>
+<span style='color:red; font-weight:bold;'>3.第一球~第五球选号</span><br>
+在第一球～第五球任意位置上选择1个号码，当该位置的开奖号码与所选号码相同时，即中奖。<br>
+举例：第一球开出号码8，投注「第一球8」，即中奖。<br>
+<span style='color:red; font-weight:bold;'>4.前三、中三、后三特殊玩法</span><br>
+前三定义：[第一球、第二球、第三球]<br>
+中三定义：[第二球、第三球、第四球]<br>
+后三定义：[第三球、第四球、第五球]<br>
+相连定义：0-1-2-3-4-5-6-7-8-9-0之间循环<br>
+豹子：3个相同的号码<br>
+举例：开奖号码1,1,1,*,*,投注「前三豹子」，即中奖。<br>
+顺子：3个相连的号码；顺序不限；<br>
+举例：开奖号码9,1,0,*,*，投注「前三顺子」，即中奖。<br>
+对子：3个数字中有1个数字出现2次，另1个数字出现1次，顺序不限；<br>
+举例：开奖号码0,3,0,*,*，投注「前三对子」，即中奖。<br>
+半顺：3个数字各不相同，且其中只有2个数字相连；顺序不限；<br>
+举例：开奖号码0,1,3,*,*，投注「前三半顺」，即中奖。<br>
+杂六：3个数字各不相同且互不相连。<br>
+举例：开奖号码0,3,5,*,*，投注「前三杂六」，即中奖。",
+
+
+
+    
+    
+}
