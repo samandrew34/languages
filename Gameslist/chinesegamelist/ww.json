@@ -1,0 +1,32 @@
+{
+    "viewBetSlipModal": {
+        "orderInfo": "Bestellinfo",
+        "orderID": "Bestell-ID",
+        "time": "Zeit",
+        "game": "Spiel",
+        "draw": "Ziehung",
+        "track": "Verfolgen",
+        "type": "Typ",
+        "details": "Details",
+        "bets": "Wette(n)",
+        "multiplier": "Multiplikator",
+        "unit": "Einheit",
+        "betAmount": "Wettbetrag",
+        "odds": "Quoten",
+        "solo": "Einzel",
+        "status": "Status",
+        "prize": "Preis",
+        "rebate": "Rabatt",
+        "winningNo": "Gewinnzahl",
+        "cancel": "Stornieren",
+        "helpTip1": "Geben Sie keine persönlichen Aufladeinformationen an andere weiter, um die Sicherheit der Gelder zu gewährleisten.",
+        "helpTip2": "Der Name des Einzahlers muss mit dem Namen der gebundenen Bankkarte übereinstimmen."
+    },
+    "Unsettled": "Unabgewickelt",
+    "No Unsettled Bets Available": "Keine unabgewickelten Wetten verfügbar",
+    "Game (s)": "Spiel(e)",
+    "Type": "Typ",
+    "Bet Amt.": "Wettbetrag",
+    "No Settled Bets Available": "Keine abgewickelten Wetten verfügbar",
+    "Settled": "Abgewickelt"
+}

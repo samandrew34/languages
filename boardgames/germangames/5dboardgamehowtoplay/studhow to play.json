@@ -1,0 +1,139 @@
+{
+
+
+
+  "<span style='color:red'>Quintuple: </span>All five winning numbers are the same (e.g. 22222, 66666, 88888, betting on five of a kind wins, but betting on the others does not win)<br>
+<span style='color:red'>Quadruple: </span>Four of the five numbers drawn are the same and the other number different (for example, 22221, 66663, 88885, betting on this wins)<br>
+<span style='color:red'>A pair: </span>Only one set of the five numbers drawn is the same (for example, 22168, 66315, 82968, betting on one pair wins)<br>
+<span style='color:red'>Triple Pair: </span>Three of the five numbers drawn are the same (three of a kind) and the other two are also the same (a pair) (e.g. 22211, 66633, betting on Triple Pair wins)<br>
+<span style='color:red'>Streak : </span>The positions of the five winning numbers are in row (for example, 01234, 12345, 23456, 34567, 45678, 56789, 67890, 78901, 89012, 90123, betting on a straight will win)<br>
+<span style='color:red'>T.O.A.K: </span>Three of the five numbers drawn are the same and the other two are different (for example, 22231, 66623, 88895, betting on three of a kind wins)<br>
+<span style='color:red'>Two pairs: </span>Two of the five winning numbers are the same (for example, 22166, 66355, 82668, betting on two pairs wins)<br>
+<span style='color:red'>Loose cards: </span>When winning numbers are different and not in row (e.g. 23186, 13579, 21968, betting on loose cards wins, others do not win.
+":"<span style='color:red'>Quintuple: </span>Alle fünf Gewinnzahlen sind gleich (z. B. 22222, 66666, 88888, Wetten auf fünf gleiche Zahlen gewinnt, andere Wetten verlieren)<br>
+<span style='color:red'>Quadruple: </span>Vier der fünf gezogenen Zahlen sind gleich, die andere ist unterschiedlich (z. B. 22221, 66663, 88885, Wetten auf diese Kombination gewinnt)<br>
+<span style='color:red'>Ein Paar: </span>Nur ein Zahlenpaar unter den fünf gezogenen Zahlen ist gleich (z. B. 22168, 66315, 82968, Wetten auf ein Paar gewinnt)<br>
+<span style='color:red'>Drilling und Paar: </span>Drei der fünf gezogenen Zahlen sind gleich (Drilling), die anderen beiden bilden ein Paar (z. B. 22211, 66633, Wetten auf diese Kombination gewinnt)<br>
+
+<span style='color:red'>Straße: </span>Die Positionen der fünf Gewinnzahlen sind in einer aufsteigenden Reihenfolge (z. B. 01234, 12345, 23456, 34567, 45678, 56789, 67890, 78901, 89012, 90123, Wetten auf eine Straße gewinnt)<br>
+<span style='color:red'>Drilling: </span>Drei der fünf gezogenen Zahlen sind gleich, die anderen beiden sind unterschiedlich (z. B. 22231, 66623, 88895, Wetten auf einen Drilling gewinnt)<br>
+
+<span style='color:red'>Zwei Paare: </span>Zwei Zahlenpaare unter den fünf Gewinnzahlen sind gleich (z. B. 22166, 66355, 82668, Wetten auf zwei Paare gewinnt)<br>
+<span style='color:red'>Einzelne Karten: </span>Wenn alle fünf Gewinnzahlen unterschiedlich sind und keine Reihenfolge bilden (z. B. 23186, 13579, 21968, Wetten auf einzelne Karten gewinnt, andere Wetten verlieren)<br>",
+
+
+
+
+
+  "<span style='color:red'>Tripple: </span>If the hundreds, thousands, and ten-thousands digits of the winning numbers are all the same (e.g., 000, 111, 999), betting on Tripple wins; otherwise, it is not a win.<br>
+   <span style='color:red'>Streak: </span> If the hundreds, thousands, and ten-thousands digits of the winning numbers are consecutive, regardless of order (9, 0, and 1 are considered consecutive). For example, if the winning numbers are 123, 901, 321, 546, the digits are consecutive, so betting on Streak wins; otherwise, it is not a win.<br>
+    <span style='color:red'>Pair: </span> If any two of the hundreds, thousands, and ten-thousands digits of the winning numbers are the same (excluding Tripple), for example, 001, 112, 696, where two of the digits are the same, betting on Pair wins; otherwise, it is not a win.<br>
+     <span style='color:red'>Loose Cards: </span> Any winning numbers that do not fall under Tripple, Pair, Straight, or Half-Straight, such as 157, where the digits have no relation to each other, betting on Loose Cards wins; otherwise, it is not a win.<br>
+      <span style='color:red'>Half-Streak: </span> If any two of the hundreds, thousands, and ten-thousands digits of the winning numbers are consecutive, regardless of order (excluding Straight and Pair). For example, if the winning numbers are 125, 540, 390, 706, where two digits are consecutive, betting on Half-Straight wins; otherwise, it is not a win.<br>":      "<span style='color:red'>Drilling: </span>Wenn die Hunderter-, Tausender- und Zehntausenderstellen der Gewinnzahlen alle gleich sind (z. B. 000, 111, 999), gewinnt die Wette auf Drilling; andernfalls ist es kein Gewinn.<br><span style='color:red'>Straße: </span>Wenn die Hunderter-, Tausender- und Zehntausenderstellen der Gewinnzahlen aufeinanderfolgend sind, unabhängig von der Reihenfolge (9, 0 und 1 gelten als aufeinanderfolgend). Zum Beispiel, wenn die Gewinnzahlen 123, 901, 321, 546 sind, sind die Ziffern aufeinanderfolgend, daher gewinnt die Wette auf Straße; andernfalls ist es kein Gewinn.<br>
+      <span style='color:red'>Paar: </span>Wenn zwei der Hunderter-, Tausender- oder Zehntausenderstellen der Gewinnzahlen gleich sind (ausgenommen Drilling), zum Beispiel 001, 112, 696, bei denen zwei Ziffern identisch sind, gewinnt die Wette auf Paar; andernfalls ist es kein Gewinn.<br><span style='color:red'>Lose Karten: </span>Alle Gewinnzahlen, die nicht unter Drilling, Paar, Straße oder Halbe Straße fallen, wie z. B. 157, bei denen die Ziffern keine Beziehung zueinander haben, gewinnen mit einer Wette auf Lose Karten; andernfalls ist es kein Gewinn.<br>
+      
+      <span style='color:red'>Halbe Straße: </span>Wenn zwei der Hunderter-, Tausender- oder Zehntausenderstellen der Gewinnzahlen aufeinanderfolgend sind, unabhängig von der Reihenfolge (ausgenommen Straße und Paar). Zum Beispiel, wenn die Gewinnzahlen 125, 540, 390, 706 sind, bei denen zwei Ziffern aufeinanderfolgend sind, gewinnt die Wette auf Halbe Straße; andernfalls ist es kein Gewinn.<br>"
+      
+
+      "<span style='color:red'>Drilling: </span>Wenn die Hunderter-, Tausender- und Zehntausenderstellen der Gewinnzahlen alle gleich sind (z. B. 000, 111, 999), gewinnt die Wette auf Drilling; andernfalls ist es kein Gewinn.<br><span style='color:red'>Straße: </span>Wenn die Hunderter-, Tausender- und Zehntausenderstellen der Gewinnzahlen aufeinanderfolgend sind, unabhängig von der Reihenfolge (9, 0 und 1 gelten als aufeinanderfolgend). Zum Beispiel, wenn die Gewinnzahlen 123, 901, 321, 546 sind, sind die Ziffern aufeinanderfolgend, daher gewinnt die Wette auf Straße; andernfalls ist es kein Gewinn.<br>
+<span style='color:red'>Paar: </span>Wenn zwei der Hunderter-, Tausender- oder Zehntausenderstellen der Gewinnzahlen gleich sind (ausgenommen Drilling), zum Beispiel 001, 112, 696, bei denen zwei Ziffern identisch sind, gewinnt die Wette auf Paar; andernfalls ist es kein Gewinn.<br><span style='color:red'>Lose Karten: </span>Alle Gewinnzahlen, die nicht unter Drilling, Paar, Straße oder Halbe Straße fallen, wie z. B. 157, bei denen die Ziffern keine Beziehung zueinander haben, gewinnen mit einer Wette auf Lose Karten; andernfalls ist es kein Gewinn.<br>
+
+<span style='color:red'>Halbe Straße: </span>Wenn zwei der Hunderter-, Tausender- oder Zehntausenderstellen der Gewinnzahlen aufeinanderfolgend sind, unabhängig von der Reihenfolge (ausgenommen Straße und Paar). Zum Beispiel, wenn die Gewinnzahlen 125, 540, 390, 706 sind, bei denen zwei Ziffern aufeinanderfolgend sind, gewinnt die Wette auf Halbe Straße; andernfalls ist es kein Gewinn.<br>",
+
+
+
+
+
+      
+  "Compare the winning numbers of the ten-thousands place and thousands place.<br>
+<span style='color:red'>Odd-Odd: </span>
+ If the ten-thousands place number is odd and the thousands place number is also odd, it is considered a win. For example, if the winning numbers are 3, 5, 9, 8, 0, the ten-thousands place number "3" and the thousands place number "5" are both odd, so it is a win.<br>
+<span style='color:red'>Odd-Even: </span>
+ If the ten-thousands place number is odd and the thousands place number is even, it is considered a win. For example, if the winning numbers are 3, 6, 9, 8, 0, the ten-thousands place number "3" is odd and the thousands place number "6" is even, so it is a win.<br>
+<span style='color:red'>Even-Odd:</span>
+ If the ten-thousands place number is even and the thousands place number is odd, it is considered a win. For example, if the winning numbers are 6, 3, 9, 8, 0, the ten-thousands place number "6" is even and the thousands place number "3" is odd, so it is a win.<br>
+<span style='color:red'>Even-Even:</span>
+ If the ten-thousands place number is even and the thousands place number is also even, it is considered a win. For example, if the winning numbers are 4, 6, 9, 8, 0, the ten-thousands place number "4" and the thousands place number "6" are both even, so it is a win.<br>":
+ "以开奖的 "万位" 与 "千位" 的号码做对比.<br>
+<span style='color:red'>单单: </span>
+ 万位开奖号码的形态为单数，千位开奖号码的形态为单数，即为中奖
+如开奖号码为 3、5、9、8、 <br>万位 "3" 与千位 "5" 开奖号码形态均是单数，为中奖<br>
+<span style='color:red'>单双: </span>
+ 万位开奖号码的形态为单数，千位开奖号码的形态为双数，即为中奖
+如开奖号码为 3、6、9、8、0<br>
+万位 "3" 开奖号码形态均是单数，千位 "6" 开奖号码形态均是双数，为中奖<br>
+<span style='color:red'>双单:</span>
+ 万位开奖号码的形态为双数，千位开奖号码的形态为单数，即为中奖
+如开奖号码为 6、3、9、8、0<br>
+万位 "6" 开奖号码形态均是双数，千位 "3" 开奖号码形态均是单数，为中奖.<br>
+<span style='color:red'>双双:</span>
+万位开奖号码的形态为双数，千位开奖号码的形态为双数，即为中奖
+如开奖号码为 4、6、9、8、0<br>
+万位 "4" 与千位 "6" 开奖号码形态均是双数，为中奖<br>",
+  
+
+"<span style='color:red'>Tripple: </span> If the tens, hundreds, and thousands digits of the winning numbers are all the same (e.g., 000, 111, 999), and the tens, hundreds, and thousands digits of the winning numbers are the same, betting on Tripple wins; otherwise, it is not a win.<br>
+<span style='color:red'>Straight: </span> If the tens, hundreds, and thousands digits of the winning numbers are consecutive, regardless of order (9, 0, and 1 are considered consecutive). For example, if the winning numbers are 123, 901, 321, or 546, the digits are consecutive, so betting on Straight wins; otherwise, it is not a win.<br>
+<span style='color:red'>Pair: </span> If any two of the tens, hundreds, and thousands digits of the winning numbers are the same (excluding Tripple), for example, 001, 112, or 696, where two digits are the same, betting on Pair wins; otherwise, it is not a win.<br>
+<span style='color:red'>Loose Cards: </span>
+ Any winning numbers that do not fall under Tripple, Pair, Straight, or Half-Streak, such as 157, where the digits have no relation to each other, betting on Loose Cards wins; otherwise, it is not a win.<br>
+<span style='color:red'>Half-Streak: </span>
+ If any two of the tens, hundreds, and thousands digits of the winning numbers are consecutive, regardless of order (excluding Straight and Pair). For example, if the winning numbers are 125, 540, 390, or 706, where two digits are consecutive, betting on Half-Streak wins; otherwise, it is not a win.":
+ 
+ 
+  "<span style='color:red'>豹子： </span> 中奖号码的十位百位千位数字都相同，如中奖号码为 000、111、999 等，中奖号码的十位百位千位数字相同，则投注 豹子 中奖，其它视为不中奖
+<br>
+<span style='color:red'>顺子: </span> 中奖号码的十位百位千位数字都相连，不分顺序（数字 9、0、1 相连）如中奖号码为123、901、321、546，中奖号码十位百位千位数字相连，则投注 顺子 中奖，其它视为不中奖.<br>
+<span style='color:red'>对子: </span>中奖号码的十位百位千位任意两位数字相同（不包括豹子）如中奖号码为 001，112、696，中奖号码有两位数字相同，则投注 对子 中奖，其它视为不中奖<br>
+<span style='color:red'>杂六: </span>
+ 不包括豹子、对子、顺子、半顺的所有中奖号码，如中奖号码为 157，中奖号码位数之间无关联性，则投注 杂六 中奖，其它视为不中奖<br>
+<span style='color:red'>半顺: </span>
+ 中奖号码的十位百位千位任意两位数字相连，不分顺序（不包括顺子、对子） 如中奖号码为 125、540、390、706，中奖号码有两位数字相连，则投注 半顺 中奖，其它视为不中奖",
+"<span style='color:red'>Tripple: </span>   If the tens, hundreds, and thousands digits of the winning numbers are all the same (e.g., 000, 111, 999), and the tens, hundreds, and thousands digits of the winning numbers are the same, betting on Tripple wins; otherwise, it is not a win.<br>
+<span style='color:red'>Straight: </span> 
+ If the tens, hundreds, and thousands digits of the winning numbers are consecutive, regardless of order (9, 0, and 1 are considered consecutive). For example, if the winning numbers are 123, 901, 321, or 546, the digits are consecutive, so betting on Straight wins; otherwise, it is not a win.<br><span style='color:red'>Pair: </span> 
+ If any two of the tens, hundreds, and thousands digits of the winning numbers are the same (excluding Tripple), for example, 001, 112, or 696, where two digits are the same, betting on Pair wins; otherwise, it is not a win.<span style='color:red'>Loose Cards: </span> 
+ Any winning numbers that do not fall under Tripple, Pair, Straight, or Half-Streak, such as 157, where the digits have no relation to each other, betting on Loose Cards wins; otherwise, it is not a win.<br>
+<span style='color:red'>Half-Streak: </span> 
+ If any two of the tens, hundreds, and thousands digits of the winning numbers are consecutive, regardless of order (excluding Straight and Pair). For example, if the winning numbers are 125, 540, 390, or 706, where two digits are consecutive, betting on Half-Streak wins; otherwise, it is not a win.":"
+ <span style='color:red'>豹子: </span>   中奖号码的个位十位百位数字都相同，如中奖号码为 000、111、999 等，中奖号码的个位十位百位数字相同，则投注 豹子 中奖，其它视为不中奖<br>
+<span style='color:red'>顺子: </span> 
+ 中奖号码的十位百位千位数字都相连，不分顺序（数字 9、0、1 相连）如中奖号码为123、901、321、546，中奖号码十位百位千位数字相连，则投注 顺子 中奖，其它视为不中奖<br>
+ <span style='color:red'>对子: </span> 
+ 中奖号码的个位十位百位任意两位数字相同（不包括豹子）如中奖号码为 001，112、696，中奖号码有两位数字相同，则投注 对子 中奖，其它视为不中奖
+ <span style='color:red'>杂六: </span> 
+ 不包括豹子、对子、顺子、半顺的所有中奖号码，如中奖号码为 157，中奖号码位数之间无关联性，则投注 杂六 中奖，其它视为不中奖.<br>
+<span style='color:red'>半顺: </span> 
+中奖号码的个位十位百位任意两位数字相连，不分顺序（不包括顺子、对子） 如中奖号码为 125、540、390、706，中奖号码有两位数字相连，则投注 半顺 中奖，其它视为不中奖.",
+"":"",
+"":"",
+
+
+
+
+headers for board games corrections
+
+
+"Bull": "玩法一",
+"Board Games": "棋类游戏",
+"Tab one": "玩法一",
+"Tab two": "玩法二",
+"Fast 3": "快3",
+"Stud": "玩法二",
+"Baccarat": "玩法三",
+"Full Chart": "完整图表",
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":""
+ 
+
+  
+}

@@ -1,0 +1,46 @@
+{
+    
+   
+"Form": "Formular",
+   "Big/Small": "Groß/Klein",
+   "Odd/Even": "Ungerade/Gerade",
+   "More First/Last": "Mehr Erster/Letzter",
+   "More Odd/Even": "Mehr Ungerade/Gerade",
+   "More First": "Mehr Erster",
+   "More Last": "Mehr Letzter",
+   "More Odd": "Mehr Ungerade",
+   "More Even": "Mehr Gerade",
+   "Sum Big/Small": "Summe Groß/Klein",
+   "Sum Odd/Even": "Summe Ungerade/Gerade",
+   "Sum More First/Last": "Summe Mehr Erster/Letzter",
+   "Sum More Odd/Even": "Summe Mehr Ungerade/Gerade",
+
+   
+    "Odd": "Ungerade",
+    "Even": "Gerade",
+    "Small": "Klein",
+    "Big": "Groß",
+    "B,O,D,P": "B,O,D,P",
+    "S,E,T,C": "S,E,T,C",
+    "First": "Erste",
+    "Last": "Letzte",
+ 
+    "B": "Groß",
+    "S": "Klein",
+    "O": "Ungerade",  
+    "E": "Gerade",
+    "F": "Erste",
+    "L": "Letzte", 
+    "T": "T"
+ 
+ 
+     "":"",
+     "":"",
+     "":"",
+     "":"",
+     "":"",
+     "":"",
+     "":"",
+     "":"",
+      "":""
+}

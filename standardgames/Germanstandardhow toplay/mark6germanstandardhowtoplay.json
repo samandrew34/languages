@@ -48,45 +48,13 @@
   "Game instructions: Select one total zodiac count to form one bet. If the number of different zodiac signs corresponding to the seven winning numbers matches the total zodiac count you bet on, you win. Winning example: Betting scheme: Two zodiacs; Drawn numbers have exactly two different zodiac signs, you win.":"Spielanleitung: Wählen Sie eine Gesamtzahl der Tierkreiszeichen, um eine Wette zu platzieren. Wenn die Anzahl der verschiedenen Tierkreiszeichen, die den sieben gezogenen Zahlen entsprechen, mit der Gesamtzahl der Tierkreiszeichen übereinstimmt, auf die Sie gesetzt haben, gewinnen Sie. Beispiel für einen Gewinn: Wettsystem: Zwei Tierkreiszeichen; Die gezogenen Zahlen haben genau zwei verschiedene Tierkreiszeichen, Sie gewinnen.",
   "Game instructions: Choose a pattern (Odd: 3, 5, 7; Even: 2, 4, 6). If the number of different zodiac signs among the seven winning numbers matches the chosen pattern (odd or even), you win. Winning example: Betting scheme: Odd; Drawn numbers have an odd number of different zodiac signs, you win.":"Spielanleitung: Wählen Sie ein Muster (Ungerade: 3, 5, 7; Gerade: 2, 4, 6). Wenn die Anzahl der verschiedenen Sternzeichen unter den sieben Gewinnzahlen dem gewählten Muster (ungerade oder gerade) entspricht, gewinnen Sie. Beispiel für einen Gewinn: Wettschema: Ungerade; Die gezogenen Zahlen haben eine ungerade Anzahl verschiedener Sternzeichen, Sie gewinnen.",
   "Game instructions: Place a bet on one color ball, forming one bet. The color that appears the most among the seven color balls winning numbers wins. Each of the six regular numbers counts as one color ball, while the special number(Extra number) counts as 1.5 color ball. The following three scenarios are considered ties: Six regular numbers result in 3 blue balls and 3 green balls, and the special number(Extra number) is a red ball. Six regular numbers result in 3 blue balls and 3 red balls, and the special number(Extra umber) is a green ball. Six regular numbers result in 3 green balls and 3 red balls, and the special number(Extra number) is a blue ball. In case of a tie, all bets on red, green, and blue color balls are refunded; betting on a tie is also available. Winning example: Betting scheme: Red ball; Winning numbers have red ball numbers the most, you win.":"Spielanleitung: Setzen Sie auf eine Farbe von Bällen, um eine Wette zu bilden. Die Farbe, die unter den sieben Farbball-Gewinnzahlen am häufigsten erscheint, gewinnt. Jede der sechs regulären Zahlen zählt als ein Farbball, während die Sonderzahl (Extra-Zahl) als 1,5 Farbball zählt. Die folgenden drei Szenarien gelten als Unentschieden: Sechs reguläre Zahlen ergeben 3 blaue Bälle und 3 grüne Bälle, und die Sonderzahl (Extra-Zahl) ist ein roter Ball. Sechs reguläre Zahlen ergeben 3 blaue Bälle und 3 rote Bälle, und die Sonderzahl (Extra-Zahl) ist ein grüner Ball. Sechs reguläre Zahlen ergeben 3 grüne Bälle und 3 rote Bälle, und die Sonderzahl (Extra-Zahl) ist ein blauer Ball. Im Falle eines Unentschiedens werden alle Wetten auf rote, grüne und blaue Farb Bälle zurückerstattet; Wetten auf ein Unentschieden sind ebenfalls möglich. Gewinnbeispiel: Wett-Schema: Roter Ball; Wenn die Gewinnzahlen die meisten roten Bälle enthalten, gewinnen Sie.",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
+
+    "Game instructions: Choose one number to form one bet. If the second regular number drawn matches the betting number, you win. Example of winning: Betting scheme: 01; Drawn regular numbers: *, 01, *, *, *, * + *, you win": "Spielanleitung: Wählen Sie eine Zahl, um eine Wette zu platzieren. Wenn die zweite gezogene reguläre Zahl mit der Wettzahl übereinstimmt, gewinnen Sie. Beispiel für einen Gewinn: Wettstrategie: 01; Gezogene reguläre Zahlen: *, 01, *, *, *, * + *, Sie gewinnen.",
+    
+    "Game instructions: Choose 3 numbers from the 49 numbers to form one bet. If the drawn(winning) regular numbers include all 3 betting numbers, you win 'Three of a Kind'; if they include 2 of the betting numbers, you win 'Two of a Kind'. Example of winning: Betting scheme: 01, 02, 03; Drawn regular numbers: 01, 03, 02, *, *, * + *, you win.": "Spielanleitung: Wählen Sie 3 Zahlen aus den 49 Zahlen, um eine Wette zu platzieren. Wenn die gezogenen (gewinnenden) regulären Zahlen alle 3 Wettzahlen enthalten, gewinnen Sie 'Drei Gleiche'; wenn sie 2 der Wettzahlen enthalten, gewinnen Sie 'Zwei Gleiche'. Beispiel für einen Gewinn: Wettstrategie: 01, 02, 03; Gezogene reguläre Zahlen: 01, 03, 02, *, *, * + *, Sie gewinnen.",
+    
+    "Game instructions: Select two numbers to form one bet. If the winning numbers include both of your selected numbers, and both are regular numbers(if the number is not Extra Ball) in the draw, then you win 'two regulars'. If one of them is a regular number and the other is a special number, then you win 'one special, one regular'. Winning example: Betting scheme: 06, 07; Drawn numbers: 06, 07, 05, 04, 13, 11+12, you win.": "Spielanleitung: Wählen Sie zwei Zahlen, um eine Wette zu platzieren. Wenn die Gewinnzahlen beide Ihrer ausgewählten Zahlen enthalten und beide reguläre Zahlen sind (wenn die Zahl keine Extra-Kugel ist), dann gewinnen Sie 'Zwei Reguläre'. Wenn eine davon eine reguläre Zahl und die andere eine Sonderzahl ist, dann gewinnen Sie 'Eine Spezial-, eine reguläre Zahl'. Beispiel für einen Gewinn: Wettstrategie: 06, 07; Gezogene Zahlen: 06, 07, 05, 04, 13, 11+12, Sie gewinnen."
   
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
-  "":"",
+
   "":""
 }

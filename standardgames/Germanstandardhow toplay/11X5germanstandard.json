@@ -37,6 +37,30 @@
   "Game instructions: Choose one number to form a bet. If the selected number matches the third number in ascending order of the winning numbers, you win. Winning example: Betting scheme: 03; Winning numbers: 05, 01, 04, 03, 02, you win.":"Spielanleitung: Wählen Sie eine Zahl für Ihre Wette aus. Wenn die ausgewählte Zahl mit der dritten Zahl in aufsteigender Reihenfolge der Gewinnzahlen übereinstimmt, gewinnen Sie. Beispiel für einen Gewinn: Wett-Schema: 03; Gewinnzahlen: 05, 01, 04, 03, 02, Sie gewinnen.",
   "":"",
   "":"",
+  
+    "Game instructions: Enter three non-repeating numbers from 01 to 11. If the entered numbers match the first three digits of the winning numbers in the exact order, you win. Winning example: Betting scheme: 01,02,03; Winning numbers: 01, 02, 03, *, *, you win.": "Spielanleitung: Geben Sie drei nicht wiederholende Zahlen von 01 bis 11 ein. Wenn die eingegebenen Zahlen in genau der gleichen Reihenfolge mit den ersten drei Ziffern der Gewinnzahlen übereinstimmen, gewinnen Sie. Gewinnbeispiel: Wettstrategie: 01,02,03; Gewinnzahlen: 01, 02, 03, *, *, Sie gewinnen.",
+    
+    "Game instructions: Enter three non-repeating numbers from 01 to 11 to form a bet. If the entered numbers match the first three digits of the winning numbers in any order, you win. Winning example: Betting scheme: 01,02,03; Winning numbers: 01, 03, 02, *, *, you win.": "Spielanleitung: Geben Sie drei nicht wiederholende Zahlen von 01 bis 11 ein, um eine Wette zu platzieren. Wenn die eingegebenen Zahlen in beliebiger Reihenfolge mit den ersten drei Ziffern der Gewinnzahlen übereinstimmen, gewinnen Sie. Gewinnbeispiel: Wettstrategie: 01,02,03; Gewinnzahlen: 01, 03, 02, *, *, Sie gewinnen.",
+    
+    "Game instructions: Enter two non-repeating numbers from 01 to 11. If the entered numbers match the first two digits of the winning numbers in any order, you win. Winning example: Betting scheme: 01,02; Winning numbers: 02, 01, *, *, *, you win.": "Spielanleitung: Geben Sie zwei nicht wiederholende Zahlen von 01 bis 11 ein. Wenn die eingegebenen Zahlen in beliebiger Reihenfolge mit den ersten zwei Ziffern der Gewinnzahlen übereinstimmen, gewinnen Sie. Gewinnbeispiel: Wettstrategie: 01,02; Gewinnzahlen: 02, 01, *, *, *, Sie gewinnen.",
+    
+    "Game instructions: Enter two non-repeating numbers from 01 to 11 to form a bet. If both entered numbers appear anywhere in the winning numbers, regardless of the order, you win. Winning example: Betting scheme: 01,02; Winning numbers: *, 02, 01, *, *, you win.": "Spielanleitung: Geben Sie zwei nicht wiederholende Zahlen von 01 bis 11 ein, um eine Wette zu platzieren. Wenn beide eingegebenen Zahlen irgendwo in den Gewinnzahlen erscheinen, unabhängig von der Reihenfolge, gewinnen Sie. Gewinnbeispiel: Wettstrategie: 01,02; Gewinnzahlen: *, 02, 01, *, *, Sie gewinnen.",
+    
+    "Game instructions: Enter three non-repeating numbers from 01 to 11 to form a bet. If all three entered numbers appear anywhere in the winning numbers, regardless of the order, you win. Winning example: Betting scheme: 01,02,03; Winning numbers: *, 02, 01, 03, *, you win.": "Spielanleitung: Geben Sie drei nicht wiederholende Zahlen von 01 bis 11 ein, um eine Wette zu platzieren. Wenn alle drei eingegebenen Zahlen irgendwo in den Gewinnzahlen erscheinen, unabhängig von der Reihenfolge, gewinnen Sie. Gewinnbeispiel: Wettstrategie: 01,02,03; Gewinnzahlen: *, 02, 01, 03, *, Sie gewinnen.",
+    
+    "Game instructions: Enter four non-repeating numbers from 01 to 11 to form a bet. If all four entered numbers appear anywhere in the winning numbers, regardless of the order, you win. Winning example: Betting scheme: 01,02,03,04; Winning numbers: 04, 02, 01, 03, *, you win.": "Spielanleitung: Geben Sie vier nicht wiederholende Zahlen von 01 bis 11 ein, um eine Wette zu platzieren. Wenn alle vier eingegebenen Zahlen irgendwo in den Gewinnzahlen erscheinen, unabhängig von der Reihenfolge, gewinnen Sie. Gewinnbeispiel: Wettstrategie: 01,02,03,04; Gewinnzahlen: 04, 02, 01, 03, *, Sie gewinnen.",
+    
+    "Game instructions: Enter five non-repeating numbers from 01 to 11 to form a bet. If all five entered numbers appear anywhere in the winning numbers, regardless of the order, you win. Winning example: Betting scheme: 01,02,03,04,05; Winning numbers: 04, 02, 01, 03, 05, you win.": "Spielanleitung: Geben Sie fünf nicht wiederholende Zahlen von 01 bis 11 ein, um eine Wette zu platzieren. Wenn alle fünf eingegebenen Zahlen irgendwo in den Gewinnzahlen erscheinen, unabhängig von der Reihenfolge, gewinnen Sie. Gewinnbeispiel: Wettstrategie: 01,02,03,04,05; Gewinnzahlen: 04, 02, 01, 03, 05, Sie gewinnen.",
+    
+    "Game instructions: Enter six non-repeating numbers from 01 to 11 to form a bet. If any five of the entered numbers match all the winning numbers, regardless of the order, you win. Winning example: Betting scheme: 01,02,03,04,05,06; Winning numbers: 04, 02, 01, 03, 05, you win.": "Spielanleitung: Geben Sie sechs nicht wiederholende Zahlen von 01 bis 11 ein, um eine Wette zu platzieren. Wenn fünf der eingegebenen Zahlen mit allen Gewinnzahlen übereinstimmen, unabhängig von der Reihenfolge, gewinnen Sie. Gewinnbeispiel: Wettstrategie: 01,02,03,04,05,06; Gewinnzahlen: 04, 02, 01, 03, 05, Sie gewinnen."
+  
+  
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
+  "":"",
   "":"",
   "":"",
   "":"",

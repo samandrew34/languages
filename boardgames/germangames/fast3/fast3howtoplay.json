@@ -1,0 +1,48 @@
+{
+
+    "<span style='color:red'>Big and Small: </span> When the sum of the points drawn by the three dice is 4-10, this is small, and when the sum of the points is 11-17, this is big.<br>
+<span style='color:red'>Odd and even:</span> When the total value or sum of the three lottery numbers is 5,7,9,11,13,15,17, this is odd; when the total value or sum is 4,6,8,10,12,14,16, this is even.<br>
+**If the three dice have the same number, you will not win a prize.<p></p>
+For example: the winning numbers are 4, 5, and 6, and the total value or sum is 15, then the bet on big, is a win.":"<span style='color:red'>大双: </span> 三个骰子抽出的点数总和为4~10为小，点数总和为11~17为大。.<br>
+<span style='color:red'>单小:</span> 当三个彩票号码的总值或总和为5、7、9、11、13、15、17时，为奇数；当三个彩票号码的总值或总和为4、6、8、10、12、14、16时，为偶数。.<br>
+**如果三个骰子的数字相同，您将不会中奖。<p></p>例如：中奖数字为4、5、6，总值或和为15，则押大，即为中奖。",
+"<span style='color:red'>Pair Dice: </span> If any two characters of the lottery numbers are the same and match your selected pair combination, you will win.<p></p>
+For example: If the winning numbers are 1, 1, 3, you win if you bet on the 1, 1.":"<span style='color:red'>对子骰子: </span> 如果彩票号码中的任意两个字符相同且与您所选的对子组合相符，您即中奖。<p></p>
+例如：若中奖号码为1、1、3，则您押注1、1即为中奖。",
+"":"",
+"<span style='color:red'>Three of A Kind: </span> Any T.O.A.K: If the winning points/numbers are all the same on all three dice and the same as your selected points you win.
+For example: If you choose a single dice of 111, if the result is 111, you win. ":"<span style='color:red'>三条: </span> 任意 T.O.A.K：如果三个骰子的获胜点数/数字全部相同，且与您选择的点数相同，则您获胜。
+例如：如果您选择一个 111 的骰子，如果结果为 111，则您获胜。 ",
+"<span style='color:red'>Two of A Kind: </span> If any two of the three winning dice have the same number as your selected number, this is deemed to be a win.<p></p>
+For example: The winning point is 1 2 3. If your selection contains any two numbers ("1 2"or "2 3"or "1 3") of the three winning dice numbers you win. 6.6
+":"<span style='color:red'>两种: </span> 如果三个获胜骰子中的任意两个数字与您选择的数字相同，则视为获胜。<p></p>
+例如：中奖点数为 1 2 3。如果您选择的三个中奖骰子数字中包含任意两个数字（“1 2”或“2 3”或“1 3”），则您获胜。6.6
+",
+
+"<span style='color:red'>Guess Sum: </span>Select a number from the sum (sum of three dices) of the 4 - 17 range to form a bet.
+When the sum of the points drawn by the three dices is the same as your selection, this is a win.<br>
+Eg. If you select 11 and the point on the three dice is 2:3:6,
+the sum of the points is 2+3+6=11, so you win because the sum of the points on the three dice is the same as your selection
+":"<span style='color:red'>猜总数: </span>从 4 - 17 范围内的和（三个骰子的总和）中选择一个数字进行下注。
+当三个骰子抽出的点数总和与您的选择相同时，即为获胜。<br>
+例如，如果您选择 11，而三个骰子上的点数为 2:3:6，
+则点数总和为 2+3+6=11，因此您获胜，因为三个骰子上的点数总和与您的选择相同
+",
+"<span style='color:red'>Guess The Number: </span>Choose Dice: Choose a point from 1-6 points to form a bet.
+If your selected number appears once in the lottery winning numbers, this is a single dice win bonus.<p></p>
+If your selected number appears twice in the lottery winning numbers, this is a double dice win bonus.<p></p>
+If your selected number appears three times in the lottery winning draw, this is a triple dice win bonus 1.1
+":"<span style='color:red'>Guess The Number: </span>猜数字: 从 1-6 点中选择一个点进行下注。
+如果您所选的数字在彩票中奖号码中出现一次，则为单骰子中奖奖金。<p></p>
+如果您所选的数字在彩票中奖号码中出现两次，则为双骰子中奖奖金。<p></p>
+如果您所选的数字在彩票中奖抽奖中出现三次，则为三骰子中奖奖金 1.1
+",
+"
+<span style='color:red'>All T.O.A.K: </span>If you select, All dice combinations and the winning numbers are the same, you win.
+For example: If you choose to bet on All dice, and the result is any number that appears three times ( 111 or 222 or 333 etc), you win. 
+":"
+<span style='color:red'>所有 T.O.A.K: </span>如果您选择所有骰子组合且中奖数字相同，您就赢了。
+例如：如果您选择押注所有骰子，并且结果是出现三次的任何数字（111 或 222 或 333 等），您就赢了。
+"
+
+}
