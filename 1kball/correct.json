@@ -1,0 +1,33 @@
+{
+
+  "See Game Time": "See Game Time",
+  "Get the live game time": "Get the live game time",
+  "See The Next Draw": "See The Next Draw",
+  "Get the current draw of the current selected game": "Get the current draw of the current selected game",
+  "See Remaining Draws": "See Remaining Draws",
+  "Get the liset of 50 awaiting list of draw period": "Get the liset of 50 awaiting list of draw period",
+  "See Game List": "See Game List",
+  "Option to select and interact with game and ui": "Option to select and interact with game and ui",
+  "Manage Draw Result": "Manage Draw Result",
+  "Gives you a visual time out slider of draw period": "Gives you a visual time out slider of draw period",
+"":"",
+"":"",
+"":"",
+"":"",
+"":"",
+"":"",
+
+
+
+ "See Game Time": "查看游戏时间",
+  "Get the live game time": "获取实时游戏时间",
+  "See The Next Draw": "查看下一期开奖",
+  "Get the current draw of the current selected game": "获取当前选定游戏的当前开奖",
+  "See Remaining Draws": "查看剩余开奖",
+  "Get the liset of 50 awaiting list of draw period": "获取等待开奖的50个时间段列表",
+  "See Game List": "查看游戏列表",
+  "Option to select and interact with game and ui": "选择并与游戏界面互动的选项",
+  "Manage Draw Result": "管理开奖结果",
+  "Gives you a visual time out slider of draw period": "为你提供开奖倒计时的可视滑块",
+"":""
+}
