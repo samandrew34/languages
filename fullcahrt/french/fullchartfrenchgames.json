@@ -191,12 +191,12 @@
   "Toak": "Brelan",
   "": "",
   "": "",
-  // chinese  translate this
+
   "Big": "G",
   "Odd": "I",
   "Even": "P",
   "Small": "P",
-  "Conposite": "C", // Note: "Composite" is spelled with one 's' in English
+  "Conposite": "C",
   "Prime": "Premier",
   "Big/Small/Odd/Even": "Gros/Petit/Impair/Pair",
   "Average lack: Average lack sum in draw": "Manque moyen : Somme moyenne du manque dans le tirage",
