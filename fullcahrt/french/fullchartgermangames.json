@@ -107,15 +107,15 @@
   "3rd": "3.",
   "4th": "4.",
   "5th": "5.",
-  "Toak": "Drilling", // Three of a Kind
+  "Toak": "Drilling", 
   "Four of a Kind": "Vierling",
-  "Gourd": "Full House", // Note: "Full House" is commonly used in German too
+  "Gourd": "Full House", 
   "Three of a Kind": "Drilling",
   "Straight": "Straße",
   "2 Pairs": "2 Paare",
   "1 Pair": "1 Paar",
   "High card": "Hohe Karte",
-  "P/C": "P/C", // (Abbreviation, might remain the same in German)
+  "P/C": "P/C", 
   "No. Bull": "Kein Bulle",
   "Bull 1": "Bulle 1",
   "Bull 2": "Bulle 2",

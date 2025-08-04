@@ -137,9 +137,9 @@
   "2ndV4th": "2ème contre 4ème",
   "2ndV5th": "2ème contre 5ème",
   "3rdV4th": "3ème contre 4ème",
-  "3rdV5th": "", // "3rd vs 5th"
-  "4thV5th": "", // "4th vs 5th"
-  "Span": "", // "Span"
+  "3rdV5th": "", 
+  "4thV5th": "", 
+  "Span": "",
   "Sum Tails": "Sum of last digits",
   "Last 3 Group": "Last 3 digits group",
   "Group 3": "Group of 3",
@@ -259,7 +259,7 @@
   "": "",
   "": "",
   // pk10 game
-  "Draw": "", // "Tirage"
+  "Draw": "Tirage"
   "Winning No.": "Numéro Gagnant",
   "Chart 1st": "Graphique 1er",
   "Chart 2nd": "Graphique 2ème",
